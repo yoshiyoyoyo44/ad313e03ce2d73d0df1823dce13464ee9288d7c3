@@ -1,0 +1,41 @@
+{
+  "status": "EXHAUSTIVE-COMPUTATION",
+  "indices": [
+    28,
+    31,
+    34
+  ],
+  "upper": 4209368355,
+  "middle": [
+    {
+      "i": 28,
+      "intervals": 5571,
+      "minimum_log_margin_lower": "31270480739055275575770626782404150351/340282366920938463463374607431768211456"
+    },
+    {
+      "i": 31,
+      "intervals": 9830,
+      "minimum_log_margin_lower": "3216644851296737899713750248335717395/170141183460469231731687303715884105728"
+    },
+    {
+      "i": 34,
+      "intervals": 8598,
+      "minimum_log_margin_lower": "25160273115785140198242651812948042853/340282366920938463463374607431768211456"
+    }
+  ],
+  "small": {
+    "sieve_limit": 2000100,
+    "prime_count": 148939,
+    "exception_count": 355462,
+    "per_index": {
+      "28": 153278,
+      "31": 115042,
+      "34": 87142
+    },
+    "maximum_anchor_candidates": 212
+  },
+  "formula": {
+    "valuation_checks": 64400,
+    "interval_intersection_checks": 205390
+  }
+}

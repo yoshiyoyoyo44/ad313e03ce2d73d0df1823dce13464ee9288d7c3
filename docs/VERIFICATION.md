@@ -14,6 +14,26 @@
 
 必要に応じて `python -m pip install sympy` で導入できます。
 
+## 9月27日の証明書統合と最大行の和
+
+標準Pythonだけで実行できます。原本を保持して全5検証を隔離コピーで再生します。
+
+```text
+python -X utf8 scripts/replay_september27_attachments.py
+python -X utf8 scripts/audit_maximal_row_moment.py
+python -X utf8 scripts/check_repository.py
+```
+
+最初のコマンドは2原本、40ハッシュ項目、ZIPの41項目、基点の7個のGit blobを照合し、全5出力JSONを添付の結果と比較します。
+55素数対、859近接対、23,999区間と355,462例外、189還元と248,252整数二項係数、276,586区間と60,784単一点が対象です。
+[結果](../data/results/verification_september27_attachments.json)と[紙上証明への依存](../research/general/september27_integration.md)を参照してください。
+原本の大きなgzipを展開するため、十分なメモリが必要です。
+
+2番目は[最大付値行の和の証明](../research/general/maximal_row_moment_2026-09-27.md)の定数、全セルの重み、二方式の行集合数、有理数の緩和配置を確認します。
+全15,247集合を[圧縮JSON](../data/cases/maximal_row_sets_2026-09-27.json.gz)へ、定数と個数を[結果JSON](../data/results/verification_maximal_row_moment.json)へ保存します。
+緩和配置の探索には整数最適化を使いましたが、保存された有理数証明書の再生には最適化ソフトは不要です。
+行集合の制限は一般の必要条件で、整数反例の有限全列挙ではありません。
+
 ## 9月26日の追加引継ぎ2件の検算
 
 標準Pythonのみで、原本を書き換えずに実行できます。

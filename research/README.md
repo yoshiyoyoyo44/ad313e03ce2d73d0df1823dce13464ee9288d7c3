@@ -2,10 +2,11 @@
 
 [入口](../README.md) · [現在地](../docs/STATUS.md) · **[読む順序](../docs/READING_GUIDE.md)**
 
-最新：[二つの引継ぎの統合](general/handoff_integration_2026-09-26.md)と[$i=4$ の占有セル・空行](i4/i4_occupied_cells_integration_2026-09-26.md)。
-共通の余因子法、原文報告の確認状況、空行の補証、18・28の残配置をまとめています。新たな完全解決添字はありません。
+最新：[9月27日の証明書統合](general/september27_integration.md)と[最大付値行の和の不等式](general/maximal_row_moment_2026-09-27.md)。
+添付の $i=28,31,34$ の全範囲と26添字の有限域を再生し、新たに $i=27,30,33$ の無限尾部の行集合を制限しました。
+問題全体は未解決で、残る添字は28個です。
 
-既解決範囲の直近の拡張は[三方向の重み付き積・86添字](general/weighted_cover_and_integration_2026-09-26.md)です。
+基礎となる先行稿は[三方向の重み付き積・86添字](general/weighted_cover_and_integration_2026-09-26.md)です。
 
 | 分野 | 内容 |
 |---|---|

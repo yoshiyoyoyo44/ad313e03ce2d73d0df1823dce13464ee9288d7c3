@@ -1,0 +1,42 @@
+{
+  "problem": "For every integer 1<=i<j<=n/2, a prime p>=i divides both binomial coefficients.",
+  "all_n_new_indices": [
+    28,
+    31,
+    34
+  ],
+  "bounded_new_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    30,
+    32,
+    33
+  ],
+  "bounded_n_upper": "10^87",
+  "inherited_all_n_indices": "i=1,2,29 or i>=35 at GitHub 934ccd69f4e4c6cc607215ff5cf4c3660a1071fa",
+  "remaining": "i=3,4; or i in bounded_new_indices and n>10^87",
+  "whole_problem_solved": false,
+  "external_peer_review": false,
+  "lean_formalization": false
+}

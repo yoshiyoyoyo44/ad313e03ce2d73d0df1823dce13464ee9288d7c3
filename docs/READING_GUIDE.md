@@ -4,6 +4,14 @@
 
 全ノートを日付順に読む必要はありません。まず[現在地](STATUS.md)を確認し、目的に応じて以下をたどってください。
 
+## 9月27日の統合と研究継続を読む
+
+1. [三添字の全範囲と26添字の有限域](../research/general/september27_integration.md) — 5検証の再生、成立範囲、外部定理への依存。
+2. [最大付値行の和の不等式](../research/general/maximal_row_moment_2026-09-27.md) — $i=27,30,33$ の無限尾部を1,410・3,887・9,950行集合へ制限する新しい証明。
+3. [添付REPORT](../archive/attachments/incoming_2026-09-27/erdos699_continuation/REPORT.md) — 指数還元、円周間隔、CRT、先頭範囲の完全被覆。
+
+行集合の制限は必要条件です。素数の割当てと無制限の指数は残ります。
+
 ## 9月26日の追加引継ぎを読む
 
 1. [二資料の統合](../research/general/handoff_integration_2026-09-26.md) — 共通の余因子法、有効上限の報告、原本と確認状況の対応。
@@ -14,7 +22,7 @@
 
 ## 全体の証明を理解する
 
-既解決範囲の直近の拡張は[三方向の重み・86添字の完全被覆](../research/general/weighted_cover_and_integration_2026-09-26.md)から読めます。
+最新の三添字は[9月27日の統合](../research/general/september27_integration.md)、その基礎は[三方向の重み・86添字の完全被覆](../research/general/weighted_cover_and_integration_2026-09-26.md)から読めます。
 これは $i=29$ と $35\le i\le119$ の自足した証明です。従来の $i\ge120$ の経路は次のとおりです。
 
 1. [判別式の積公式と共通因子の下界](../research/general/discriminant_continuation.md) — 全体の基礎。

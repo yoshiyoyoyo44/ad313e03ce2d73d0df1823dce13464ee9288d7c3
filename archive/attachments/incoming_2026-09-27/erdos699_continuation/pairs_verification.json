@@ -1,0 +1,53 @@
+{
+  "status": "EXHAUSTIVE-COMPUTATION",
+  "coefficient_max": 1995,
+  "first_max": 933,
+  "primes": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31
+  ],
+  "exponents_less_than": 138,
+  "difference": 33,
+  "small_omitted": 2000000,
+  "merge": {
+    "maximum": 4209368322,
+    "witness": {
+      "p": 19,
+      "q": 23,
+      "a": 1700,
+      "b": 654,
+      "e": 5,
+      "f": 5,
+      "x": 4209368300,
+      "y": 4209368322,
+      "difference": 22
+    },
+    "pairs_above_small": 859
+  },
+  "crt": {
+    "maximum": 4209368322,
+    "witness": {
+      "p": 19,
+      "q": 23,
+      "a": 1700,
+      "b": 654,
+      "e": 5,
+      "f": 5,
+      "x": 4209368300,
+      "y": 4209368322,
+      "difference": 22
+    },
+    "pairs_above_small": 859,
+    "exponent_pairs": 40079
+  },
+  "n_upper": 4209368355
+}

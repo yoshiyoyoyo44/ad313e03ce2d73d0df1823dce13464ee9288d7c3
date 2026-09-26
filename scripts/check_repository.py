@@ -38,6 +38,7 @@ def check_layout():
     documents += [ROOT/name/'README.md' for name in ('scripts','data','magma','formal','sources','archive')]
     documents += [ROOT/'archive/FILE_MAP.md']
     documents += [ROOT/'archive/attachments/incoming_2026-09-26/README.md']
+    documents += [ROOT/'archive/attachments/incoming_2026-09-27/README.md']
     broken, links, commands = [], 0, 0
     for path in documents:
         text = path.read_text(encoding='utf-8')
@@ -61,6 +62,8 @@ def check_layout():
     new_originals, package_hash_entries = check_hashes()
     from audit_handoff_integration_2026_09_26 import check_source_hashes
     handoff_originals = check_source_hashes()
+    from replay_september27_attachments import check_hashes as check_september27_hashes
+    september27_preserved = check_september27_hashes()
     extension = ROOT/'data/certificates/weighted_cover_2026-09-26'
     extension_manifest = json.loads((extension/'manifest.json').read_text())
     for name, digest in extension_manifest['files'].items():
@@ -68,6 +71,7 @@ def check_layout():
     return {'legacy_paths': len(manifest['files']), 'byte_preserved_files': preserved,
             'new_original_attachments': new_originals,
             'additional_handoff_originals': handoff_originals,
+            'september27_preserved': september27_preserved,
             'new_package_hash_entries': package_hash_entries,
             'extension_certificate_hashes': len(extension_manifest['files']),
             'python_files_parsed': len(python_files), 'documents_checked': len(documents),

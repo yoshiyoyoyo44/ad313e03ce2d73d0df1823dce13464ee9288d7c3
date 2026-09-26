@@ -1,0 +1,53 @@
+{
+  "repository": "https://github.com/yoshiyoyoyo44/erdos699",
+  "sha": "934ccd69f4e4c6cc607215ff5cf4c3660a1071fa",
+  "source_date_jst": "2026-09-27",
+  "source_hashes": {
+    "frozen/generate.py": "9ba2fb6ee98030e7da0bbe9e9c56f41dd505a3fadb0b99711d4ebfbcc53e952a",
+    "frozen/verify.py": "0d700b83ba845606f4d7c99db69ab2e2434c1a2283cae3fdc83848198bfc75f1",
+    "frozen/near_collision_arithmetic.py": "19e68590a37aa66d104d50bc1b4d87c970078358a34dc2a65836b6c118f13c02",
+    "frozen/generate_small.py": "7a0805a9824ffc017ced75e75d3be1130bd2fe3c9a2b02c9f70c1c0d305414da",
+    "sources/critical_indices_and_handoff_integration.md": "8308031e118f264126e1c72342f73dd79b691bb7c9615183b0bfde66d91892a7",
+    "sources/erdos699_direction2_handoff_2026-09-27.md": "e3be1a1633174ebbca66bab495a32d2d5e4398864aae6caa507e6b3e54195fa7",
+    "sources/erdos699_i4_five_to_nine_cell_handoff_2026-09-27.md": "ed7b37c6e115fd84069e5901caab01a43523b44da8d4599661d0ea1ea97d04d4",
+    "sources/handoff_integration.md": "ef089bf79fd80d6e8ecf8039a7bb839ecc3d42467a770d46e5e961c56a15f789",
+    "sources/weighted_cover.md": "d61df6ebbf2c1bf3369ada65d47b83b08837e6ba7e4bf3b6d9846e04ce3adeb3"
+  },
+  "git_blob_map": [
+    {
+      "local": "frozen/near_collision_arithmetic.py",
+      "repository_path": "scripts/near_collision_arithmetic.py",
+      "git_blob_sha": "10d1c3b1a2ee87b729711d94559978de34bcc23f"
+    },
+    {
+      "local": "frozen/generate.py",
+      "repository_path": "archive/attachments/incoming_2026-09-26/erdos699_five_indices_complete_2026-09-26/generate.py",
+      "git_blob_sha": "0ed46f67b2c19541c1e96ff269bbe57d6a2f8eaf"
+    },
+    {
+      "local": "frozen/generate_small.py",
+      "repository_path": "archive/attachments/incoming_2026-09-26/erdos699_five_indices_complete_2026-09-26/generate_small.py",
+      "git_blob_sha": "be78f36eb53e31d6e0cdf9e413fc2d7047c95a47"
+    },
+    {
+      "local": "frozen/verify.py",
+      "repository_path": "archive/attachments/incoming_2026-09-26/erdos699_five_indices_complete_2026-09-26/verify.py",
+      "git_blob_sha": "88e65fc90235f3134c0ae029647b1df2e0ff110c"
+    },
+    {
+      "local": "sources/weighted_cover.md",
+      "repository_path": "research/general/weighted_cover_and_integration_2026-09-26.md",
+      "git_blob_sha": "f2cf74ca7c5874d923eebc7fa65ace404a906954"
+    },
+    {
+      "local": "sources/handoff_integration.md",
+      "repository_path": "research/general/handoff_integration_2026-09-26.md",
+      "git_blob_sha": "acec4f84fdcfb6d046601d4aecfea8581ab5e168"
+    },
+    {
+      "local": "sources/critical_indices_and_handoff_integration.md",
+      "repository_path": "research/general/critical_indices_and_handoff_integration.md",
+      "git_blob_sha": "13ec74cb958b885526295c22d7496a376b3af45a"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "status": "EXHAUSTIVE-COMPUTATION",
+  "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "lower": 2000000,
+  "proof": "Opposite CRT coordinate plus actual binomial large-prime part",
+  "rows": [
+    {
+      "i": 5,
+      "steps": 7,
+      "final_cap": 134217732,
+      "exact_binomial_checks": 2791
+    },
+    {
+      "i": 6,
+      "steps": 25,
+      "final_cap": 72453125,
+      "exact_binomial_checks": 2236
+    },
+    {
+      "i": 7,
+      "steps": 12,
+      "final_cap": 1064030,
+      "exact_binomial_checks": 1344
+    },
+    {
+      "i": 8,
+      "steps": 41,
+      "final_cap": 7567904,
+      "exact_binomial_checks": 4301
+    },
+    {
+      "i": 9,
+      "steps": 10,
+      "final_cap": 758869,
+      "exact_binomial_checks": 2405
+    },
+    {
+      "i": 10,
+      "steps": 6,
+      "final_cap": 281486,
+      "exact_binomial_checks": 1727
+    },
+    {
+      "i": 11,
+      "steps": 4,
+      "final_cap": 197918,
+      "exact_binomial_checks": 1193
+    },
+    {
+      "i": 12,
+      "steps": 7,
+      "final_cap": 717264,
+      "exact_binomial_checks": 3617
+    },
+    {
+      "i": 13,
+      "steps": 5,
+      "final_cap": 1451368,
+      "exact_binomial_checks": 3284
+    },
+    {
+      "i": 14,
+      "steps": 9,
+      "final_cap": 1414562,
+      "exact_binomial_checks": 8229
+    },
+    {
+      "i": 15,
+      "steps": 6,
+      "final_cap": 676162,
+      "exact_binomial_checks": 6011
+    },
+    {
+      "i": 16,
+      "steps": 4,
+      "final_cap": 927728,
+      "exact_binomial_checks": 4675
+    },
+    {
+      "i": 17,
+      "steps": 3,
+      "final_cap": 1027317,
+      "exact_binomial_checks": 3749
+    },
+    {
+      "i": 18,
+      "steps": 5,
+      "final_cap": 1387275,
+      "exact_binomial_checks": 9133
+    },
+    {
+      "i": 19,
+      "steps": 5,
+      "final_cap": 881327,
+      "exact_binomial_checks": 8749
+    },
+    {
+      "i": 20,
+      "steps": 7,
+      "final_cap": 1857825,
+      "exact_binomial_checks": 17385
+    },
+    {
+      "i": 21,
+      "steps": 5,
+      "final_cap": 1259176,
+      "exact_binomial_checks": 14755
+    },
+    {
+      "i": 22,
+      "steps": 4,
+      "final_cap": 765903,
+      "exact_binomial_checks": 11182
+    },
+    {
+      "i": 23,
+      "steps": 3,
+      "final_cap": 1283928,
+      "exact_binomial_checks": 10311
+    },
+    {
+      "i": 24,
+      "steps": 5,
+      "final_cap": 1562926,
+      "exact_binomial_checks": 21225
+    },
+    {
+      "i": 25,
+      "steps": 4,
+      "final_cap": 1049958,
+      "exact_binomial_checks": 19158
+    },
+    {
+      "i": 26,
+      "steps": 3,
+      "final_cap": 755251,
+      "exact_binomial_checks": 13598
+    },
+    {
+      "i": 27,
+      "steps": 2,
+      "final_cap": 800145,
+      "exact_binomial_checks": 8735
+    },
+    {
+      "i": 30,
+      "steps": 2,
+      "final_cap": 1209155,
+      "exact_binomial_checks": 14428
+    },
+    {
+      "i": 32,
+      "steps": 3,
+      "final_cap": 1745924,
+      "exact_binomial_checks": 30751
+    },
+    {
+      "i": 33,
+      "steps": 2,
+      "final_cap": 1809204,
+      "exact_binomial_checks": 23280
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "preserved": {
+    "originals": 2,
+    "package_hashes": 40,
+    "zip_entries": 41,
+    "baseline_git_blobs": 7
+  },
+  "stages": [
+    {
+      "script": "verify_spacing.py",
+      "output": "spacing_verification.json",
+      "matches_archived_result": true
+    },
+    {
+      "script": "enumerate_pairs.py",
+      "output": "pairs_verification.json",
+      "matches_archived_result": true
+    },
+    {
+      "script": "verify_finite.py",
+      "output": "finite_verification.json",
+      "matches_archived_result": true
+    },
+    {
+      "script": "verify_product_bootstrap.py",
+      "output": "product_bootstrap_verification.json",
+      "matches_archived_result": true
+    },
+    {
+      "script": "verify_prefix.py",
+      "output": "prefix_verification.json",
+      "matches_archived_result": true
+    }
+  ],
+  "all_n_indices": [
+    28,
+    31,
+    34
+  ],
+  "finite_bound": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "finite_indices": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    30,
+    32,
+    33
+  ],
+  "spacing_prime_pairs": 55,
+  "close_pair_maximum": 4209368322,
+  "middle_intervals": 23999,
+  "small_exceptions": 355462,
+  "bootstrap_steps": 189,
+  "exact_binomial_checks": 248252,
+  "prefix_intervals": 276586,
+  "prefix_singletons": 60784,
+  "external_theorem": "Matveev (2000), Corollary 2.3; paper proof remains an input",
+  "independent_peer_review": false,
+  "formal_lean_verification": false
+}

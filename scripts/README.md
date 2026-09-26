@@ -17,6 +17,11 @@
 最初に実行するものは[検算の案内](../docs/VERIFICATION.md)で選べます。
 全スクリプトをまとめて走らせる必要はありません。
 
+9月27日の統合・研究継続の入口：
+
+- [replay_september27_attachments.py](replay_september27_attachments.py)：原本保存を確認し、三添字の全範囲と26添字の有限域の全5検証を隔離コピーで再生。
+- [audit_maximal_row_moment.py](audit_maximal_row_moment.py)：新しい行番号の和の不等式の定数・全行集合・有理数の緩和配置を検算。標準ライブラリのみ。
+
 9月26日の統合・追加研究の入口：
 
 - [audit_handoff_integration_2026_09_26.py](audit_handoff_integration_2026_09_26.py)：追加の引継ぎ2件の原本保存、余因子・定数、空行の302候補、全36支持配置と被覆証拠。一般の占有枝の省略部分は認証しない。
