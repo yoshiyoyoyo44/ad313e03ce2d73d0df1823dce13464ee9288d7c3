@@ -16,6 +16,17 @@
 
 ## 9月27日の $i=4$ の続行
 
+最新の[六合同類への分類と12類の閉鎖](../research/i4/i4_residue_closeout_2026-09-27.md)は次で検算します。
+
+```text
+python -X utf8 scripts/audit_i4_residue_closeout.py
+```
+
+全尾部に適用する単調性の端点、境界の共通素数、商の恒等式、12支持の係数符号、
+360二次式（359の符号排除と1個の法8排除）、追加のセル重みを確認します。SymPyを使用します。
+[結果JSON](../data/results/verification_i4_residue_closeout.json)に全係数証明書を保存しました。
+全合同類での6セルの帰結には、以下の五類の検算と紙上証明も必要です。
+
 ```text
 python -X utf8 scripts/audit_i4_quadratic_weight.py
 python -X utf8 scripts/audit_i4_five_cell_closeout.py

@@ -19,6 +19,7 @@
 
 9月27日の統合・研究継続の入口：
 
+- [audit_i4_residue_closeout.py](audit_i4_residue_closeout.py)：全 $n$ の六合同類への分類、12類の空行と5セル、追加セルの重み恒等式。SymPyによる360二次式と全係数の検算。
 - [audit_i4_quadratic_weight.py](audit_i4_quadratic_weight.py)：全 $n$ の二次式による積の制限。10セルの重み・正値性・定数を標準Pythonで確認。
 - [audit_i4_five_cell_closeout.py](audit_i4_five_cell_closeout.py)：対象5類の5セル分岐を全列挙し、二次式とPell降下の有限部分を検算。一般証明は研究ノート、記号計算にはSymPyを使用。
 - [audit_quadratic_relaxation_i27.py](audit_quadratic_relaxation_i27.py)：全32,547直線と666二次式の条件を満たす指数の有理数配置を整数で検証。元問題の反例ではない。

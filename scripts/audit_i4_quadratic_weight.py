@@ -32,11 +32,12 @@ def main():
     # its derivative is z^4(5-6z), with 5-6z>=7/2>0.
     assert 5-6*F(1,4)==F(7,2)
     assert F(1,4)**5*(1-F(1,4))==F(3,4096)
-    # Explicit large-n cofactor bounds. 9,18,20,27,28 are direct residue
+    # Explicit large-n cofactor bounds. All six are direct residue
     # assumptions; a classification of all n is not an input to this audit.
     # Rows outside {0,qrow} have R_s=(n-s)/d_s.
     normalization={9:(1,{2:1,3:6}),28:(1,{2:2,3:1}),
-                   18:(2,{1:1,3:3}),20:(2,{1:1,3:1}),27:(3,{1:2,2:1})}
+                   18:(2,{1:1,3:3}),20:(2,{1:1,3:1}),27:(3,{1:2,2:1}),
+                   12:(3,{1:1,2:2})}
     bounds={}
     N=10**87
     for cl,(qrow,ds) in normalization.items():

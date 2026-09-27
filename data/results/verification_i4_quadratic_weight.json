@@ -140,6 +140,14 @@
       "n_power": 2,
       "constant_before_correction": "3/64",
       "constant_valid_for_n_ge_1e87": "3/32"
+    },
+    "12": {
+      "qrow": 3,
+      "R0_power": 6,
+      "Rq_power": 3,
+      "n_power": 2,
+      "constant_before_correction": "3/256",
+      "constant_valid_for_n_ge_1e87": "3/128"
     }
   },
   "not_claimed": [

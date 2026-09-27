@@ -2,8 +2,9 @@
 
 [入口](../README.md) · [現在地](../docs/STATUS.md) · **[読む順序](../docs/READING_GUIDE.md)**
 
-最新：[$i=4$ の全 $n$ の積の制限](i4/i4_quadratic_weight_2026-09-27.md)と[5セルの全分岐](i4/i4_five_cell_closeout_2026-09-27.md)。
-対象5類で6セル以上が必要となりましたが、28添字を全 $n$ で閉じる目標は未達です。
+最新：[$i=4$ の全 $n$ の六合同類への分類と12類の閉鎖](i4/i4_residue_closeout_2026-09-27.md)。
+[全 $n$ の積の制限](i4/i4_quadratic_weight_2026-09-27.md)と[五類の5セル](i4/i4_five_cell_closeout_2026-09-27.md)を合わせ、
+$n\ge10^{87}$ の全合同類で6セル以上を強制します。28添字を全 $n$ で閉じる目標は未達です。
 [$i=27$ の二次曲線の探索と残る配置](general/quadratic_capacity_frontier_2026-09-27.md)も保存しました。
 
 先行する9月27日の更新：[証明書統合](general/september27_integration.md)と[最大付値行の和の不等式](general/maximal_row_moment_2026-09-27.md)。
