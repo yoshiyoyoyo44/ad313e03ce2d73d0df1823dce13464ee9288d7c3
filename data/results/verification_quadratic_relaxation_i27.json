@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "scope": "feasible rational exponent relaxation, not integer counterexamples",
+  "certificate_sha256": "a4d0f763327cdaab190cbb78eac430de56b07bfb038579cb6966a31af1044ba4",
+  "i": 27,
+  "maximal_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "nonzero_cells": 95,
+  "denominator": 1000000,
+  "all_pair_determined_lines": 32547,
+  "positive_definite_quadratics": 666,
+  "minimum_nonhorizontal_line_slack_numerator": 26307,
+  "minimum_quadratic_slack_numerator": 26309,
+  "not_claimed": [
+    "feasibility for all quadratic curves",
+    "integer realizability",
+    "impossibility of another proof method",
+    "any index solved"
+  ]
+}

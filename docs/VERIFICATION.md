@@ -14,6 +14,23 @@
 
 必要に応じて `python -m pip install sympy` で導入できます。
 
+## 9月27日の $i=4$ の続行
+
+```text
+python -X utf8 scripts/audit_i4_quadratic_weight.py
+python -X utf8 scripts/audit_i4_five_cell_closeout.py
+python -X utf8 scripts/audit_quadratic_relaxation_i27.py
+python -X utf8 scripts/check_repository.py
+```
+
+最初は標準Pythonで、[全 $n$ の積の不等式](../research/i4/i4_quadratic_weight_2026-09-27.md)のセル重み、正値性、定数を確認します。
+2番目はSymPyと正確な整数・分数の演算で、全120支持、4608組の非零商候補、57本の二次式、Pell降下の全小出発点と閉軌道を確認します。
+[5セルの一般証明](../research/i4/i4_five_cell_closeout_2026-09-27.md)を併せて読む必要があります。
+結果は[二次式](../data/results/verification_i4_quadratic_weight.json)と[5セル](../data/results/verification_i4_five_cell_closeout.json)です。
+有限の $n$ や指数まで試して全範囲を推測する検算ではありません。新たな完全解決添字を認証するものでもありません。
+3番目は[指数の緩和配置](../data/certificates/quadratic_relaxation_i27_2026-09-27.json)を標準Pythonで再生し、全32,547直線と666二次式について容量を確認します。
+これは[全尾部の排除に向けた探索で残った配置](../research/general/quadratic_capacity_frontier_2026-09-27.md)で、整数反例ではありません。
+
 ## 9月27日の証明書統合と最大行の和
 
 標準Pythonだけで実行できます。原本を保持して全5検証を隔離コピーで再生します。

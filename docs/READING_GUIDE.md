@@ -6,6 +6,12 @@
 
 ## 9月27日の統合と研究継続を読む
 
+最新の続行は [$i=4$ の全 $n$ の積の制限](../research/i4/i4_quadratic_weight_2026-09-27.md)と
+[五つの合同類の5セル排除](../research/i4/i4_five_cell_closeout_2026-09-27.md)です。
+前者はセル数・指数に上限を置かない必要条件、後者は $n\ge10^{87}$ の5セル分岐を閉じる証明です。
+残る28添字全体の排除は未達です。
+[$i=27$ の二次曲線の探索](../research/general/quadratic_capacity_frontier_2026-09-27.md)では、現在の指数条件だけでは矛盾しない配置を保存し、次に必要な整数条件を明記しています。
+
 1. [三添字の全範囲と26添字の有限域](../research/general/september27_integration.md) — 5検証の再生、成立範囲、外部定理への依存。
 2. [最大付値行の和の不等式](../research/general/maximal_row_moment_2026-09-27.md) — $i=27,30,33$ の無限尾部を1,410・3,887・9,950行集合へ制限する新しい証明。
 3. [添付REPORT](../archive/attachments/incoming_2026-09-27/erdos699_continuation/REPORT.md) — 指数還元、円周間隔、CRT、先頭範囲の完全被覆。
