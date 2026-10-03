@@ -9,11 +9,7 @@
 同じ $`n`$ から作る二つの二項係数について、小さい方の添字 $`i`$ 以上の共通素因数が必ずあるか、という問題です。
 
 ```math
-\begin{gathered}
-1\le i<j\le n/2\\
-\Longrightarrow\quad\exists\text{ prime }p\ge i:\\
-p\mid\binom ni\quad\text{and}\quad p\mid\binom nj\ ?
-\end{gathered}
+1\le i\lt j\le n/2\quad\Longrightarrow\quad\exists\text{ prime }p\ge i:\quad p\mid\binom ni\ \text{and}\ p\mid\binom nj\ ?
 ```
 
 例えば $`\binom{10}{2}=45`$ と $`\binom{10}{3}=120`$ は、$`i=2`$ 以上の素数3を共有します。
@@ -29,7 +25,7 @@ p\mid\binom ni\quad\text{and}\quad p\mid\binom nj\ ?
 | $`i=1,2,28,29,31,34`$ および $`i\ge35`$ | 全ての許される $`n,j`$ で成立 |
 | $`i\ge5`$、$`n\le10^{87}`$ | 全ての許される $`j`$ で成立 |
 | $`i=3,4`$ | 一般の場合は未解決 |
-| $`5\le i\le33`$、$`i\notin\{28,29,31\}`$ | $`n>10^{87}`$ が未解決 |
+| $`5\le i\le33`$、$`i\notin\{28,29,31\}`$ | $`n\gt 10^{87}`$ が未解決 |
 
 **未解決の添字は28個。** 特定の族の排除を、添字全体の解決に数えていません。
 第三者査読と問題全体のLean形式検証は未実施です。[成立範囲・前提・残る課題](docs/STATUS.md)

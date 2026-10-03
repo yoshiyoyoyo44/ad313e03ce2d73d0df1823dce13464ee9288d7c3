@@ -24,7 +24,7 @@
 
 1. [八次の閉鎖](i3_octic_last_branch_2026-10-01.md)：先行する低次数の分類と接続し、移行済み設定の次数8以下を扱う。
 2. [チェビシェフ境界](i3_chebyshev_boundary_and_prime_transfer_2026-10-01.md) → [5冪の枝](i3_five_power_composition_and_local_frontier_2026-10-01.md)：特定の任意次数境界。
-3. [中央群の平方降下](i3_central_square_descent_2026-10-01.md)：均衡中央飽和の $`h>11u/15`$ など。
+3. [中央群の平方降下](i3_central_square_descent_2026-10-01.md)：均衡中央飽和の $`h\gt 11u/15`$ など。
 4. [整数根値と幾何級数の分割](i3_integral_root_values_and_split_geometric_closeout_2026-10-02.md)：特定の全共有を全割当てで排除。
 
 九次以上の一般分配と、数値からの一般移行は残ります。本文の前提を保って読んでください。
