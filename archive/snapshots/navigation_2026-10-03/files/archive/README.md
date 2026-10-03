@@ -2,13 +2,7 @@
 
 [入口](../README.md) · [現在地](../docs/STATUS.md) · [原文](../sources/README.md)
 
-## 2026年10月3日の案内整理
-
-[整理前の案内15ファイル](snapshots/navigation_2026-10-03/README.md)をバイト保存しました。
-[基準コミット・SHA-256台帳](navigation_reorganization_2026-10-03.json)と[今回の確認結果](navigation_validation_2026-10-03.json)で、案内・索引の変更と数学資料の保存を確認できます。
-基準の全ファイルハッシュはこの整理の記録であり、今後の正当な研究更新を禁止するものではありません。
-
-## 以前の整理前の進捗一覧
+## 整理前の進捗一覧
 
 - [整理前のREADME](snapshots/README_before_reorganization_2026-09-21.md) — 505行の累積した進捗。
 - [整理前のSTATUS_AND_DIRECTIONS](snapshots/STATUS_before_reorganization_2026-09-21.md) — 当時の成果一覧と研究方針。

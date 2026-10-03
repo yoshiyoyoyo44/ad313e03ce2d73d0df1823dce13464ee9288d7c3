@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "date": "2026-10-03",
+  "source_commit": "67e04ead726d485f38c31a641183cf6a1bb0316a",
+  "scope": "Documentation navigation and one repository checker; no mathematical result added.",
+  "checks": {
+    "legacy_paths": 279,
+    "byte_preserved_files": 187,
+    "new_original_attachments": 5,
+    "additional_handoff_originals": 2,
+    "september27_preserved": {
+      "originals": 2,
+      "package_hashes": 40,
+      "zip_entries": 41,
+      "baseline_git_blobs": 7
+    },
+    "october03_preserved": {
+      "original_files": 2,
+      "zip_entries": 19,
+      "extracted_files": 12,
+      "source_bytes_preserved": true,
+      "source_replay_scripts_provided": false
+    },
+    "all_progress_import_preserved": {
+      "zip_entries": 666,
+      "source_manifest_hashes": 665,
+      "backups_verified": 13,
+      "integrated_files_verified": 2,
+      "working_tree_snapshot_checked": false
+    },
+    "new_package_hash_entries": 114,
+    "extension_certificate_hashes": 2,
+    "python_files_parsed": 134,
+    "documents_checked": 129,
+    "local_links_checked": 2092,
+    "explicit_anchors_checked": 45,
+    "navigation_snapshots_preserved": 15,
+    "research_notes_indexed": 94,
+    "scripts_indexed": 134,
+    "script_commands_checked": 149
+  },
+  "baseline_files": 700,
+  "edited_existing_files": [
+    "README.md",
+    "START_HERE.md",
+    "archive/README.md",
+    "data/README.md",
+    "docs/AI_HANDOFF_2026-10-02.md",
+    "docs/GITHUB_PROGRESS_2026-10-03.md",
+    "docs/PROGRESS_SUMMARY.md",
+    "docs/READING_GUIDE.md",
+    "docs/RESEARCH_HISTORY.md",
+    "docs/RESULTS_CATALOG.md",
+    "docs/STATUS.md",
+    "docs/VERIFICATION.md",
+    "research/README.md",
+    "scripts/README.md",
+    "scripts/check_repository.py"
+  ],
+  "unchanged_existing_files": 685,
+  "unchanged_research_proof_notes": 94,
+  "unchanged_data_files": 156,
+  "unchanged_other_python_scripts": 133,
+  "previous_mathematical_run": {
+    "checks": 35,
+    "log": "data/results/verification_github_publish_2026-10-03.log",
+    "record": "data/results/verification_adjacent_digit_continuation_2026-10-03.json",
+    "replayed_during_this_documentation_edit": false,
+    "reason": "Proof notes, certificates, recorded outputs and mathematical checkers remained byte-identical."
+  },
+  "legacy_metadata_checker_repair": "The historical .gitattributes bytes are separately saved and checked against the legacy hash; current Git configuration was not changed.",
+  "github_about": {
+    "repository": "https://github.com/yoshiyoyoyo44/erdos699",
+    "description_before": "Private research notes and reproducible certificates for Erdos Problem 699; partial results, not a complete proof.",
+    "description_after": "Research notes and reproducible certificates for Erdős Problem 699. Partial results; the full problem remains open.",
+    "topics_before": [],
+    "topics_after": [
+      "combinatorics",
+      "erdos-problems",
+      "mathematics",
+      "number-theory",
+      "reproducible-research"
+    ],
+    "visibility_unchanged": true
+  },
+  "git_diff_check": "passed"
+}

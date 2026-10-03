@@ -1,35 +1,6 @@
 # 成果の詳細一覧
 
-[入口](../README.md) · [現在地](STATUS.md) · [証明の読む順序](READING_GUIDE.md) · [検算](VERIFICATION.md)
-
-補題ごとの詳しい結論・仮定・依存関係を保存した専門的な索引です。
-**全体の現在の結論は[現在地](STATUS.md)を参照してください。** 下の各節は日付・研究段階ごとの結果で、後続稿によって強化されている場合があります。
-「族の排除」「条件付き上限」「有限診断」を、添字全体の解決として数えません。
-
-<details>
-<summary>このページの目次</summary>
-
-- [10月3日：全添字の隣接行の桁降下](#section-1)
-- [10月3日：i=5の880分配と5の高桁](#section-2)
-- [10月3日：i=5の積・付値・直線近傍](#section-3)
-- [10月3日：i=5 の支持02を閉鎖し、最後の支持01へ](#section-4)
-- [10月3日先行：完全分配の残余次数と有限境界](#section-5)
-- [10月2日の続行：三次因子と複数群への部分共有](#section-6)
-- [10月2日の先行：二次商と部分共有](#section-7)
-- [10月2日の任意の共有因子の数値排除](#section-8)
-- [10月1日の中央群の二段平方降下と11/15境界](#section-9)
-- [10月1日の全半比率分配と中央飽和の厳密下限](#section-10)
-- [10月1日の均衡境界の全排除と全分配の下限](#section-11)
-- [10月1日の半次数の境界：合成と全整数評価](#section-12)
-- [10月1日の一般数値領域：完全素数冪と終結式](#section-13)
-- [10月1日の続行：七次・八次の一分配・任意次数](#section-14)
-- [10月1日の追加：六次と任意の奇数の半次数](#section-15)
-
-</details>
-
-<a name="section-1"></a>
-
-## 10月3日：全添字の隣接行の桁降下
+## 最新：全添字の隣接行の桁降下
 
 [証明](../research/general/adjacent_row_digit_descent_2026-10-03.md)と[結果](../data/results/verification_adjacent_digit_descent.json)に対応。全添字を解決した成果ではありません。
 
@@ -46,9 +17,7 @@
 | 同じ二行の全底が最小桁和 | 全素数個数で矛盾。奇数行2に少なくとも一底でH≥7、偶数行3でH≥8 | 法24の乗法部分群と完全行積の結合 |
 | 奇数行3の全底でH≤7・偶数行2の全底でH≤6 | 5素数以上・6素数以上が必要 | 桁和の条件を外していない |
 
-<a name="section-2"></a>
-
-## 10月3日：i=5の880分配と5の高桁
+## 最新：i=5の880分配と5の高桁
 
 [証明](../research/i5/i5_odd_sparse_allocation_and_prime5_lift_2026-10-03.md)、[880証明書](../data/certificates/i5_sparse_allocation_2026-10-03.json)、[検算結果](../data/results/verification_i5_sparse_allocation.json)に対応します。一般i=5と9類全体は未解決。
 
@@ -61,9 +30,7 @@
 | 同じ25の枝の不均衡 | A>119BまたはB>53A | 外部BFT Theorem 2.1と厳密な整数閾値 |
 | 全次数の容量と現在のBFT | 全固定多項式の容量・既存指数下界に両立する形式的重み | 整数解や全Kummerモデルではない。別の算術的排除を否定しない |
 
-<a name="section-3"></a>
-
-## 10月3日：i=5の積・付値・直線近傍
+## ZIP統合後の続行：i=5の積・付値・直線近傍
 
 [新証明](../research/i5/i5_global_product_and_affine_exclusions_2026-10-03.md)と[検算結果](../data/results/verification_i5_global_product_and_affine.json)に対応します。
 
@@ -81,8 +48,6 @@
 | i=5反例の有限性 | 古典的Mahlerの定理を適用すると反例は有限個 | 非有効。上限不明のため一般i=5の完全解決ではない |
 
 現在の必要合同類は9・64。以下の先行稿の9・45・64は更新前の境界です。
-
-<a name="section-4"></a>
 
 ## 10月3日：i=5 の支持02を閉鎖し、最後の支持01へ
 
@@ -103,8 +68,6 @@
 
 一般i=5・i=3は未解決。新たな完全解決添字は0、未解決28です。
 
-<a name="section-5"></a>
-
 ## 10月3日先行：完全分配の残余次数と有限境界
 
 | 対象 | 到達点 | 根拠 |
@@ -116,8 +79,6 @@
 
 一般の i=3 と i=5 は未解決。今回の3検算器は高次数の普遍証明の正係数証明書と低次数の係数消去を再生する。
 
-<a name="section-6"></a>
-
 ## 10月2日の続行：三次因子と複数群への部分共有
 
 | 対象 | 到達点 | 根拠 |
@@ -127,8 +88,6 @@
 | 任意次数 k の外側因子 P、全根が閉単位円内 | 第一条件は $q^m<6(q-1)(q+1)^{2k}$ を要求。$m\ge2k+2,q\ge\max(12,4k)$ は全排除 | 同稿・第9節。商の係数ノルムを使わず添字範囲で整数商を押さえる |
 
 次数7の小さい添字に対する B|J-2、低次数、B自体の複数群分配と単位円外の根、一般 i=3 は未解決。
-
-<a name="section-7"></a>
 
 ## 10月2日の先行：二次商と部分共有
 
@@ -142,8 +101,6 @@
 
 全体の前提、二つの桁設定の区別、未解決境界、検算は[AI引き継ぎ](AI_HANDOFF_2026-10-02.md)を参照。一般のi=3は未解決。
 
-<a name="section-8"></a>
-
 ## 10月2日の任意の共有因子の数値排除
 
 | 対象 | 到達点 | 根拠 |
@@ -154,8 +111,6 @@
 
 [検算器](../scripts/audit_i3_arbitrary_cofactor.py)と[結果JSON](../data/results/verification_i3_arbitrary_cofactor.json)に、19分岐の完全被覆、17合同証明書の全4,096剰余、符号証明書、非幾何級数・重根・適用限界の診断を保存。複数の割当て、不足する重複度、高次の正実根の因子などは残り、一般の $i=3$ は未解決。
 
-<a name="section-9"></a>
-
 ## 10月1日の中央群の二段平方降下と11/15境界
 
 | 対象 | 到達点 | 根拠 |
@@ -164,8 +119,6 @@
 | 均衡中央飽和 $v=u,d_1=u$、全比率 | $h>11u/15$。等号も全次数で不可能 | 同稿・第5節。四次式の低次数剰余を定数に戻し、定数項と四次項の和を正の二次式へ還元 |
 
 [検算器](../scripts/audit_i3_central_square_descent.py)と[結果JSON](../data/results/verification_i3_central_square_descent.json)を保存。無限降下、高い差次数、5冪の芯、一般数値領域は未証明で、i=3 の完全解決は未達。
-
-<a name="section-10"></a>
 
 ## 10月1日の全半比率分配と中央飽和の厳密下限
 
@@ -177,8 +130,6 @@
 
 [検算器](../scripts/audit_i3_half_ratio_central_bounds.py)と[結果JSON](../data/results/verification_i3_half_ratio_central_bounds.json)を保存。高い差次数、5冪の芯、一般数値領域は残り、i=3 の完全解決は未達。
 
-<a name="section-11"></a>
-
 ## 10月1日の均衡境界の全排除と全分配の下限
 
 | 対象 | 到達点 | 根拠 |
@@ -188,8 +139,6 @@
 
 [検算器](../scripts/audit_i3_balanced_boundary.py)と[結果JSON](../data/results/verification_i3_balanced_boundary.json)を保存。より高い差次数、奇数芯 $D=5^a,a\ge4$、一般数値領域は残り、i=3 の完全解決は未達。
 以下の各節は先行稿時点の成果を保持する。八次の全排除など後続の現在地は[STATUS](STATUS.md)を参照。
-
-<a name="section-12"></a>
 
 ## 10月1日の半次数の境界：合成と全整数評価
 
@@ -201,8 +150,6 @@
 
 [検算器](../scripts/audit_i3_half_degree_composition.py)と[結果JSON](../data/results/verification_i3_half_degree_composition.json)を保存。有限診断と全次数の紙上証明を区別しています。
 
-<a name="section-13"></a>
-
 ## 10月1日の一般数値領域：完全素数冪と終結式
 
 | 対象 | 到達点 | 根拠 |
@@ -212,8 +159,6 @@
 | 全底で $d\ge\theta m,H\le H_0$ の枝 | $B=13(H_0+2)^{3/\theta+3}$ として $n\le3\cdot4^{\lfloor B\rfloor}+1$。素数名・指数・個数・次数は自由 | 同稿・第5節。条件付き有限化であり、その有限範囲全体の排除ではない |
 
 [検算器](../scripts/audit_i3_prime_power_resultants.py)と[結果JSON](../data/results/verification_i3_prime_power_resultants.json)を保存。桁和・$m/d$・素因数個数が同時に増える一般枝は残り、i=3 の完全解決は未達。
-
-<a name="section-14"></a>
 
 ## 10月1日の続行：七次・八次の一分配・任意次数
 
@@ -225,8 +170,6 @@
 | 任意の均衡次数、対称な外側の飽和 | 非定数差に $h>m/3$ が必要。飽和しない分配は対象外 | [対称飽和補題](../research/i3/i3_symmetric_saturation_2026-10-01.md) |
 
 [検算器](../scripts/audit_i3_septic_and_saturation.py)と[結果JSON](../data/results/verification_i3_septic_and_saturation.json)を保存。新たな完全解決添字0、未解決28。
-
-<a name="section-15"></a>
 
 ## 10月1日の追加：六次と任意の奇数の半次数
 
