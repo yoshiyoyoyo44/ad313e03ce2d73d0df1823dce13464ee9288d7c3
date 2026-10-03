@@ -1,0 +1,63 @@
+{
+  "provenance": "reconstructed from restored 11824-byte Library report",
+  "symbolic": {
+    "first_compression": true,
+    "integer_D_identity": true,
+    "variance_middle_groups_excluded": true,
+    "b1_D_less_than_3_gap": true
+  },
+  "classification_diagnostics": {
+    "coefficient_vectors": 3905,
+    "admissible": 19,
+    "cyclic_and_euclidean_tests_match": true,
+    "rows": [
+      {
+        "m": 2,
+        "inspected": 5,
+        "admissible": 3
+      },
+      {
+        "m": 3,
+        "inspected": 25,
+        "admissible": 3
+      },
+      {
+        "m": 4,
+        "inspected": 125,
+        "admissible": 5
+      },
+      {
+        "m": 5,
+        "inspected": 625,
+        "admissible": 3
+      },
+      {
+        "m": 6,
+        "inspected": 3125,
+        "admissible": 5
+      }
+    ],
+    "finite_diagnostics_only": true
+  },
+  "residues_and_scope": {
+    "integer_D_candidates": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        1
+      ]
+    ],
+    "scope_witness": {
+      "n": 436,
+      "j": 30
+    },
+    "noncoprime_half_value_witness": true,
+    "half_value_witness_now_excluded_by_sextic_partial_sharing": true
+  },
+  "general_i3_closed": false
+}

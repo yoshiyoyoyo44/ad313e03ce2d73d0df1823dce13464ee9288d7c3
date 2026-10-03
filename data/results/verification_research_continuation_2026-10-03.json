@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-03",
+  "status": "passed",
+  "scope": "ZIP integration followed by i=5 research continuation",
+  "new_manuscript": "research/i5/i5_global_product_and_affine_exclusions_2026-10-03.md",
+  "new_math_result": "data/results/verification_i5_global_product_and_affine.json",
+  "checks": [
+    {
+      "name": "new_i5_audit",
+      "command": "python -X utf8 scripts/audit_i5_global_product_and_affine.py",
+      "exit_code": 0,
+      "output": {
+        "status": "passed",
+        "remaining_classes_mod72": [
+          9,
+          64
+        ],
+        "closed_class_mod72": 45,
+        "j_all_n_bound": "1400000000000000000000000000000000000000000000000000000000",
+        "central_gap_all_n_bound": "30000000000000000000000000000000",
+        "perfect_power_n_and_adjacent_closed": true,
+        "general_i5_solved": false
+      }
+    },
+    {
+      "name": "repository_integrity",
+      "command": "python -X utf8 scripts/check_repository.py",
+      "exit_code": 0,
+      "output": {
+        "status": "passed",
+        "legacy_paths": 279,
+        "byte_preserved_files": 187,
+        "new_original_attachments": 5,
+        "additional_handoff_originals": 2,
+        "september27_preserved": {
+          "originals": 2,
+          "package_hashes": 40,
+          "zip_entries": 41,
+          "baseline_git_blobs": 7
+        },
+        "october03_preserved": {
+          "original_files": 2,
+          "zip_entries": 19,
+          "extracted_files": 12,
+          "source_bytes_preserved": true,
+          "source_replay_scripts_provided": false
+        },
+        "all_progress_import_preserved": {
+          "zip_entries": 666,
+          "source_manifest_hashes": 665,
+          "backups_verified": 13,
+          "integrated_files_verified": 2,
+          "working_tree_snapshot_checked": false
+        },
+        "new_package_hash_entries": 114,
+        "extension_certificate_hashes": 2,
+        "python_files_parsed": 131,
+        "documents_checked": 115,
+        "local_links_checked": 1865,
+        "script_commands_checked": 219
+      }
+    },
+    {
+      "name": "whitespace",
+      "command": "git diff --check",
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "suite_history": {
+    "import_snapshot_checks_passed": 32,
+    "current_verify_latest_registered_checks": 33,
+    "full_current_33_check_suite_rerun": false,
+    "scope": "The original 32 checks passed during import. The new extended i=5 audit and repository checks were run separately afterward."
+  },
+  "mathematical_limits": {
+    "general_i5_solved": false,
+    "problem699_solved": false,
+    "new_completely_solved_indices": 0,
+    "unresolved_indices": 28,
+    "external_theorem_proofs_replayed": false,
+    "numerical_cutoff_known": false,
+    "scope": "Integer diagnostics and certificate replay accompany paper proofs with explicitly stated prior and external dependencies."
+  }
+}

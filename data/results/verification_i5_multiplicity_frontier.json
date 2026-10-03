@@ -1,0 +1,4198 @@
+{
+  "status": "passed",
+  "i": 5,
+  "i5_solved": false,
+  "tail_frontier_proved_without_supplied_terminal_scripts": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "frontier_threshold": "1000000000000000000000000",
+  "row_zero": {
+    "n_upper_when_row_0_not_maximal": 47775744000004,
+    "proof": "j/n=a/b, b|60; missed nonmaximal row bounds its full factor; b=2 forces n both even and odd"
+  },
+  "denominator_period": 360,
+  "denominator_cases": {
+    "0,0": [
+      {
+        "residue": 0,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "residue": 24,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 20
+        }
+      },
+      {
+        "residue": 72,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "residue": 96,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "residue": 144,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 20
+        }
+      },
+      {
+        "residue": 168,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 15,
+          "4": 4
+        }
+      },
+      {
+        "residue": 216,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "residue": 240,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4
+        }
+      },
+      {
+        "residue": 288,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 15,
+          "4": 4
+        }
+      },
+      {
+        "residue": 312,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "3": 3,
+          "4": 4
+        }
+      }
+    ],
+    "0,1": [
+      {
+        "residue": 16,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 12
+        }
+      },
+      {
+        "residue": 64,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 60
+        }
+      },
+      {
+        "residue": 88,
+        "denominators": {
+          "2": 2,
+          "3": 5,
+          "4": 12
+        }
+      },
+      {
+        "residue": 136,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 12
+        }
+      },
+      {
+        "residue": 160,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 12
+        }
+      },
+      {
+        "residue": 208,
+        "denominators": {
+          "2": 2,
+          "3": 5,
+          "4": 12
+        }
+      },
+      {
+        "residue": 232,
+        "denominators": {
+          "2": 10,
+          "3": 1,
+          "4": 12
+        }
+      },
+      {
+        "residue": 280,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 12
+        }
+      },
+      {
+        "residue": 304,
+        "denominators": {
+          "2": 2,
+          "3": 1,
+          "4": 60
+        }
+      },
+      {
+        "residue": 352,
+        "denominators": {
+          "2": 10,
+          "3": 1,
+          "4": 12
+        }
+      }
+    ],
+    "1,0": [
+      {
+        "residue": 9,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 5
+        }
+      },
+      {
+        "residue": 33,
+        "denominators": {
+          "2": 1,
+          "3": 30,
+          "4": 1
+        }
+      },
+      {
+        "residue": 45,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 69,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 5
+        }
+      },
+      {
+        "residue": 81,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 105,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 117,
+        "denominators": {
+          "2": 5,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 141,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 153,
+        "denominators": {
+          "2": 1,
+          "3": 30,
+          "4": 1
+        }
+      },
+      {
+        "residue": 177,
+        "denominators": {
+          "2": 5,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 189,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 5
+        }
+      },
+      {
+        "residue": 213,
+        "denominators": {
+          "2": 1,
+          "3": 30,
+          "4": 1
+        }
+      },
+      {
+        "residue": 225,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 249,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 5
+        }
+      },
+      {
+        "residue": 261,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 285,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 297,
+        "denominators": {
+          "2": 5,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 321,
+        "denominators": {
+          "2": 1,
+          "3": 6,
+          "4": 1
+        }
+      },
+      {
+        "residue": 333,
+        "denominators": {
+          "2": 1,
+          "3": 30,
+          "4": 1
+        }
+      },
+      {
+        "residue": 357,
+        "denominators": {
+          "2": 5,
+          "3": 6,
+          "4": 1
+        }
+      }
+    ],
+    "0,2": [
+      {
+        "residue": 8,
+        "denominators": {
+          "1": 1,
+          "3": 5,
+          "4": 4
+        }
+      },
+      {
+        "residue": 32,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 56,
+        "denominators": {
+          "1": 5,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 80,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 104,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 20
+        }
+      },
+      {
+        "residue": 128,
+        "denominators": {
+          "1": 1,
+          "3": 5,
+          "4": 4
+        }
+      },
+      {
+        "residue": 152,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 176,
+        "denominators": {
+          "1": 5,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 200,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 224,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 20
+        }
+      },
+      {
+        "residue": 248,
+        "denominators": {
+          "1": 1,
+          "3": 5,
+          "4": 4
+        }
+      },
+      {
+        "residue": 272,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 296,
+        "denominators": {
+          "1": 5,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 320,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 4
+        }
+      },
+      {
+        "residue": 344,
+        "denominators": {
+          "1": 1,
+          "3": 1,
+          "4": 20
+        }
+      }
+    ],
+    "2,0": [
+      {
+        "residue": 6,
+        "denominators": {
+          "1": 5,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 18,
+        "denominators": {
+          "1": 1,
+          "3": 15,
+          "4": 2
+        }
+      },
+      {
+        "residue": 42,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 54,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 10
+        }
+      },
+      {
+        "residue": 78,
+        "denominators": {
+          "1": 1,
+          "3": 15,
+          "4": 2
+        }
+      },
+      {
+        "residue": 90,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 114,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 10
+        }
+      },
+      {
+        "residue": 126,
+        "denominators": {
+          "1": 5,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 150,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 162,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 186,
+        "denominators": {
+          "1": 5,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 198,
+        "denominators": {
+          "1": 1,
+          "3": 15,
+          "4": 2
+        }
+      },
+      {
+        "residue": 222,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 234,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 10
+        }
+      },
+      {
+        "residue": 258,
+        "denominators": {
+          "1": 1,
+          "3": 15,
+          "4": 2
+        }
+      },
+      {
+        "residue": 270,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 294,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 10
+        }
+      },
+      {
+        "residue": 306,
+        "denominators": {
+          "1": 5,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 330,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      },
+      {
+        "residue": 342,
+        "denominators": {
+          "1": 1,
+          "3": 3,
+          "4": 2
+        }
+      }
+    ],
+    "0,3": [
+      {
+        "residue": 24,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 20
+        }
+      },
+      {
+        "residue": 48,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 4
+        }
+      },
+      {
+        "residue": 96,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "4": 4
+        }
+      },
+      {
+        "residue": 120,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 4
+        }
+      },
+      {
+        "residue": 168,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 4
+        }
+      },
+      {
+        "residue": 192,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "4": 4
+        }
+      },
+      {
+        "residue": 240,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 4
+        }
+      },
+      {
+        "residue": 264,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "4": 20
+        }
+      },
+      {
+        "residue": 312,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "4": 4
+        }
+      },
+      {
+        "residue": 336,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "4": 4
+        }
+      }
+    ],
+    "3,0": [
+      {
+        "residue": 15,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 27,
+        "denominators": {
+          "1": 2,
+          "2": 5,
+          "4": 1
+        }
+      },
+      {
+        "residue": 51,
+        "denominators": {
+          "1": 10,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 63,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 87,
+        "denominators": {
+          "1": 2,
+          "2": 5,
+          "4": 1
+        }
+      },
+      {
+        "residue": 99,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 5
+        }
+      },
+      {
+        "residue": 123,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 135,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 159,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 5
+        }
+      },
+      {
+        "residue": 171,
+        "denominators": {
+          "1": 10,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 195,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 207,
+        "denominators": {
+          "1": 2,
+          "2": 5,
+          "4": 1
+        }
+      },
+      {
+        "residue": 231,
+        "denominators": {
+          "1": 10,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 243,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 267,
+        "denominators": {
+          "1": 2,
+          "2": 5,
+          "4": 1
+        }
+      },
+      {
+        "residue": 279,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 5
+        }
+      },
+      {
+        "residue": 303,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 315,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 1
+        }
+      },
+      {
+        "residue": 339,
+        "denominators": {
+          "1": 2,
+          "2": 1,
+          "4": 5
+        }
+      },
+      {
+        "residue": 351,
+        "denominators": {
+          "1": 10,
+          "2": 1,
+          "4": 1
+        }
+      }
+    ],
+    "0,4": [
+      {
+        "residue": 16,
+        "denominators": {
+          "1": 15,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 40,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 88,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 5
+        }
+      },
+      {
+        "residue": 112,
+        "denominators": {
+          "1": 3,
+          "2": 10,
+          "3": 1
+        }
+      },
+      {
+        "residue": 160,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 184,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 232,
+        "denominators": {
+          "1": 3,
+          "2": 10,
+          "3": 1
+        }
+      },
+      {
+        "residue": 256,
+        "denominators": {
+          "1": 15,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 304,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 1
+        }
+      },
+      {
+        "residue": 328,
+        "denominators": {
+          "1": 3,
+          "2": 2,
+          "3": 5
+        }
+      }
+    ],
+    "4,0": [
+      {
+        "residue": 36,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 60,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 108,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 15
+        }
+      },
+      {
+        "residue": 132,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "3": 3
+        }
+      },
+      {
+        "residue": 180,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 204,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 252,
+        "denominators": {
+          "1": 1,
+          "2": 10,
+          "3": 3
+        }
+      },
+      {
+        "residue": 276,
+        "denominators": {
+          "1": 5,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 324,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 3
+        }
+      },
+      {
+        "residue": 348,
+        "denominators": {
+          "1": 1,
+          "2": 2,
+          "3": 15
+        }
+      }
+    ]
+  },
+  "certificates": [
+    {
+      "name": "collision_at_0",
+      "support": [
+        0
+      ],
+      "row_targets": [
+        0,
+        30,
+        30,
+        30,
+        30
+      ],
+      "degree": 108,
+      "heavy_degree": 120,
+      "excess": -12,
+      "constant": "463255047212960250000000000000000000000000000",
+      "evaluation_constant": "9/9223372036854775808",
+      "oriented_denominator_constants": {
+        "0,0": 237376313799769806328950291431424000000000000000000000000000000
+      },
+      "cell_coverage": [
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        32,
+        30,
+        30,
+        30,
+        30
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 2",
+          "coefficients": [
+            0,
+            1,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 7
+        },
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 13
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 16
+        },
+        {
+          "expression": "S - U - 2",
+          "coefficients": [
+            1,
+            -1,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 10
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 14
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 16
+        },
+        {
+          "expression": "S - 3",
+          "coefficients": [
+            1,
+            0,
+            -3
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 13
+        },
+        {
+          "expression": "S - 2",
+          "coefficients": [
+            1,
+            0,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 7
+        },
+        {
+          "expression": "S**2 - 2*S*U - 3*S + 2*U**2 + 2",
+          "coefficients": [
+            1,
+            -2,
+            2,
+            -3,
+            0,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/2",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "2*S**2 - 2*S*U - 8*S + U**2 + 3*U + 6",
+          "coefficients": [
+            2,
+            -2,
+            1,
+            -8,
+            3,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "5/4",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "3*S**2 - 4*S*U - 9*S + 3*U**2 + U + 6",
+          "coefficients": [
+            3,
+            -4,
+            3,
+            -9,
+            1,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "3",
+          "leading_bounds": [
+            "7/4",
+            "3"
+          ],
+          "zero_exclusion": null,
+          "exponent": 2
+        }
+      ],
+      "support_closed": true,
+      "paired_line_factors": 28
+    },
+    {
+      "name": "support_04",
+      "support": [
+        0,
+        4
+      ],
+      "row_targets": [
+        0,
+        6,
+        6,
+        6,
+        0
+      ],
+      "degree": 17,
+      "heavy_degree": 18,
+      "excess": -1,
+      "constant": "11390625/8",
+      "evaluation_constant": "1/1024",
+      "oriented_denominator_constants": {
+        "0,4": 729000000,
+        "4,0": 729000000
+      },
+      "cell_coverage": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        3,
+        2,
+        0,
+        2,
+        3
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - 3",
+          "coefficients": [
+            1,
+            0,
+            -3
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - 2",
+          "coefficients": [
+            1,
+            0,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S**2 - S*U - 3*S + U**2 + 2",
+          "coefficients": [
+            1,
+            -1,
+            1,
+            -3,
+            0,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "3/4",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        }
+      ],
+      "support_closed": true,
+      "paired_line_factors": 5
+    },
+    {
+      "name": "support_03_nodal_cubics",
+      "support": [
+        0,
+        3
+      ],
+      "row_targets": [
+        0,
+        15,
+        15,
+        0,
+        15
+      ],
+      "degree": 44,
+      "heavy_degree": 45,
+      "excess": -1,
+      "constant": "452984832000000000000000",
+      "evaluation_constant": "27/128",
+      "oriented_denominator_constants": {
+        "0,3": 1073741824000000000000000,
+        "3,0": 1000000000000000
+      },
+      "cell_coverage": [
+        6,
+        15,
+        15,
+        15,
+        15,
+        15,
+        3,
+        2,
+        2,
+        3,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 9
+        },
+        {
+          "expression": "S - 2",
+          "coefficients": [
+            1,
+            0,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 5
+        },
+        {
+          "expression": "S**2 - 2*S*U - 3*S + 2*U**2 + 2",
+          "coefficients": [
+            1,
+            -2,
+            2,
+            -3,
+            0,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/2",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "4*S**3 - 12*S**2*U - 16*S**2 + 18*S*U**2 + 18*S*U + 20*S - 9*U**3 - 9*U**2 - 6*U - 8",
+          "coefficients": [
+            4,
+            -12,
+            18,
+            -9,
+            -16,
+            18,
+            -9,
+            20,
+            -6,
+            -8
+          ],
+          "degree": 3,
+          "cell_orders": [
+            0,
+            2,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            1
+          ],
+          "upper_multiplier": "4",
+          "leading_bounds": [
+            "11/8",
+            "4"
+          ],
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S**3 + 3*S**2*U - 7*S**2 - 9*S*U**2 + 14*S + 9*U**3 - 9*U**2 + 6*U - 8",
+          "coefficients": [
+            1,
+            3,
+            -9,
+            9,
+            -7,
+            0,
+            -9,
+            14,
+            6,
+            -8
+          ],
+          "degree": 3,
+          "cell_orders": [
+            0,
+            1,
+            2,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "3/2",
+          "leading_bounds": [
+            "1",
+            "3/2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 3
+        }
+      ],
+      "support_closed": true,
+      "paired_line_factors": 5
+    },
+    {
+      "name": "support_01_baseline_tight_constants",
+      "support": [
+        0,
+        1
+      ],
+      "row_targets": [
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "degree": 21,
+      "heavy_degree": 18,
+      "excess": 3,
+      "constant": "1458000000",
+      "evaluation_constant": "1/4096",
+      "oriented_denominator_constants": {
+        "0,1": 2985984000000,
+        "1,0": 729000000
+      },
+      "cell_coverage": [
+        6,
+        5,
+        5,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        7,
+        6,
+        6,
+        6,
+        7
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 2",
+          "coefficients": [
+            0,
+            1,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U - 2",
+          "coefficients": [
+            1,
+            -1,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "S - 3",
+          "coefficients": [
+            1,
+            0,
+            -3
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - 2",
+          "coefficients": [
+            1,
+            0,
+            -2
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 6
+    },
+    {
+      "name": "support_02_baseline_A_tight_constants",
+      "support": [
+        0,
+        2
+      ],
+      "row_targets": [
+        6,
+        10,
+        2,
+        10,
+        10
+      ],
+      "degree": 31,
+      "heavy_degree": 30,
+      "excess": 1,
+      "constant": "18452812500000",
+      "evaluation_constant": "1/64",
+      "oriented_denominator_constants": {
+        "0,2": 10240000000000,
+        "2,0": 590490000000000
+      },
+      "cell_coverage": [
+        6,
+        10,
+        10,
+        2,
+        2,
+        2,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "polynomials": [
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - 1",
+          "coefficients": [
+            1,
+            0,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S - 3",
+          "coefficients": [
+            1,
+            0,
+            -3
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 7
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 8
+        },
+        {
+          "expression": "S**2 - 3*S*U - S + 3*U**2",
+          "coefficients": [
+            1,
+            -3,
+            3,
+            -1,
+            0,
+            0
+          ],
+          "degree": 2,
+          "cell_orders": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/4",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S**2 - S*U - 4*S + U**2 + 3",
+          "coefficients": [
+            1,
+            -1,
+            1,
+            -4,
+            0,
+            3
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "3/4",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 3
+    },
+    {
+      "name": "support_02_baseline_B_tight_constants",
+      "support": [
+        0,
+        2
+      ],
+      "row_targets": [
+        12,
+        30,
+        8,
+        30,
+        30
+      ],
+      "degree": 93,
+      "heavy_degree": 90,
+      "excess": 3,
+      "constant": "15708246772357864379882812500000000000000",
+      "evaluation_constant": "5/131072",
+      "oriented_denominator_constants": {
+        "0,2": 1073741824000000000000000000000000000000,
+        "2,0": 205891132094649000000000000000000000000000000
+      },
+      "cell_coverage": [
+        12,
+        30,
+        30,
+        8,
+        8,
+        8,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "polynomials": [
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 6
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 6
+        },
+        {
+          "expression": "S - 1",
+          "coefficients": [
+            1,
+            0,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 14
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "S - 3",
+          "coefficients": [
+            1,
+            0,
+            -3
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 23
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 24
+        },
+        {
+          "expression": "S**2 - 2*S*U - 3*S + 3*U**2 - U + 2",
+          "coefficients": [
+            1,
+            -2,
+            3,
+            -3,
+            -1,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/2",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "2*S**2 - 4*S*U - 4*S + 3*U**2 + U + 2",
+          "coefficients": [
+            2,
+            -4,
+            3,
+            -4,
+            1,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "3/4",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "2*S**2 - 3*S*U - 8*S + 6*U**2 - 3*U + 6",
+          "coefficients": [
+            2,
+            -3,
+            6,
+            -8,
+            -3,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "5/4",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "5*S**2 - 9*S*U - 11*S + 6*U**2 + 3*U + 6",
+          "coefficients": [
+            5,
+            -9,
+            6,
+            -11,
+            3,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "5",
+          "leading_bounds": [
+            "2",
+            "5"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 10
+    },
+    {
+      "name": "support_01_new_mixed_bound",
+      "support": [
+        0,
+        1
+      ],
+      "row_targets": [
+        9,
+        4,
+        5,
+        3,
+        4
+      ],
+      "degree": 16,
+      "heavy_degree": 12,
+      "excess": 4,
+      "constant": "36450000",
+      "evaluation_constant": "9/1024",
+      "oriented_denominator_constants": {
+        "0,1": 2073600000,
+        "1,0": 675000
+      },
+      "cell_coverage": [
+        9,
+        4,
+        4,
+        5,
+        5,
+        5,
+        3,
+        3,
+        3,
+        3,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - 2*U",
+          "coefficients": [
+            1,
+            -2,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": {
+            "missed_heavy_row": 3,
+            "n_upper_if_zero": 543
+          },
+          "exponent": 3
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S - 4",
+          "coefficients": [
+            1,
+            0,
+            -4
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S**2 + 2*S*U - 9*S - 2*U**2 + 14",
+          "coefficients": [
+            1,
+            2,
+            -2,
+            -9,
+            0,
+            14
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "3/2",
+          "leading_bounds": [
+            "1",
+            "3/2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 2
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 4
+    },
+    {
+      "name": "support_02_new_mixed_bound",
+      "support": [
+        0,
+        2
+      ],
+      "row_targets": [
+        20,
+        22,
+        10,
+        10,
+        8
+      ],
+      "degree": 44,
+      "heavy_degree": 40,
+      "excess": 4,
+      "constant": "422351360321044921875/32768",
+      "evaluation_constant": "3/16777216",
+      "oriented_denominator_constants": {
+        "0,2": 156250000000000000000,
+        "2,0": 36040649414062500000000
+      },
+      "cell_coverage": [
+        20,
+        22,
+        22,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "polynomials": [
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 5
+        },
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 8
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 8
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 5
+        },
+        {
+          "expression": "S**2 - S*U - 4*S + U**2 + 3",
+          "coefficients": [
+            1,
+            -1,
+            1,
+            -4,
+            0,
+            3
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "3/4",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "3*S**2 - 4*S*U - 9*S + 3*U**2 + U + 6",
+          "coefficients": [
+            3,
+            -4,
+            3,
+            -9,
+            1,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "3",
+          "leading_bounds": [
+            "7/4",
+            "3"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S**2 - 3*S*U - S + 3*U**2",
+          "coefficients": [
+            1,
+            -3,
+            3,
+            -1,
+            0,
+            0
+          ],
+          "degree": 2,
+          "cell_orders": [
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/4",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 4
+        },
+        {
+          "expression": "2*S**2 - 4*S*U - 4*S + 3*U**2 + U + 2",
+          "coefficients": [
+            2,
+            -4,
+            3,
+            -4,
+            1,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "3/4",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "S**2 - 2*S*U - 3*S + 3*U**2 - U + 2",
+          "coefficients": [
+            1,
+            -2,
+            3,
+            -3,
+            -1,
+            2
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": [
+            "1/2",
+            "1"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "2*S**2 - 2*S*U - 8*S + 3*U**2 - U + 6",
+          "coefficients": [
+            2,
+            -2,
+            3,
+            -8,
+            -1,
+            6
+          ],
+          "degree": 2,
+          "cell_orders": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0,
+            0
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "3/2",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 13
+    },
+    {
+      "name": "support_02_quartic_sextic",
+      "support": [
+        0,
+        2
+      ],
+      "row_targets": [
+        6,
+        10,
+        4,
+        5,
+        4
+      ],
+      "degree": 20,
+      "heavy_degree": 19,
+      "excess": 1,
+      "constant": "11865234375/8",
+      "evaluation_constant": "5/256",
+      "oriented_denominator_constants": {
+        "0,2": 2500000000,
+        "2,0": 37968750000
+      },
+      "cell_coverage": [
+        6,
+        10,
+        10,
+        4,
+        4,
+        4,
+        5,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "polynomials": [
+        {
+          "expression": "U",
+          "coefficients": [
+            0,
+            1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "U - 1",
+          "coefficients": [
+            0,
+            1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            0,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          "upper_multiplier": "1/2",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "S - U",
+          "coefficients": [
+            1,
+            -1,
+            0
+          ],
+          "degree": 1,
+          "cell_orders": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 3
+        },
+        {
+          "expression": "S - U - 1",
+          "coefficients": [
+            1,
+            -1,
+            -1
+          ],
+          "degree": 1,
+          "cell_orders": [
+            0,
+            1,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "upper_multiplier": "1",
+          "leading_bounds": null,
+          "zero_exclusion": null,
+          "exponent": 2
+        },
+        {
+          "expression": "10*S**4 - 36*S**3*U - 54*S**3 + 63*S**2*U**2 + 117*S**2*U + 90*S**2 - 54*S*U**3 - 117*S*U**2 - 81*S*U - 58*S + 27*U**4 + 81*U**2 + 12",
+          "coefficients": [
+            10,
+            -36,
+            63,
+            -54,
+            27,
+            -54,
+            117,
+            -117,
+            0,
+            90,
+            -81,
+            81,
+            -58,
+            0,
+            12
+          ],
+          "degree": 4,
+          "cell_orders": [
+            0,
+            2,
+            2,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            0,
+            1,
+            2,
+            1,
+            0
+          ],
+          "upper_multiplier": "10",
+          "leading_bounds": [
+            "43/16",
+            "10"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        },
+        {
+          "expression": "2*S**6 - 2*S**5*U - 24*S**5 - 7*S**4*U**2 + 27*S**4*U + 112*S**4 + 45*S**3*U**3 - 45*S**3*U**2 - 72*S**3*U - 260*S**3 - 90*S**2*U**4 + 36*S**2*U**3 + 99*S**2*U**2 + 71*S**2*U + 318*S**2 + 81*S*U**5 - 18*S*U**4 - 54*S*U**3 - 71*S*U**2 - 24*S*U - 196*S - 27*U**6 + 27*U**4 + 24*U**2 + 48",
+          "coefficients": [
+            2,
+            -2,
+            -7,
+            45,
+            -90,
+            81,
+            -27,
+            -24,
+            27,
+            -45,
+            36,
+            -18,
+            0,
+            112,
+            -72,
+            99,
+            -54,
+            27,
+            -260,
+            71,
+            -71,
+            0,
+            318,
+            -24,
+            24,
+            -196,
+            0,
+            48
+          ],
+          "degree": 6,
+          "cell_orders": [
+            0,
+            3,
+            3,
+            1,
+            0,
+            1,
+            1,
+            2,
+            2,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "upper_multiplier": "2",
+          "leading_bounds": [
+            "87/64",
+            "2"
+          ],
+          "zero_exclusion": null,
+          "exponent": 1
+        }
+      ],
+      "support_closed": false,
+      "paired_line_factors": 5
+    }
+  ],
+  "all_degree_barrier": [
+    {
+      "support": [
+        0,
+        1
+      ],
+      "heavy_rows": [
+        2,
+        3,
+        4
+      ],
+      "reciprocal_sum": "47/60",
+      "slack": "13/60",
+      "positive_all_degree_dual_weights": [
+        "13/120",
+        "13/240",
+        "13/240",
+        "1/3",
+        "1/3",
+        "1/3",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5"
+      ],
+      "minimum_degree_cost_for_heavy_coverage": 3,
+      "scope": "nonnegative combinations of fixed polynomial multiplicities with total-degree costs"
+    },
+    {
+      "support": [
+        0,
+        2
+      ],
+      "heavy_rows": [
+        1,
+        3,
+        4
+      ],
+      "reciprocal_sum": "19/20",
+      "slack": "1/20",
+      "positive_all_degree_dual_weights": [
+        "1/40",
+        "1/2",
+        "1/2",
+        "1/120",
+        "1/120",
+        "1/120",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5",
+        "1/5"
+      ],
+      "minimum_degree_cost_for_heavy_coverage": 3,
+      "scope": "nonnegative combinations of fixed polynomial multiplicities with total-degree costs"
+    }
+  ],
+  "pure_powers": {
+    "tail_n_threshold": "1000000000000000000000000",
+    "two_power_exponents_at_least": 80,
+    "three_power_exponents_at_least": 51,
+    "tail_pure_two_and_three_powers_closed": true,
+    "all_n_scope_requires_existing_finite_theorem": true
+  },
+  "congruence_frontier": {
+    "modulus": 72,
+    "necessary_classes": [
+      9,
+      18,
+      45,
+      54,
+      56,
+      64
+    ],
+    "oriented_classes": {
+      "0,1": [
+        64
+      ],
+      "1,0": [
+        9,
+        45
+      ],
+      "0,2": [
+        56
+      ],
+      "2,0": [
+        18,
+        54
+      ]
+    },
+    "maximal_3_exponent_at_least": 2,
+    "scope": "necessary conditions, not an enumeration of counterexamples"
+  },
+  "bft_bridge": {
+    "support": [
+      0,
+      2
+    ],
+    "n_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "external_theorem": {
+      "authors": "M. A. Bennett, M. Filaseta, O. Trifonov",
+      "title": "On the factorization of consecutive integers",
+      "publication": "J. Reine Angew. Math. 629 (2009), 171-200",
+      "theorem": "2.1, prime pair (2,3)",
+      "lambda": "57/200",
+      "exceptional_maximum": 1771561,
+      "primary_manuscript": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+      "status": "external published theorem; its hypergeometric proof is not replayed here"
+    },
+    "row2_lower": "R2 > n^(57/200)/10",
+    "row0_upper": "R0 < 23*n^(23/400)",
+    "scope": "earlier necessary condition; superseded by the explicit quartic-sextic support closeout"
+  },
+  "bft_support_02_closeout": {
+    "support": [
+      0,
+      2
+    ],
+    "n_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "capacity_certificate": "support_02_quartic_sextic",
+    "restored_cofactor": "B=5^delta_2*R2",
+    "restored_denominator_constants": {
+      "0,2": 2500000000,
+      "2,0": 37968750000
+    },
+    "restored_constant": "11865234375/8",
+    "mixed_bound": "R0^6*B^4 < (11865234375/8)*n",
+    "upper_bounds": [
+      "A < 1000*n^(1/6)",
+      "B < 200*n^(1/4)"
+    ],
+    "contradiction": "max(A,B) < n^(57/200)/2 < (n/4)^(57/200), contrary to BFT Theorem 2.1",
+    "external_theorem": "Bennett-Filaseta-Trifonov, Theorem 2.1, prime pair (2,3); proof not replayed",
+    "support_closed_in_tail": true,
+    "support_closed_all_n_using_existing_finite_theorem": true,
+    "remaining_supports": [
+      [
+        0,
+        1
+      ]
+    ],
+    "necessary_classes_mod72_after_closeout": [
+      9,
+      45,
+      64
+    ],
+    "i5_solved": false
+  },
+  "tail_frontier_with_external_BFT": [
+    [
+      0,
+      1
+    ]
+  ],
+  "BFT_frontier_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "high_multiplicity_diagnostic": {
+    "support": [
+      0,
+      2
+    ],
+    "row2_mass": "57/200",
+    "abstract_minimum_squared_norm": "1245593/1240000",
+    "formula": "(114*z^2-28*z+61)/62",
+    "scope": "formal degree-capacity relaxation with four boundary lines, not a counterexample exclusion",
+    "followup": "explicit positive quartic and sextic now close this support, using BFT; diagnostic alone remains a formal relaxation",
+    "i5_support_closed_by_this_diagnostic": false
+  },
+  "universal_scope": "paper arguments and exact replay; explicit quartic and sextic plus external BFT close support 02 at n>=10^75; support 01 remains open; general i5 is not solved"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "All positive integer evaluations of the classified quintic family share an odd prime in the two binomial coefficients; general i=3 remains open.",
+  "certificate_sha256": "40993336b2f433383dc82eedb268f89a66ba98abc7b481303be301e4ede6eb4f",
+  "M3_entire_nonnegative_integer_branch_excluded": true,
+  "M1_counterexample_branch_excluded": true,
+  "M1_unconstrained_integer_points_computed": false,
+  "M1_necessary_exponent_residue": 101,
+  "M1_exponent_modulus": 500,
+  "modular_residues_exhausted": 28001,
+  "modular_roots": [],
+  "independent_polynomial_certificate_verified": true,
+  "new_digit_degree_bound": 5,
+  "complete_problem_solution": false,
+  "remaining_indices": 28
+}

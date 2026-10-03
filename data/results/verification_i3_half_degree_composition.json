@@ -1,0 +1,108 @@
+{
+  "scope": "Conditional polynomial boundary; general i=3 remains open",
+  "boundary": {
+    "symbolic_identities": 6,
+    "possible_v_over_h": [
+      2,
+      3
+    ]
+  },
+  "composition": {
+    "exact_composition_divisibilities": 45
+  },
+  "rational_cores": {
+    "core_identities_and_divisibilities": 20,
+    "quartic_origin_discriminant": 10496,
+    "quintic_models": [
+      {
+        "t": "1/5",
+        "F": "3*X**5/2 + 25*X**4/2 + 35*X**3 + 75*X**2/2 + 25*X/2 + 2",
+        "J": "3*X**5/10 + 31*X**4/10 + 57*X**3/5 + 177*X**2/10 + 21*X/2 + 2",
+        "linear_F": "25/2",
+        "leading_F": "3/2"
+      },
+      {
+        "t": "2/5",
+        "F": "-21*X**5 - 130*X**4 - 250*X**3 - 150*X**2 - 25*X + 2",
+        "J": "-42*X**5/5 - 239*X**4/5 - 391*X**3/5 - 138*X**2/5 + X + 1",
+        "linear_F": "-25",
+        "leading_F": "-21"
+      },
+      {
+        "t": "3/5",
+        "F": "-3*X**5/8 - 5*X**4/2 - 35*X**3/8 + 25*X/8 + 2",
+        "J": "-9*X**5/40 - 6*X**4/5 - 37*X**3/40 + 21*X**2/10 + 7*X/8",
+        "linear_F": "25/8",
+        "leading_F": "-3/8"
+      }
+    ],
+    "quintic_origin_cases": [
+      {
+        "t": "1/5",
+        "s": 0,
+        "discriminant": "40/9",
+        "square": false
+      },
+      {
+        "t": "1/5",
+        "s": 1,
+        "discriminant": "5",
+        "square": false
+      },
+      {
+        "t": "1/5",
+        "s": 2,
+        "discriminant": "25/4",
+        "square": true
+      },
+      {
+        "t": "2/5",
+        "s": 0,
+        "discriminant": "260/49",
+        "square": false
+      },
+      {
+        "t": "2/5",
+        "s": 1,
+        "discriminant": "25/4",
+        "square": true
+      },
+      {
+        "t": "2/5",
+        "s": 2,
+        "discriminant": "40/9",
+        "square": false
+      },
+      {
+        "t": "3/5",
+        "s": 0,
+        "discriminant": "25/4",
+        "square": true
+      },
+      {
+        "t": "3/5",
+        "s": 1,
+        "discriminant": "85/9",
+        "square": false
+      },
+      {
+        "t": "3/5",
+        "s": 2,
+        "discriminant": "5",
+        "square": false
+      }
+    ]
+  },
+  "integrality": {
+    "exact_content_comparisons": 288,
+    "nonconstant_mod_five_obstructions": 240,
+    "one_polynomial_insufficient_example": "X/2"
+  },
+  "diagnostics": {
+    "polynomial_substitutions": 56,
+    "integer_evaluation_diagnostics": 168,
+    "maximum_degree_checked": 80,
+    "negative_coefficient_parameter": "X**5 + 2*X**4 - X**3 + 2*X**2 + X",
+    "examples_are_not_numerical_counterexamples": true
+  }
+}

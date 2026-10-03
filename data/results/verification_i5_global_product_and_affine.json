@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "i": 5,
+  "general_i5_solved": false,
+  "new_completely_solved_indices": 0,
+  "unresolved_indices": 28,
+  "binomial_identity": {
+    "diagnostic_cases": 13225,
+    "nontrivial_quotients": 6503,
+    "scope": "identity and exact row decomposition diagnostics; universal identity proved in the note"
+  },
+  "coupled_denominators": {
+    "period": 360,
+    "restored_joint_denominator_maxima": {
+      "0,1": 120,
+      "1,0": 30
+    },
+    "restored_A6_B5_constants": {
+      "0,1": "1458000000",
+      "1,0": "11390625/32"
+    },
+    "tail_lower": "Q5(n) > (n-4)^3*(n-1)^(57/200)/C",
+    "external_dependency": "Bennett-Filaseta-Trifonov Theorem 2.1, prime pair (2,3)"
+  },
+  "affine_geometry": {
+    "selected_slopes": [
+      {
+        "a": 0,
+        "b": 1,
+        "offsets": [
+          -4,
+          -3,
+          -2,
+          -1,
+          0
+        ],
+        "factor_count": 5
+      },
+      {
+        "a": 1,
+        "b": 2,
+        "offsets": [
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "factor_count": 9
+      },
+      {
+        "a": 1,
+        "b": 3,
+        "offsets": [
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "factor_count": 12
+      },
+      {
+        "a": 1,
+        "b": 4,
+        "offsets": [
+          -12,
+          -9,
+          -8,
+          -6,
+          -5,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "factor_count": 14
+      },
+      {
+        "a": 2,
+        "b": 5,
+        "offsets": [
+          -12,
+          -9,
+          -7,
+          -6,
+          -4,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          8
+        ],
+        "factor_count": 15
+      }
+    ],
+    "central_zero_lines": [
+      {
+        "gap": 0,
+        "missed_row": 3,
+        "n_upper": 543
+      },
+      {
+        "gap": 1,
+        "missed_row": 2,
+        "n_upper": 182
+      },
+      {
+        "gap": 2,
+        "missed_row": 3,
+        "n_upper": 903
+      },
+      {
+        "gap": 3,
+        "missed_row": 2,
+        "n_upper": 902
+      },
+      {
+        "gap": 4,
+        "missed_row": 2,
+        "n_upper": 2882
+      }
+    ],
+    "general_zero_line_bound": "n <= 60*(8*b)^4+3",
+    "scope": "finite geometry replay; general b proof uses b|(s-t), not a finite denominator cutoff"
+  },
+  "formal_cells": {
+    "crt_diagnostics": 18,
+    "prime_power_exponents": [
+      1,
+      2,
+      3
+    ],
+    "scope": "formal coprime cell examples, not counterexamples or a proof by sampling"
+  },
+  "thresholds": {
+    "tail_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "integer_inequalities": {
+      "j_at_most_1p4e57": true,
+      "odd_n_j_at_most_1p9e57": true,
+      "central_gap_at_most_3e31": true,
+      "one_third_error_at_most_4e23": true,
+      "one_quarter_error_at_most_1e20": true,
+      "uniform_height_error_at_most_1e18": true,
+      "uniform_zero_line_b_at_most_1e18": true
+    },
+    "j_exponent": "657/1000",
+    "central_gap_exponent": "73/200",
+    "all_n_extension_dependency": "existing finite theorem for i>=5, n<=10^87"
+  },
+  "valuation_frontier": {
+    "prime_power_exponent_lower_bounds": {
+      "row0_p2": 156,
+      "row0_p3": 99,
+      "row1_p2": 108,
+      "row1_p3": 68
+    },
+    "necessary_progressions": [
+      {
+        "orientation": [
+          0,
+          1
+        ],
+        "row0_prime": 2,
+        "row0_exponent_min": 156,
+        "row1_prime": 3,
+        "row1_exponent_min": 68,
+        "residue": "10600763155255569140203320032939237561121493264924019151104702106518669404143616",
+        "modulus": "25405318535010317608188137761857752121902631362628383293696134686107005716791296",
+        "class_mod72": 64
+      },
+      {
+        "orientation": [
+          1,
+          0
+        ],
+        "row0_prime": 3,
+        "row0_exponent_min": 99,
+        "row1_prime": 2,
+        "row1_exponent_min": 108,
+        "residue": "15294068252851285528973411802043661731727551520408034419091471647496374193225729",
+        "modulus": "55749855872006050653584236130820934019169596627025482371675474463530422739402752",
+        "class_mod72": 9
+      }
+    ],
+    "remaining_classes_mod72": [
+      9,
+      64
+    ],
+    "class_45_closed": true,
+    "family_closed_all_n": "n=3^f*5^(2t+1), f,t>=0",
+    "scope": "necessary congruences are infinite and do not prove general i=5"
+  },
+  "cofactor_imbalance": {
+    "restored_product_upper": "A*B < 70*n^(3/5); odd n: A*B < 13*n^(3/5)",
+    "integer_ratio_tests": {
+      "A_over_B_gt_3": true,
+      "B_over_A_gt_2": true,
+      "odd_A_over_B_gt_17": true,
+      "odd_B_over_A_gt_10": true
+    },
+    "necessary_unbalanced_alternatives": "A>3B or B>2A; odd n: A>17B or B>10A",
+    "A_max_ratio_growth_exponent": "27/1000",
+    "B_max_ratio_growth_exponent": "9/400",
+    "ineffective_finiteness": {
+      "external_theorem": "Mahler/Ridout: x*(x+1)=2^k*3^l*y implies y>x^(1-epsilon) for sufficiently large x",
+      "source": "Bennett-Filaseta-Trifonov, introduction, page 2; cites Mahler, Lectures on Diophantine Approximations I (1961)",
+      "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+      "epsilon": "1/4",
+      "substitution": "x=n-1, y=A*B",
+      "consequence": "Only finitely many i=5 counterexamples, using the stated external theorem and prior support reduction",
+      "numerical_cutoff_known": false,
+      "theorem_proof_replayed": false,
+      "scope": "non-effective finiteness; cannot justify scanning to an invented upper bound or claiming general i=5 solved"
+    }
+  },
+  "perfect_power_closeout": {
+    "family_closed_all_n": "at least one of n-1,n,n+1 is z^k, integers z>=2,k>=2; every allowable j, i=5",
+    "square_diagnostic_cases": 120,
+    "odd_exponent_LTE_diagnostic_cases": 1200,
+    "adjacent_n_minus_1_LTE_cases": 2985,
+    "adjacent_n_plus_1_LTE_cases": 2970,
+    "adjacent_n_plus_1_square_cases": 278,
+    "restored_9_4_constant": 71191406250000,
+    "square_constant": 1492992000000,
+    "square_root_floor": "10000000000000000000000000000000000000000000",
+    "integer_threshold_tests": {
+      "square_D_upper_below_BFT_lower": true,
+      "square_C_upper_below_BFT_lower": true,
+      "log2_N_below_290": true,
+      "odd_exponent_uniform_threshold": true,
+      "monotonicity_log_N_above_15": true,
+      "n_minus_1_odd_power_threshold": true,
+      "n_plus_1_square_threshold": true,
+      "n_plus_1_odd_power_threshold": true
+    },
+    "square_reduction": "A=C^2, B=D*H, H>z/4, C^12*D^5 < (4^5*C6)*z",
+    "odd_exponent_reduction": "n^(2-5/k) < C6*k^5; k<=log2(n), k>=3",
+    "n_minus_1_reduction": "squares excluded mod72; odd k: x < 512*C6*k^6, x=n-1",
+    "n_plus_1_reduction": "squares: sqrt(n)<4^9*C9*5^9; odd k: x^2<C9*5^9*k^9, x=n+1",
+    "all_odd_5_smooth_n_closed": "n=3^f*5^d for every f,d>=0 and every allowable j, i=5",
+    "remaining_5_smooth_necessary_form": "n=2^e*5^d with e,d positive odd and e=d mod6; not actual counterexamples",
+    "dependencies": [
+      "prior support reduction to 01",
+      "Bennett-Filaseta-Trifonov Theorem 2.1 at the square root",
+      "existing finite theorem for i>=5, n<=10^87"
+    ],
+    "scope": "universal proof in the note; diagnostic roots/exponents are not a finite coverage proof"
+  },
+  "effective_exponent_gap": {
+    "formal_exponents": {
+      "log_n_A": "1/3",
+      "log_n_B": "1/10"
+    },
+    "mixed_6_5_exponent": "5/2",
+    "mixed_9_4_exponent": "17/5",
+    "BFT_Corollary_2_3_max_exponent": "2921/10000",
+    "scope": "exponent relaxation only, not integers, a Kummer model, or a counterexample",
+    "consequence": "the presently recorded effective exponent bounds alone do not give a tail contradiction"
+  }
+}

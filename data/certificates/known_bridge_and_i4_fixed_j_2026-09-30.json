@@ -1,0 +1,484 @@
+{
+  "scope": "EEES78 exception audit, known bridge connection, and i=4 all-n finite-j region; not a solution of the general conjecture.",
+  "dependency": "The known j<=3i/2 connection invokes EEES78. The i=4 finite-j theorem uses elementary Legendre bounds for its tail.",
+  "exception_pairs": [
+    {
+      "n": 8,
+      "i": 3,
+      "A": "56",
+      "u": "8",
+      "v": "7",
+      "witnesses": [
+        {
+          "j": 4,
+          "common_prime": 7,
+          "common_gcd": "14"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "i": 4,
+      "A": "126",
+      "u": "18",
+      "v": "7",
+      "witnesses": []
+    },
+    {
+      "n": 10,
+      "i": 5,
+      "A": "252",
+      "u": "36",
+      "v": "7",
+      "witnesses": []
+    },
+    {
+      "n": 12,
+      "i": 5,
+      "A": "792",
+      "u": "72",
+      "v": "11",
+      "witnesses": [
+        {
+          "j": 6,
+          "common_prime": 11,
+          "common_gcd": "132"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "i": 7,
+      "A": "116280",
+      "u": "360",
+      "v": "323",
+      "witnesses": [
+        {
+          "j": 8,
+          "common_prime": 19,
+          "common_gcd": "29070"
+        },
+        {
+          "j": 9,
+          "common_prime": 19,
+          "common_gcd": "3230"
+        },
+        {
+          "j": 10,
+          "common_prime": 19,
+          "common_gcd": "3876"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "i": 8,
+      "A": "203490",
+      "u": "630",
+      "v": "323",
+      "witnesses": [
+        {
+          "j": 9,
+          "common_prime": 19,
+          "common_gcd": "22610"
+        },
+        {
+          "j": 10,
+          "common_prime": 19,
+          "common_gcd": "13566"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "i": 7,
+      "A": "2035800",
+      "u": "5400",
+      "v": "377",
+      "witnesses": [
+        {
+          "j": 8,
+          "common_prime": 29,
+          "common_gcd": "254475"
+        },
+        {
+          "j": 9,
+          "common_prime": 29,
+          "common_gcd": "56550"
+        },
+        {
+          "j": 10,
+          "common_prime": 29,
+          "common_gcd": "16965"
+        },
+        {
+          "j": 11,
+          "common_prime": 29,
+          "common_gcd": "339300"
+        },
+        {
+          "j": 12,
+          "common_prime": 29,
+          "common_gcd": "28275"
+        },
+        {
+          "j": 13,
+          "common_prime": 29,
+          "common_gcd": "39150"
+        },
+        {
+          "j": 14,
+          "common_prime": 29,
+          "common_gcd": "19575"
+        },
+        {
+          "j": 15,
+          "common_prime": 29,
+          "common_gcd": "10440"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "i": 13,
+      "A": "573166440",
+      "u": "27720",
+      "v": "20677",
+      "witnesses": [
+        {
+          "j": 14,
+          "common_prime": 31,
+          "common_gcd": "81880920"
+        },
+        {
+          "j": 15,
+          "common_prime": 31,
+          "common_gcd": "27293640"
+        },
+        {
+          "j": 16,
+          "common_prime": 31,
+          "common_gcd": "20470230"
+        }
+      ]
+    },
+    {
+      "n": 33,
+      "i": 14,
+      "A": "818809200",
+      "u": "39600",
+      "v": "20677",
+      "witnesses": [
+        {
+          "j": 15,
+          "common_prime": 31,
+          "common_gcd": "54587280"
+        },
+        {
+          "j": 16,
+          "common_prime": 31,
+          "common_gcd": "20470230"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "i": 13,
+      "A": "2310789600",
+      "u": "151200",
+      "v": "15283",
+      "witnesses": [
+        {
+          "j": 14,
+          "common_prime": 31,
+          "common_gcd": "165056400"
+        },
+        {
+          "j": 15,
+          "common_prime": 31,
+          "common_gcd": "22007520"
+        },
+        {
+          "j": 16,
+          "common_prime": 31,
+          "common_gcd": "28884870"
+        },
+        {
+          "j": 17,
+          "common_prime": 31,
+          "common_gcd": "33982200"
+        },
+        {
+          "j": 18,
+          "common_prime": 31,
+          "common_gcd": "1887900"
+        }
+      ]
+    },
+    {
+      "n": 36,
+      "i": 17,
+      "A": "8597496600",
+      "u": "415800",
+      "v": "20677",
+      "witnesses": [
+        {
+          "j": 18,
+          "common_prime": 31,
+          "common_gcd": "477638700"
+        }
+      ]
+    },
+    {
+      "n": 56,
+      "i": 13,
+      "A": "1889912732400",
+      "u": "1940400",
+      "v": "973981",
+      "witnesses": [
+        {
+          "j": 14,
+          "common_prime": 53,
+          "common_gcd": "134993766600"
+        },
+        {
+          "j": 15,
+          "common_prime": 53,
+          "common_gcd": "377982546480"
+        },
+        {
+          "j": 16,
+          "common_prime": 53,
+          "common_gcd": "23623909155"
+        },
+        {
+          "j": 17,
+          "common_prime": 53,
+          "common_gcd": "55585668600"
+        },
+        {
+          "j": 18,
+          "common_prime": 53,
+          "common_gcd": "9264278100"
+        },
+        {
+          "j": 19,
+          "common_prime": 53,
+          "common_gcd": "18528556200"
+        },
+        {
+          "j": 20,
+          "common_prime": 53,
+          "common_gcd": "926427810"
+        },
+        {
+          "j": 21,
+          "common_prime": 53,
+          "common_gcd": "1588161960"
+        },
+        {
+          "j": 22,
+          "common_prime": 53,
+          "common_gcd": "2526621300"
+        },
+        {
+          "j": 23,
+          "common_prime": 53,
+          "common_gcd": "3735005400"
+        },
+        {
+          "j": 24,
+          "common_prime": 53,
+          "common_gcd": "5135632425"
+        },
+        {
+          "j": 25,
+          "common_prime": 53,
+          "common_gcd": "3286804752"
+        },
+        {
+          "j": 26,
+          "common_prime": 53,
+          "common_gcd": "3286804752"
+        },
+        {
+          "j": 27,
+          "common_prime": 53,
+          "common_gcd": "1826002640"
+        },
+        {
+          "j": 28,
+          "common_prime": 53,
+          "common_gcd": "130428760"
+        }
+      ]
+    }
+  ],
+  "bridge_algebra_cases": 12826,
+  "known_small_j_endpoints": [
+    {
+      "i": 3,
+      "j_upper": 5
+    },
+    {
+      "i": 4,
+      "j_upper": 6
+    },
+    {
+      "i": 5,
+      "j_upper": 8
+    },
+    {
+      "i": 6,
+      "j_upper": 9
+    },
+    {
+      "i": 7,
+      "j_upper": 11
+    },
+    {
+      "i": 8,
+      "j_upper": 12
+    },
+    {
+      "i": 9,
+      "j_upper": 14
+    },
+    {
+      "i": 10,
+      "j_upper": 16
+    },
+    {
+      "i": 11,
+      "j_upper": 17
+    },
+    {
+      "i": 12,
+      "j_upper": 19
+    },
+    {
+      "i": 13,
+      "j_upper": 20
+    },
+    {
+      "i": 14,
+      "j_upper": 22
+    },
+    {
+      "i": 15,
+      "j_upper": 23
+    },
+    {
+      "i": 16,
+      "j_upper": 25
+    },
+    {
+      "i": 17,
+      "j_upper": 26
+    },
+    {
+      "i": 18,
+      "j_upper": 28
+    },
+    {
+      "i": 19,
+      "j_upper": 29
+    },
+    {
+      "i": 20,
+      "j_upper": 31
+    },
+    {
+      "i": 21,
+      "j_upper": 32
+    },
+    {
+      "i": 22,
+      "j_upper": 34
+    },
+    {
+      "i": 23,
+      "j_upper": 35
+    },
+    {
+      "i": 24,
+      "j_upper": 37
+    },
+    {
+      "i": 25,
+      "j_upper": 38
+    },
+    {
+      "i": 26,
+      "j_upper": 40
+    },
+    {
+      "i": 27,
+      "j_upper": 41
+    },
+    {
+      "i": 28,
+      "j_upper": 43
+    },
+    {
+      "i": 29,
+      "j_upper": 44
+    },
+    {
+      "i": 30,
+      "j_upper": 46
+    },
+    {
+      "i": 31,
+      "j_upper": 47
+    },
+    {
+      "i": 32,
+      "j_upper": 49
+    },
+    {
+      "i": 33,
+      "j_upper": 50
+    },
+    {
+      "i": 34,
+      "j_upper": 52
+    }
+  ],
+  "i4_fixed_j": {
+    "i": 4,
+    "j_lower": 5,
+    "j_upper": 1000,
+    "n_upper": 496508,
+    "tail_dependency": "Elementary Legendre bounds only; no EEES theorem.",
+    "max_Q4_j": "41086285255",
+    "C_N_4": "2532144653690535584195",
+    "C_N_plus_1_4": "2532165053442028040751",
+    "tail_comparison_at_N": [
+      "122397769398625710",
+      "122398015916337240"
+    ],
+    "tail_comparison_at_N_plus_1": [
+      "122398508954739336",
+      "122398262434048770"
+    ],
+    "all_divisors_generated": 53072,
+    "distinct_large_divisors": 22050,
+    "n_hits_before_j_range_filter": 991,
+    "finite_EEES_inequality_checks": 496499,
+    "bridge_candidates": 1,
+    "records": [
+      {
+        "n": 57,
+        "j": 22,
+        "large_part": "7315",
+        "common_prime": 5,
+        "common_gcd": "35910"
+      }
+    ]
+  },
+  "source_sha256": {
+    "1978-31.pdf": "a9c060afbd03a56db5c0ccc9432e0a03ff30a75e6fca0e3ebaea85bee47a768d",
+    "1978-46.pdf": "da8bfddd328fa01605cba4c751a7bf9fe07c4fa31bd6cf519fd32c5707ed302b"
+  }
+}

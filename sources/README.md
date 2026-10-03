@@ -6,6 +6,9 @@
 提案・未検証の報告・後に訂正した主張も、原文の一部として含まれています。
 証明済みの結論は[現在地](../docs/STATUS.md)と[研究ノート](../research/README.md)を参照してください。
 
+9月30日に照合した一次文献・公的ページ・上流の定式化は[文献と取得記録](literature_2026-09-30/README.md)に保存しました。
+原PDFのハッシュは証明書に記録し、有限 $j$ の再生器でも照合します。
+
 9月26日の追加引継ぎ2件は下表の先頭にあります。[取り込み記録](handoff_import_2026-09-26.json)で受領名・サイズ・SHA-256を保存しました。
 原文の次チャット向け指示は資料の一部です。統合時の訂正や未再認証箇所は[二資料の統合稿](../research/general/handoff_integration_2026-09-26.md)を参照してください。
 
@@ -34,3 +37,5 @@
 | [ChatGPTの回答](source_chatgpt_uniform_response_2026-09-20.md) | [回答の統合と訂正](../research/i3/i3_chatgpt_uniform_integration_2026-09-20.md) |
 
 他の原文もこのフォルダに保存しています。原文内の旧ファイル名は[対応表](../archive/FILE_MAP.md)で探せます。
+
+2026-10-03に再照会したGitHub main・READMEは[基準の取得記録](github699_baseline_snapshot_2026-10-03.json)に保存しました。[GitHubからの全進展](../docs/GITHUB_PROGRESS_2026-10-03.md)と対応します。

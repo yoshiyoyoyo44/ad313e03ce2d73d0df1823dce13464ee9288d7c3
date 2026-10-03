@@ -1,0 +1,77 @@
+{
+  "status": "VERIFIED",
+  "i": 5,
+  "support": [
+    0,
+    3
+  ],
+  "tail_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "capacity": {
+    "coverage": "R0^2 R3 R1^3 R2^2 R4",
+    "line_product_upper": "< n^4/16",
+    "conic_upper": "< 2 n^2",
+    "orientation_A_R0sqR3_upper": 62499,
+    "orientation_B_R0sqR3_upper": 31249
+  },
+  "spacing": {
+    "A": {
+      "coefficient_count": 37499,
+      "max_coefficient": 312485,
+      "closest": [
+        289655,
+        96865
+      ],
+      "P": 522767741723052913024237917,
+      "Q": 828567267217721441067369971,
+      "cutoff_E": 126,
+      "gap_scaled": "11042896613485191974126339660062970203722167352859667237230",
+      "error_scaled": "5982467622123495724918798354369552368797",
+      "epsilon_scaled": "5060428991361696249207541305693417834925167352859667237230"
+    },
+    "B": {
+      "coefficient_count": 18751,
+      "max_coefficient": 156245,
+      "closest": [
+        111245,
+        107285
+      ],
+      "P": 171940427682738454384974395,
+      "Q": 272519130235098249773351391,
+      "cutoff_E": 120,
+      "gap_scaled": "149885778442245353001248863281558412096742215370422057488359",
+      "error_scaled": "63108402335129408002248817045146603225496",
+      "epsilon_scaled": "86777376107115944999000046236411808871246215370422057488359"
+    }
+  },
+  "coefficient_pairs": {
+    "A": 57451,
+    "B": 28727
+  },
+  "terminal": {
+    "A": {
+      "Gmax": 86,
+      "solutions": 112,
+      "largest": [
+        18,
+        3,
+        1,
+        9709,
+        786432
+      ],
+      "largest_n": 786432
+    },
+    "B": {
+      "Gmax": 86,
+      "solutions": 78,
+      "largest": [
+        4,
+        12,
+        33215,
+        1,
+        1594323
+      ],
+      "largest_n": 1594323
+    }
+  },
+  "conclusion": "support {0,3} is impossible for n>=10^87; existing finite theorem then excludes it for all n"
+}

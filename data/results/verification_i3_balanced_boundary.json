@@ -1,0 +1,81 @@
+{
+  "scope": "All balanced minimum boundaries of lifted polynomials; general numerical i=3 remains open.",
+  "finite_exception_certificates": {
+    "counts": {
+      "even": 855,
+      "central": 3430
+    },
+    "moduli": [
+      1009,
+      1013
+    ],
+    "independent_full_integer_Horner_evaluations": 4285,
+    "maximum_integer_bits": 1578,
+    "sha256": "e34176c22e9fa44ac4c0ed1a8fb252e93b8c91490fbb4774d25a980afd6f6eeb"
+  },
+  "analytic_rational_bounds": {
+    "S": {
+      "lower": {
+        "numerator": 16968670571801540281,
+        "denominator": 8204276386555232256
+      },
+      "upper": {
+        "numerator": 180169101963745804338119,
+        "denominator": 87110955603346817286144
+      }
+    },
+    "ET": {
+      "lower": {
+        "numerator": 384254315484635975,
+        "denominator": 178353834490331136
+      },
+      "upper": {
+        "numerator": 59409986666319103975,
+        "denominator": 27575484521477308416
+      }
+    },
+    "EU": {
+      "lower": {
+        "numerator": 1130921063110687924765,
+        "denominator": 496358721386591551488
+      },
+      "upper": {
+        "numerator": 6785526378664128095465,
+        "denominator": 2978152328319549308928
+      }
+    },
+    "G_at_5000_over_2277_upper": {
+      "numerator": -368392852283262455821618074279119000016714157881422904780946,
+      "denominator": 3674449327973144340679282723775243625852781191910141047182973
+    },
+    "G_at_7_over_3_lower": {
+      "numerator": 733253100167321624638157,
+      "denominator": 2933706558854924424000000
+    }
+  },
+  "identities": {
+    "core_models": 33,
+    "sparse_identities": 22,
+    "Taylor_coefficients": 176
+  },
+  "integer_edges": {
+    "even_core_integer_diagnostics": 24,
+    "central_exception_maps": [
+      2,
+      3
+    ],
+    "sextic_factorizations": 4
+  },
+  "all_partition_bound": {
+    "rounding_diagnostics": 472071,
+    "empty_central_group_identity": 1,
+    "delta_zero_unbalanced_diagnostics": 998,
+    "paper_bound": "h >= ceil((8*u-v)/12), u <= v < 2*u",
+    "balanced_strict_bound": "h > 7*u/12"
+  },
+  "does_not_prove": [
+    "all higher difference degrees",
+    "all odd five-power cores",
+    "general numerical lifting"
+  ]
+}

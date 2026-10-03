@@ -1,0 +1,337 @@
+{
+  "scope": "Exact polynomial cuts with numerical LP progression; final witness independently integer-verified",
+  "trace": [
+    {
+      "round": 1,
+      "support_size": 101,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.026315789473683772,
+      "outgoing_epsilon": 0.02631578947368454,
+      "outgoing_support_size": 97
+    },
+    {
+      "round": 2,
+      "support_size": 97,
+      "degree": 14,
+      "threshold_power_10": 36,
+      "incoming_epsilon": 0.02631578947368454,
+      "outgoing_epsilon": 0.026315789473685264,
+      "outgoing_support_size": 102
+    },
+    {
+      "round": 3,
+      "support_size": 102,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.026315789473685264,
+      "outgoing_epsilon": 0.02631578947368317,
+      "outgoing_support_size": 101
+    },
+    {
+      "round": 4,
+      "support_size": 101,
+      "degree": 14,
+      "threshold_power_10": 31,
+      "incoming_epsilon": 0.02631578947368317,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473688258,
+      "outgoing_support_size": 106
+    },
+    {
+      "round": 5,
+      "support_size": 106,
+      "degree": 15,
+      "threshold_power_10": 44,
+      "incoming_epsilon": 0.026315789473688258,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473685788,
+      "outgoing_support_size": 103
+    },
+    {
+      "round": 6,
+      "support_size": 103,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.026315789473685788,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684414,
+      "outgoing_support_size": 104
+    },
+    {
+      "round": 7,
+      "support_size": 104,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473684414,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473682655,
+      "outgoing_support_size": 98
+    },
+    {
+      "round": 8,
+      "support_size": 98,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473682655,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684386,
+      "outgoing_support_size": 96
+    },
+    {
+      "round": 9,
+      "support_size": 96,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.026315789473684386,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684067,
+      "outgoing_support_size": 94
+    },
+    {
+      "round": 10,
+      "support_size": 94,
+      "degree": 14,
+      "threshold_power_10": 32,
+      "incoming_epsilon": 0.026315789473684067,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684736,
+      "outgoing_support_size": 102
+    },
+    {
+      "round": 11,
+      "support_size": 102,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.026315789473684736,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683463,
+      "outgoing_support_size": 97
+    },
+    {
+      "round": 12,
+      "support_size": 97,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.026315789473683463,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368649,
+      "outgoing_support_size": 110
+    },
+    {
+      "round": 13,
+      "support_size": 110,
+      "degree": 15,
+      "threshold_power_10": 49,
+      "incoming_epsilon": 0.02631578947368649,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368079,
+      "outgoing_support_size": 99
+    },
+    {
+      "round": 14,
+      "support_size": 99,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.02631578947368079,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683827,
+      "outgoing_support_size": 108
+    },
+    {
+      "round": 15,
+      "support_size": 108,
+      "degree": 15,
+      "threshold_power_10": 46,
+      "incoming_epsilon": 0.026315789473683827,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368306,
+      "outgoing_support_size": 103
+    },
+    {
+      "round": 16,
+      "support_size": 103,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.02631578947368306,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368374,
+      "outgoing_support_size": 107
+    },
+    {
+      "round": 17,
+      "support_size": 107,
+      "degree": 15,
+      "threshold_power_10": 45,
+      "incoming_epsilon": 0.02631578947368374,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368819,
+      "outgoing_support_size": 102
+    },
+    {
+      "round": 18,
+      "support_size": 102,
+      "degree": 14,
+      "threshold_power_10": 32,
+      "incoming_epsilon": 0.02631578947368819,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683068,
+      "outgoing_support_size": 108
+    },
+    {
+      "round": 19,
+      "support_size": 108,
+      "degree": 15,
+      "threshold_power_10": 43,
+      "incoming_epsilon": 0.026315789473683068,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684292,
+      "outgoing_support_size": 108
+    },
+    {
+      "round": 20,
+      "support_size": 108,
+      "degree": 15,
+      "threshold_power_10": 46,
+      "incoming_epsilon": 0.026315789473684292,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683817,
+      "outgoing_support_size": 105
+    },
+    {
+      "round": 21,
+      "support_size": 105,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.026315789473683817,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473669027,
+      "outgoing_support_size": 108
+    },
+    {
+      "round": 22,
+      "support_size": 108,
+      "degree": 15,
+      "threshold_power_10": 46,
+      "incoming_epsilon": 0.026315789473669027,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368099,
+      "outgoing_support_size": 99
+    },
+    {
+      "round": 23,
+      "support_size": 99,
+      "degree": 14,
+      "threshold_power_10": 34,
+      "incoming_epsilon": 0.02631578947368099,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683956,
+      "outgoing_support_size": 103
+    },
+    {
+      "round": 24,
+      "support_size": 103,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473683956,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368167,
+      "outgoing_support_size": 100
+    },
+    {
+      "round": 25,
+      "support_size": 100,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.02631578947368167,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473690582,
+      "outgoing_support_size": 104
+    },
+    {
+      "round": 26,
+      "support_size": 104,
+      "degree": 14,
+      "threshold_power_10": 32,
+      "incoming_epsilon": 0.026315789473690582,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683435,
+      "outgoing_support_size": 101
+    },
+    {
+      "round": 27,
+      "support_size": 101,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473683435,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473684317,
+      "outgoing_support_size": 100
+    },
+    {
+      "round": 28,
+      "support_size": 100,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.026315789473684317,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368447,
+      "outgoing_support_size": 104
+    },
+    {
+      "round": 29,
+      "support_size": 104,
+      "degree": 14,
+      "threshold_power_10": 32,
+      "incoming_epsilon": 0.02631578947368447,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368724,
+      "outgoing_support_size": 102
+    },
+    {
+      "round": 30,
+      "support_size": 102,
+      "degree": 14,
+      "threshold_power_10": 36,
+      "incoming_epsilon": 0.02631578947368724,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473683477,
+      "outgoing_support_size": 101
+    },
+    {
+      "round": 31,
+      "support_size": 101,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473683477,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473682818,
+      "outgoing_support_size": 101
+    },
+    {
+      "round": 32,
+      "support_size": 101,
+      "degree": 14,
+      "threshold_power_10": 35,
+      "incoming_epsilon": 0.026315789473682818,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.02631578947368415,
+      "outgoing_support_size": 100
+    },
+    {
+      "round": 33,
+      "support_size": 100,
+      "degree": 14,
+      "threshold_power_10": 33,
+      "incoming_epsilon": 0.02631578947368415,
+      "proof_arithmetic_checked_before_saving": true,
+      "outgoing_epsilon": 0.026315789473686846,
+      "outgoing_support_size": 102
+    }
+  ],
+  "stop_reason": "Additional 30-round budget completed; no mathematical stopping condition reached.",
+  "final_support_size": 102,
+  "final_support_next_interpolation_degree": 14,
+  "final_support_evaluation_rank": 102,
+  "completed_extra_rounds": 30
+}

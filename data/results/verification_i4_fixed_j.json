@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "j_upper": 1000,
+  "n_upper": 496508,
+  "scanned_n": 496499,
+  "all_divisors": 53072,
+  "sole_bridge_candidate": [
+    57,
+    22
+  ],
+  "common_prime": 5,
+  "upper_Kummer_modulus": 25,
+  "theorem_dependency": "Elementary Legendre valuation bound; no EEES theorem required for fixed j."
+}

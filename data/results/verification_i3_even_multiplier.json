@@ -1,0 +1,110 @@
+{
+  "scope": "odd half-degree partial sharing; general i=3 open",
+  "gluing_diagnostics": {
+    "assignments": 4698,
+    "admissible": 54,
+    "rows": [
+      {
+        "m": 6,
+        "b": 2,
+        "assignments": 27,
+        "admissible": 9,
+        "gluing_edges": 1
+      },
+      {
+        "m": 10,
+        "b": 6,
+        "assignments": 27,
+        "admissible": 9,
+        "gluing_edges": 1
+      },
+      {
+        "m": 14,
+        "b": 4,
+        "assignments": 27,
+        "admissible": 9,
+        "gluing_edges": 1
+      },
+      {
+        "m": 18,
+        "b": 2,
+        "assignments": 243,
+        "admissible": 9,
+        "gluing_edges": 3
+      },
+      {
+        "m": 30,
+        "b": 2,
+        "assignments": 2187,
+        "admissible": 9,
+        "gluing_edges": 6
+      },
+      {
+        "m": 42,
+        "b": 4,
+        "assignments": 2187,
+        "admissible": 9,
+        "gluing_edges": 6
+      }
+    ]
+  },
+  "CRT_diagnostics": {
+    "partial_normal_forms_compared_with_CRT": 54,
+    "Frobenius_identities_diagnostic": 18,
+    "finite_diagnostics_only": true
+  },
+  "compression": {
+    "arbitrary_half_degree_compression": true,
+    "second_integer_identity": true,
+    "D_mod_q": true
+  },
+  "bounds": {
+    "b_ge_2_D_bound": [
+      211651063,
+      644972544
+    ],
+    "b1_abs_t_bound": [
+      3904,
+      729
+    ],
+    "b1_D_less_than_3_gap": "3*q**5 - 3*q*(q - 2)*(q - 1)*(q + 1)**2 - 5",
+    "D_candidates": [
+      [
+        4,
+        1,
+        1
+      ],
+      [
+        5,
+        2,
+        1
+      ]
+    ],
+    "radix5_nonconstant_pairs": 14
+  },
+  "scope_witness": {
+    "m": 12,
+    "a": 5,
+    "b": 2,
+    "q": 10243,
+    "J_coefficients": [
+      1,
+      2,
+      4,
+      10,
+      16,
+      32,
+      80,
+      128,
+      256,
+      640,
+      1024,
+      2048,
+      1024
+    ],
+    "full_polynomial_sharing": true,
+    "first_divisibility": false,
+    "outside_odd_half_degree_theorem": true,
+    "true_counterexample": false
+  }
+}

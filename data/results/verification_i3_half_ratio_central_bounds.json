@@ -1,0 +1,48 @@
+{
+  "scope": "Lifted polynomial portraits only; general numerical i=3 remains open.",
+  "half_ratio_identities": {
+    "portrait_identities": 2,
+    "square_identity": 1,
+    "cubic_discriminant": "-lambda**2*(27*lambda**2 + 140*lambda - 144)",
+    "constant_4_preserved": true
+  },
+  "generic_central_identities": {
+    "portrait_identities": 4,
+    "norm_identity": 1,
+    "quartic_square_identity": 1,
+    "coprimality_reduction": 1
+  },
+  "polynomial_square_gap": {
+    "quartic_approximation_identities": 3,
+    "exceptional_ratios": [
+      "1/3",
+      "2/3"
+    ],
+    "endpoint_discriminant_degree": 6,
+    "endpoint_discriminant_even": true,
+    "endpoint_discriminant_constant": "-8*delta**3*sigma",
+    "endpoint_square_obstruction": "Even degree 6 with nonzero constant has two odd-multiplicity roots."
+  },
+  "degree_diagnostics": {
+    "half_degree_rounding_cases": 338350,
+    "half_constant_endpoints": 833,
+    "generic_nonnegative_degree_cases": 9410061,
+    "negative_K_degree_exclusions": 195364,
+    "square_gap_degree_exclusions": 66067,
+    "central_saturated_sextic_endpoints": 57,
+    "odd_core_nonexclusion_diagnostics": 998
+  },
+  "proved_in_paper": [
+    "t=1/2: h>(5*u-v)/6, including unbalanced and unsaturated partitions",
+    "t!=1/2: h>=(2*u-v+d1)/3",
+    "t!=1/2: h+v>=2*d1 or 7*h+2*v>=5*u+2*d1",
+    "balanced d1=u and t!=1/2: h>5*u/7"
+  ],
+  "not_closed": [
+    "all larger difference degrees",
+    "odd five-power cores a>=4",
+    "general numerical lifting"
+  ],
+  "new_fully_resolved_indices": 0,
+  "complete_i3_solution": false
+}

@@ -1,0 +1,71 @@
+PASS audit_adjacent_digit_descent.py (2.6s)
+
+PASS audit_i5_sparse_allocation.py (129.6s)
+
+PASS audit_i5_global_product_and_affine.py (1.6s)
+
+PASS audit_i5_multiplicity_frontier.py (3.5s)
+
+PASS audit_i3_quintic_split_allocation.py (1.6s)
+
+PASS audit_i3_split_mahler_frontier.py (1.6s)
+
+PASS audit_october03_integration.py (1.5s)
+
+PASS audit_i3_quadratic_cofactor.py (3.0s)
+
+PASS audit_i3_quintic_quadratic_endpoint.py (5.2s)
+
+PASS audit_i3_quintic_quadratic_complete.py (1.7s)
+
+PASS audit_i3_cubic_cofactor.py (1.8s)
+
+PASS audit_i3_sextic_partial_sharing.py (3.9s)
+
+PASS audit_i3_even_multiplier.py (2.1s)
+
+PASS audit_i3_split_geometric.py (1.6s)
+
+PASS audit_i3_arbitrary_cofactor.py (2.1s)
+
+PASS audit_i3_adjacent_resultants.py (2.7s)
+
+PASS audit_i3_central_square_descent.py (3.1s)
+
+PASS audit_i3_half_ratio_central_bounds.py (7.2s)
+
+PASS audit_i3_balanced_boundary.py (11.8s)
+
+PASS audit_i3_five_power_composition.py (2.3s)
+
+PASS audit_i3_five_power_low_degree_closeout.py (4.8s)
+
+PASS audit_i3_half_degree_composition.py (11.1s)
+
+PASS audit_i3_prime_power_resultants.py (2.4s)
+
+PASS audit_i3_septic_and_saturation.py (4.1s)
+
+PASS audit_i3_sextic_closeout.py (5.7s)
+
+PASS audit_i3_quintic_digit_classification.py (2.1s)
+
+PASS audit_i3_quintic_closeout.py (0.2s)
+
+PASS audit_i3_extremal_split_closeout.py (2.5s)
+
+PASS audit_i3_sextic_working_models.py (1.6s)
+
+PASS audit_i4_six_cell_capacity.py (0.2s)
+
+PASS audit_polynomial_capacity_supports.py (0.2s)
+
+PASS audit_iterated_polynomial_capacity.py (2.2s)
+
+PASS audit_known_bridge_and_i4_fixed_j.py (0.7s)
+
+PASS replay_i4_fixed_j.py (1.3s)
+
+PASS check_repository.py (6.6s)
+
+Passed 35 checks. Problem 699 remains open.

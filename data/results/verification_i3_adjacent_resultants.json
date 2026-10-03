@@ -1,0 +1,549 @@
+{
+  "scope": "Two adjacent necessary-condition bounds. Geometric family a>=2, 1<=c<a, m>=3, q>a: every evaluation and its complement excluded as an i=3 counterexample. General i=3 remains open.",
+  "primary_parts": {
+    "factorization_comparisons": 216,
+    "cases_requiring_multiple_gcd_rounds": 152,
+    "single_gcd_is_insufficient": true,
+    "retained_unshared_multiplicity": 2
+  },
+  "norms": {
+    "coefficient_norm_comparisons": 3658
+  },
+  "numerical_diagnostics": {
+    "local_cases": [
+      {
+        "n": 76672,
+        "j": 26775,
+        "q": 1217,
+        "n_mod_4": 0,
+        "m": 1,
+        "b": 1,
+        "H": 64,
+        "r1": 0,
+        "r2": 1,
+        "positive_factor_degree": 1,
+        "eta": [
+          3,
+          1
+        ],
+        "resultant_products": [
+          1,
+          -76670
+        ],
+        "unshared_part_values": [
+          1,
+          76670
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      },
+      {
+        "n": 3258244432,
+        "j": 1087547175,
+        "q": 19,
+        "n_mod_4": 0,
+        "m": 7,
+        "b": 7,
+        "H": 82,
+        "r1": 6,
+        "r2": 7,
+        "positive_factor_degree": 7,
+        "eta": [
+          7,
+          3
+        ],
+        "resultant_products": [
+          2216150317211620621104,
+          -31244624364151076336528758843750
+        ],
+        "unshared_part_values": [
+          171486549,
+          3258244430
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      },
+      {
+        "n": 1004566,
+        "j": 501415,
+        "q": 5,
+        "n_mod_4": 2,
+        "m": 8,
+        "b": 8,
+        "H": 18,
+        "r1": 7,
+        "r2": 8,
+        "positive_factor_degree": 8,
+        "eta": [
+          16,
+          7
+        ],
+        "resultant_products": [
+          9641413044,
+          -145061312416922
+        ],
+        "unshared_part_values": [
+          200913,
+          1004564
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      },
+      {
+        "n": 11603334,
+        "j": 5798717,
+        "q": 7,
+        "n_mod_4": 2,
+        "m": 8,
+        "b": 8,
+        "H": 24,
+        "r1": 7,
+        "r2": 8,
+        "positive_factor_degree": 8,
+        "eta": [
+          16,
+          7
+        ],
+        "resultant_products": [
+          2029273150959065,
+          -99919888970107300691168
+        ],
+        "unshared_part_values": [
+          1657619,
+          11603332
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      },
+      {
+        "n": 433633542,
+        "j": 216798737,
+        "q": 11,
+        "n_mod_4": 2,
+        "m": 8,
+        "b": 8,
+        "H": 32,
+        "r1": 7,
+        "r2": 8,
+        "positive_factor_degree": 8,
+        "eta": [
+          16,
+          7
+        ],
+        "resultant_products": [
+          40164597152967,
+          1606738176124416014400
+        ],
+        "unshared_part_values": [
+          39421231,
+          433633540
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      },
+      {
+        "n": 1683743062,
+        "j": 841835995,
+        "q": 13,
+        "n_mod_4": 2,
+        "m": 8,
+        "b": 8,
+        "H": 58,
+        "r1": 7,
+        "r2": 8,
+        "positive_factor_degree": 8,
+        "eta": [
+          16,
+          7
+        ],
+        "resultant_products": [
+          20526640786791909,
+          970254018659233944808890
+        ],
+        "unshared_part_values": [
+          129518697,
+          1683743060
+        ],
+        "sylvester_determinants": 5,
+        "scope": "Both integer divisibilities and one radix's digits only."
+      }
+    ],
+    "sylvester_determinants": 30,
+    "true_counterexamples_asserted": 0
+  },
+  "family_polynomials": {
+    "symbolic_family_identities": 19,
+    "unshared_degree_diagnostics": [
+      {
+        "m": 3,
+        "a": 2,
+        "c": 1,
+        "complement": false,
+        "r1": 2,
+        "r2": 1
+      },
+      {
+        "m": 3,
+        "a": 2,
+        "c": 1,
+        "complement": true,
+        "r1": 2,
+        "r2": 1
+      },
+      {
+        "m": 8,
+        "a": 3,
+        "c": 1,
+        "complement": false,
+        "r1": 7,
+        "r2": 1
+      },
+      {
+        "m": 8,
+        "a": 3,
+        "c": 1,
+        "complement": true,
+        "r1": 7,
+        "r2": 1
+      },
+      {
+        "m": 12,
+        "a": 7,
+        "c": 6,
+        "complement": false,
+        "r1": 11,
+        "r2": 1
+      },
+      {
+        "m": 12,
+        "a": 7,
+        "c": 6,
+        "complement": true,
+        "r1": 11,
+        "r2": 1
+      },
+      {
+        "m": 20,
+        "a": 2,
+        "c": 1,
+        "complement": false,
+        "r1": 19,
+        "r2": 1
+      },
+      {
+        "m": 20,
+        "a": 2,
+        "c": 1,
+        "complement": true,
+        "r1": 19,
+        "r2": 1
+      }
+    ]
+  },
+  "cubic_reduction": {
+    "elimination_identities": 2,
+    "all_25_pair_certificates": [
+      {
+        "t": 1,
+        "h": 1,
+        "edge": "2*a**2",
+        "discriminant": "12*a**2"
+      },
+      {
+        "t": 1,
+        "h": 2,
+        "edge": "8*a**2 - a - 2",
+        "excluded_by": "positive threshold beyond positive root",
+        "threshold": "2*a**2 + 4*a - 4",
+        "shifted_threshold_coefficients": [
+          2,
+          12,
+          12
+        ]
+      },
+      {
+        "t": 1,
+        "h": 3,
+        "edge": "14*a**2 - 2*a - 6",
+        "excluded_by": "positive threshold beyond positive root",
+        "threshold": "21*a**2 + 12*a - 15",
+        "shifted_threshold_coefficients": [
+          21,
+          96,
+          93
+        ]
+      },
+      {
+        "t": 2,
+        "h": 1,
+        "edge": "-4*a**2 + 2*a + 1",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -4,
+          -14,
+          -11
+        ]
+      },
+      {
+        "t": 2,
+        "h": 2,
+        "edge": "2*a**2",
+        "discriminant": "96*a**2"
+      },
+      {
+        "t": 2,
+        "h": 3,
+        "edge": "8*a**2 - 2*a - 3",
+        "discriminant": "9*(17*a**2 + 8*a + 12)"
+      },
+      {
+        "t": 2,
+        "h": 4,
+        "edge": "14*a**2 - 4*a - 8",
+        "excluded_by": "positive threshold beyond positive root",
+        "threshold": "16*a**2 + 32*a - 8",
+        "shifted_threshold_coefficients": [
+          16,
+          96,
+          120
+        ]
+      },
+      {
+        "t": 3,
+        "h": 1,
+        "edge": "-12*a**2 + 6*a + 2",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -12,
+          -42,
+          -34
+        ]
+      },
+      {
+        "t": 3,
+        "h": 2,
+        "edge": "-6*a**2 + 3*a + 2",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -6,
+          -21,
+          -16
+        ]
+      },
+      {
+        "t": 3,
+        "h": 3,
+        "edge": "0",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          0
+        ]
+      },
+      {
+        "t": 3,
+        "h": 4,
+        "edge": "6*a**2 - 3*a - 4",
+        "discriminant": "3*(147*a**2 + 48*a + 64)"
+      },
+      {
+        "t": 3,
+        "h": 5,
+        "edge": "12*a**2 - 6*a - 10",
+        "excluded_by": "positive threshold beyond positive root",
+        "threshold": "5*a**2 + 60*a + 15",
+        "shifted_threshold_coefficients": [
+          5,
+          80,
+          155
+        ]
+      },
+      {
+        "t": 4,
+        "h": 1,
+        "edge": "-22*a**2 + 12*a + 3",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -22,
+          -76,
+          -61
+        ]
+      },
+      {
+        "t": 4,
+        "h": 2,
+        "edge": "-16*a**2 + 8*a + 4",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -16,
+          -56,
+          -44
+        ]
+      },
+      {
+        "t": 4,
+        "h": 3,
+        "edge": "-10*a**2 + 4*a + 3",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -10,
+          -36,
+          -29
+        ]
+      },
+      {
+        "t": 4,
+        "h": 4,
+        "edge": "-4*a**2",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -4,
+          -16,
+          -16
+        ]
+      },
+      {
+        "t": 4,
+        "h": 5,
+        "edge": "2*a**2 - 4*a - 5",
+        "discriminant": "3*(323*a**2 + 80*a + 100)"
+      },
+      {
+        "t": 4,
+        "h": 6,
+        "edge": "8*a**2 - 8*a - 12",
+        "discriminant": "36*(33*a**2 + 16*a + 24)"
+      },
+      {
+        "t": 5,
+        "h": 1,
+        "edge": "-34*a**2 + 20*a + 4",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -34,
+          -116,
+          -92
+        ]
+      },
+      {
+        "t": 5,
+        "h": 2,
+        "edge": "-28*a**2 + 15*a + 6",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -28,
+          -97,
+          -76
+        ]
+      },
+      {
+        "t": 5,
+        "h": 3,
+        "edge": "-22*a**2 + 10*a + 6",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -22,
+          -78,
+          -62
+        ]
+      },
+      {
+        "t": 5,
+        "h": 4,
+        "edge": "-16*a**2 + 5*a + 4",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -16,
+          -59,
+          -50
+        ]
+      },
+      {
+        "t": 5,
+        "h": 5,
+        "edge": "-10*a**2",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -10,
+          -40,
+          -40
+        ]
+      },
+      {
+        "t": 5,
+        "h": 6,
+        "edge": "-4*a**2 - 5*a - 6",
+        "excluded_by": "E(a,a) <= 0 for a >= 2",
+        "shifted_edge_coefficients": [
+          -4,
+          -21,
+          -32
+        ]
+      },
+      {
+        "t": 5,
+        "h": 7,
+        "edge": "2*a**2 - 10*a - 14",
+        "discriminant": "24*(89*a**2 + 35*a + 49)"
+      }
+    ],
+    "retained_pairs": [
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "small_discriminants": [
+      2244,
+      4593,
+      7824,
+      11937,
+      16932,
+      22809
+    ],
+    "mod_8_comparisons": 8,
+    "mod_16_comparisons": 16,
+    "mod_7_pair_comparisons": 49,
+    "unbounded_sign_and_square_comparison_proof_in_note": true
+  },
+  "family_integers": {
+    "finite_supplementary_cases": 18480,
+    "first_condition_passes_in_small_box": 0,
+    "sharp_scope_example": {
+      "a": 382,
+      "c": 199,
+      "q": 453,
+      "n": 35588953837,
+      "j": 17049051376,
+      "t": 2,
+      "h": 3,
+      "n_mod_4": 1,
+      "second_condition": false
+    },
+    "universal_proof_uses_no_parameter_cutoff": true
+  },
+  "new_fully_resolved_indices": 0
+}

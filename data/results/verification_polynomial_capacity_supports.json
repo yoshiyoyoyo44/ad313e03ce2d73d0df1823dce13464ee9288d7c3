@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "certificate_sha256": "d3733ebd68ec134634dc38c2c9fd12c3f010e8813bc7635d1a8ae37b20ae7a00",
+  "scope": "Four explicitly listed supports excluded for all n after combining with the existing finite-domain theorem; no index solved.",
+  "certificates": [
+    {
+      "name": "quadratic_i27",
+      "i": 27,
+      "support_size": 95,
+      "full_zero_set_size": 95,
+      "degree": 14,
+      "total_certificate_exponent": 18,
+      "polynomial_capacity_exponent": 14,
+      "degree_gap": 4,
+      "threshold_power_10": 32,
+      "threshold_below_existing_finite_range": true,
+      "leading_coefficient_digits": 97,
+      "lower_coefficient_l1_digits": 116,
+      "coefficient_terms": 97
+    },
+    {
+      "name": "half_i27",
+      "i": 27,
+      "support_size": 36,
+      "full_zero_set_size": 36,
+      "degree": 8,
+      "total_certificate_exponent": 18,
+      "polynomial_capacity_exponent": 8,
+      "degree_gap": 10,
+      "threshold_power_10": 10,
+      "threshold_below_existing_finite_range": true,
+      "leading_coefficient_digits": 53,
+      "lower_coefficient_l1_digits": 63,
+      "coefficient_terms": 38
+    },
+    {
+      "name": "half_i30",
+      "i": 30,
+      "support_size": 40,
+      "full_zero_set_size": 40,
+      "degree": 9,
+      "total_certificate_exponent": 20,
+      "polynomial_capacity_exponent": 9,
+      "degree_gap": 11,
+      "threshold_power_10": 13,
+      "threshold_below_existing_finite_range": true,
+      "leading_coefficient_digits": 66,
+      "lower_coefficient_l1_digits": 79,
+      "coefficient_terms": 42
+    },
+    {
+      "name": "half_i33",
+      "i": 33,
+      "support_size": 44,
+      "full_zero_set_size": 44,
+      "degree": 9,
+      "total_certificate_exponent": 22,
+      "polynomial_capacity_exponent": 9,
+      "degree_gap": 13,
+      "threshold_power_10": 13,
+      "threshold_below_existing_finite_range": true,
+      "leading_coefficient_digits": 83,
+      "lower_coefficient_l1_digits": 96,
+      "coefficient_terms": 46
+    }
+  ],
+  "not_claimed": [
+    "all-support exclusion",
+    "newly solved index",
+    "an integer counterexample from any relaxation witness"
+  ]
+}

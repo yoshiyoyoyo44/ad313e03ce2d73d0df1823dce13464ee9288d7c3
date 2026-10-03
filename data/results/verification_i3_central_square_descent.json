@@ -1,0 +1,42 @@
+{
+  "scope": "Lifted polynomial portraits only; general numerical i=3 remains open.",
+  "exact_identities": {
+    "exact_identity_checks": 7,
+    "variable_E_allowed_for_degree_bound": true,
+    "remainder_degree_formulas": [
+      "r=3*k-ell",
+      "s=2*r-k",
+      "deg(Lambda)=3*r-2*k"
+    ]
+  },
+  "strict_endpoint_coefficients": {
+    "endpoint_quartic_degree": 4,
+    "nonconstant_T_degree_obstruction_checked": true,
+    "quadratic_approximation": "delta=-4*sigma*epsilon^2/(9*lambda)+8*E*sigma*(5*rho-28*sigma^2)/3",
+    "coefficient_incompatibility": "N4+N0=192*E^2*sigma^4*((101*rho-382*sigma^2)^2+22140*sigma^4)/101",
+    "positive_quadratic_discriminant": -88560
+  },
+  "degree_diagnostics": {
+    "degree_translation_cases": 3958140,
+    "two_step_eligible_cases": 2871,
+    "first_negative_degree_exclusions": 140,
+    "second_negative_degree_exclusions": 312,
+    "central_integer_rounding_cases": 35500,
+    "central_11_over_15_endpoints": 33,
+    "nonconstant_T_dominance_cases": 10000,
+    "odd_core_nonexclusion_diagnostics": 998
+  },
+  "proved_in_paper": [
+    "t!=1/2: 7*h<=6*u-v or 4*h>=3*u-v+d1 or 15*h+4*v>=11*u+4*d1",
+    "balanced central saturation: h>11*u/15 at every ratio"
+  ],
+  "not_proved": [
+    "infinite square descent",
+    "h>=3*u/4 at every ratio",
+    "all larger difference degrees",
+    "odd five-power cores a>=4",
+    "general numerical lifting"
+  ],
+  "new_fully_resolved_indices": 0,
+  "complete_i3_solution": false
+}

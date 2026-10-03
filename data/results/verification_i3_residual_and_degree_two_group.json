@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "scope": "degree-unbounded polynomial restrictions; general numerical i=3 remains open",
+  "residual_bound": "h >= u-d_s except s=1,t=1/2",
+  "third_ratio_bound": "t=1/3 implies h >= v-u+1",
+  "two_small_group_branch": "(d0,d1,d2)=(d-1,d-1,2) implies h=d-1",
+  "quadratic_discriminant_positive_identity": "(4*t**6*(1 - t**2) + (m - 2*t**4 + t**2)**2)/t**4",
+  "odd_degree_divisor": "E0-O",
+  "even_degree_divisor": "E0-T",
+  "double_quadratic_group_excluded": true,
+  "double_group_degree_equation": "(4*d^2-45)^2-k^2=1296",
+  "all_even_factor_pairs_1296": [
+    [
+      2,
+      648,
+      "185/2"
+    ],
+    [
+      4,
+      324,
+      "209/4"
+    ],
+    [
+      6,
+      216,
+      "39"
+    ],
+    [
+      8,
+      162,
+      "65/2"
+    ],
+    [
+      12,
+      108,
+      "105/4"
+    ],
+    [
+      18,
+      72,
+      "45/2"
+    ],
+    [
+      24,
+      54,
+      "21"
+    ],
+    [
+      36,
+      36,
+      "81/4"
+    ]
+  ],
+  "checks_use_symbolic_degree": true
+}

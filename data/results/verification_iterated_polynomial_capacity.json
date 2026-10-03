@@ -1,0 +1,431 @@
+{
+  "status": "passed",
+  "scope": "Exact exponent relaxation after adding 35 explicit high-degree capacities; no integer counterexample",
+  "certificate_sha256": "f4d52719cf12151e42ddb384a827504da4742eb5ea431459e84ad7d5fd96a37d",
+  "nonzero_cells": 102,
+  "total_mass_numerator": 18000000,
+  "denominator": 1000000,
+  "line_count": 32547,
+  "quadratic_count": 666,
+  "minimum_nonhorizontal_line_slack_numerator": 26314,
+  "minimum_quadratic_slack_numerator": 26313,
+  "higher_degree_capacities": [
+    {
+      "name": "quadratic_i27",
+      "capacity": 14,
+      "mass_numerator": 6030309,
+      "denominator": 1000000
+    },
+    {
+      "name": "half_i27",
+      "capacity": 8,
+      "mass_numerator": 2175854,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round1",
+      "capacity": 14,
+      "mass_numerator": 7390644,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round2",
+      "capacity": 14,
+      "mass_numerator": 6962359,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round3",
+      "capacity": 14,
+      "mass_numerator": 7341432,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round4",
+      "capacity": 14,
+      "mass_numerator": 7310763,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round5",
+      "capacity": 15,
+      "mass_numerator": 8658539,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round6",
+      "capacity": 14,
+      "mass_numerator": 7919642,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round7",
+      "capacity": 14,
+      "mass_numerator": 8602694,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round8",
+      "capacity": 14,
+      "mass_numerator": 8113377,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round9",
+      "capacity": 14,
+      "mass_numerator": 6750799,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round10",
+      "capacity": 14,
+      "mass_numerator": 6944866,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round11",
+      "capacity": 14,
+      "mass_numerator": 6191485,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round12",
+      "capacity": 14,
+      "mass_numerator": 7361443,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round13",
+      "capacity": 15,
+      "mass_numerator": 7939621,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round14",
+      "capacity": 14,
+      "mass_numerator": 8631077,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round15",
+      "capacity": 15,
+      "mass_numerator": 8525188,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round16",
+      "capacity": 14,
+      "mass_numerator": 7052568,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round17",
+      "capacity": 15,
+      "mass_numerator": 8057623,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round18",
+      "capacity": 14,
+      "mass_numerator": 8438112,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round19",
+      "capacity": 15,
+      "mass_numerator": 9652500,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round20",
+      "capacity": 15,
+      "mass_numerator": 8308072,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round21",
+      "capacity": 14,
+      "mass_numerator": 7624809,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round22",
+      "capacity": 15,
+      "mass_numerator": 9500825,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round23",
+      "capacity": 14,
+      "mass_numerator": 5804733,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round24",
+      "capacity": 14,
+      "mass_numerator": 6849619,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round25",
+      "capacity": 14,
+      "mass_numerator": 8323765,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round26",
+      "capacity": 14,
+      "mass_numerator": 6935190,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round27",
+      "capacity": 14,
+      "mass_numerator": 8216136,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round28",
+      "capacity": 14,
+      "mass_numerator": 7023578,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round29",
+      "capacity": 14,
+      "mass_numerator": 7709057,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round30",
+      "capacity": 14,
+      "mass_numerator": 7897430,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round31",
+      "capacity": 14,
+      "mass_numerator": 8079828,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round32",
+      "capacity": 14,
+      "mass_numerator": 5825725,
+      "denominator": 1000000
+    },
+    {
+      "name": "iterated_i27_round33",
+      "capacity": 14,
+      "mass_numerator": 5992634,
+      "denominator": 1000000
+    }
+  ],
+  "iterated_curve_zero_set_sizes": [
+    {
+      "name": "iterated_i27_round1",
+      "support_size": 101,
+      "full_zero_set_size": 101,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round2",
+      "support_size": 97,
+      "full_zero_set_size": 97,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round3",
+      "support_size": 102,
+      "full_zero_set_size": 102,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round4",
+      "support_size": 101,
+      "full_zero_set_size": 101,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round5",
+      "support_size": 106,
+      "full_zero_set_size": 106,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round6",
+      "support_size": 103,
+      "full_zero_set_size": 103,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round7",
+      "support_size": 104,
+      "full_zero_set_size": 104,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round8",
+      "support_size": 98,
+      "full_zero_set_size": 98,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round9",
+      "support_size": 96,
+      "full_zero_set_size": 96,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round10",
+      "support_size": 94,
+      "full_zero_set_size": 94,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round11",
+      "support_size": 102,
+      "full_zero_set_size": 102,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round12",
+      "support_size": 97,
+      "full_zero_set_size": 97,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round13",
+      "support_size": 110,
+      "full_zero_set_size": 110,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round14",
+      "support_size": 99,
+      "full_zero_set_size": 99,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round15",
+      "support_size": 108,
+      "full_zero_set_size": 108,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round16",
+      "support_size": 103,
+      "full_zero_set_size": 103,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round17",
+      "support_size": 107,
+      "full_zero_set_size": 107,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round18",
+      "support_size": 102,
+      "full_zero_set_size": 102,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round19",
+      "support_size": 108,
+      "full_zero_set_size": 108,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round20",
+      "support_size": 108,
+      "full_zero_set_size": 108,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round21",
+      "support_size": 105,
+      "full_zero_set_size": 105,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round22",
+      "support_size": 108,
+      "full_zero_set_size": 108,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round23",
+      "support_size": 99,
+      "full_zero_set_size": 99,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round24",
+      "support_size": 103,
+      "full_zero_set_size": 103,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round25",
+      "support_size": 100,
+      "full_zero_set_size": 100,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round26",
+      "support_size": 104,
+      "full_zero_set_size": 104,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round27",
+      "support_size": 101,
+      "full_zero_set_size": 101,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round28",
+      "support_size": 100,
+      "full_zero_set_size": 100,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round29",
+      "support_size": 104,
+      "full_zero_set_size": 104,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round30",
+      "support_size": 102,
+      "full_zero_set_size": 102,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round31",
+      "support_size": 101,
+      "full_zero_set_size": 101,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round32",
+      "support_size": 101,
+      "full_zero_set_size": 101,
+      "additional_zero_cells": 0
+    },
+    {
+      "name": "iterated_i27_round33",
+      "support_size": 100,
+      "full_zero_set_size": 100,
+      "additional_zero_cells": 0
+    }
+  ],
+  "minimum_higher_degree_capacity_slack_numerator": 5347500,
+  "iterated_polynomial_certificate_sha256": "8ff49748d059eb7a420fb56e047d702b29dc03c84258d6ae3f4bb0f3033d1700",
+  "not_claimed": [
+    "feasibility for all higher-degree polynomials",
+    "integer realizability",
+    "any index solved"
+  ]
+}

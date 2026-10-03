@@ -1,0 +1,1313 @@
+{
+  "passed": true,
+  "scope": "all-degree constant-norm boundary; epsilon=2 family closed when D has divisor 3 or a prime >=7; remaining powers of 5 and other frontiers are not solved",
+  "identities": {
+    "coefficient_recurrence_identities": 2,
+    "cases": [
+      {
+        "D": 3,
+        "degree_F": 3,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 5,
+        "degree_F": 5,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 7,
+        "degree_F": 7,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 9,
+        "degree_F": 9,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 11,
+        "degree_F": 11,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 13,
+        "degree_F": 13,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 15,
+        "degree_F": 15,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 17,
+        "degree_F": 17,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 19,
+        "degree_F": 19,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 21,
+        "degree_F": 21,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 23,
+        "degree_F": 23,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 25,
+        "degree_F": 25,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 27,
+        "degree_F": 27,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 29,
+        "degree_F": 29,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 31,
+        "degree_F": 31,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 33,
+        "degree_F": 33,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 35,
+        "degree_F": 35,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 37,
+        "degree_F": 37,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 39,
+        "degree_F": 39,
+        "primitive_nonconstant_content": true
+      },
+      {
+        "D": 41,
+        "degree_F": 41,
+        "primitive_nonconstant_content": true
+      }
+    ]
+  },
+  "rational_origin": {
+    "finite_reduction": "D>=21 excluded by denominator and root-position lemma",
+    "nonzero_certificates_for_D_5_to_19": 200,
+    "cases": [
+      {
+        "D": 3,
+        "primitive_coefficients": [
+          4,
+          -1
+        ],
+        "rational_roots_in_minus_one_one": [
+          "1/4"
+        ],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "-1"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "-6"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "2"
+          },
+          {
+            "numerator": -3,
+            "denominator": 4,
+            "cleared_value": "-16"
+          },
+          {
+            "numerator": -1,
+            "denominator": 4,
+            "cleared_value": "-8"
+          },
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "cleared_value": "8"
+          }
+        ]
+      },
+      {
+        "D": 5,
+        "primitive_coefficients": [
+          12,
+          -4,
+          -3
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "-3"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "8"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "-8"
+          },
+          {
+            "numerator": -2,
+            "denominator": 3,
+            "cleared_value": "45"
+          },
+          {
+            "numerator": -1,
+            "denominator": 3,
+            "cleared_value": "-3"
+          },
+          {
+            "numerator": 1,
+            "denominator": 3,
+            "cleared_value": "-27"
+          },
+          {
+            "numerator": 2,
+            "denominator": 3,
+            "cleared_value": "-3"
+          },
+          {
+            "numerator": -5,
+            "denominator": 6,
+            "cleared_value": "312"
+          },
+          {
+            "numerator": -1,
+            "denominator": 6,
+            "cleared_value": "-72"
+          },
+          {
+            "numerator": 1,
+            "denominator": 6,
+            "cleared_value": "-120"
+          },
+          {
+            "numerator": 5,
+            "denominator": 6,
+            "cleared_value": "72"
+          }
+        ]
+      },
+      {
+        "D": 7,
+        "primitive_coefficients": [
+          32,
+          -12,
+          -16,
+          3
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "3"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "32"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "-32"
+          },
+          {
+            "numerator": -3,
+            "denominator": 4,
+            "cleared_value": "-336"
+          },
+          {
+            "numerator": -1,
+            "denominator": 4,
+            "cleared_value": "368"
+          },
+          {
+            "numerator": 1,
+            "denominator": 4,
+            "cleared_value": "-80"
+          },
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "cleared_value": "-144"
+          },
+          {
+            "numerator": -7,
+            "denominator": 8,
+            "cleared_value": "-6976"
+          },
+          {
+            "numerator": -5,
+            "denominator": 8,
+            "cleared_value": "256"
+          },
+          {
+            "numerator": -3,
+            "denominator": 8,
+            "cleared_value": "2880"
+          },
+          {
+            "numerator": -1,
+            "denominator": 8,
+            "cleared_value": "2432"
+          },
+          {
+            "numerator": 1,
+            "denominator": 8,
+            "cleared_value": "448"
+          },
+          {
+            "numerator": 3,
+            "denominator": 8,
+            "cleared_value": "-1536"
+          },
+          {
+            "numerator": 5,
+            "denominator": 8,
+            "cleared_value": "-1984"
+          },
+          {
+            "numerator": 7,
+            "denominator": 8,
+            "cleared_value": "640"
+          }
+        ]
+      },
+      {
+        "D": 9,
+        "primitive_coefficients": [
+          80,
+          -32,
+          -60,
+          16,
+          5
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "5"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "-144"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "-16"
+          },
+          {
+            "numerator": -4,
+            "denominator": 5,
+            "cleared_value": "1845"
+          },
+          {
+            "numerator": -3,
+            "denominator": 5,
+            "cleared_value": "-5575"
+          },
+          {
+            "numerator": -2,
+            "denominator": 5,
+            "cleared_value": "-4315"
+          },
+          {
+            "numerator": -1,
+            "denominator": 5,
+            "cleared_value": "-135"
+          },
+          {
+            "numerator": 1,
+            "denominator": 5,
+            "cleared_value": "3545"
+          },
+          {
+            "numerator": 2,
+            "denominator": 5,
+            "cleared_value": "1125"
+          },
+          {
+            "numerator": 3,
+            "denominator": 5,
+            "cleared_value": "-2215"
+          },
+          {
+            "numerator": 4,
+            "denominator": 5,
+            "cleared_value": "-2635"
+          },
+          {
+            "numerator": -9,
+            "denominator": 10,
+            "cleared_value": "178160"
+          },
+          {
+            "numerator": -7,
+            "denominator": 10,
+            "cleared_value": "-54160"
+          },
+          {
+            "numerator": -3,
+            "denominator": 10,
+            "cleared_value": "-36880"
+          },
+          {
+            "numerator": -1,
+            "denominator": 10,
+            "cleared_value": "28400"
+          },
+          {
+            "numerator": 1,
+            "denominator": 10,
+            "cleared_value": "59760"
+          },
+          {
+            "numerator": 3,
+            "denominator": 10,
+            "cleared_value": "41840"
+          },
+          {
+            "numerator": 7,
+            "denominator": 10,
+            "cleared_value": "-49680"
+          },
+          {
+            "numerator": 9,
+            "denominator": 10,
+            "cleared_value": "-400"
+          }
+        ]
+      },
+      {
+        "D": 11,
+        "primitive_coefficients": [
+          192,
+          -80,
+          -192,
+          60,
+          36,
+          -5
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "-5"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "160"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "160"
+          },
+          {
+            "numerator": -2,
+            "denominator": 3,
+            "cleared_value": "3273"
+          },
+          {
+            "numerator": -1,
+            "denominator": 3,
+            "cleared_value": "-1215"
+          },
+          {
+            "numerator": 1,
+            "denominator": 3,
+            "cleared_value": "1545"
+          },
+          {
+            "numerator": 2,
+            "denominator": 3,
+            "cleared_value": "-423"
+          },
+          {
+            "numerator": -3,
+            "denominator": 4,
+            "cleared_value": "12160"
+          },
+          {
+            "numerator": -1,
+            "denominator": 4,
+            "cleared_value": "-7936"
+          },
+          {
+            "numerator": 1,
+            "denominator": 4,
+            "cleared_value": "4736"
+          },
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "cleared_value": "-5120"
+          },
+          {
+            "numerator": -5,
+            "denominator": 6,
+            "cleared_value": "15840"
+          },
+          {
+            "numerator": -1,
+            "denominator": 6,
+            "cleared_value": "-66336"
+          },
+          {
+            "numerator": 1,
+            "denominator": 6,
+            "cleared_value": "13536"
+          },
+          {
+            "numerator": 5,
+            "denominator": 6,
+            "cleared_value": "-45600"
+          },
+          {
+            "numerator": -11,
+            "denominator": 12,
+            "cleared_value": "-5088000"
+          },
+          {
+            "numerator": -7,
+            "denominator": 12,
+            "cleared_value": "2562048"
+          },
+          {
+            "numerator": -5,
+            "denominator": 12,
+            "cleared_value": "-128640"
+          },
+          {
+            "numerator": -1,
+            "denominator": 12,
+            "cleared_value": "-1860480"
+          },
+          {
+            "numerator": 1,
+            "denominator": 12,
+            "cleared_value": "-422400"
+          },
+          {
+            "numerator": 5,
+            "denominator": 12,
+            "cleared_value": "1624320"
+          },
+          {
+            "numerator": 7,
+            "denominator": 12,
+            "cleared_value": "500352"
+          },
+          {
+            "numerator": 11,
+            "denominator": 12,
+            "cleared_value": "-420480"
+          }
+        ]
+      },
+      {
+        "D": 13,
+        "primitive_coefficients": [
+          448,
+          -192,
+          -560,
+          192,
+          168,
+          -36,
+          -7
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "-7"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "448"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "448"
+          },
+          {
+            "numerator": -6,
+            "denominator": 7,
+            "cleared_value": "-1106287"
+          },
+          {
+            "numerator": -5,
+            "denominator": 7,
+            "cleared_value": "-1896083"
+          },
+          {
+            "numerator": -4,
+            "denominator": 7,
+            "cleared_value": "22393"
+          },
+          {
+            "numerator": -3,
+            "denominator": 7,
+            "cleared_value": "1274357"
+          },
+          {
+            "numerator": -2,
+            "denominator": 7,
+            "cleared_value": "1105825"
+          },
+          {
+            "numerator": -1,
+            "denominator": 7,
+            "cleared_value": "93373"
+          },
+          {
+            "numerator": 1,
+            "denominator": 7,
+            "cleared_value": "-987707"
+          },
+          {
+            "numerator": 2,
+            "denominator": 7,
+            "cleared_value": "-346703"
+          },
+          {
+            "numerator": 3,
+            "denominator": 7,
+            "cleared_value": "547085"
+          },
+          {
+            "numerator": 4,
+            "denominator": 7,
+            "cleared_value": "859033"
+          },
+          {
+            "numerator": 5,
+            "denominator": 7,
+            "cleared_value": "117397"
+          },
+          {
+            "numerator": 6,
+            "denominator": 7,
+            "cleared_value": "-819007"
+          },
+          {
+            "numerator": -13,
+            "denominator": 14,
+            "cleared_value": "157807552"
+          },
+          {
+            "numerator": -11,
+            "denominator": 14,
+            "cleared_value": "-140474432"
+          },
+          {
+            "numerator": -9,
+            "denominator": 14,
+            "cleared_value": "-63085120"
+          },
+          {
+            "numerator": -5,
+            "denominator": 14,
+            "cleared_value": "86392768"
+          },
+          {
+            "numerator": -3,
+            "denominator": 14,
+            "cleared_value": "41327552"
+          },
+          {
+            "numerator": -1,
+            "denominator": 14,
+            "cleared_value": "-27524672"
+          },
+          {
+            "numerator": 1,
+            "denominator": 14,
+            "cleared_value": "-65199680"
+          },
+          {
+            "numerator": 3,
+            "denominator": 14,
+            "cleared_value": "-47699008"
+          },
+          {
+            "numerator": 5,
+            "denominator": 14,
+            "cleared_value": "7688128"
+          },
+          {
+            "numerator": 9,
+            "denominator": 14,
+            "cleared_value": "39101888"
+          },
+          {
+            "numerator": 11,
+            "denominator": 14,
+            "cleared_value": "-29771840"
+          },
+          {
+            "numerator": 13,
+            "denominator": 14,
+            "cleared_value": "-26696768"
+          }
+        ]
+      },
+      {
+        "D": 15,
+        "primitive_coefficients": [
+          1024,
+          -448,
+          -1536,
+          560,
+          640,
+          -168,
+          -64,
+          7
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "7"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "-1920"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "128"
+          },
+          {
+            "numerator": -3,
+            "denominator": 4,
+            "cleared_value": "258304"
+          },
+          {
+            "numerator": -1,
+            "denominator": 4,
+            "cleared_value": "98560"
+          },
+          {
+            "numerator": 1,
+            "denominator": 4,
+            "cleared_value": "-145152"
+          },
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "cleared_value": "67840"
+          },
+          {
+            "numerator": -7,
+            "denominator": 8,
+            "cleared_value": "38868480"
+          },
+          {
+            "numerator": -5,
+            "denominator": 8,
+            "cleared_value": "-16339456"
+          },
+          {
+            "numerator": -3,
+            "denominator": 8,
+            "cleared_value": "-13052416"
+          },
+          {
+            "numerator": -1,
+            "denominator": 8,
+            "cleared_value": "23711232"
+          },
+          {
+            "numerator": 1,
+            "denominator": 8,
+            "cleared_value": "-4794880"
+          },
+          {
+            "numerator": 3,
+            "denominator": 8,
+            "cleared_value": "-15454720"
+          },
+          {
+            "numerator": 5,
+            "denominator": 8,
+            "cleared_value": "16848384"
+          },
+          {
+            "numerator": 7,
+            "denominator": 8,
+            "cleared_value": "-15479296"
+          },
+          {
+            "numerator": -15,
+            "denominator": 16,
+            "cleared_value": "-5096757248"
+          },
+          {
+            "numerator": -13,
+            "denominator": 16,
+            "cleared_value": "6575042560"
+          },
+          {
+            "numerator": -11,
+            "denominator": 16,
+            "cleared_value": "805926912"
+          },
+          {
+            "numerator": -9,
+            "denominator": 16,
+            "cleared_value": "-3741532160"
+          },
+          {
+            "numerator": -7,
+            "denominator": 16,
+            "cleared_value": "-3193616384"
+          },
+          {
+            "numerator": -5,
+            "denominator": 16,
+            "cleared_value": "71258112"
+          },
+          {
+            "numerator": -3,
+            "denominator": 16,
+            "cleared_value": "2656245760"
+          },
+          {
+            "numerator": -1,
+            "denominator": 16,
+            "cleared_value": "2737364992"
+          },
+          {
+            "numerator": 1,
+            "denominator": 16,
+            "cleared_value": "672983040"
+          },
+          {
+            "numerator": 3,
+            "denominator": 16,
+            "cleared_value": "-1707905024"
+          },
+          {
+            "numerator": 5,
+            "denominator": 16,
+            "cleared_value": "-2478000128"
+          },
+          {
+            "numerator": 7,
+            "denominator": 16,
+            "cleared_value": "-984023040"
+          },
+          {
+            "numerator": 9,
+            "denominator": 16,
+            "cleared_value": "1441564672"
+          },
+          {
+            "numerator": 11,
+            "denominator": 16,
+            "cleared_value": "2090045440"
+          },
+          {
+            "numerator": 13,
+            "denominator": 16,
+            "cleared_value": "-532260864"
+          },
+          {
+            "numerator": 15,
+            "denominator": 16,
+            "cleared_value": "-1470291968"
+          }
+        ]
+      },
+      {
+        "D": 17,
+        "primitive_coefficients": [
+          2304,
+          -1024,
+          -4032,
+          1536,
+          2160,
+          -640,
+          -360,
+          64,
+          9
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "9"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "2048"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "-2048"
+          },
+          {
+            "numerator": -2,
+            "denominator": 3,
+            "cleared_value": "106377"
+          },
+          {
+            "numerator": -1,
+            "denominator": 3,
+            "cleared_value": "-85263"
+          },
+          {
+            "numerator": 1,
+            "denominator": 3,
+            "cleared_value": "-39567"
+          },
+          {
+            "numerator": 2,
+            "denominator": 3,
+            "cleared_value": "45705"
+          },
+          {
+            "numerator": -5,
+            "denominator": 6,
+            "cleared_value": "-47486976"
+          },
+          {
+            "numerator": -1,
+            "denominator": 6,
+            "cleared_value": "-12288000"
+          },
+          {
+            "numerator": 1,
+            "denominator": 6,
+            "cleared_value": "14241792"
+          },
+          {
+            "numerator": 5,
+            "denominator": 6,
+            "cleared_value": "1112064"
+          },
+          {
+            "numerator": -8,
+            "denominator": 9,
+            "cleared_value": "-1233001143"
+          },
+          {
+            "numerator": -7,
+            "denominator": 9,
+            "cleared_value": "-512022447"
+          },
+          {
+            "numerator": -5,
+            "denominator": 9,
+            "cleared_value": "672971409"
+          },
+          {
+            "numerator": -4,
+            "denominator": 9,
+            "cleared_value": "-33850935"
+          },
+          {
+            "numerator": -2,
+            "denominator": 9,
+            "cleared_value": "-515959767"
+          },
+          {
+            "numerator": -1,
+            "denominator": 9,
+            "cleared_value": "-59479983"
+          },
+          {
+            "numerator": 1,
+            "denominator": 9,
+            "cleared_value": "479378385"
+          },
+          {
+            "numerator": 2,
+            "denominator": 9,
+            "cleared_value": "173122857"
+          },
+          {
+            "numerator": 4,
+            "denominator": 9,
+            "cleared_value": "-431019063"
+          },
+          {
+            "numerator": 5,
+            "denominator": 9,
+            "cleared_value": "-155368431"
+          },
+          {
+            "numerator": 7,
+            "denominator": 9,
+            "cleared_value": "308175057"
+          },
+          {
+            "numerator": 8,
+            "denominator": 9,
+            "cleared_value": "-304756407"
+          },
+          {
+            "numerator": -17,
+            "denominator": 18,
+            "cleared_value": "158040963072"
+          },
+          {
+            "numerator": -13,
+            "denominator": 18,
+            "cleared_value": "57957396480"
+          },
+          {
+            "numerator": -11,
+            "denominator": 18,
+            "cleared_value": "212106350592"
+          },
+          {
+            "numerator": -7,
+            "denominator": 18,
+            "cleared_value": "-91637803008"
+          },
+          {
+            "numerator": -5,
+            "denominator": 18,
+            "cleared_value": "-156023341056"
+          },
+          {
+            "numerator": -1,
+            "denominator": 18,
+            "cleared_value": "49178990592"
+          },
+          {
+            "numerator": 1,
+            "denominator": 18,
+            "cleared_value": "125142386688"
+          },
+          {
+            "numerator": 5,
+            "denominator": 18,
+            "cleared_value": "-13426200576"
+          },
+          {
+            "numerator": 7,
+            "denominator": 18,
+            "cleared_value": "-101931079680"
+          },
+          {
+            "numerator": 11,
+            "denominator": 18,
+            "cleared_value": "21892128768"
+          },
+          {
+            "numerator": 13,
+            "denominator": 18,
+            "cleared_value": "101812396032"
+          },
+          {
+            "numerator": 17,
+            "denominator": 18,
+            "cleared_value": "-81284290560"
+          }
+        ]
+      },
+      {
+        "D": 19,
+        "primitive_coefficients": [
+          5120,
+          -2304,
+          -10240,
+          4032,
+          6720,
+          -2160,
+          -1600,
+          360,
+          100,
+          -9
+        ],
+        "rational_roots_in_minus_one_one": [],
+        "certificates": [
+          {
+            "numerator": 0,
+            "denominator": 1,
+            "cleared_value": "-9"
+          },
+          {
+            "numerator": -1,
+            "denominator": 2,
+            "cleared_value": "5120"
+          },
+          {
+            "numerator": 1,
+            "denominator": 2,
+            "cleared_value": "-5120"
+          },
+          {
+            "numerator": -3,
+            "denominator": 4,
+            "cleared_value": "-3993600"
+          },
+          {
+            "numerator": -1,
+            "denominator": 4,
+            "cleared_value": "14336"
+          },
+          {
+            "numerator": 1,
+            "denominator": 4,
+            "cleared_value": "3137536"
+          },
+          {
+            "numerator": 3,
+            "denominator": 4,
+            "cleared_value": "2426880"
+          },
+          {
+            "numerator": -4,
+            "denominator": 5,
+            "cleared_value": "8907875"
+          },
+          {
+            "numerator": -3,
+            "denominator": 5,
+            "cleared_value": "-23062305"
+          },
+          {
+            "numerator": -2,
+            "denominator": 5,
+            "cleared_value": "33850315"
+          },
+          {
+            "numerator": -1,
+            "denominator": 5,
+            "cleared_value": "-13722265"
+          },
+          {
+            "numerator": 1,
+            "denominator": 5,
+            "cleared_value": "22300975"
+          },
+          {
+            "numerator": 2,
+            "denominator": 5,
+            "cleared_value": "-1392805"
+          },
+          {
+            "numerator": 3,
+            "denominator": 5,
+            "cleared_value": "-15677385"
+          },
+          {
+            "numerator": 4,
+            "denominator": 5,
+            "cleared_value": "18754435"
+          },
+          {
+            "numerator": -9,
+            "denominator": 10,
+            "cleared_value": "38872212480"
+          },
+          {
+            "numerator": -7,
+            "denominator": 10,
+            "cleared_value": "-23609082880"
+          },
+          {
+            "numerator": -3,
+            "denominator": 10,
+            "cleared_value": "7701273600"
+          },
+          {
+            "numerator": -1,
+            "denominator": 10,
+            "cleared_value": "-14078172160"
+          },
+          {
+            "numerator": 1,
+            "denominator": 10,
+            "cleared_value": "2854190080"
+          },
+          {
+            "numerator": 3,
+            "denominator": 10,
+            "cleared_value": "9683051520"
+          },
+          {
+            "numerator": 7,
+            "denominator": 10,
+            "cleared_value": "4256588800"
+          },
+          {
+            "numerator": 9,
+            "denominator": 10,
+            "cleared_value": "-6076892160"
+          },
+          {
+            "numerator": -19,
+            "denominator": 20,
+            "cleared_value": "-3571013877760"
+          },
+          {
+            "numerator": -17,
+            "denominator": 20,
+            "cleared_value": "14922801326080"
+          },
+          {
+            "numerator": -13,
+            "denominator": 20,
+            "cleared_value": "-10840297277440"
+          },
+          {
+            "numerator": -11,
+            "denominator": 20,
+            "cleared_value": "-64852582400"
+          },
+          {
+            "numerator": -9,
+            "denominator": 20,
+            "cleared_value": "8253299312640"
+          },
+          {
+            "numerator": -7,
+            "denominator": 20,
+            "cleared_value": "7203667374080"
+          },
+          {
+            "numerator": -3,
+            "denominator": 20,
+            "cleared_value": "-6165076131840"
+          },
+          {
+            "numerator": -1,
+            "denominator": 20,
+            "cleared_value": "-6612750899200"
+          },
+          {
+            "numerator": 1,
+            "denominator": 20,
+            "cleared_value": "-1695408680960"
+          },
+          {
+            "numerator": 3,
+            "denominator": 20,
+            "cleared_value": "4170156718080"
+          },
+          {
+            "numerator": 7,
+            "denominator": 20,
+            "cleared_value": "2605796853760"
+          },
+          {
+            "numerator": 9,
+            "denominator": 20,
+            "cleared_value": "-3201827328000"
+          },
+          {
+            "numerator": 11,
+            "denominator": 20,
+            "cleared_value": "-5503102658560"
+          },
+          {
+            "numerator": 13,
+            "denominator": 20,
+            "cleared_value": "-1243207761920"
+          },
+          {
+            "numerator": 17,
+            "denominator": 20,
+            "cleared_value": "1886340239360"
+          },
+          {
+            "numerator": 19,
+            "denominator": 20,
+            "cleared_value": "-4686184908800"
+          }
+        ]
+      }
+    ]
+  },
+  "hensel": [
+    {
+      "D": 5,
+      "lifts": [
+        {
+          "modulus": 25,
+          "root": 6
+        }
+      ],
+      "necessary_y_residue": 6,
+      "modulus": 25
+    },
+    {
+      "D": 25,
+      "lifts": [
+        {
+          "modulus": 25,
+          "root": 6
+        },
+        {
+          "modulus": 125,
+          "root": 56
+        },
+        {
+          "modulus": 625,
+          "root": 56
+        }
+      ],
+      "necessary_y_residue": 56,
+      "modulus": 625
+    }
+  ],
+  "numerical": {
+    "integer_models": 888,
+    "witness_checks": 1160,
+    "D_with_no_uniform_closeout_in_this_audit": [
+      5,
+      25
+    ]
+  }
+}

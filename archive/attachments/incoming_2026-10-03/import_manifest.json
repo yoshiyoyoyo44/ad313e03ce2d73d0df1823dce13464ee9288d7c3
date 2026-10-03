@@ -1,0 +1,36 @@
+{
+  "received_date": "2026-10-03",
+  "source_files": [
+    {
+      "path": "erdos699_conversation_progress_handoff_2026-10-03.md",
+      "uploaded_name": "erdos699_conversation_progress_handoff_2026-10-03(1).md",
+      "file_id": "file_00000000aa9c8209afa5f7ab0b3472eb",
+      "bytes": 23762,
+      "sha256": "188c63a3abd3e7b5ce6e599ff99c87426e34ad1454f9e2370eb9e3aab0b5f6ab"
+    },
+    {
+      "path": "erdos699_conversation_progress_bundle_2026-10-03.zip",
+      "uploaded_name": "erdos699_conversation_progress_bundle_2026-10-03(1).zip",
+      "file_id": "file_0000000017e082098454e8f6d380ddf9",
+      "bytes": 46482,
+      "sha256": "3ab662e9435c0db5c6e8016511812de4b7246931b4f3c27b00f9fac43b10f4c0"
+    }
+  ],
+  "zip_entry_count": 19,
+  "extracted_files": {
+    "erdos699_conversation_progress_bundle_2026-10-03/README.md": "188c63a3abd3e7b5ce6e599ff99c87426e34ad1454f9e2370eb9e3aab0b5f6ab",
+    "erdos699_conversation_progress_bundle_2026-10-03/MANIFEST.txt": "9e8f8edd2c20a11deec36e13d151625a2f09be133854e3497c1b40dcd679470b",
+    "erdos699_conversation_progress_bundle_2026-10-03/research/general/collision_aware_maximal_row_moment_2026-10-02.md": "96a887efa8225791a59e8e7c529afc8ffbd3c6aa588ff12b44aaa659e47341e0",
+    "erdos699_conversation_progress_bundle_2026-10-03/research/general/i5_last_two_capacity_frontier_2026-10-02.md": "327443717af9a8a2a15c80aaac92dab0e7dffb2d654df73ab02e7e6567b37fa2",
+    "erdos699_conversation_progress_bundle_2026-10-03/research/general/i5_collision_capacity_closeout_2026-10-02.md": "5b1469ee94dc44a19907e60e3a8d7658710784ae553d5e73d3e4f1700e0c021f",
+    "erdos699_conversation_progress_bundle_2026-10-03/research/general/i5_quadratic_capacity_closeout_2026-10-02.md": "ec11140af56578b3b8d43c3a4a081d48d7f2ef6f16359f2c3ff565b90dea304f",
+    "erdos699_conversation_progress_bundle_2026-10-03/research/i3/i3_split_residual_degree_frontier_2026-10-02.md": "793157a5ba82ad6e5ec969beba01f3eff6d25e7beecddd1ae3576b85cdd1d1c9",
+    "erdos699_conversation_progress_bundle_2026-10-03/docs/AI_HANDOFF_2026-10-02.md": "aa470c639954a7cc370863fa119a43240cd1b685a2bbe6b9ac24b50d3c07c0dc",
+    "erdos699_conversation_progress_bundle_2026-10-03/data/results/i5_tail_frontier_2026-10-02.json": "4243cfd0503035c540b05fe1fdc2a090268b3aaf28490d704ec9e3641dfbc9c1",
+    "erdos699_conversation_progress_bundle_2026-10-03/data/results/collision_aware_maximal_row_moment_2026-10-02.log": "a9a3a2095512a40553972aea7ff022d06d540868467a0662bb3496553e66262a",
+    "erdos699_conversation_progress_bundle_2026-10-03/data/results/i5_support_03_closeout_2026-10-02.json": "f822e61d1833f4e483afa6adc6361f007573b71fe2c9ab5a836e43a2334b3b0a",
+    "erdos699_conversation_progress_bundle_2026-10-03/data/results/i5_last_two_capacity_frontier_2026-10-02.json": "385818541c8a40a5eaf7e417aa9c541dc63525fb66ed9c9a3b5d3527cb1a9edf"
+  },
+  "included_replay_scripts": false,
+  "adoption_policy": "Preserve original bytes. Claims without code are source-reported until separately reconstructed."
+}

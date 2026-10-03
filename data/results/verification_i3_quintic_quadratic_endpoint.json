@@ -1,0 +1,15 @@
+{
+  "scope": "degree-five quadratic cofactor endpoint bounds; general i=3 open",
+  "symbolic": {
+    "coefficient_identity": true,
+    "endpoint_ratio_constants": true,
+    "small_integer_bound": true
+  },
+  "sample": {
+    "profiles": 18557,
+    "quotient_cases": 728059,
+    "complete_prime_power_cases": 37036,
+    "witness_ratio": "68401473/12550583",
+    "sample_not_complete_proof": true
+  }
+}

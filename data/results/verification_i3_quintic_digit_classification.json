@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "branches": [
+    {
+      "t": "1/5",
+      "discriminants": [
+        "40/9",
+        "5",
+        "25/4"
+      ],
+      "F": "3*X**5/2 + 25*X**4/2 + 35*X**3 + 75*X**2/2 + 25*X/2 + 2",
+      "J": "3*X**5/10 + 31*X**4/10 + 57*X**3/5 + 177*X**2/10 + 21*X/2 + 2"
+    },
+    {
+      "t": "2/5",
+      "discriminants": [
+        "260/49",
+        "25/4",
+        "40/9"
+      ],
+      "F": "-21*X**5 - 130*X**4 - 250*X**3 - 150*X**2 - 25*X + 2",
+      "J": "-42*X**5/5 - 239*X**4/5 - 391*X**3/5 - 138*X**2/5 + X + 1"
+    },
+    {
+      "t": "3/5",
+      "discriminants": [
+        "25/4",
+        "85/9",
+        "5"
+      ],
+      "F": "-3*X**5/8 - 5*X**4/2 - 35*X**3/8 + 25*X/8 + 2",
+      "J": "-9*X**5/40 - 6*X**4/5 - 37*X**3/40 + 21*X**2/10 + 7*X/8"
+    }
+  ],
+  "factorizations": 5,
+  "numeric_evaluations": 10000,
+  "denominator25_exception_modulus": 25,
+  "denominator25_exception_residue": 6,
+  "no_base5_carry_exceptions_in_numeric_range": [],
+  "pure_power_exponent_modulus": 2500,
+  "pure_power_exponent_residues": {
+    "M1": 601,
+    "M3": 2494
+  },
+  "M3_refined_exponent_modulus": 7500,
+  "M3_refined_exponent_residue": 7494,
+  "gcd_bound": 24,
+  "M3_rational_local_point": [
+    "-1/4",
+    "3/64"
+  ],
+  "finite_congruence_obstruction_proved_in_note": true,
+  "complete_solution_claimed": false
+}

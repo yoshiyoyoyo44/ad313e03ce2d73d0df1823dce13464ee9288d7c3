@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "general_i3_solved": false,
+  "scope": "deg F=5, deg J=3, F1>=1, complete D allocation, first numerical condition",
+  "degree_coverage": {
+    "0": [
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ]
+    ],
+    "1": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        3,
+        2
+      ],
+      [
+        1,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        2,
+        2,
+        1
+      ],
+      [
+        3,
+        1,
+        1
+      ]
+    ]
+  },
+  "cancellation": {
+    "second_condition": "a*q-1 divides 6*L0(q)*L1(q)*L2(q)",
+    "nonzero_integer_bound": "0 < |6*a^rho*W(1/a)| < 3*a^rho/D(1/a)",
+    "termwise_degree_checks": 14
+  },
+  "endpoint_coefficients": {
+    "epsilon0_311": [
+      {
+        "beta": 1,
+        "gamma": 1,
+        "residual": "h*s + 1"
+      },
+      {
+        "beta": 1,
+        "gamma": 2,
+        "residual": "(h**2 + 3*h*s + 6)/2"
+      },
+      {
+        "beta": 2,
+        "gamma": 1,
+        "residual": "-h**2"
+      }
+    ],
+    "epsilon0_131": {
+      "c": 2,
+      "r": 1,
+      "s": 1,
+      "J": [
+        0,
+        2,
+        2,
+        4
+      ],
+      "minimum_a": 4
+    },
+    "epsilon1_131": {
+      "c_divides": 3,
+      "r_values": [
+        [
+          1,
+          "4/3"
+        ],
+        [
+          3,
+          "4/3"
+        ]
+      ]
+    },
+    "epsilon1_311": {
+      "d": 1,
+      "r1": 1,
+      "r": 1,
+      "J": [
+        1,
+        1,
+        1,
+        2
+      ],
+      "minimum_a": 3
+    }
+  },
+  "epsilon0_221_finite_shapes": [
+    {
+      "u": 1,
+      "v": 2,
+      "s": 1,
+      "c": "2*d + 8",
+      "ell": "2*d + 8",
+      "r": "d/2 + 4",
+      "residual": "-d**2 - 9*d - 22"
+    },
+    {
+      "u": 1,
+      "v": 2,
+      "s": 2,
+      "c": "2*d + 8",
+      "ell": "d + 4",
+      "r": "2",
+      "residual": "d + 4"
+    },
+    {
+      "u": 2,
+      "v": 1,
+      "s": 1,
+      "c": "d - 1",
+      "ell": "2*d - 2",
+      "r": "d/2 - 1",
+      "residual": "-d**2 + 6*d - 1"
+    },
+    {
+      "u": 2,
+      "v": 1,
+      "s": 2,
+      "c": "d - 1",
+      "ell": "d - 1",
+      "r": "-1/2",
+      "residual": "(7*d + 5)/2"
+    }
+  ],
+  "size_certificates": {
+    "epsilon1_221": {
+      "j_over_a_beta_q3_bound": "193/125",
+      "3K_over_A_bound": "111747/125000"
+    },
+    "quadratic_gap": [
+      6,
+      6,
+      1
+    ],
+    "zero_r0_gap": [
+      3,
+      2
+    ],
+    "cubic_gap_strict_input": [
+      0,
+      1
+    ]
+  },
+  "small_base_diagnostic": {
+    "role": "diagnostic; universal proof is the 14-case paper",
+    "bases_inclusive": [
+      3,
+      10
+    ],
+    "profiles": 310,
+    "range_degree3_first_hits": 62,
+    "digit_dominated_hits": 1,
+    "complete_allocation_hits": 0,
+    "first_hits_examples": [
+      {
+        "q": 6,
+        "a": 3,
+        "D": [
+          1,
+          1,
+          2,
+          1,
+          1
+        ],
+        "J": [
+          0,
+          2,
+          1,
+          5
+        ],
+        "remainder": "-32*X**3 - 55*X**2 - 38*X - 7"
+      }
+    ]
+  }
+}

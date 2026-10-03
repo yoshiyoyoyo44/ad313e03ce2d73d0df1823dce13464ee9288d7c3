@@ -1,0 +1,55 @@
+{
+  "status": "VERIFIED",
+  "i": 5,
+  "tail_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "support_0_2": {
+    "certificate_A_degree_numerator": 31,
+    "certificate_A_denominator": 10,
+    "coverage": {
+      "R0": 6,
+      "R2_each_cell": 2,
+      "R1_R3_R4_each_cell": 10
+    },
+    "inequality": "R0^6 * R2^2 < (442147839441466715799552000000000000000000000000000000) * n",
+    "constant": "442147839441466715799552000000000000000000000000000000",
+    "certificate_B_degree_numerator": 93,
+    "certificate_B_denominator": 30,
+    "coverage_B": {
+      "R0": 12,
+      "R2_each_cell": 8,
+      "R1_R3_R4_each_cell": 30
+    },
+    "inequality_B": "R0^12 * R2^8 < (864375644988789641463935496311931907897921258288871942612110236796846080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) * n^3",
+    "constant_B": "864375644988789641463935496311931907897921258288871942612110236796846080000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "exponent_consequences": {
+      "R0": "O(n^(1/6))",
+      "R2": "O(n^(3/8))",
+      "maximal_small_prime_power_at_row0": "Omega(n^(5/6)) up to an explicit fixed factor",
+      "maximal_small_prime_power_at_row2": "Omega(n^(5/8)) up to an explicit fixed factor"
+    },
+    "claim": "stronger structural restriction only; support {0,2} not yet excluded"
+  },
+  "support_0_1": {
+    "certificate_degree_numerator": 21,
+    "certificate_denominator": 6,
+    "coverage": {
+      "R0": 6,
+      "R1_each_cell": 5,
+      "R2_R3_R4_each_cell": 6
+    },
+    "inequality": "R0^6 * R1^5 < (203119913336832000000000000000000) * n^3",
+    "constant": "203119913336832000000000000000000",
+    "claim": "reproduces the hard exponent frontier; support {0,1} remains open"
+  },
+  "remaining_supports": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "newly_solved_index": false
+}

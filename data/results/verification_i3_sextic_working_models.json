@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "scope": "Exact identities and affine positivity for two explicit working models only.",
+  "models": [
+    {
+      "t": "1/6",
+      "F": "5103*z**6/4 - 729*z**5 - 1215*z**4/2 + 324*z**3 + 243*z**2/4 - 27*z + 1",
+      "J": "1701*z**6/8 + 81*z**5/4 - 135*z**4 - 9*z**3 + 171*z**2/8 + 3*z/4",
+      "F_minus_2_factorization": "(3*z - 2)*(3*z - 1)*(3*z + 1)*(189*z**3 + 18*z**2 - 57*z - 2)/4",
+      "factor_group_degrees": [
+        3,
+        2,
+        1
+      ],
+      "rational_origins": [
+        "-1/3",
+        "1/3",
+        "2/3"
+      ],
+      "coefficientwise_nonnegative_origin": "2/3",
+      "positive_affine_scale_required": true
+    },
+    {
+      "t": "1/3",
+      "F": "2916*z**6 + 5103*z**5 + 1944*z**4 - 810*z**3 - 486*z**2 + 27*z + 28",
+      "J": "972*z**6 + 2025*z**5 + 1107*z**4 - 171*z**3 - 234*z**2 - 6*z + 13",
+      "F_minus_2_factorization": "(3*z - 1)*(3*z + 1)*(3*z + 2)*(108*z**3 + 117*z**2 + 6*z - 13)",
+      "factor_group_degrees": [
+        3,
+        1,
+        2
+      ],
+      "rational_origins": [
+        "-1/3",
+        "-2/3",
+        "1/3"
+      ],
+      "coefficientwise_nonnegative_origin": "1/3",
+      "positive_affine_scale_required": true
+    }
+  ],
+  "exhaustive_sextic_classification_certified": false,
+  "integer_parameter_classification_certified": false,
+  "numerical_counterexample_exclusion_certified": false,
+  "complete_problem_solution": false,
+  "remaining_indices": 28
+}

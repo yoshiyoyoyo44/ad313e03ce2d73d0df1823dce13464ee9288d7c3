@@ -5,14 +5,228 @@
 以下のコマンドは**リポジトリのルート**で実行します。Pythonのassertを使うため、`python -O`は使わないでください。
 各ノートの検算はその主張に対応するもので、全てを一度に実行する必要はありません。
 
+## 10月3日のZIP統合時の再検算
+
+この作業フォルダへの統合では、受領ZIPの隔離コピーで `python scripts/verify_latest.py` の全32件を通しで再実行し、すべて通過しました。Python 3.14.3、SymPy 1.14.0を使用しました。下記の「今回通し再実行していない」という記述と過去のログは、配布元での実行履歴です。今回の結果は[統合記録](IMPORT_2026-10-03.md)に保存しています。
+
+    python -X utf8 scripts/replay_all_progress_import.py
+
+[統合原本の照合器](../scripts/replay_all_progress_import.py)は受領ZIP、665ハッシュ項目、更新前13ファイル、統合時点の全ファイルを確認します。その後に研究を更新した場合、原本保存だけの確認には `--source-only` を指定します。配布元のBUILD_METADATA.jsonは現在のGitコミットを表すものではありません。
+
 ## 必要なもの
 
-- Python。既存の記録ではPython 3.14.3を使用。
+- Python。9月30日の整理と再検算ではPython 3.12.14を使用。以前の記録ではPython 3.14.3を使用。
 - 代数の検算にはSymPy。既存の記録ではSymPy 1.14.0を使用。
 - 一部の証明書の**再生成**にはNumPy。標準ライブラリだけで動く再生器とは区別します。
 - 保存済みMagma応答のローカル検算には、Magmaへの再送信は不要です。
 
 必要に応じて `python -m pip install sympy` で導入できます。
+
+## 最新の検算をまとめて実行
+
+    python -m pip install -r requirements-verification.txt
+    python scripts/verify_latest.py
+
+[実行器](../scripts/verify_latest.py)は最新の全添字の桁降下・乗法部分群、i=5の880分配・5の高桁・積・付値・直線近傍と先行する9証明書、10月3日の先行3検算、三次因子の部分共有・五次の全排除・任意二次商・六次部分共有・奇素数接続・全共有を含め、先行する任意一次商・両隣接法・中央群・均衡境界・5冪・低次数・i=4などと、構文・リンク・原本保存を含む計35件を順に実行し、失敗した時点で停止します。
+SymPy 1.14.0を[依存ファイル](../requirements-verification.txt)で固定しました。
+リポジトリのルート以外から実行しても、保存先をルート基準で解決します。
+過去の全証明の再生をまとめたものではなく、今回の更新範囲の確認です。
+
+## 最新：全添字の桁降下と、全素数の行積の結合
+
+    python -X utf8 scripts/audit_adjacent_digit_descent.py
+
+[新稿](../research/general/adjacent_row_digit_descent_2026-10-03.md)の完全付値復元、正の実根による全体整除の否定、逆順モニック整数除算、有界桁和・素数個数の有効上限を確認します。30,586素数単位の診断、190除算、低桁重みの終結式、重み3の216消去式と54零終結式、各96剰余型、法24の乗法部分群の完全閉包、全整数閾値を再生します。重み2以下・二か所の重み3を全指数で閉じ、全底が最小桁和の二族を全素数個数で排除しました。普遍性は本文の証明に依存し、有限診断の外挿ではありません。問題699・一般i=5は未解決。
+
+GitHub更新前に、現在登録した全35件を通しで再実行して全件通過しました。[今回の実行ログ](../data/results/verification_github_publish_2026-10-03.log)と[実行記録](../data/results/verification_adjacent_digit_continuation_2026-10-03.json)を保存しています。受領時の32件の隔離再生と、その後の個別再生も各時点の履歴として保持します。
+
+## 先行：i=5の880分配と5の高桁条件
+
+    python -X utf8 scripts/audit_i5_sparse_allocation.py
+
+[新稿](../research/i5/i5_odd_sparse_allocation_and_prime5_lift_2026-10-03.md)の全880配置を、生成器とは別のTaylor係数計算・厳密除算・終結式・Cauchy根上界・20共通成分の正値・整数閾値で再生します。8セル以下の完全被覆から9セル以上を強制し、任意の2セル選択の外側の積も評価します。5の全桁条件からの条件付き完全付値復元は紙上証明と診断を区別し、奇数付値100・112および25の枝の102・115を整数冪で確認します。一般9類とi=5は未解決。
+
+[生成器](../scripts/build_i5_sparse_allocation_certificate.py)は保存済み配置から再開できます。`--fresh` は全880配置を再生成します。証明書の生成と独立検算を区別します。全次数の手法の限界は新稿第8節の普遍的制限次数の証明が根拠であり、有限次数の診断を全次数へ外挿していません。
+
+この検算器の追加時点では34件でした。最新の桁降下検算を加えた現在の登録数は35件です。
+
+## ZIP統合後の続行：i=5の積・45類・直線近傍
+
+    python -X utf8 scripts/audit_i5_global_product_and_affine.py
+
+[新稿](../research/i5/i5_global_product_and_affine_exclusions_2026-10-03.md)の復元5を含む全分母、二項係数恒等式、全セルの直線集約、零直線、jと中央近傍の全整数閾値、付値下限、CRT必要進行、復元余因子の不均衡を検算します。[結果](../data/results/verification_i5_global_product_and_affine.json)に各範囲と外部依存を保存しました。古典的Mahlerの定理から得る有限性は非有効であり、未知の数値上限を検算したとは主張しません。
+
+この稿の追加時点では計33件、880分配検算の追加後は34件、現在は35件です。統合時に通過した32件の記録はその時点の履歴として保持しています。
+
+この検算は続行で、n−1,n,n＋1の完全冪の全排除も含むよう拡張しました。平方根の完全な余因子分解、奇数指数のLTE、指数無制限の単調性に用いる整数閾値、全ての奇数5-smooth整数の合同式を照合します。根・指数の診断例の列挙を全域の証明と取り違えないでください。一般尾部の有効な指数条件が両立する有理点も保存しています。
+
+## 先行：i=5 の9証明書と支持02の閉鎖
+
+    python -X utf8 scripts/audit_i5_multiplicity_frontier.py
+
+[紙上証明](../research/i5/i5_multiplicity_frontier_2026-10-03.md)の局所重複度をTaylor平行移動と偏導関数の二方法で照合し、9証明書の全セル被覆・正値性・次数・対直線・評価定数・分母360周期・閉鎖閾値を再生します。行0最大と、$n\ge10^{24}$ の最後2支持への直接証明を確認します。必要6剰余と純冪の指数端点・単調性も検算します。
+
+全次数の容量障壁と純冪の普遍付値式は紙上証明が根拠です。有限曲線の検査や初期500指数の付値照合を普遍証明に読み替えません。浮動小数点最適化・未提供のMatveev終端スクリプトはこの証明の依存ではありません。一般i=5は未解決。結果は[全証明書JSON](../data/results/verification_i5_multiplicity_frontier.json)。先行31検算は以前通過済みで、今回全32件の通し再実行は行っていません。
+
+同じ検算器は、四次・六次の圧縮表示と整数係数の一致、復元5と非最大分母の同時360周期、$B<200n^{1/4}$、$10^{75}$ の閾値を厳密比較します。外部Bennett–Filaseta–Trifonov Theorem 2.1と併用して支持02を閉じ、残る支持は01のみです。外部定理の証明そのものは再生しません。先行する $R_0<23n^{23/400}$ と形式的なノルム診断も履歴として保持します。
+
+今回の対象3件（新i=5検算、追加資料の再照合、構文・リンク・原本検査）は通過しました。[実行ログ](../data/results/verification_i5_2026-10-03.log)に対象と実出力を保存しています。
+
+支持02閉鎖と全進展ZIPへの更新では、この3件を更新後に再生し、さらに[GitHub基準の全504パス照合](../scripts/audit_github_baseline.py)も通過しました。最新4件の出力は同じ実行ログに保存しています。GitHub照合器はGit objectのある開発用checkoutで動き、ZIP単体はSHA256.jsonを使います。
+
+## 10月3日の追加資料、完全分配と有限境界
+
+    python -X utf8 scripts/audit_i3_quintic_split_allocation.py
+    python -X utf8 scripts/audit_i3_split_mahler_frontier.py
+    python -X utf8 scripts/audit_october03_integration.py
+
+[全14型の証明](../research/i3/i3_quintic_split_allocation_repair_2026-10-03.md)の両定数桁・係数消去・4有限形・有理数上界を再生します。[測度の証明](../research/i3/i3_split_mahler_frontier_2026-10-03.md)は3つの高次数の正係数証明書、aD6≤13の単調性、q≤13,762の整数証明書を再生します。この有限域全体を列挙したものではありません。
+
+[追加資料の監査](../research/general/october03_integration.md)は2原本とZIP19項目・12ハッシュ、26行モーメント表、i=5の支持{0,2}の2容量証明書を独立に照合します。添付されなかったMatveev・連分数の終端検算や、全支持の閉鎖は認証しません。
+
+## 10月2日の三次因子と複数群への部分共有
+
+    python -X utf8 scripts/audit_i3_cubic_cofactor.py
+
+[紙上証明](../research/i3/i3_cubic_cofactor_partial_sharing_2026-10-02.md)の任意因子 P の圧縮、全三割当ての上界、4つの正係数証明書、次数7の小さい端点の法8と構造的な $q>5F_1$ を再生します。数学的に導かれた有限残り206配置・2,548商を前後の独立列挙で比較し、全商と全CRTの二方法で第一条件の一致0を確認します。三群共有の具体例と、同じ式の $2^{51}\mid n$ への持ち上げも検査します。後者の底が素数冪とは主張しません。結果は [verification_i3_cubic_cofactor.json](../data/results/verification_i3_cubic_cofactor.json)。一般の i=3 は未解決です。
+
+## 10月2日の二次商と部分共有の追加検算
+
+    python -X utf8 scripts/audit_i3_quadratic_cofactor.py
+    python -X utf8 scripts/audit_i3_sextic_partial_sharing.py
+    python -X utf8 scripts/audit_i3_even_multiplier.py
+    python -X utf8 scripts/audit_i3_split_geometric.py
+
+[任意二次商](../research/i3/i3_quadratic_cofactor_single_allocation_closeout_2026-10-02.md)の完全な有限残りは993配置・12,308商、一致0。前後の独立列挙・畳み込み・第二評価で照合し、次数5中央割当ての全底の二つの符号証明書も確認します。次数5の全端割当てを閉じた検算ではありません。
+[六次部分共有](../research/i3/i3_sextic_partial_sharing_closeout_2026-10-02.md)は六圧縮・30係数ノルム・最高次零の全形・狭義有理上界・負根と微分・64剰余・28小底例外を再生。b=1 の最後は完全Q1と全奇素数Kummerの紙上論証です。
+[奇素数接続](../research/i3/i3_odd_prime_gluing_and_even_multiplier_2026-10-02.md)は4,698割当て中54有効例、54 CRT標準形、任意半次数の恒等式・全高次上界・法5の14組・十二次の適用限界を確認します。
+[全共有の先行本文](../research/i3/i3_integral_root_values_and_split_geometric_closeout_2026-10-02.md)は保存された11824バイトをそのまま復元し、検算器は独立に作り直しました。3,905係数ベクトル中19許容例を巡回畳み込みと分円因子の独立除算で照合します。全次数の分母・分散分類は紙上証明に依存します。
+結果はそれぞれ `data/results/verification_i3_quadratic_cofactor.json`、`verification_i3_sextic_partial_sharing.json`、`verification_i3_even_multiplier.json`、`verification_i3_split_geometric.json`。設定と残る証明義務は[AI引き継ぎ](AI_HANDOFF_2026-10-02.md)を参照します。
+
+## 10月2日の任意の共有因子の全数値排除
+
+    python scripts/audit_i3_arbitrary_cofactor.py
+
+[紙上証明](../research/i3/i3_arbitrary_cofactor_closeout_2026-10-02.md)の任意の $B$ の恒等式、商の全三形と補数、三次の消去式、符号証明書、19組の完全被覆を検算します。
+17個の合同証明書は法4・8・12の全4,096剰余を再生し、整数パラメータの全体を覆います。幾何級数の残りは前稿の七判別式の検算を呼び出して再生します。
+[結果JSON](../data/results/verification_i3_arbitrary_cofactor.json)に、非幾何級数・重根の局所診断と、次数・4の条件を外せない例も保存します。全共有因子が一つの $J-s$ を重複度込みで割る場合の排除であり、複数の割当てなどを含む一般の $i=3$ は未解決です。
+
+## 10月1日の両隣接法と幾何級数族の全数値排除
+
+    python scripts/audit_i3_adjacent_resultants.py
+
+[紙上証明](../research/i3/i3_adjacent_resultants_and_geometric_closeout_2026-10-01.md)の共有因子の全重複度除去を因数分解と独立に照合し、終結式をSylvester行列でも確認します。
+全25組の整数の商の符号証明書、七つの判別式、法8・16・7の排除、隣接平方の差を厳密に再生します。
+四次以上は一般の不等式、三次は全整数パラメータの符号と合同式で排除し、有限診断から外挿しません。
+[結果JSON](../data/results/verification_i3_adjacent_resultants.json)は、一つの底の局所診断と真の反例を区別します。幾何級数族以外の一般の $i=3$ は未解決です。
+
+## 10月1日の中央群の二段平方降下と11/15境界
+
+    python scripts/audit_i3_central_square_descent.py
+
+[紙上証明](../research/i3/i3_central_square_descent_2026-10-01.md)の二つの平方差、二次式と判別式、低次数のノルム、等号の四次式への消去、定数項と四次項の係数、正の二次式への還元を厳密に再生します。
+3,958,140件の次数の変換、33件の11/15等号の次数構造、10,000件の低次数剰余の比較は補助診断です。全次数の証明は紙上の恒等式と次数比較に依存します。
+一般の $i=3$、無限平方降下、高い差次数、5冪の芯、一般数値領域は未解決です。
+
+## 10月1日の全半比率分配と中央飽和の厳密下限
+
+    python scripts/audit_i3_half_ratio_central_bounds.py
+
+[紙上証明](../research/i3/i3_half_ratio_and_central_saturation_bounds_2026-10-01.md)の元の行列式からの6恒等式、三次の判別式、二つの平方恒等式、低次数の平方差、偶六次の最高次係数と非零定数項を厳密に再生します。
+半比率の338,350件の次数丸め、中央群の9,410,061件の非負次数、57件の5/7等号の次数構造は補助診断です。有限診断から全次数を外挿しません。
+半比率の $h>(5u-v)/6$ と均衡中央飽和の $h>5u/7$ は紙上証明に依存します。
+一般の $i=3$、高い差次数、5冪の芯、一般数値領域への移行は未解決です。
+
+## 10月1日の均衡境界の全排除と全分配の下限
+
+    python scripts/audit_i3_balanced_boundary.py
+
+[紙上証明](../research/i3/i3_balanced_boundary_closeout_2026-10-01.md)の有限例外855件と3430件の非零剰余証明書、33芯の両整除性、22疎多項式恒等式、176Taylor係数を検算します。
+解析評価の有理部分和・無限尾部の上界、24偶数芯の2進係数、二例外の六次族への変換も再生します。
+空の中央群の整除性の恒等式と、新しい全分配の $h\ge\lceil(8u-v)/12\rceil$ の整数丸めも確認します。
+全次数の分類・分母補題・根の配置は紙上証明に依存し、有限診断から外挿していません。
+一般の $i=3$、より高い差次数、奇数芯 $D=5^a,a\ge4$、数値領域全体は未解決です。
+
+## 10月1日の5冪の共通枝と25・125の芯
+
+    python scripts/audit_i3_five_power_composition.py
+    python scripts/audit_i3_five_power_low_degree_closeout.py
+
+[紙上証明](../research/i3/i3_five_power_composition_and_local_frontier_2026-10-01.md)の全指数の共通5進根、$n$ の剰余と指数、合成の補正、固定法の合同式の整合性に対応します。
+二次環の反復二乗を独立な二階漸化式でも照合し、$a\le100$ の診断を保存しました。この有限診断から全指数を外挿しません。
+25・125の芯は26件のFrobenius・Bézout恒等式で全40組の指数の剰余を被覆します。
+素数性・位数・必要剰余を再生し、指数やパラメータの上限を使わずに全評価を排除します。
+[証明書](../data/certificates/i3_five_power_low_degree_closeout_2026-10-01.json)の再生は標準PythonとSymPyのみで、探索用の有限体ライブラリは不要です。
+この配置で $a\ge4$、他の多項式分配、一般数値領域は残ります。
+
+## 10月1日の半次数の合成と整数係数条件
+
+    python scripts/audit_i3_half_degree_composition.py
+
+[紙上証明](../research/i3/i3_half_degree_composition_2026-10-01.md)の境界の6恒等式、45合成整除、20有理モデル恒等式・整除、原点の分岐を検算します。
+288件の係数付値と240件の法5の合成も確認し、内側の分母と全係数の5倍性を区別します。
+56合成例・168整数評価は補助診断で、次数80までの検算から一般定理を外挿しません。負の係数を持つ内側の例も含みます。
+[結果JSON](../data/results/verification_i3_half_degree_composition.json)は、多項式移行済みの境界の排除と、一般の i=3 の未解決を区別します。
+五次の全整数評価の排除は既存の証明と一括検算で再生します。
+
+## 10月1日の一般数値領域・完全素数冪・終結式
+
+    python scripts/audit_i3_prime_power_resultants.py
+
+[任意次数の紙上証明](../research/i3/i3_prime_power_resultant_frontier_2026-10-01.md)に対応します。130,218件のブロック進への含意、逆向きの反例、16積恒等式、2,548ノルム評価、600LCM整除、二つの桁予算恒等式、580閾値比較を確認します。
+8数値診断例の終結式をSylvester行列の行列式でも照合します。末尾1は二つの数値整除条件、末尾0は証明に必要な前半だけを使い、全素数での反例とは扱いません。
+[結果JSON](../data/results/verification_i3_prime_power_resultants.json)は仮定の差と一般領域の未解決を明記します。有限検算と条件付き有限化を、一般の i=3 の証明に数えていません。
+
+## 10月1日の七次・任意次数・八次の一分配
+
+    python scripts/audit_i3_septic_and_saturation.py
+
+[七次の紙上証明](../research/i3/i3_septic_closeout_2026-10-01.md)、[差の下限と八次の3+5の排除](../research/i3/i3_half_degree_bound_and_octic_frontier_2026-10-01.md)、[任意次数の対称飽和補題](../research/i3/i3_symmetric_saturation_2026-10-01.md)に対応します。
+上位係数の還元、二次環の跡・ノルム、有限体での三次式の既約性、全有理原点・符号、整数係数と7進付値の恒等式を確認します。
+262整数評価の診断と、全評価の紙上証明を区別しています。
+[結果JSON](../data/results/verification_i3_septic_and_saturation.json)は七次の閉鎖を記録し、八次全体・一般の $i=3$ の未解決を明示します。
+
+## 10月1日の六次の閉鎖
+
+    python scripts/audit_i3_sextic_closeout.py
+
+[紙上証明](../research/i3/i3_sextic_closeout_2026-10-01.md)の全有理パラメータ還元、全12原点・符号の表、整数係数条件、最後の枝の短い消去恒等式、共通素数3の全合同類をSymPy 1.14.0で検算します。
+[結果JSON](../data/results/verification_i3_sextic_closeout.json)に、六次の反例排除と一般の $i=3$ の未解決を区別して保存しています。
+256個の整数評価は付値の補助診断で、普遍的な結論の根拠は紙上証明です。
+
+添付更新の初回再生では数学の9検算は通過しましたが、原本保存検査が `.gitattributes` の変更を検出しました。
+保護対象のルート設定を元のバイト列へ戻し、フォーラム原文の行末空白の設定をそのフォルダ内の設定へ移しました。
+原本のハッシュ検査を緩めずに、一括検算を復旧しています。
+
+## 9月30日の研究継続
+
+```text
+python scripts/audit_i3_quintic_digit_classification.py
+python scripts/audit_i3_quintic_closeout.py
+python scripts/audit_i3_extremal_split_closeout.py
+python scripts/audit_i3_sextic_working_models.py
+python scripts/audit_i4_six_cell_capacity.py
+python scripts/audit_polynomial_capacity_supports.py
+python scripts/audit_iterated_polynomial_capacity.py
+python scripts/audit_known_bridge_and_i4_fixed_j.py
+python scripts/replay_i4_fixed_j.py
+python scripts/check_repository.py
+```
+
+最初はSymPyで、五次分類の九分岐・三候補・因数分解・Bézout恒等式・5進例外・指数合同条件を確認します。一般分類の根拠は[紙上証明](../research/i3/i3_quintic_digit_classification_2026-09-30.md)です。
+
+[五次の閉鎖](../research/i3/i3_quintic_closeout_2026-09-30.md)は、$M=3$ の隣接する5乗の恒等式と、$M=1$ の法28001の全剰余・別の多項式証明書を検算します。反例に必要な条件を保って五次の族を全排除し、一般の $i=3$ は未解決です。
+
+任意次数の[端点分配の閉鎖](../research/i3/i3_extremal_split_closeout_2026-09-30.md)の検算にはSymPyを使い、微分に使う恒等式・三次の合成・3進の数値条件を確認します。任意次数の根拠は紙上証明です。
+
+[六次の作業モデル](../research/i3/i3_sextic_working_notes_2026-09-30.md)の検算は、二つの明示族の行列式・両整除条件・因子群次数・有理原点と非負性だけを確認します。
+[結果JSON](../data/results/verification_i3_sextic_working_models.json)でも、一般分類・整数パラメータ分類・数値の反例排除は認証しないと明記しています。
+
+残りの新検算は標準Pythonだけで動きます。6セルの全103有理証明書、高次数の全37支持の整数係数・零点・無限尾部閾値、最後の102セル有理配置の全32,547直線・666二次式・35追加容量を再計算します。
+
+有限 $j$ の生成・再生は、異なる算式で496,499整数を完全走査し、全53,072約数と唯一の橋渡し候補を一致させます。無限尾部は初等的な付値評価で閉じ、EEES78の定理には依存しません。既知の小 $j$ 領域の接続だけはEEES78に依存し、一次PDFのハッシュと全12例外・41共通素数を確認します。
+
+全て部分結果の検算であり、28添字の完全解決を認証しません。詳細・結果へのリンクは[研究継続の記録](../research/general/continuation_2026-09-30.md)を参照してください。
 
 ## 9月27日の $i=4$ の続行
 
@@ -234,3 +448,9 @@ python scripts/package_results.py
 
 Git管理下のファイルをフォルダ構成ごと `dist/erdos699-current.zip` に保存し、ZIP内の `SHA256.json` と照合します。
 [過去のZIP](../archive/README.md)は当時の配布物として保存し、このコマンドでは上書きしません。
+
+AI引き継ぎ一式は、変更をコミットしてから次で作成します。
+
+    python scripts/package_results.py --include-git-metadata --output dist/erdos699_ai_handoff_2026-10-02.zip
+
+`BUILD_METADATA.json` に確定コミット・枝・時刻を記録し、このファイルも全体の SHA-256 照合に含めます。Git の履歴データベースは同梱しません。[今回の25件の通過ログ](../data/results/verification_latest_2026-10-02.log)も保存しました。

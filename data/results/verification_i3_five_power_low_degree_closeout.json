@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "excluded_Chebyshev_cores": [
+    25,
+    125
+  ],
+  "certificate_count": 26,
+  "covered_cases": [
+    4,
+    36
+  ],
+  "certificate_sha256": "0a6b4ac8baac76a89cc0f9d4813eae73903ec177f1e221d8d08a590953ab5549",
+  "independent_integer_polynomial_replay": true,
+  "all_degrees_25_and_125_classified": false,
+  "all_five_power_cores_closed": false,
+  "complete_problem_solution": false,
+  "remaining_five_power_core_exponents": "a >= 4",
+  "remaining_indices": 28
+}

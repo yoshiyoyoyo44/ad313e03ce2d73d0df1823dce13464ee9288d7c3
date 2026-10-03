@@ -1,0 +1,48 @@
+{
+  "modulus": 28001,
+  "target": 18059,
+  "polynomial": [
+    9944,
+    125,
+    3750,
+    6999,
+    12996,
+    9995
+  ],
+  "frobenius_remainder": [
+    7394,
+    -5767,
+    5050,
+    11650,
+    -11135
+  ],
+  "bezout_C": [
+    5742,
+    797,
+    2379,
+    -7364
+  ],
+  "bezout_D": [
+    8558,
+    -2780,
+    12185,
+    -1072,
+    -3429
+  ],
+  "coefficient_order": "ascending",
+  "integer_gcd_bound": 24,
+  "M3_lower_difference": [
+    1,
+    10,
+    45,
+    40,
+    10
+  ],
+  "M3_upper_difference": [
+    92,
+    215,
+    165,
+    50,
+    5
+  ]
+}

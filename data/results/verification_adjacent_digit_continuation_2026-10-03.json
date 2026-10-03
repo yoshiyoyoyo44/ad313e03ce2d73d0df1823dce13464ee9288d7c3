@@ -1,0 +1,220 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-10-03T13:26:00.869056+00:00",
+  "research_date": "2026-10-03",
+  "repository_target": "yoshiyoyoyo44/erdos699",
+  "publication_branch_target": "main",
+  "baseline_before_update": "cf00db1d6edda7f28787114ab85c9199c48a1156",
+  "python": "3.14.3",
+  "sympy": "1.14.0",
+  "full_latest_suite_rerun": true,
+  "registered_check_count": 35,
+  "checks": [
+    {
+      "script": "audit_adjacent_digit_descent.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.6
+    },
+    {
+      "script": "audit_i5_sparse_allocation.py",
+      "exit_code": 0,
+      "elapsed_seconds": 129.6
+    },
+    {
+      "script": "audit_i5_global_product_and_affine.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6
+    },
+    {
+      "script": "audit_i5_multiplicity_frontier.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.5
+    },
+    {
+      "script": "audit_i3_quintic_split_allocation.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6
+    },
+    {
+      "script": "audit_i3_split_mahler_frontier.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6
+    },
+    {
+      "script": "audit_october03_integration.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.5
+    },
+    {
+      "script": "audit_i3_quadratic_cofactor.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.0
+    },
+    {
+      "script": "audit_i3_quintic_quadratic_endpoint.py",
+      "exit_code": 0,
+      "elapsed_seconds": 5.2
+    },
+    {
+      "script": "audit_i3_quintic_quadratic_complete.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.7
+    },
+    {
+      "script": "audit_i3_cubic_cofactor.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.8
+    },
+    {
+      "script": "audit_i3_sextic_partial_sharing.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.9
+    },
+    {
+      "script": "audit_i3_even_multiplier.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.1
+    },
+    {
+      "script": "audit_i3_split_geometric.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6
+    },
+    {
+      "script": "audit_i3_arbitrary_cofactor.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.1
+    },
+    {
+      "script": "audit_i3_adjacent_resultants.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.7
+    },
+    {
+      "script": "audit_i3_central_square_descent.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.1
+    },
+    {
+      "script": "audit_i3_half_ratio_central_bounds.py",
+      "exit_code": 0,
+      "elapsed_seconds": 7.2
+    },
+    {
+      "script": "audit_i3_balanced_boundary.py",
+      "exit_code": 0,
+      "elapsed_seconds": 11.8
+    },
+    {
+      "script": "audit_i3_five_power_composition.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.3
+    },
+    {
+      "script": "audit_i3_five_power_low_degree_closeout.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.8
+    },
+    {
+      "script": "audit_i3_half_degree_composition.py",
+      "exit_code": 0,
+      "elapsed_seconds": 11.1
+    },
+    {
+      "script": "audit_i3_prime_power_resultants.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.4
+    },
+    {
+      "script": "audit_i3_septic_and_saturation.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.1
+    },
+    {
+      "script": "audit_i3_sextic_closeout.py",
+      "exit_code": 0,
+      "elapsed_seconds": 5.7
+    },
+    {
+      "script": "audit_i3_quintic_digit_classification.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.1
+    },
+    {
+      "script": "audit_i3_quintic_closeout.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2
+    },
+    {
+      "script": "audit_i3_extremal_split_closeout.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.5
+    },
+    {
+      "script": "audit_i3_sextic_working_models.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6
+    },
+    {
+      "script": "audit_i4_six_cell_capacity.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2
+    },
+    {
+      "script": "audit_polynomial_capacity_supports.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2
+    },
+    {
+      "script": "audit_iterated_polynomial_capacity.py",
+      "exit_code": 0,
+      "elapsed_seconds": 2.2
+    },
+    {
+      "script": "audit_known_bridge_and_i4_fixed_j.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7
+    },
+    {
+      "script": "replay_i4_fixed_j.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.3
+    },
+    {
+      "script": "check_repository.py",
+      "exit_code": 0,
+      "elapsed_seconds": 6.6
+    }
+  ],
+  "mathematical_scope": "all-index conditional lemmas; i5 low-digit-mass and two uniform-minimal-height families closed for all exponents and prime counts; universal arguments are paper proofs, not finite-diagnostic extrapolations",
+  "problem699_solved": false,
+  "general_i5_solved": false,
+  "odd_class9_solved": false,
+  "new_completely_solved_indices": 0,
+  "unresolved_indices": 28,
+  "third_party_review_completed": false,
+  "universal_lean_formalization_completed": false,
+  "sha256": {
+    "research/general/adjacent_row_digit_descent_2026-10-03.md": "ef9423de7fe27efe0c7241819342dee453a72b14c46ec9803589e231e39f380c",
+    "scripts/audit_adjacent_digit_descent.py": "aa9ef96c9be807a7ee3e33d1af09b5edbed570be5bd936c53d7158c17a6f0225",
+    "data/results/verification_adjacent_digit_descent.json": "8defaa71c6298d81646441e57cc87090ce2b422d2caf22ab3b485d4cf53dafb9",
+    "data/results/verification_github_publish_2026-10-03.log": "76c79809d47d2617d321e1128cbf8d1a2017bff4260dba59f8af38dd8d4ba024"
+  },
+  "post_documentation_layout_check": {
+    "status": "passed",
+    "python_files_parsed": 134,
+    "documents_checked": 117,
+    "local_links_checked": 1917,
+    "source_zip_entries": 666,
+    "source_manifest_hashes": 665,
+    "backups_verified": 13
+  },
+  "staged_baseline_check": {
+    "command": "python -X utf8 scripts/audit_github_baseline.py",
+    "exit_code": 0,
+    "all_504_baseline_paths_present": true,
+    "byte_identical_baseline_files": 490,
+    "tracked_working_file_count": 700,
+    "added_file_count": 196
+  }
+}

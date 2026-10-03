@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "scope": "All octic saturated branches and all balanced t=1/2 branches with d1=2, d>=3; not general i=3.",
+  "universal_saturation_identity_checks": 6,
+  "quarter_sign_reduction_checks": 9,
+  "degree_unbounded_pell_identity_checks": 6,
+  "all_rational_origin_and_sign_checks": [
+    {
+      "t": "1/8",
+      "origin": 0,
+      "direction": -1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "-16",
+        "1/4"
+      ]
+    },
+    {
+      "t": "1/8",
+      "origin": 0,
+      "direction": 1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "16",
+        "-1/4"
+      ]
+    },
+    {
+      "t": "1/8",
+      "origin": 2,
+      "direction": -1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "-32",
+        "-107/4"
+      ]
+    },
+    {
+      "t": "1/8",
+      "origin": 2,
+      "direction": 1,
+      "admissible": true,
+      "first_failure": null
+    },
+    {
+      "t": "3/8",
+      "origin": 0,
+      "direction": -1,
+      "admissible": false,
+      "first_failure": [
+        "4",
+        "-179",
+        "-1517/16"
+      ]
+    },
+    {
+      "t": "3/8",
+      "origin": 0,
+      "direction": 1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "-32",
+        "-111/4"
+      ]
+    },
+    {
+      "t": "3/8",
+      "origin": 2,
+      "direction": -1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "16",
+        "-5/4"
+      ]
+    },
+    {
+      "t": "3/8",
+      "origin": 2,
+      "direction": 1,
+      "admissible": false,
+      "first_failure": [
+        "1",
+        "-16",
+        "5/4"
+      ]
+    }
+  ],
+  "rational_root_exclusion_certificates": [
+    {
+      "polynomial": "20*y**4 + 48*y**3 - 104*y**2 - 216*y - 3",
+      "prime": 13,
+      "residues": [
+        10,
+        5,
+        9,
+        3,
+        6,
+        10,
+        6,
+        10,
+        11,
+        10,
+        7,
+        1,
+        3
+      ]
+    },
+    {
+      "polynomial": "9*y**4 + 2*y**3 - 34*y**2 - 4*y + 16",
+      "prime": 5,
+      "residues": [
+        1,
+        4,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "polynomial": "33*y**4 - 94*y**3 - 34*y**2 + 188*y - 32",
+      "prime": 5,
+      "residues": [
+        3,
+        1,
+        4,
+        1,
+        3
+      ]
+    }
+  ],
+  "saturated_octic_integer_family": {
+    "F": "147456*y**8 + 524288*y**7 + 745472*y**6 + 540672*y**5 + 211200*y**4 + 43008*y**3 + 4032*y**2 + 128*y + 2",
+    "J": "18432*y**8 + 74752*y**7 + 123648*y**6 + 107136*y**5 + 51920*y**4 + 13896*y**3 + 1890*y**2 + 107*y + 2",
+    "parameter": "y=k*X, k positive integer"
+  },
+  "integer_obstruction": "F-2 has all coefficients divisible by 64; 4 divides n is required for a counterexample",
+  "unbounded_degree_obstruction": "t=1/2, d1=2, d>=3 forces 9*a^2+18*(d-1)*a-16=0, whose rational discriminant is impossible",
+  "remaining_octic_branch": {
+    "t": "3/8",
+    "d": [
+      3,
+      3,
+      2
+    ],
+    "h": 3,
+    "up_to_complement": true
+  },
+  "complete_prime_power_multiplicities_preserved": true,
+  "octic_all_branches_excluded": false,
+  "general_i3_solved": false,
+  "complete_problem_solution": false
+}

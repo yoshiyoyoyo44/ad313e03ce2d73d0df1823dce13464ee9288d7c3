@@ -1,0 +1,21 @@
+Erdos 699 conversation progress bundle — 2026-10-03
+
+README.md
+  Master handoff summarizing all progress discussed/verified in this conversation.
+
+docs/AI_HANDOFF_2026-10-02.md
+  Updated baseline handoff supplied in the conversation.
+
+research/i3/i3_split_residual_degree_frontier_2026-10-02.md
+  New complete-sharing residual-degree frontier: rho<=5 closed; rho=6 high degrees closed.
+
+research/general/collision_aware_maximal_row_moment_2026-10-02.md
+  Collision-aware maximal-row theorem for all 26 unresolved i>=5 tails.
+
+research/general/i5_quadratic_capacity_closeout_2026-10-02.md
+research/general/i5_collision_capacity_closeout_2026-10-02.md
+research/general/i5_last_two_capacity_frontier_2026-10-02.md
+  i=5 capacity closeouts and last-two frontier.
+
+data/results/*
+  Saved verification logs/JSON for the conversation-generated general/i=5 results.

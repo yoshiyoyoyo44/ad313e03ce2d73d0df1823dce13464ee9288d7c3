@@ -1,0 +1,166 @@
+          SOME NUMBER THEORETIC PROBLEMS ON BINOMIAL COEFFICIENTS
+
+                                     P . ERDÖS AND G . SZEKERES
+
+
+          We state a few simple but probably very difficult problems about binomial
+coefficients . The problems came up at the International Combinatorial Conference in
+Canberra, August 1977 .
+
+            Let 1 <- i < j      l
+                             <- b n .    First observe that
+
+
+                                          (ti), (j))                       1.                                (1)
+                                                                       >
+
+To prove (1) put
+
+
+                                                    _ ny)l       _Zi)                                        (2)
+
+From (2) we evidently have
+
+
+                              I( n ),    ( j ))         ?     (in)/(j)           ?   2'                      (3)
+
+Since   (p)     is not divisible by p, we have (2p,(     )) = 2 hence equality in (3) for
+                                                       p
+i = 1, n = 2p, j = p .       For i > 1 there is always strict inequality in (3) and it seems
+likely that there is an h(n) tending to infinity with n so that
+
+
+                 I ~ n ), ~ n )) ?      h(n)            for           2 <- i < j <_ 'fin .
+
+
+            Denote by P(m,n) the greatest prime factor of                            (m,n), and in particular by
+P(m,n) the greatest prime factor of m .                      A well known theorem of Sylvester and Schur
+states that P{( n ),     ( n )) > i . This result generalizes the theorem of Tschebicheff
+according to which there always is a prime between n and 2n .
+
+        Conjecture 1 .    For every 1      <_   i   <       j <- in we have
+
+
+                                          Pl ( i ),          ( j )) ?      i .                               (4)
+
+            (4) if true is probably very deep . We also conjecture that
+
+                                                                                                             (5)
+                                          P 1`i ),           `j ) )
+
+holds except in a few special cases . First of all we discuss some of the counter-
+examples to (5) .
+
+            (5) fails for i = 2 and some special values of n, all of which seem to be
+powers of 2 .    Assume n = 2 r to be of the form pq + 1 where p,q are primes, e .g .
+
+                                                                - 97 -
+                                                           (
+ 2 4 = 1 + 3 x 5, or 2 11 = 1 + 23 x 89 .         Then         2) = 2r-I pq so that
+
+                                           p[ ( 2 ), (   )1 =       2
+
+ provided that j is such that (~)           is not divisible by pq .        The best chance for this
+  ot   happen is if j is such that j 2 0(mod p) , j 2 1(mod q) .              For instance in the
+ previous two cases, when n = 16, p = 3, q = 5, j = 6 we have                           (6 ) = 8
+                                                                               ((16),
+
+               n = 2048, p = 23, q = 89, j = 713 we have ((2 048)              (20 48)) = 210 . The same
+and when
+                                                                                 71
+method can of course be used if 2 1' - 1 = u - v, (u,v) = 1 where u,v are not necessarily
+primes, but the chance of failure is much greater .
+                                                                                              1,)] = 2 2 x 3 ;
+               There are a few scattered counterexamples for i = 3 like [(3),
+the numbers 3r + 1 have the best chances . For i ? 4 there should only be a few
+incidental counterexamples to (5) .           We only know one such counterexample, namely
+                       .3 3 .5 .
+ ( 5 ), ( 14 ) ) = 2 3
+               In trying to prove conjecture 1 the following further problem occurred . Put
+
+
+                                   f(n) =       min
+                                              1<j Jn
+From (2) it follows that
+
+                                       f(n) z p(n)                                                  (6)
+where p(n) is the smallest prime factor of n .                  If n = pk is a prime power then equality
+sign holds in (6), f(p k ) = p .     For composite n we have the further inequality
+
+                                       f(n) `                                                       (7)
+                                              P(n)
+where P(n) is the greatest prime power which divides n .                  To see this put j = pa where
+          pa+1,,n,
+pa l n,              then
+
+                                              (n))       __ n
+                                      ln'      j            pa
+
+as seen immediately from (2) . If n = pq, p < q then there is equality both in (6) and
+in (7) .     This again is seen from (2) :
+
+
+                                    "qq'     =   P/q_2
+hence (qq) is divisible by p but not by q .               This shows that f(pq) = p = Q, and equality
+in (6) and (7) follows . Another case with equality in (7) is f(30) = 6; the high value
+of f(3) is caused by the presence of 25 and 27 near 30 . It would be of interest to
+
+                                                         - 98 -
+characterize the composite n with f(n) = n/P(n) .          Numbers of the form    R p with
+                                                                                 p<_k
+k > 6 do not seem to have this property ; for instance
+
+
+                     f(210) = 1210,    301) = 14 < P(210) = 30 .
+
+ There are also cases other than pq with equality in (6) .           For instance we have
+f(3pq) = 3, namely    ( 33) 9 0(mod pq),      for infinitely many pairs of primes p,q .      We
+
+ leave the proof to the reader .
+
+           One more remark . Let n be composite . It is immediate that for infinitely
+many n, f(n) 2   vi, say when n = p 2 .      There are some n for which the strict inequality
+
+                                      f(n)     > f                                           (8)
+
+holds, e .g . f(30) = 6, f(70) = 0, f(154) = 14 (all of the form 2pq) . It seems likely
+ that there are infinitely many n for which the inequality (8) is true, although we
+ cannot prove this at present .
+
+           From (7) it follows that
+
+
+                             f(n) < (1+0(1)) l gn    o                                       (9)
+
+To prove (9) observe that the prime number theorem easily implies           P(n)2 (1 + 0(1)) log n .
+Thus (7) implies (9) .    Perhaps it is true that for every a > 0 there is an n 0 (a) so
+ that for every composite n > n 0 (a),       f(n) < n/(log n) OE .
+
+
+The University of New South Wales
+
+
+
+
+                  THE AUSTRALIA-WEIZMANN INSTITUTE
+
+                               EXCHANGE SCHEME
+          The Australian Association for the Weizmann Institute of Science has been
+established to promote the exchange of information and exchange visits between
+scientists at the Weizmann Institute of Science, Rehovot, Israel, and their colleagues
+in Australia . The president of the Association is Professor Sir Gustav Nossal, and
+Professor Sir MacFarlane Burnet is Patron . The Weizmann Institute is concerned with
+fundamental and applied research in Mathematics, Physics, Chemistry, Biophysics-Bio-
+chemistry, and Biology . The exchange programme will initially involve short-term
+visits of a few weeks duration . In time it is hoped that this can be extended to
+cover periods of study leave and postdoctoral study . In addition to such "official"
+exchange visits, it is hoped that the Society will be able to arrange for Australian
+members to visit the Weizmann Institute whilst overseas on study leave or attending
+conferences .
+
+             Further information concerning the Association and the Weizmann Institute
+of Science, and membership application forms, are available from the Secretary,
+Dr . A .W . Burgess, Walter & Eliza Hall Institute of Medical Research, P .O ., Royal
+Melbourne Hospital, Vic . 3050 .
+                                            - 99 -
+

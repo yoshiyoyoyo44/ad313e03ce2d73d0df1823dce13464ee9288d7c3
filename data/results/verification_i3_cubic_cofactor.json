@@ -1,0 +1,382 @@
+{
+  "scope": "cubic cofactor: all m>=8; central allocation m>=7; first condition only; general i=3 open",
+  "symbolic": {
+    "all_three_compression_identities": [
+      0,
+      1,
+      2
+    ],
+    "constant_term": "e*(e-1), zero for e=0,1",
+    "requires_no_polynomial_divisibility_of_F_minus_1": true
+  },
+  "inequalities": {
+    "positive_shift_certificates": {
+      "m8_q_ge_9": [
+        1,
+        48,
+        927,
+        9060,
+        45615,
+        102294,
+        51441
+      ],
+      "m9_q_ge_4": [
+        1,
+        28,
+        330,
+        2102,
+        7700,
+        15804,
+        15922,
+        5134
+      ],
+      "m_ge_10_q_ge_3": [
+        1,
+        24,
+        252,
+        1506,
+        5562,
+        12840,
+        17724,
+        12888,
+        3489
+      ],
+      "s1_m7_q_ge_10": [
+        1,
+        41,
+        634,
+        4426,
+        12329,
+        4693
+      ]
+    },
+    "general_root_disk_threshold": "m>=2*k+2, q>=max(12,4*k)",
+    "linear_factor_ratio": "<6*(q-1)*(q+1)**4/q**(m-2)",
+    "central_ratio": "<3*(q-1)*(q+1)**4/(4*q**(m-2))"
+  },
+  "finite_tail": {
+    "derived_domain": "m8:q3..8; m9:q3; m7,s1:q3..9",
+    "independent_profile_enumerators": 2,
+    "independent_numeric_methods": [
+      "all quotients",
+      "all CRT roots"
+    ],
+    "profiles": 206,
+    "quotients": 2548,
+    "negative_B_profiles": 104,
+    "first_hits": 0,
+    "rows": [
+      {
+        "m": 8,
+        "q": 3,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 0,
+        "quotients": 0,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 1,
+        "CRT_residues": 0,
+        "CRT_numeric_j": 0,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 8,
+        "q": 4,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 2,
+        "quotients": 24,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 65,
+        "CRT_residues": 12,
+        "CRT_numeric_j": 4,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 8,
+        "q": 5,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 4,
+        "quotients": 36,
+        "negative_B_profiles": 1,
+        "terminal_D_sequences": 580,
+        "CRT_residues": 60,
+        "CRT_numeric_j": 26,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 8,
+        "q": 6,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 13,
+        "quotients": 218,
+        "negative_B_profiles": 4,
+        "terminal_D_sequences": 1526,
+        "CRT_residues": 184,
+        "CRT_numeric_j": 263,
+        "CRT_dominated_j": 2,
+        "first_hits": 0
+      },
+      {
+        "m": 8,
+        "q": 7,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 25,
+        "quotients": 278,
+        "negative_B_profiles": 6,
+        "terminal_D_sequences": 4103,
+        "CRT_residues": 232,
+        "CRT_numeric_j": 187,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 8,
+        "q": 8,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 53,
+        "quotients": 1174,
+        "negative_B_profiles": 23,
+        "terminal_D_sequences": 7559,
+        "CRT_residues": 524,
+        "CRT_numeric_j": 209,
+        "CRT_dominated_j": 5,
+        "first_hits": 0
+      },
+      {
+        "m": 9,
+        "q": 3,
+        "s": [
+          0,
+          1,
+          2
+        ],
+        "profiles": 0,
+        "quotients": 0,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 1,
+        "CRT_residues": 0,
+        "CRT_numeric_j": 0,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 3,
+        "s": [
+          1
+        ],
+        "profiles": 0,
+        "quotients": 0,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 1,
+        "CRT_residues": 0,
+        "CRT_numeric_j": 0,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 4,
+        "s": [
+          1
+        ],
+        "profiles": 2,
+        "quotients": 9,
+        "negative_B_profiles": 1,
+        "terminal_D_sequences": 33,
+        "CRT_residues": 12,
+        "CRT_numeric_j": 12,
+        "CRT_dominated_j": 1,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 5,
+        "s": [
+          1
+        ],
+        "profiles": 4,
+        "quotients": 11,
+        "negative_B_profiles": 3,
+        "terminal_D_sequences": 242,
+        "CRT_residues": 32,
+        "CRT_numeric_j": 12,
+        "CRT_dominated_j": 4,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 6,
+        "s": [
+          1
+        ],
+        "profiles": 11,
+        "quotients": 67,
+        "negative_B_profiles": 7,
+        "terminal_D_sequences": 522,
+        "CRT_residues": 116,
+        "CRT_numeric_j": 163,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 7,
+        "s": [
+          1
+        ],
+        "profiles": 16,
+        "quotients": 77,
+        "negative_B_profiles": 10,
+        "terminal_D_sequences": 1237,
+        "CRT_residues": 136,
+        "CRT_numeric_j": 72,
+        "CRT_dominated_j": 0,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 8,
+        "s": [
+          1
+        ],
+        "profiles": 32,
+        "quotients": 287,
+        "negative_B_profiles": 22,
+        "terminal_D_sequences": 2101,
+        "CRT_residues": 300,
+        "CRT_numeric_j": 118,
+        "CRT_dominated_j": 9,
+        "first_hits": 0
+      },
+      {
+        "m": 7,
+        "q": 9,
+        "s": [
+          1
+        ],
+        "profiles": 44,
+        "quotients": 367,
+        "negative_B_profiles": 27,
+        "terminal_D_sequences": 3794,
+        "CRT_residues": 340,
+        "CRT_numeric_j": 466,
+        "CRT_dominated_j": 15,
+        "first_hits": 0
+      }
+    ]
+  },
+  "genuine_split_example": {
+    "F": [
+      1,
+      15,
+      90,
+      189,
+      210,
+      187,
+      248,
+      236,
+      80
+    ],
+    "J": [
+      1,
+      0,
+      17,
+      52,
+      70,
+      53,
+      69,
+      88,
+      36
+    ],
+    "B": [
+      1,
+      2,
+      2,
+      1,
+      3,
+      2
+    ],
+    "a": 20,
+    "b": 1,
+    "c": 2,
+    "q": 257,
+    "n": 1540039582121089020392,
+    "j": 691657771191598188162,
+    "assignments": {
+      "X+1": 0,
+      "B": 1,
+      "2X+1": 2
+    },
+    "n_mod8": 0,
+    "full_q_in_n_minus_1": true,
+    "first_remainder": 912020383550403878076,
+    "true_counterexample": false,
+    "deep_2adic_example": {
+      "q": 1889953357281721,
+      "v2_n_at_least": 51,
+      "q_prime_power_not_asserted": true,
+      "true_counterexample": false
+    }
+  },
+  "degree7_small_zero_allocation": {
+    "scope": "m7,s0,j<=n/2,q odd>=32,n>=32,8|n,F1>=1",
+    "strict_t_upper_bound": "9092061/3276800",
+    "t_equals_2": true,
+    "two_low_digit_congruences": true,
+    "b_c_equal_2_structural_gap": "q>5*F1",
+    "uses_T_or_other_odd_Kummer": false
+  },
+  "degree7_remaining_endpoint": {
+    "scope": "true counters, m7, B|J-2, small j",
+    "R": "3557763/524288",
+    "T": 1,
+    "M": [
+      1,
+      3
+    ],
+    "3_does_not_divide_q": true,
+    "B_leading_coefficient": 1,
+    "remaining_t": [
+      3,
+      4,
+      6
+    ],
+    "t2_excluded_by_low_digit_and_q_gt_5F1": true,
+    "t3_requires_J0_J1": [
+      0,
+      "F1"
+    ],
+    "t4_t6_require_a_b_c_even": true,
+    "t4_t6_require_M_1": true,
+    "t4_requires_even_u": true,
+    "q_band": "abc<q<7*abc/3",
+    "endpoint_not_closed": true
+  }
+}

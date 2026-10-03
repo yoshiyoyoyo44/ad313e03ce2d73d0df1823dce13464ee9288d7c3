@@ -17,6 +17,8 @@
 - [9月15日に追加したZIPの案内](attachments/incoming_2026-09-15/README.md)
 - [9月26日の5添付と依存資料](attachments/incoming_2026-09-26/README.md) — 原本保存、同梱114ハッシュ項目と6監査を再検証。
 - [9月27日の研究メモとパッケージ](attachments/incoming_2026-09-27/README.md) — 原本保存、40ハッシュ項目と全5検証の再生。
+- [10月3日に受け取った別系統の研究](attachments/incoming_2026-10-03/README.md) — 原本2件と展開12ファイルの保存。独立に再構築した結果と、資料からの報告を区別。
+- [10月3日の全進展ZIPの統合原本](attachments/all_progress_2026-10-03/README.md) — 受領ZIP、配布元メタデータ、全666項目の統合台帳、更新前13ファイルを保存。
 - [当時のSHA-256一覧](SHA256_legacy.json)
 
 これらは当時の配布物であり、その後の全成果を含む最新パッケージではありません。

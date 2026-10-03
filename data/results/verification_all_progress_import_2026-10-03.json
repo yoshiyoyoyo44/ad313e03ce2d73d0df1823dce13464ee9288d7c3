@@ -1,0 +1,231 @@
+{
+  "status": "passed",
+  "import_date": "2026-10-03",
+  "baseline_commit": "cf00db1d6edda7f28787114ab85c9199c48a1156",
+  "source_zip_sha256": "9f35551f0a6750bdd93b2ce1ce7947c2511f63727497cf5357779ec09e2ec865",
+  "zip_entries": 666,
+  "source_hashes_passed": 665,
+  "source_comparison": {
+    "same": 491,
+    "changed": 13,
+    "new": 162
+  },
+  "metadata_relocated": 2,
+  "pre_import_backups": 13,
+  "latest_replay": {
+    "status": "passed",
+    "isolated_copy": true,
+    "check_count": 32,
+    "checks": [
+      {
+        "script": "audit_i5_multiplicity_frontier.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quintic_split_allocation.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_split_mahler_frontier.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_october03_integration.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quadratic_cofactor.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quintic_quadratic_endpoint.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quintic_quadratic_complete.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_cubic_cofactor.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_sextic_partial_sharing.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_even_multiplier.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_split_geometric.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_arbitrary_cofactor.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_adjacent_resultants.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_central_square_descent.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_half_ratio_central_bounds.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_balanced_boundary.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_five_power_composition.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_five_power_low_degree_closeout.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_half_degree_composition.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_prime_power_resultants.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_septic_and_saturation.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_sextic_closeout.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quintic_digit_classification.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_quintic_closeout.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_extremal_split_closeout.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i3_sextic_working_models.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_i4_six_cell_capacity.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_polynomial_capacity_supports.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_iterated_polynomial_capacity.py",
+        "status": "passed"
+      },
+      {
+        "script": "audit_known_bridge_and_i4_fixed_j.py",
+        "status": "passed"
+      },
+      {
+        "script": "replay_i4_fixed_j.py",
+        "status": "passed"
+      },
+      {
+        "script": "check_repository.py",
+        "status": "passed"
+      }
+    ],
+    "python": "3.14.3",
+    "sympy": "1.14.0",
+    "stage_files_changed_by_replay": [
+      "data/certificates/known_bridge_and_i4_fixed_j_2026-09-30.json",
+      "data/results/verification_i3_adjacent_resultants.json",
+      "data/results/verification_i3_arbitrary_cofactor.json",
+      "data/results/verification_i3_balanced_boundary.json",
+      "data/results/verification_i3_central_square_descent.json",
+      "data/results/verification_i3_cubic_cofactor.json",
+      "data/results/verification_i3_even_multiplier.json",
+      "data/results/verification_i3_extremal_split_closeout.json",
+      "data/results/verification_i3_five_power_composition.json",
+      "data/results/verification_i3_five_power_low_degree_closeout.json",
+      "data/results/verification_i3_half_degree_composition.json",
+      "data/results/verification_i3_half_ratio_central_bounds.json",
+      "data/results/verification_i3_prime_power_resultants.json",
+      "data/results/verification_i3_quadratic_cofactor.json",
+      "data/results/verification_i3_quintic_closeout.json",
+      "data/results/verification_i3_quintic_digit_classification.json",
+      "data/results/verification_i3_quintic_quadratic_complete.json",
+      "data/results/verification_i3_quintic_quadratic_endpoint.json",
+      "data/results/verification_i3_quintic_split_allocation.json",
+      "data/results/verification_i3_septic_and_saturation.json",
+      "data/results/verification_i3_sextic_closeout.json",
+      "data/results/verification_i3_sextic_partial_sharing.json",
+      "data/results/verification_i3_sextic_working_models.json",
+      "data/results/verification_i3_split_geometric.json",
+      "data/results/verification_i3_split_mahler_frontier.json",
+      "data/results/verification_i4_fixed_j.json",
+      "data/results/verification_i4_six_cell_capacity.json",
+      "data/results/verification_i5_multiplicity_frontier.json",
+      "data/results/verification_iterated_polynomial_capacity.json",
+      "data/results/verification_october03_integration.json",
+      "data/results/verification_polynomial_capacity_supports.json"
+    ],
+    "recomputed_results_match_received": true,
+    "original_bytes_preserved_in_working_tree": true
+  },
+  "mathematical_scope": "Reproduction of supplied checks; general Problem 699 remains open",
+  "external_writes": false,
+  "import_snapshot": {
+    "status": "passed",
+    "zip_entries": 666,
+    "source_manifest_hashes": 665,
+    "backups_verified": 13,
+    "integrated_files_verified": 666,
+    "working_tree_snapshot_checked": true
+  },
+  "repository_layout": {
+    "status": "passed",
+    "legacy_paths": 279,
+    "byte_preserved_files": 187,
+    "new_original_attachments": 5,
+    "additional_handoff_originals": 2,
+    "september27_preserved": {
+      "originals": 2,
+      "package_hashes": 40,
+      "zip_entries": 41,
+      "baseline_git_blobs": 7
+    },
+    "october03_preserved": {
+      "original_files": 2,
+      "zip_entries": 19,
+      "extracted_files": 12,
+      "source_bytes_preserved": true,
+      "source_replay_scripts_provided": false
+    },
+    "all_progress_import_preserved": {
+      "zip_entries": 666,
+      "source_manifest_hashes": 665,
+      "backups_verified": 13,
+      "integrated_files_verified": 2,
+      "working_tree_snapshot_checked": false
+    },
+    "new_package_hash_entries": 114,
+    "extension_certificate_hashes": 2,
+    "python_files_parsed": 130,
+    "documents_checked": 114,
+    "local_links_checked": 1842,
+    "script_commands_checked": 217
+  },
+  "git_diff_check": "passed"
+}

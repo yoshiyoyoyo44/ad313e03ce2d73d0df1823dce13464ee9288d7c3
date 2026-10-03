@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "general_i3_solved": false,
+  "hypotheses": "F0=1, digit domination, F1>=1, F-2=(aX-1)D, complete D allocation, first condition",
+  "general_necessary_bound": "2*a*Dlead*q^(3*d-rho) < 3*(2*d*(q-1)^2+1)*(q+1)^(rho-2)",
+  "infinite_degree_certificates": [
+    {
+      "rho": 4,
+      "minimum_degree_J": 4,
+      "q_origin": 3,
+      "ascending_coefficients": [
+        24660,
+        67656,
+        80397,
+        54144,
+        22656,
+        6048,
+        1008,
+        96,
+        4
+      ]
+    },
+    {
+      "rho": 5,
+      "minimum_degree_J": 4,
+      "q_origin": 3,
+      "ascending_coefficients": [
+        2412,
+        9516,
+        13080,
+        8937,
+        3396,
+        732,
+        84,
+        4
+      ]
+    },
+    {
+      "rho": 6,
+      "minimum_degree_J": 5,
+      "q_origin": 3,
+      "ascending_coefficients": [
+        47244,
+        173988,
+        264720,
+        223776,
+        117549,
+        40224,
+        9042,
+        1296,
+        108,
+        4
+      ]
+    }
+  ],
+  "rho5": "d>=4 excluded here; d=3 excluded by the separate 14-case repair",
+  "rho6": "only d=3,m=4 and d=4,m=7 remain; neither is claimed solved",
+  "rho6_d4_leading_bound": {
+    "a_times_D6_maximum": 13,
+    "H_at_15": "17137664/1265625",
+    "H_decreasing_for_q_ge3": {
+      "q_origin": 3,
+      "ascending_coefficients": [
+        6,
+        17,
+        8
+      ]
+    }
+  },
+  "rho6_d4_coefficient_and_base_bounds": [
+    {
+      "a": 2,
+      "maximum_D6": 6,
+      "S_bound": 284,
+      "3_measure_bound_over_a": "1707/4",
+      "coarse_q_upper_bound": 36
+    },
+    {
+      "a": 3,
+      "maximum_D6": 4,
+      "S_bound": 7144,
+      "3_measure_bound_over_a": "14289/2",
+      "coarse_q_upper_bound": 132
+    },
+    {
+      "a": 4,
+      "maximum_D6": 3,
+      "S_bound": 69228,
+      "3_measure_bound_over_a": "415371/8",
+      "coarse_q_upper_bound": 328
+    },
+    {
+      "a": 5,
+      "maximum_D6": 2,
+      "S_bound": 405344,
+      "3_measure_bound_over_a": "2432067/10",
+      "coarse_q_upper_bound": 671
+    },
+    {
+      "a": 6,
+      "maximum_D6": 2,
+      "S_bound": 1724500,
+      "3_measure_bound_over_a": "3449001/4",
+      "coarse_q_upper_bound": 1212
+    },
+    {
+      "a": 7,
+      "maximum_D6": 1,
+      "S_bound": 5879304,
+      "3_measure_bound_over_a": "35275827/14",
+      "coarse_q_upper_bound": 2008
+    },
+    {
+      "a": 8,
+      "maximum_D6": 1,
+      "S_bound": 17034164,
+      "3_measure_bound_over_a": "102204987/16",
+      "coarse_q_upper_bound": 3120
+    },
+    {
+      "a": 9,
+      "maximum_D6": 1,
+      "S_bound": 43570048,
+      "3_measure_bound_over_a": "29046699/2",
+      "coarse_q_upper_bound": 4611
+    },
+    {
+      "a": 10,
+      "maximum_D6": 1,
+      "S_bound": 100987884,
+      "3_measure_bound_over_a": "605927307/20",
+      "coarse_q_upper_bound": 6550
+    },
+    {
+      "a": 11,
+      "maximum_D6": 1,
+      "S_bound": 216113000,
+      "3_measure_bound_over_a": "1296678003/22",
+      "coarse_q_upper_bound": 9010
+    },
+    {
+      "a": 12,
+      "maximum_D6": 1,
+      "S_bound": 432943324,
+      "3_measure_bound_over_a": "865886649/8",
+      "coarse_q_upper_bound": 12065
+    },
+    {
+      "a": 13,
+      "maximum_D6": 1,
+      "S_bound": 820524384,
+      "3_measure_bound_over_a": "4923146307/26",
+      "coarse_q_upper_bound": 15796
+    }
+  ],
+  "rho6_d4_final_q_bound": 13762,
+  "final_q_certificate": {
+    "q_origin": 13763,
+    "ascending_coefficients": [
+      12453798235334898637322,
+      25685805670455889901076,
+      8397127815763186758,
+      1084585945614248,
+      68950719603,
+      2147028,
+      26
+    ]
+  },
+  "exhaustive_rho6_d4_search_performed": false
+}

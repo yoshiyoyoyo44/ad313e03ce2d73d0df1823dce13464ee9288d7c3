@@ -1,0 +1,155 @@
+2026-10-03 i=5 priority update: targeted verification
+Prior 31 checks passed earlier; this is not a full 32-check replay.
+
+COMMAND: python -X utf8 scripts/audit_i5_multiplicity_frontier.py
+{
+  "status": "passed",
+  "capacity_certificates": 8,
+  "closed_cases": [
+    "collision_at_0",
+    "support_04",
+    "support_03_nodal_cubics"
+  ],
+  "frontier_threshold": "1000000000000000000000000",
+  "remaining_supports": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ]
+  ],
+  "i5_solved": false
+}
+EXIT: 0
+
+COMMAND: python -X utf8 scripts/audit_october03_integration.py
+{
+  "status": "passed",
+  "preservation": {
+    "original_files": 2,
+    "zip_entries": 19,
+    "extracted_files": 12,
+    "source_bytes_preserved": true,
+    "source_replay_scripts_provided": false
+  },
+  "collision_moment_rows": 26,
+  "i5_capacity_certificates": 2,
+  "closeout_scripts_replayed": false
+}
+EXIT: 0
+
+COMMAND: python -X utf8 scripts/check_repository.py
+{
+  "status": "passed",
+  "legacy_paths": 279,
+  "byte_preserved_files": 187,
+  "new_original_attachments": 5,
+  "additional_handoff_originals": 2,
+  "september27_preserved": {
+    "originals": 2,
+    "package_hashes": 40,
+    "zip_entries": 41,
+    "baseline_git_blobs": 7
+  },
+  "october03_preserved": {
+    "original_files": 2,
+    "zip_entries": 19,
+    "extracted_files": 12,
+    "source_bytes_preserved": true,
+    "source_replay_scripts_provided": false
+  },
+  "new_package_hash_entries": 114,
+  "extension_certificate_hashes": 2,
+  "python_files_parsed": 128,
+  "documents_checked": 110,
+  "local_links_checked": 1797,
+  "script_commands_checked": 209
+}
+EXIT: 0
+
+All 3 targeted checks passed. General i=5 remains open.
+
+2026-10-03 support 02 closeout and complete GitHub progress package: latest verification
+Prior targeted results above are retained as history. This is not a full 32-check replay.
+
+COMMAND: python -X utf8 scripts/audit_i5_multiplicity_frontier.py
+{
+  "status": "passed",
+  "capacity_certificates": 9,
+  "closed_cases": [
+    "collision_at_0",
+    "support_04",
+    "support_03_nodal_cubics"
+  ],
+  "frontier_threshold": "1000000000000000000000000",
+  "BFT_support_02_closeout_threshold": "1000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "remaining_supports": [
+    [
+      0,
+      1
+    ]
+  ],
+  "i5_solved": false
+}
+EXIT: 0
+
+COMMAND: python -X utf8 scripts/audit_october03_integration.py
+{
+  "status": "passed",
+  "preservation": {
+    "original_files": 2,
+    "zip_entries": 19,
+    "extracted_files": 12,
+    "source_bytes_preserved": true,
+    "source_replay_scripts_provided": false
+  },
+  "collision_moment_rows": 26,
+  "i5_capacity_certificates": 2,
+  "closeout_scripts_replayed": false
+}
+EXIT: 0
+
+COMMAND: python -X utf8 scripts/check_repository.py
+{
+  "status": "passed",
+  "legacy_paths": 279,
+  "byte_preserved_files": 187,
+  "new_original_attachments": 5,
+  "additional_handoff_originals": 2,
+  "september27_preserved": {
+    "originals": 2,
+    "package_hashes": 40,
+    "zip_entries": 41,
+    "baseline_git_blobs": 7
+  },
+  "october03_preserved": {
+    "original_files": 2,
+    "zip_entries": 19,
+    "extracted_files": 12,
+    "source_bytes_preserved": true,
+    "source_replay_scripts_provided": false
+  },
+  "new_package_hash_entries": 114,
+  "extension_certificate_hashes": 2,
+  "python_files_parsed": 129,
+  "documents_checked": 111,
+  "local_links_checked": 1819,
+  "script_commands_checked": 211
+}
+EXIT: 0
+
+
+COMMAND: python scripts/audit_github_baseline.py
+{
+  "status": "passed",
+  "baseline_file_count": 504,
+  "tracked_working_file_count": 664,
+  "byte_identical_baseline_files": 491,
+  "added_file_count": 160
+}
+EXIT: 0
+
+All 4 latest targeted checks passed. Support 02 is excluded with the external BFT theorem; general i=5 remains open at support 01.

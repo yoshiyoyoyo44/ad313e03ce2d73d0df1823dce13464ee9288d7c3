@@ -1,0 +1,631 @@
+J. Austral . Math . Soc . (Series A) 26 (1978), 257-269
+
+
+
+
+      ON THE PRIME FACTORIZATION OF BINOMIAL
+                   COEFFICIENTS
+      E. F . ECKLUND, JR ., R . B. EGGLETON, P . ERDŐS and J . L . SELFRIDGE
+
+
+                             Dedicated to Kurt Mahler on his 75th birthday
+
+
+
+                                        (Received 18 January 1978)
+
+                                      Communicated by J . H . Coates
+
+
+
+                                                    Abstract
+
+
+For positive integers n and k, with n>-2k, let (k) = uv, where each prime factor of u is less
+than k, and each prime factor of v is at least equal to k. It is shown that u < v holds with just
+12 exceptions, which are determined . If (k) = UV, where each prime factor of U is at most
+
+equal to k, and each prime factor of V is greater than k, then U< V holds with at most finitely
+many exceptions, 19 of which are determined . It is conjectured that there are no others .
+
+Subject classification (Amer . Math . Soc . (MOS) 1970) : 10A05, 10A25 .
+
+
+
+
+                                               1 . Introduction
+In this paper our basic concern is with the product of the small prime factors in
+runs of consecutive integers . Let us fix a positive integer k and examine runs of
+consecutive integers having no prime factor greater than k . Such runs cannot be
+very long (see Ecklund and Eggleton (1972)) . Indeed, a theorem of Stormer (1897)
+shows there are only finitely many pairs of consecutive integers with no prime
+factor greater than k . Moreover, it was proved independently by Sylvester (1892)
+and Schur (1929) that any run of k consecutive integers, each larger than k,
+
+  The second author's work was supported in part by the DeKalb Number Theory
+Foundation .
+
+© Copyright Australian Mathematical Society 1978
+Copyright . Apart from any fair dealing for scholarly purposes as permitted under the Copyright Act, no part of this
+JOURNAL may be reproduced by any process without written permission from the Treasurer of the Australian
+Mathematical Society .
+                                                       257
+ 258            E . F . Ecklund, Jr ., R . B. Eggleton, P. Erdős and J . L . Selfridge           [2]
+
+ contains at least one multiple of a prime greater than k . This may be expressed as
+ follows :
+
+
+   THEOREM (Sylvester-Schur) . For positive integers n and k,            with n > 2k, the binomial
+ coefficient (k) has a prime factor greater than k .
+
+
+  An elementary proof of the theorem in this form was given by Erdős (1934) and
+a proof of a stronger theorem, also essentially due to Erdős, appears in Ecklund
+and Eggleton (1972) .
+  By a theorem of Mahler (1961), for any given real a > 0 and positive integer k,
+the largest divisor of      consisting eritülely of primes not exceeding k is less than
+                       (nk
+nl+E, provided n is sufficiently large . Note also that the largest power of 2 dividing
+ n2
+     cannot exceed 2n . Thus with Mahler's Theorem we deduce the following
+
+result, which contains more quantitative information than the Sylvester-Schur
+Theorem, though it lacks an effective bound on k .
+
+
+   THEOREM . For positive integers n and k, let        (k = UV, where the prime factors of
+ U do not exceed k and the prime factors of V are all greater than k . Then U< V
+provided n is sufficiently large compared with k .
+
+
+   Of course U and V depend on n and k in this theorem, but it is convenient not to
+make this explicit in the notation .
+   When discussing the prime factors of runs of k consecutive integers, it is in fact
+natural to distinguish between primes which could possibly divide two or more
+members of the run, and those which are larger so can divide at most one member
+of the run : in other words, to distinguish primes strictly less than k from those at
+least as large as k . In this paper our main theme is the proof of the following fact .
+
+
+   THEOREM . For positive integers n and k, with n >, 2k, let         (k) = uv, where the prime
+,factors of u are all less than k and the prime factors of v are all at least as large as k.
+ Then u > v holds in just 12 cases, namely
+
+    8 )' (49)' (150) (l2                            ( 33 ( 33 (36                         (56
+   (3               ' 5 )' ( 71 )' ( 81 )' ( 370 )' 13)' 14)' 13)' (3617),                 131
+[31                        Prime factorization of binomial coefficients                      259
+
+
+
+      Using the notation    (k = UV, as in the earlier theorem, we shall show as a
+corollary to part of the proof of the above theorem that there are only finitely
+many cases with n > 2k for which U> V. Seven cases where this occurs, in addition
+to the 12 with u > v, are the following :
+
+                                      3 (18), ( 5      7 (54),            (1 62) .
+                   1,3,'   ( 13 )'              8)'              3 )'        3
+
+(                              (514)
+    In addition, we note that          is a near miss, with V U< 1 .06 .) However,
+                                  3
+Mahler's Theorem does not give an effective upper bound on the solutions, and
+we are unable to prove completeness of our list for cases with k = 3, 5, 7, though
+it is complete for all other values of k . We strongly conjecture that the list is also
+complete for these three problematic values of k .
+
+
+
+
+                                       2 . Plan of attack
+      For convenience, we shall frequently replace n by ck, where c > 2 is a rational
+
+variable such that ck is always an integer . We wish to show that if (                 k)=    UV,
+
+where the product separates prime factors less than k from those greater than or
+equal to k, then u> v holds in only 12 cases . To do this we divide the problem into
+five distinct parts, represented in Diagram 1 .
+
+      In Region I, where k and c are both large, we show that                  > u 2 by comparing
+                                                                        (k)
+    the binomial coefficient with the square of a simple overestimate for the product of
+    its small prime factors . In Region II, where k is large and c is small, we show that
+      k/ < v2 by comparing the binomial coefficient with the square of an under-
+    estimate for the product of its large prime factors . In Region Ill, where k is small
+    and c is large, we need to make a careful overestimate of u and compare it with the
+    corresponding underestimate of v, showing that c is large enough for v to dominate .
+    In Region IV, where k and c are both relatively small, all cases are directly examined
+    by computer. This checking is carried out for each k in the range 1 S k S 494 . For
+    certain k S 24 it turns out that the lower bound on c (which we calculate to ensure
+    that u < v) lies above the top of the search range for Region IV, obtained by extrapo-
+    lation of the lower bound used for Region 111 . Region V comprises these remaining
+    cases, which we finally eliminate by more sensitive systematic estimates of the size
+    of u. In fact, to get the upper bound for Region V in three cases, we reduce the
+260           E. F . Ecklund, Jr ., R . B . Eggleton, P . Erdős and J . L. Selfridge                      [4]
+
+possible instances to occurrences of special configurations of numbers with no
+large prime factors, and use the tabulation due to Lehmer (1964) to locate and
+examine all such configurations .
+                     c
+
+
+                              Region V                  Region III                    Region I
+
+
+              2635
+
+
+
+
+              1946
+
+                                      c = 4 .68+2630/k
+
+                                         c = 6 .07+ 1940/k
+
+
+
+
+                                                                                      c = 11 .53
+
+
+
+
+                         Region IV                                               Region II
+
+
+
+               2-                                                                                  o. k
+                         25              175                         494   649
+
+           DIAGRAM 1 . The regions for the various arguments used in the proof .
+
+
+
+                                          3. Region I : k and c both large
+
+  A basic estimate, given in Erdős (1934) and Erdős and Graham (1976), shows
+
+that if p" is a divisor of (n                      , then pa 5 n . Hence
+                                               )
+(1)                                                          u~nn(k-1)
+where 2r(x) denotes the number of primes not exceeding x . By a result of Rosser
+and Schoenfeld (1975), we have
+
+
+(2)                                  7r(x) < (1                              for x > 1 .
+                                                       + 21ogx) log x
+
+Thus, if we anticipate the bound on k for Region I and take k > 649 and n = ck,
+it follows that
+
+(3)                                            log u < 1 .23165k log ck/log k .
+[51                      Prime factorization of binomial coefficients                261
+
+
+      To get a suitable bound on the binomial coefficient (k), we use Stirling's
+formula,
+
+(4)                        n! _ ~(27rn)(é) n es/12n          for n, 1,
+
+where 8 is a real number depending on n, and satisfying 0 < 5 < 1 . With k, 649
+and c, 11 .53, it follows from (4) that
+
+(5)                  k log (k) > c log c- (c-1) log (c-1) - 0 .00641 .
+
+The desired inequality is u < v, which is equivalent to
+
+(6)                                         (   k ) > u2 .
+By (3) and (5), this certainly holds if
+(7)           clogs-(c-1)log(c-1)-0 .00641>2 .46330(l+logs/logk) .
+A routine calculation with k, 649 verifies that (7) holds for c, 11 .53, so it follows
+that u < v (and indeed U< V) holds in the region determined by these bounds on
+k and c . (Of course, we arrived at these particular bounds on k and c for Region I
+by successive approximation, with an eye to the bounds forced on us by our
+methods for dealing with Regions 11 and 111 . If we reduced the bound on c in
+Region I, it would be at the expense of increasing the bound on k .)
+
+                              4. Region H : k large, c small
+
+      With (k) = uv, the definition of v ensures that it is divisible by every prime
+between (c-1) k and ck, for any c, 2 . Indeed, for any positive integer r < c, we
+see that v must be divisible by each prime which is between (c-1) k/r and ck/r
+and which is at least as large as k. Let Pr denote the product of the set of primes p
+satisfying (c -1) k/r < p < ck/r and p,>- k, for any positive integer r<- c. Then we have
+
+(8)                                          v, 11 Pr .
+                                                   r-<c
+
+A recent result of Schoenfeld, reported in a footnote added in proof in Schoenfeld
+(1976), gives a sharp upper bound on O(x), which is the sum of the logarithms of
+all primes not exceeding x . This bound is
+
+ (9)                        B(x) _          loge < 1 .000081x      for x, 1 .
+                                     p-<x
+
+ In order to estimate the product Pr we also need lower bounds on B(x) for values
+262               E . F. Ecklund, Jr ., R . B . Eggleton, P . Erdős and J. L. Selfridge           [61
+
+
+of x up to about 104 . Write
+(10)                                   B(x)            logP >' ax .
+                                                P<_x
+
+A short table of values of a, and associated lower bounds on x, is given by Rosser
+and Schoenfeld (1962) and supplemented in Rosser and Schoenfeld (1975), where
+the bound
+(11)                               O(x)>-0 .990x       for x >- 32057
+is given . The best value of a available, when a lower bound on x is given, can be
+deduced from these bounds of Rosser and Schoenfeld in conjunction with the
+tabulations of Appel and Rosser (1961) . However, since the latter are relatively
+inaccessible, we present a table of values of a when the lower bound on x lies in
+the interval up to 32057 (see Table 1) . This table is based on direct computation
+                                               TABLE 1
+       Values of xo and successive infima for a such that 8(x) 3 ax for all real x > x o
+
+ xa        a               xo          a               xo             a          xo           a
+
+   2    0 .231            593       0 .9291             5381     0 .97526      14387      0 .98551
+   3    0 .358            599       0 .9367             5387     0 .97577      14401      0 .98576
+   5    0 .485            601       0 .9380             5393     0 .97628      14407      0 .98578
+   7    0 .486            607       0 .9383             5399     0 .97642      14533      0 .98608
+  11    0 .595            809       0 .9409             5407     0 .97693      19373      0 .98628
+  13    0 .606            821       0 .9449             5413     0 .97749      19379      0 .98669
+  17    0 .662            853       0 .9455             5639     0 .97869      19381      0 .9868973
+  29    0.703            1423       0 .9480             5641     0.97886       19387      0 .9868979
+  37    0.722            1427       0 .9517             7451     0 .97903      19417      0 .98720
+  41    0 .761           1429       0 .9541             7477     0 .97970      19421      0.98760
+  59    0.792            1433       0 .9550             7481     0 .98011      19423      0 .98791
+  67    0 .807           1447       0 .9573             7487     0 .98092      19427      0 .98821
+  71    0 .816           1451       0 .9576             7499     0.98094       19681      0 .9884167
+  97    0 .828           1481       0 .9600             7517     0 .98110      19687      0 .9884169
+ 101    0.843            1973       0 .9609             8597     0 .98129      19697      0 .98862
+ 127    0 .8499          1987       0 .9618             8623     0.98189       19913      0 .98872
+ 149    0 .8694          1993       0 .9629             8627     0 .98199      19961      0 .98878
+ 163    0 .8695          2237       0.9632              8663     0 .98228      20873      0 .98897
+ 223    0 .8780          2657       0 .9654            11777     0 .98291      20879      0 .989074
+ 227    0 .8940          2659       0 .9669            11779     0 .98337      20887      0 .989077
+ 229    0 .8980          3299       0 .9688            11783     0 .98346      20897      0 .989080
+ 347    0 .9096          3301       0 .96952           11801     0 .98376      21481      0 .989268
+ 349    0 .9130          3307       0 .96962           11807     0.98405       21487      0 .989548
+ 367    0 .9134          3449       0 .96973           11813     0 .98418      21491      0 .989835
+ 419    0 .9160          3457       0 .97097           11821     0 .98420      31957      0 .989845
+ 431    0 .9194          3461       0 .97107           11897     0 .98441      32051      0.989984
+ 557    0 .9208          3511       0 .97130           11923     0 .98487      32057      0.990
+ 563    0 .9222          3527       0 .97306           11927     0 .98500
+ 569    0 .9264          3529       0 .97427           12097     0 .98509
+ 587    0 .9278          3533       0 .97475           12373     0 .98513
+r
+
+
+[71                        Prime factorization of binomial coefficients                    263
+
+of B(x)/x for the primes up to 32057, and uses (11) to cover the region beyond this
+point .
+  Recall that the desired inequality is u < v, which is equivalent to
+
+(12)                                           (k) < v2 .
+
+From (4) we have
+
+(13)                         klog(k)<clogc-(c-1)log(c-1) fort>l .
+
+Now, using (8) and (13), if m < c < m + 1 for some integer m >, 2, the inequality (12)
+is certainly satisfied if
+                                     (3m I 1 <', a(r)
+(14)              2(log(m+1 )-mlogm+
+                             m+1   m+1r <' r    m r '
+
+where = 1 .000081 comes from (9), and a(r) is the value of a in (10) which holds
+for x > mk/r. By successive approximation using Table 1, we obtain a lower bound
+on the value of k for which (12) certainly holds when m < c < m+ 1 . This infor-
+mation, for 2 < m S 11, is given in Table 2 . The left boundary of Region 11 is
+determined by this data (see Diagram 1) . Thus (12) is established over a range
+of c which reaches (and overlaps) the range covered by Region 1 . The method
+clearly establishes U< V at the same time.
+
+                                                TABLE 2
+             Values of m and ko (m) such that inequality (14) is satisfied if k > ko (m)
+
+                               M      ko (m)                m    ko(m)
+
+                                       175                   7    398
+                                3      153                   8    433
+                                4      206                   9    494
+                                5      278                  10    571
+                                6      300                  11    649
+
+
+
+
+                                5 . Region III : k small, c large
+
+      By expressing   in the form uv = n(n-1) . . . (n-k+ 1)/k! a good overestimate
+                  (nk
+ for u can be obtained as follows . For any prime p < k, let A(p) be the maximum
+ exponent of the powers of p occurring as factors of any of the integers
+ n,n-1, . . .,n-k+l . Thus
+
+                         A(p)=max{µ(a) :p,"(x)lla, n>,a>n-
+264           E. F . Ecklund, Jr., R. B . Eggleton, P . Erdős and J . L. Selfridge       [8]
+
+Also let ap be the corresponding largest multiple of pA ( p ) , that is,
+
+(16)                     ap = max{a : p~1( p ) l a, n>,a>n-k} .
+
+We consider the set of these multiples of maximum powers of small primes,
+
+(17)                               S(n, k) _ {ap : p < k},
+
+where the cardinality of S(n, k) is at most 7r(k-1), and may be less since it is
+possible that ap = aq occurs for distinct primes p, q .
+   For any prime p < k, we define the intrinsic exponent K(p, n, k) of p in the product
+n(n-1) . . . (n-k+ 1) to be the maximum exponent K for which pK is a factor of
+n(n-1) . . . (n-k+ 1)/ap . Note that if n-ap >i>n-k-ap and i 0, then plllap +i
+implies pw ll i, since no i can contain p to a higher power than A(p) . Thus K(p, n, k)
+is equal to the maximum exponent for which pK divides the product
+                                                                        (
+(n-ap)!(ap-n+k-1)! and this product divides (k-1)! since                  k-1 ) is an
+                                                                                 n-ap
+integer . Now let P(n, k) denote the intrinsic part of the product n(n-1) . . . (n -k+ 1),
+defined by
+
+(18)                              P(n, k) _ 11 pK(p>n,k) .
+                                              p<k
+
+
+
+Then we have just shown that
+(19)                                  P(n,k)l (k-1)!
+
+If k is composite, all prime factors of k! are less than k, so u<P(n,k)II(S)lk!,
+where H(S) is the product of the integers in S(n, k) . Taking the largest possible
+elements for S(n, k), and the greatest possible number, and using (19) to provide
+the bound P(n, k) < (k-1) !, we get
+
+(20)                a<n(n-1) . . . (n-qr+l)/k         forkcomposite,
+
+where w = rr(k-1) . Similarly, if k is prime, the product of prime factors of k!
+which are less than k is (k-1)!, and the corresponding estimates lead to
+
+(20')                 u<n(n-1) . . . (n-,7r+l)        for k prime,
+where 7r = rr(k-1) as before .
+  It is now clear from (20) and (20') that the desired inequality u < v follows if
+(21)      (k-1)!n(n-1) . . .(n-rr+1)<k(n-qr)(n-7r-1) . . . (n-k+1)
+
+                                                                  for k composite,
+and if
+
+(21') k!n(n-1) . . . (n-7r+1)<(n-rr)(n-rr-1) . . .(n-k+l)                  forkprime .
+191                         Prime factorization of binomial coefficients                          26 5
+
+
+If k > 27r(k-1), the left members of (21) and (21 ') are of lower degree in n than
+the right members : this actually holds for all k except k = 4, 6 and 8 . So for each k,
+apart from these three exceptions, we can determine the smallest value of n = ck
+such that the corresponding one of (21) and (21') holds . To deal with cases not
+covered in Regions I and II, we computed this smallest n for k < 649, and for
+simplicity determined the following linear bound from our data, so (21) and (21')
+hold if
+(22)                       n = ck > 6 .07k + 1940          for 25 < k < 649 .
+This determines the boundary of Region III . For k < 25, the corresponding lower
+bounds are given in Table 3 . Apart from the three cases in which the method does
+not apply, it is evident that (22) is actually a justified bound except when k = 7, 9,
+14, 18, 19, 20, 21 and 24 .
+
+                                                 TABLE 3
+        Values of k and n l (k) such that inequalities (21) and (21') are satisfied if n->n,(k)
+
+                       k     n, (k)         k        n 1(k)           k         n 1 (k)
+                       2        3           10        207            18      2137
+                       3        9           11        356            19      2639
+                       4       -            12       1847            20      8865
+                       5      128           13       1860            21      2618
+                       6                    14      21121            22      1180
+                       7     5055           15       1823            23      1620
+                       8       -            16        557            24      3236
+                       9     4504           17        835            25      1615
+
+
+
+      As indicated in the Introduction, we are also interested in determining all
+instances of          with n > 2k for which U> V. When k is composite, these are just
+                (nk
+the instances for which u > v . When k is prime, (20') is replaced by
+(20")                       U< n(n-1) . . . (n-7r)/k          for k prime,
+where 7r = 7r(k-1) as before . We can ensure that U< V by requiring
+
+(21")       (k-1)!n(n-1) . . . (n-w) < k(n -7r- 1) . . . (n-k+l)                  forkprime .
+
+The linear bound
+(22')                      n = ck > 4 .68k + 2630          for 25 < k < 649
+corresponds to the bound (22), and ensures that (21 ") holds . The left member of
+(21 ") is of lower degree in n than the right member for every prime k > 7 . So apart
+from k = 3, 5 and 7 (where our methods do not yield an explicit bound), the lower
+bounds on n for validity of (21 ") for odd prime k < 23 are given in Table 4.
+266           E. F. Ecklund, Jr., R. B . Eggleton, P . Erdős and J . L . Selfridge   [10]
+
+                                           TABLE 4
+                      Values of k and n 2 (k) such that inequality (21")
+                                   is satisfied if n >_ n 2 (k)
+
+                           k          n 2 (k)       k        n 2 (k)
+
+                            3                      13      36846325
+                            5                      17         10748
+                            7                      19         69626
+                           11     329926           23          8702
+
+
+
+
+                           6 . Region IV : k and c both small
+  To investigate the Region IV, where k > 1 is subject to the upper bounds in
+Table 2, and c > 2 is subject to the upper bound (22), a simple computer-assisted
+search was carried out . In practice, for c we used the bound (22'), so that instances
+for which U> V holds were also determined . All the instances listed in the Intro-
+                                                     (5314)
+duction were found this way . (Indeed, the near miss        is the only other instance
+in the region with V/U< 1 .1) .
+
+
+
+
+                                7. Region V : k 5 24, c large
+  Here we sharpen the techniques applied to Region III . The intrinsic part P(n, k)
+of the product n(n-1) . . . (n-k+ 1) was defined in (18) . We now also define the
+extrinsic part Q(n, k) of this product, by
+
+
+( 23)                            Q(n, k) = H(S)/ rl pA(p) ,
+                                                     p<k
+
+where 11 (S) is the product of all the integers in S(n, k), given in (17) . Thus Q(n, k)
+is the product of prime factors greater than or equal to k in the numbers ap .
+With 7r = 7r(k-1), we can now write
+
+                 u\ n(n-1) . . . (n - 7T + 1) P(n, k)
+(24)                                                       for k composite,
+                                 k!             Q(n, k)
+
+and k times this bound for k prime. Since (k = uv, the desired inequality u < v
+certainly holds if
+
+(25)       n(n-1) . . .(n-7r+1)<(n-~r)(n-~r-1) . . .(n-k+1) •R(n,k),
+                         Prime factorization of binomial coefficients                     26 7
+
+where
+                                     (Q(n,k
+                                k!                      for k composite,
+                                      P(n, k) /2
+(26)              R(n, k) _
+                                 k-1)! (Q(n, k2»
+                                                        for k prime .
+                                   k    P(n, k
+
+
+We use (25) to deal with the troublesome cases                = uv with k = 4, 6 and 8 . To
+                                                        (k)
+illustrate the method, the case k = 8 will now be discussed briefly .
+   Using the notation introduced in (17), if I S(n, 8) < 3 it is easy to verify that
+                                                              I
+
+
+
+u < v must hold if n > 36 . So now suppose S(n, 8) 1 = 4 . If P(n, 8) 2 < 8!, it follows
+                                                   I
+
+
+
+from (19) that P(n, 8) < 180, and then R(n, 8) > 56/45, using (26) . In this case, (25)
+holds if n >, 77 . For larger P(n, 8) we still have P(n, 8) < 7 ! by (19), so if Q(n, 8) >, 29
+then R(n, 8) > 841/630 > 56/45, so (25) certainly holds if n > 77 . It remains to check
+the cases with Q(n, 8) < 29 . By (23), the only possibilities are
+
+                              Q(n, 8) E {I, 11, 13, 17, 19, 23} .
+
+Moreover, the direct search reported in the previous section was carried out up to
+n = 2667 for k = 8, according to (22') . Thus it remains to locate all those runs of
+k = 8 consecutive integers, with largest member n >, 2668, which contain three
+numbers having no prime factor greater than 7, and a fourth with at most one
+prime factor (counting multiplicity) greater than 7, but none greater than 23 .
+Either the first three contain a pair of the form a, a + d with d = 1, 2 or 4, or else
+the first three are of the form a, a+3, a+6, in which case the fourth is necessarily
+adjacent to one of them . All occurrences of such configurations can be deduced
+from the tables in Lehmer (1964), by first locating all possible pairs described .
+Each potential configuration is easily tested and rejected, so no further instances of
+u > v with k = 8 exist .
+   The other cases to be checked for u > v are k = 7, 9, 14, 20 and 24, and those to
+be checked for U> V are k = 11, 13, 17, 19 and 23 . Tables 3 and 4 give the
+upper bound on n for each case, while (22') gives the lower bound . Again we
+illustrate the method by brief discussion of one case : we choose k = 14 for this
+purpose .
+   Let A(n,14) denote the product, running over each prime p < 14, of the largest
+prime-powers p" < n . Combining this with (18) and (19), we observe that
+
+(27)                      u < A(n, 14) P(n, 14)/14! < A(n, 14)/14 .
+
+Table 3 gives the upper bound n < 21120, and A(21120,14) = 214 39 5 67 5 11 4 133 .
+Correspondingly we have v > (n - 6) (n -7) . . . (n -13)/13! so u < v holds provided
+268           E . F . Ecklund, Jr ., R . B . Eggleton, P . Erdős and J. L . Selfridge   [121
+
+n > 13669 . Iterating the calculation with this new bound,
+                              A(13668,14) = 2 133 8 5 5 74 11 3 133
+shows that u < v holds provided n >, 5198 . A further iteration leads only to n > 4157,
+and A(5197,14) = A(4156,14) . However, we can get down to the lower bound
+n ,2695 coming from (22) by noting that P(n, 14)-0 (mod 13) holds only if
+n=_ 0 (mod 13) . Thus, for n < 4156 we have either the bound u < A(4156,14)/13 .14,
+which is sharper than (27) by a factor of 13, or else one of n and n-13 is a
+multiple of 2197, the largest available power of 13 . In this example, observe that
+there is in fact no multiple of 2197 between the current search bounds . The sharper
+bound on u ensures that u < v holds throughout the current search range, so the
+checking is complete . (We also made a separate check using more intricate
+combinatorial arguments, in conjunction with Lehmer's tables, for all the relevant
+cases in Region V.)
+
+                           8 . Remarks and unsolved problems
+   Here we shall use notation which makes explicit the dependence of U and V on
+n and k, where as usual we have n > 2k .
+   The most obvious outstanding problem is to obtain an effective upper bound
+on n for which U(n, k) > V(n, k) when k = 3, 5 or 7 . More generally, note that
+Mahler's Theorem that U(n, k) < n 1 +e is not effective . It would be very interesting
+to obtain an effective result of the same kind, even if the result in question were
+much weaker . For example, it would be useful to have U(n, k) < nki2 for k > k o,
+with an explicit k o .
+   An inequality of the form U(n, k) < n 2 ek, which may hold for n < ek, would be
+useful . Perhaps such an inequality even holds if n 2 is replaced by n .
+   It would be of interest to strengthen Mahler's Theorem . For fixed k, perhaps
+there are positive constants c, and C 2 such that we have U(n, k) < cl n(log n)C2, for
+all sufficiently large n .
+   Consider, for fixed k, the sequence of integers n(k, r) with r = l, 2, . . ., defined
+by taking n(k, 1) = 2k and thereafter
+                n(k, r + 1) = min {n > n(k, r) : U(n, k) > U(n(k, r), k)} .
+It would be interesting to study the properties of this sequence, which is analogous
+to Ramanujan's sequence of highly composite numbers . Also of interest would be
+the properties of the strictly increasing sequence N(k, r) with r = 1, 2, . . ., where
+N(k, r) is the rth positive integer for which there is some constant c(k, r) > 1 such
+that U(n, k)lnc ( k ,r ) achieves its maximum at n = N(k, r) . This sequence is analogous
+to Ramanujan's sequence of superior highly composite numbers .
+  In closing, we mention that other results closely related to the present paper
+are given in Erdős and Graham (1976) .
+[131                       Prime factorization of binomial coefficients                          269
+
+                                           References
+K . I . Appel and J . Barkley Rosser (1961), Table for estimating functions of primes, Communi-
+   cations Research Division Tech . Report 4, Inst . for Defence Analyses, Princeton, N .J .
+E. F. Ecklund, Jr ., and R. B . Eggleton (1972), "Prime factors of consecutive integers", Amer .
+   Math . Monthly 79, 1082-1089 .
+P . Erdős (1934), "A theorem of Sylvester and Schur", J. London Math. Soc . 9, 282-288 .
+                                                                       (n
+P . Erdős and R . L. Graham (1976), "On the prime factors of               ", Fibonacci Quart . 14,
+                                                                        lk
+    348-352 .
+D . H . Lehmer (1964), "On a problem of Stormer", Illinois J. Math . 8, 57-79 .
+K. Mahler (1961), Lectures on Diophantine Approximations I, University of Notre Dame .
+    See Theorem (5, 11), p . 159 . (This is the most accessible reference, though not the earliest .)
+J . Barkley Rosser and L . Schoenfeld (1962), "Approximate formulas for some functions of
+    prime numbers", Illinois J. Math . 6, 64-94 .
+J . Barkley Rosser and L . Schoenfeld (1975), "Sharper bounds for the Chebyshev functions
+    B(x) and O(x)", Math . Comp . 29, 243-269 .
+L . Schoenfeld (1976), "Sharper bounds for the Chebyshev functions B(x) and O(x), II", Math .
+    Comp . 30, 337-360 .
+L Schur (1929), "Einige Sdtze über Primzahlen mit Anwendungen auf Irreduzibilitdtsfragen",
+    S.B. Deutsch . Akad. Wiss . Berlin Kl. Math. Phys . Tech . 23, 1-24 .
+G . Stormer (1897), Quelques Théorémes sur I'Equation de Pell x 2 - Dy 2 = ± 1 et leurs Appli-
+    cations, Videnskabs-Selskabets Skrifter, Christiania, 2, 48 pp .
+J . J . Sylvester (1892), "On arithmetical series", Messenger Math. 21, 1-19, 87-120 . (Collected
+    Mathematical Papers, vol . 4, 1912, 687-731 .)
+
+
+
+
+Department of Computer Science                   Department of Mathematics
+Oregon State University                          The University of Newcastle
+Corvallis, Oregon 97330                          New South Wales 2308
+USA                                              Australia
+
+Hungarian Academy of Sciences                    Department of Mathematical Sciences
+Reáltanoda U . 13-15                             Northern Illinois University
+Budapest V                                       DeKalb, Illinois 60115
+Hungary                                          USA
+

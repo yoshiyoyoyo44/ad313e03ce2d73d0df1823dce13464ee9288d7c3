@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "recorded_at_utc": "2026-10-03T11:56:53.127043+00:00",
+  "research_date": "2026-10-03",
+  "problem699_solved": false,
+  "general_i5_solved": false,
+  "odd_class_9_solved": false,
+  "unresolved_indices": 28,
+  "checks": [
+    {
+      "command": "python -X utf8 scripts/audit_i5_sparse_allocation.py",
+      "exit_code": 0,
+      "scope": "all 880 saved records; full5 conditional lift and exact thresholds; all-degree formal-weight identities"
+    },
+    {
+      "command": "python -X utf8 scripts/check_repository.py",
+      "exit_code": 0,
+      "python_files_parsed": 133,
+      "documents_checked": 116,
+      "local_links_checked": 1888,
+      "source_zip_entries": 666,
+      "source_manifest_hashes": 665,
+      "backups_verified": 13
+    },
+    {
+      "command": "python -X utf8 dist/validate_i5_sparse_generator.py",
+      "exit_code": 0,
+      "scope": "fresh degree5 and degree13 generator records, independently checked",
+      "fresh_records": 2,
+      "full_fresh_rebuild_performed": false
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "registered_latest_checks": 34,
+  "full_34_check_suite_rerun_this_turn": false,
+  "import_snapshot_32_checks_already_replayed": true,
+  "files": {
+    "research/i5/i5_odd_sparse_allocation_and_prime5_lift_2026-10-03.md": {
+      "sha256": "08e8a8c0e719189d5cc9b908a2334821ad8a96aa6d58bf98ed85b8014917bcf0",
+      "bytes": 14053
+    },
+    "scripts/audit_i5_sparse_allocation.py": {
+      "sha256": "e861533da139c75dc5bef40297dcc6dae9793dd4ff0ccf181f154d68052b2001",
+      "bytes": 13252
+    },
+    "scripts/build_i5_sparse_allocation_certificate.py": {
+      "sha256": "d614a1c6c9c8295d1e81d12fc67c897ee7ec14af46349e580bc043e225d24075",
+      "bytes": 4943
+    },
+    "data/certificates/i5_sparse_allocation_2026-10-03.json": {
+      "sha256": "d34bd45463ed8ce794323a0f0c85606a7d4959ac226b9229b96fc039426d6af0",
+      "bytes": 8637713
+    },
+    "data/results/verification_i5_sparse_allocation.json": {
+      "sha256": "647f916d4cac70a6511eca67898e336a8b8849650e220b0b1bee5d287f90e7d7",
+      "bytes": 9193
+    }
+  },
+  "scope": "exact replay and source preservation; universal claims additionally depend on the paper proofs and named prior/external theorems; no complete solution is certified"
+}

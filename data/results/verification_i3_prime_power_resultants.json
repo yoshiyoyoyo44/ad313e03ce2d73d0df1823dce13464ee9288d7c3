@@ -1,0 +1,257 @@
+{
+  "scope": "Degree-unbounded necessary conditions; i=3 remains unresolved.",
+  "grouping": {
+    "full_to_grouped_implications": 130218,
+    "grouped_only_example": {
+      "n": 64,
+      "j": 18,
+      "p": 3,
+      "q": 9,
+      "n_digits_p": [
+        1,
+        0,
+        1,
+        2
+      ],
+      "j_digits_p": [
+        0,
+        0,
+        2
+      ]
+    }
+  },
+  "inequalities": {
+    "symbolic_product_identities": 16,
+    "coefficient_norm_cases": 2548
+  },
+  "lcm": {
+    "lcm_recursive_divisibilities": 600,
+    "lcm_upper_bounds": 600
+  },
+  "budget": {
+    "symbolic_budget_identities": 2,
+    "integer_threshold_comparisons": 580
+  },
+  "positive_factors": {
+    "partial_common_factor_diagnostics": [
+      {
+        "m": 3,
+        "d": 1,
+        "H": 5,
+        "resultants": [
+          7,
+          -1,
+          -9
+        ],
+        "whole_polynomial_resultant_is_zero": true
+      },
+      {
+        "m": 5,
+        "d": 1,
+        "H": 7,
+        "resultants": [
+          31,
+          -1,
+          -33
+        ],
+        "whole_polynomial_resultant_is_zero": true
+      },
+      {
+        "m": 8,
+        "d": 1,
+        "H": 10,
+        "resultants": [
+          255,
+          -1,
+          -257
+        ],
+        "whole_polynomial_resultant_is_zero": true
+      },
+      {
+        "m": 12,
+        "d": 1,
+        "H": 14,
+        "resultants": [
+          4095,
+          -1,
+          -4097
+        ],
+        "whole_polynomial_resultant_is_zero": true
+      },
+      {
+        "m": 20,
+        "d": 1,
+        "H": 22,
+        "resultants": [
+          1048575,
+          -1,
+          -1048577
+        ],
+        "whole_polynomial_resultant_is_zero": true
+      }
+    ]
+  },
+  "numerical_diagnostics": {
+    "local_cases": [
+      {
+        "n": 76672,
+        "j": 26775,
+        "base": 1217,
+        "constant": 1,
+        "H": 64,
+        "m": 1,
+        "d": 1,
+        "positive_factor": "63*X - 1",
+        "resultants": [
+          85,
+          22,
+          -41
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true
+      },
+      {
+        "n": 3258244432,
+        "j": 1087547175,
+        "base": 19,
+        "constant": 1,
+        "H": 82,
+        "m": 7,
+        "d": 7,
+        "positive_factor": "3*X**7 + 12*X**6 + 4*X**5 + 16*X**4 + 12*X**3 + 18*X**2 + 16*X - 1",
+        "resultants": [
+          -5325326795,
+          49561038926,
+          118382809375
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true
+      },
+      {
+        "n": 8629314984364172216,
+        "j": 36924676946,
+        "base": 79,
+        "constant": 0,
+        "H": 170,
+        "m": 9,
+        "d": 9,
+        "positive_factor": "72*X**9 + 23*X**5 + 73*X**4 + 2*X - 1",
+        "resultants": [
+          155072425549824,
+          -765670101131520
+        ],
+        "second_numerical_divisibility": false,
+        "required_both_divisibilities": false,
+        "factor_value_divides_scaled_resultant": true,
+        "constant_zero_family_parameters": {
+          "k": 2958234,
+          "t": 2
+        }
+      },
+      {
+        "n": 92723862142565114928388,
+        "j": 3923284480594,
+        "base": 83,
+        "constant": 0,
+        "H": 174,
+        "m": 11,
+        "d": 11,
+        "positive_factor": "72*X**11 + 23*X**6 + 77*X**5 + 2*X - 1",
+        "resultants": [
+          376381194747052032,
+          -976238723874917376
+        ],
+        "second_numerical_divisibility": false,
+        "required_both_divisibilities": false,
+        "factor_value_divides_scaled_resultant": true,
+        "constant_zero_family_parameters": {
+          "k": 284749926,
+          "t": 2
+        }
+      },
+      {
+        "n": 1004566,
+        "j": 501415,
+        "base": 5,
+        "constant": 1,
+        "H": 18,
+        "m": 8,
+        "d": 8,
+        "positive_factor": "2*X**8 + 2*X**7 + 4*X**6 + X**5 + 2*X**4 + X**3 + 2*X**2 + 3*X - 1",
+        "resultants": [
+          -57511,
+          11294,
+          223333
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true,
+        "quadratic_family_parameter": 289,
+        "n_mod_4": 2
+      },
+      {
+        "n": 11603334,
+        "j": 5798717,
+        "base": 7,
+        "constant": 1,
+        "H": 24,
+        "m": 8,
+        "d": 8,
+        "positive_factor": "2*X**8 + 4*X**5 + 2*X**4 + 4*X**3 + 6*X**2 + 5*X - 1",
+        "resultants": [
+          120013487,
+          22736096,
+          -36618959
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true,
+        "quadratic_family_parameter": 983,
+        "n_mod_4": 2
+      },
+      {
+        "n": 433633542,
+        "j": 216798737,
+        "base": 11,
+        "constant": 1,
+        "H": 32,
+        "m": 8,
+        "d": 8,
+        "positive_factor": "2*X**8 + 2*X**6 + 8*X**5 + 5*X**4 + 8*X**3 + 3*X**2 + 3*X - 1",
+        "resultants": [
+          -31227145,
+          -6469312,
+          7953435
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true,
+        "quadratic_family_parameter": 6011,
+        "n_mod_4": 2
+      },
+      {
+        "n": 1683743062,
+        "j": 841835995,
+        "base": 13,
+        "constant": 1,
+        "H": 58,
+        "m": 8,
+        "d": 8,
+        "positive_factor": "2*X**8 + 10*X**6 + 10*X**5 + 10*X**4 + 6*X**3 + 10*X**2 + 9*X - 1",
+        "resultants": [
+          43222405,
+          -140716866,
+          -159525593
+        ],
+        "second_numerical_divisibility": true,
+        "required_both_divisibilities": true,
+        "factor_value_divides_scaled_resultant": true,
+        "quadratic_family_parameter": 11845,
+        "n_mod_4": 2
+      }
+    ],
+    "scope": "Constant one uses both divisibilities; constant zero uses only the first. One radix is checked, not all primes."
+  }
+}

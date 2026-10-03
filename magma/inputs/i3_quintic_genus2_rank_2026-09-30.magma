@@ -1,0 +1,6 @@
+Q<x>:=PolynomialRing(Rationals());
+f:=3*x^5+25*x^4+70*x^3+75*x^2+25*x+4;
+C:=HyperellipticCurve(f); J:=Jacobian(C);
+print "C1", C;
+print "RANK", RankBounds(J);
+print "DONE";

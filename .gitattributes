@@ -1,2 +1,6 @@
-# Preserve the exact bytes used by the archived SHA-256 manifest.
-* -text
+# Preserve exact bytes, including Windows CR line endings.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# These original handoffs contain intentional Markdown hard breaks and EOF blanks.
+archive/attachments/incoming_2026-10-03/erdos699_conversation_progress_bundle_2026-10-03/README.md whitespace=-blank-at-eol,-blank-at-eof
+archive/attachments/incoming_2026-10-03/erdos699_conversation_progress_handoff_2026-10-03.md whitespace=-blank-at-eol,-blank-at-eof

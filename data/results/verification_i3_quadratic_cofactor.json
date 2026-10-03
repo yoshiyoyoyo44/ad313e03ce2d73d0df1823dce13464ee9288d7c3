@@ -1,0 +1,160 @@
+{
+  "scope": "arbitrary quadratic cofactor: all s for m>=6; s=1 for m>=5; general i=3 open",
+  "symbolic": {
+    "compression_identity": true,
+    "digit_reduction_of_V": true,
+    "nonzero_mod_q_factor": true,
+    "strict_ratio_bound": "|3C|/A < 12/((q-1)*q**(m-6))",
+    "thresholds": {
+      "8": [
+        12,
+        18
+      ],
+      "7": [
+        12,
+        12
+      ],
+      "6": [
+        12,
+        12
+      ]
+    },
+    "degree_7_radix_3_negative_root_impossible": true,
+    "new_degree_5_s1_extension": {
+      "F1_le_a_minus_1_from_positive_D1": true,
+      "negative_C_ratio": "<3*(q-1)*(q+1)**2/(4*q**3)<1",
+      "positive_C_ratio": "<3*(q*q-q+1)/q**3<1",
+      "exact_positive_gaps": [
+        "4*q**3 - (q + 1)**2*(3*q - 3)",
+        "q**3 - 3*q**2 + 3*q - 3"
+      ]
+    }
+  },
+  "finite_tail": {
+    "derived_complete_domain": "m=6,3<=q<=12",
+    "two_enumerators_match": true,
+    "factor_profiles": 993,
+    "nontrivial_coefficient_cases": 12308,
+    "first_hits": 0,
+    "terminal_D_sequences": 9369,
+    "negative_B_profiles": 98,
+    "rows": [
+      {
+        "q": 3,
+        "factor_profiles": 1,
+        "nontrivial_coefficient_cases": 8,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 1,
+        "first_hits": 0
+      },
+      {
+        "q": 4,
+        "factor_profiles": 7,
+        "nontrivial_coefficient_cases": 44,
+        "negative_B_profiles": 0,
+        "terminal_D_sequences": 17,
+        "first_hits": 0
+      },
+      {
+        "q": 5,
+        "factor_profiles": 21,
+        "nontrivial_coefficient_cases": 111,
+        "negative_B_profiles": 1,
+        "terminal_D_sequences": 102,
+        "first_hits": 0
+      },
+      {
+        "q": 6,
+        "factor_profiles": 35,
+        "nontrivial_coefficient_cases": 251,
+        "negative_B_profiles": 2,
+        "terminal_D_sequences": 182,
+        "first_hits": 0
+      },
+      {
+        "q": 7,
+        "factor_profiles": 59,
+        "nontrivial_coefficient_cases": 419,
+        "negative_B_profiles": 7,
+        "terminal_D_sequences": 389,
+        "first_hits": 0
+      },
+      {
+        "q": 8,
+        "factor_profiles": 92,
+        "nontrivial_coefficient_cases": 897,
+        "negative_B_profiles": 8,
+        "terminal_D_sequences": 613,
+        "first_hits": 0
+      },
+      {
+        "q": 9,
+        "factor_profiles": 126,
+        "nontrivial_coefficient_cases": 1288,
+        "negative_B_profiles": 13,
+        "terminal_D_sequences": 1018,
+        "first_hits": 0
+      },
+      {
+        "q": 10,
+        "factor_profiles": 166,
+        "nontrivial_coefficient_cases": 1977,
+        "negative_B_profiles": 17,
+        "terminal_D_sequences": 1731,
+        "first_hits": 0
+      },
+      {
+        "q": 11,
+        "factor_profiles": 220,
+        "nontrivial_coefficient_cases": 3130,
+        "negative_B_profiles": 22,
+        "terminal_D_sequences": 2340,
+        "first_hits": 0
+      },
+      {
+        "q": 12,
+        "factor_profiles": 266,
+        "nontrivial_coefficient_cases": 4183,
+        "negative_B_profiles": 28,
+        "terminal_D_sequences": 2976,
+        "first_hits": 0
+      }
+    ],
+    "negative_cofactor_example": {
+      "q": 5,
+      "a": 2,
+      "b": 1,
+      "D": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      "B": [
+        1,
+        0,
+        2,
+        -1,
+        2
+      ],
+      "F": [
+        1,
+        1,
+        0,
+        3,
+        1,
+        0,
+        4
+      ]
+    }
+  },
+  "degree5_diagnostic": {
+    "domain": "m=5,3<=q<=24; diagnostic only",
+    "profiles": 2976,
+    "cases": 92954,
+    "first_hits": 0,
+    "s0_s2_universal_exclusion_proved": false
+  }
+}

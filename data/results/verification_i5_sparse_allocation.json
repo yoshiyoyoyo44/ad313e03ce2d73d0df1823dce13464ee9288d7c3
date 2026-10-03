@@ -1,0 +1,342 @@
+{
+  "status": "passed",
+  "i": 5,
+  "general_i5_solved": false,
+  "odd_class_9_solved": false,
+  "problem699_solved": false,
+  "new_completely_solved_indices": 0,
+  "unresolved_indices": 28,
+  "allocation": {
+    "configurations": 880,
+    "coverage": "all t2,t3,t4>=2 with t2+t3+t4<=8",
+    "degree_range": [
+      5,
+      7,
+      9,
+      13
+    ],
+    "max_resultant_root_bound": "1655358928093828937181152278987306184034528745376606053559004325749211172575381397818",
+    "max_capacity_constant": "83286864214128467614931295751734841904674426060800000000000000000",
+    "common_components": [
+      {
+        "polynomial": "U - 1",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "U",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "S - U - 2",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "S - U - 1",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "2*S - U - 4",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "S**2 - S*U - 5*S + U**2 + U + 6",
+        "degree": 2,
+        "leading_bernstein": [
+          "1",
+          "3/4",
+          "3/4"
+        ],
+        "signed_lower": [
+          "6",
+          "-5",
+          "3/4"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "2*S**2 - 2*S*U - 10*S + U**2 + 3*U + 12",
+        "degree": 2,
+        "leading_bernstein": [
+          "2",
+          "3/2",
+          "5/4"
+        ],
+        "signed_lower": [
+          "12",
+          "-10",
+          "5/4"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "3*S**2 - 2*S*U - 15*S + U**2 + 3*U + 18",
+        "degree": 2,
+        "leading_bernstein": [
+          "3",
+          "5/2",
+          "9/4"
+        ],
+        "signed_lower": [
+          "18",
+          "-15",
+          "9/4"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "3*S**2 - 3*S*U - 12*S + U**2 + 5*U + 12",
+        "degree": 2,
+        "leading_bernstein": [
+          "3",
+          "9/4",
+          "7/4"
+        ],
+        "signed_lower": [
+          "12",
+          "-12",
+          "7/4"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "S + U - 4",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "U - 2",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "S - U",
+        "degree": 1,
+        "method": "linear endpoints on 6<=j<=n/2, n>=10^87"
+      },
+      {
+        "polynomial": "3*S**2 - 2*S*U - 15*S + 2*U**2 + 18",
+        "degree": 2,
+        "leading_bernstein": [
+          "3",
+          "5/2",
+          "5/2"
+        ],
+        "signed_lower": [
+          "18",
+          "-15",
+          "5/2"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "S**2 + 2*S*U - 9*S - 2*U**2 + 14",
+        "degree": 2,
+        "leading_bernstein": [
+          "1",
+          "3/2",
+          "3/2"
+        ],
+        "signed_lower": [
+          "14",
+          "-9",
+          "1"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "S**2 + S*U - 7*S + U**2 - 5*U + 12",
+        "degree": 2,
+        "leading_bernstein": [
+          "1",
+          "5/4",
+          "7/4"
+        ],
+        "signed_lower": [
+          "12",
+          "-19/2",
+          "1"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "S**2 - 7*S + U**2 - 3*U + 12",
+        "degree": 2,
+        "leading_bernstein": [
+          "1",
+          "1",
+          "5/4"
+        ],
+        "signed_lower": [
+          "12",
+          "-17/2",
+          "1"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "2*S**2 - 12*S + U**2 - 3*U + 18",
+        "degree": 2,
+        "leading_bernstein": [
+          "2",
+          "2",
+          "9/4"
+        ],
+        "signed_lower": [
+          "18",
+          "-27/2",
+          "2"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "S**2 - S*U - 4*S + U**2 - U + 6",
+        "degree": 2,
+        "leading_bernstein": [
+          "1",
+          "3/4",
+          "3/4"
+        ],
+        "signed_lower": [
+          "6",
+          "-9/2",
+          "3/4"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "3*S**3 + 6*S**2*U - 27*S**2 - 8*S*U**2 - 22*S*U + 78*S + 4*U**3 + 8*U**2 + 24*U - 72",
+        "degree": 3,
+        "leading_bernstein": [
+          "3",
+          "4",
+          "13/3",
+          "9/2"
+        ],
+        "signed_lower": [
+          "-72",
+          "78",
+          "-36",
+          "3"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      },
+      {
+        "polynomial": "5*S**3 - 2*S**2*U - 41*S**2 + 4*S*U**2 + 6*S*U + 102*S - 4*U**3 + 8*U**2 - 24*U - 72",
+        "degree": 3,
+        "leading_bernstein": [
+          "5",
+          "14/3",
+          "14/3",
+          "9/2"
+        ],
+        "signed_lower": [
+          "-72",
+          "90",
+          "-41",
+          "9/2"
+        ],
+        "method": "positive coefficients after n=10^87+x"
+      }
+    ],
+    "single_cell_n_upper": 3185049600003,
+    "necessary_active_cell_count": "t2+t3+t4>=9; each tr>=2",
+    "odd_universal_omitted_product_lower": "For every choice of two cells in each heavy row, M2*M3*M4>10^38",
+    "odd_two_cell_max_constant": "663445974644669520000",
+    "scope": "paper proof plus exact certificate replay, not a search over counterexamples"
+  },
+  "all_degree_barrier": {
+    "per_cell_weights_by_row": [
+      "1/100",
+      "1/5",
+      "1/3",
+      "1/4",
+      "1/5"
+    ],
+    "row_exponents": [
+      "1/100",
+      "2/5",
+      "1",
+      "1",
+      "1"
+    ],
+    "restriction_degree_multiplier": "149/150",
+    "universal_formula": "weighted local orders <= d - (99/100)h0 - (3/5)h1 - dG/150",
+    "compatible_max_lower_exponent": "2921/10000",
+    "compatible_product_lower_exponent": "1/3",
+    "scope": "formal exponent weights for all fixed polynomials using total-degree capacity; no integer or full-Kummer counterexample is constructed"
+  },
+  "prime5_lift": {
+    "conditional_full5_lift": "if e=v5(n-(n mod5))>=2, no shared5 implies j mod5^e<=n mod5, so the complete 5^e is allocated",
+    "odd_class": "9 mod72",
+    "full_small_prime_denominators": [
+      1,
+      6,
+      1
+    ],
+    "lifted_K6": "729/32",
+    "lifted_K9": "243/64",
+    "first_power5_cases": [
+      {
+        "row": 0,
+        "K6": "11390625/32",
+        "K9": "474609375/64",
+        "v3_n_lower": 100,
+        "v2_n_minus_1_lower": 112
+      },
+      {
+        "row": 1,
+        "K6": "2278125/32",
+        "K9": "151875/64",
+        "v3_n_lower": 101,
+        "v2_n_minus_1_lower": 113
+      },
+      {
+        "row": 2,
+        "K6": "11390625/32",
+        "K9": "759375/64",
+        "v3_n_lower": 101,
+        "v2_n_minus_1_lower": 112
+      },
+      {
+        "row": 3,
+        "K6": "11390625/32",
+        "K9": "30375/64",
+        "v3_n_lower": 101,
+        "v2_n_minus_1_lower": 112
+      },
+      {
+        "row": 4,
+        "K6": "11390625/32",
+        "K9": "151875/64",
+        "v3_n_lower": 101,
+        "v2_n_minus_1_lower": 112
+      }
+    ],
+    "all_odd_necessary_valuations": {
+      "v3_n_at_least": 100,
+      "v2_n_minus_1_at_least": 112
+    },
+    "higher_power5_necessary_valuations": {
+      "v3_n_at_least": 102,
+      "v2_n_minus_1_at_least": 115
+    },
+    "higher_power5_product_upper": "A*B<2*n^(3/5)",
+    "higher_power5_necessary_imbalance_with_external_BFT": "A>119*B or B>53*A",
+    "diagnostic_nonzero_binomial_samples": 483,
+    "scope": "universal no-carry argument, reused exact parent certificates, and exact thresholds; general odd class remains open"
+  },
+  "dependencies": [
+    "prior reduction to support01; odd n uses its elementary part",
+    "exact nonmaximal denominator bounds",
+    "existing finite theorem for i>=5, n<=10^87",
+    "prior support01 polynomial identities and evaluation bounds",
+    "external BFT Theorem 2.1 only for the new imbalance bound"
+  ],
+  "high_Kummer_digits_used_in_sparse_allocation_closeout": false,
+  "high_Kummer_digits_used_in_conditional_prime5_lift": true
+}
