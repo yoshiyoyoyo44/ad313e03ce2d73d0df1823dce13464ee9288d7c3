@@ -25,7 +25,7 @@ python -X utf8 scripts/verify_latest.py
 ```
 
 [実行器](../scripts/verify_latest.py)に登録した35件を順に実行し、失敗した時点で停止します。
-全添字の桁降下、i=5、i=3の近年の分配、i=4、容量と有限 $j$、リポジトリ確認を含みます。
+全添字の桁降下、i=5、i=3の近年の分配、i=4、容量と有限 $`j`$、リポジトリ確認を含みます。
 過去の全検算器を網羅するものではありません。
 
 | 保存記録 | 何を記録したものか |
@@ -48,7 +48,7 @@ python -X utf8 scripts/verify_latest.py
 | [i=5の9重複度証明書](../research/i5/i5_multiplicity_frontier_2026-10-03.md) | [audit_i5_multiplicity_frontier.py](../scripts/audit_i5_multiplicity_frontier.py) | [結果](../data/results/verification_i5_multiplicity_frontier.json) |
 | [i=3の標準桁・完全分配](../research/i3/i3_split_mahler_frontier_2026-10-03.md) | [audit_i3_split_mahler_frontier.py](../scripts/audit_i3_split_mahler_frontier.py) | [結果](../data/results/verification_i3_split_mahler_frontier.json) |
 | [i=3の任意共有因子](../research/i3/i3_arbitrary_cofactor_closeout_2026-10-02.md) | [audit_i3_arbitrary_cofactor.py](../scripts/audit_i3_arbitrary_cofactor.py) | [結果](../data/results/verification_i3_arbitrary_cofactor.json) |
-| [i=4の有限 $j$](../research/general/known_bridge_and_i4_fixed_j_2026-09-30.md) | [replay_i4_fixed_j.py](../scripts/replay_i4_fixed_j.py) | [結果](../data/results/verification_i4_fixed_j.json) |
+| [i=4の有限 $`j`$](../research/general/known_bridge_and_i4_fixed_j_2026-09-30.md) | [replay_i4_fixed_j.py](../scripts/replay_i4_fixed_j.py) | [結果](../data/results/verification_i4_fixed_j.json) |
 | [全体の成立範囲・有限域](../research/general/september27_integration.md) | [replay_september27_attachments.py](../scripts/replay_september27_attachments.py) | [結果](../data/results/verification_september27_attachments.json) |
 
 個別の実行例：

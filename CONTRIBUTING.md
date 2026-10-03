@@ -37,6 +37,7 @@
 | docs/RESEARCH_HISTORY | 日付別の経緯 |
 
 新しいノートはその分野の全ノート索引にも追加します。スクリプトを追加した場合はコード索引へ追加します。
+案内ページの数式は[GitHub公式の記法](https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)に従い、文中は ``$`...`$``、独立した式は `math` コードブロックを使います。日本語との隣接や不等号による表示崩れを避け、公開ページで確認します。
 リンクと索引は次で確認できます。
 
 ```console

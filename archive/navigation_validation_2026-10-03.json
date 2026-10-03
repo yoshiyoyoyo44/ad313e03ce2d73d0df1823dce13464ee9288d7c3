@@ -83,5 +83,11 @@
     ],
     "visibility_unchanged": true
   },
-  "git_diff_check": "passed"
+  "git_diff_check": "passed",
+  "github_math_display": {
+    "documentation": "https://docs.github.com/ja/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions",
+    "changes": "Live navigation math uses backtick-delimited inline math and fenced math blocks. Research note and source bytes remain unchanged.",
+    "visual_issue_found": "The displayed README inequality was truncated and inline formulas beside Japanese punctuation remained literal.",
+    "verification": "Public-page review follows publication."
+  }
 }

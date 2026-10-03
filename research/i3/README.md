@@ -3,7 +3,7 @@
 [入口](../../README.md) · [分野一覧](../README.md) · [現在地](../../docs/STATUS.md) · [用語](../../docs/GLOSSARY.md)
 
 **一般のi=3は未解決です。** この分野はノートが多いため、まず前提を確認し、下の3つの経路を選んでください。
-標準桁の $F(0)=1$ と、変換後の $F(0)=2$ の設定は、別の仮定を持ちます。
+標準桁の $`F(0)=1`$ と、変換後の $`F(0)=2`$ の設定は、別の仮定を持ちます。
 
 ## まず前提を読む
 
@@ -15,7 +15,7 @@
 
 1. [完全素数冪と正実根の終結式](i3_prime_power_resultant_frontier_2026-10-01.md)：多項式全体への移行を仮定しない条件付き上限。
 2. [両隣接法と幾何級数](i3_adjacent_resultants_and_geometric_closeout_2026-10-01.md)：特定の共有族を数値条件から全排除。
-3. [任意の共有因子の一割当て](i3_arbitrary_cofactor_closeout_2026-10-02.md)：$B\mid J-s$ を重複度込みで満たす枝。
+3. [任意の共有因子の一割当て](i3_arbitrary_cofactor_closeout_2026-10-02.md)：$`B\mid J-s`$ を重複度込みで満たす枝。
 4. [任意二次商](i3_quadratic_cofactor_single_allocation_closeout_2026-10-02.md)・[三次因子の部分共有](i3_cubic_cofactor_partial_sharing_2026-10-02.md)：外側の因子を増やした制限。
 
 複数群への一般の共有、正実根の因子、増大する桁和などは残ります。
@@ -24,7 +24,7 @@
 
 1. [八次の閉鎖](i3_octic_last_branch_2026-10-01.md)：先行する低次数の分類と接続し、移行済み設定の次数8以下を扱う。
 2. [チェビシェフ境界](i3_chebyshev_boundary_and_prime_transfer_2026-10-01.md) → [5冪の枝](i3_five_power_composition_and_local_frontier_2026-10-01.md)：特定の任意次数境界。
-3. [中央群の平方降下](i3_central_square_descent_2026-10-01.md)：均衡中央飽和の $h>11u/15$ など。
+3. [中央群の平方降下](i3_central_square_descent_2026-10-01.md)：均衡中央飽和の $`h>11u/15`$ など。
 4. [整数根値と幾何級数の分割](i3_integral_root_values_and_split_geometric_closeout_2026-10-02.md)：特定の全共有を全割当てで排除。
 
 九次以上の一般分配と、数値からの一般移行は残ります。本文の前提を保って読んでください。
@@ -32,7 +32,7 @@
 ## 経路C：標準桁の完全分配
 
 1. [次数5の割当ての修復](i3_quintic_split_allocation_repair_2026-10-03.md)：両定数桁の全14型を直接排除。
-2. [残余次数とMahler測度](i3_split_mahler_frontier_2026-10-03.md)：残余次数5を排除。残余次数6の一枝を $aD_6\le13,q\le13,762$ に有限化。
+2. [残余次数とMahler測度](i3_split_mahler_frontier_2026-10-03.md)：残余次数5を排除。残余次数6の一枝を $`aD_6\le13,q\le13,762`$ に有限化。
 
 この有限境界の全排除は未実施です。経路Bの低次数結果を別設定へ無条件に移さないでください。
 
@@ -83,7 +83,7 @@
 | 2026-09-20 | [i=3：有限個の素数による排除の限界と、今回の研究記録](i3_finite_prime_obstruction_2026-09-20.md) |
 | 2026-10-01 | [i=3：5冪の共通5進枝、25次・125次の芯の全排除](i3_five_power_composition_and_local_frontier_2026-10-01.md) |
 | 2026-09-21 | [i=3：4件のチャットの統合と、整数点を保つ判別式降下](i3_four_chat_integration_2026-09-21.md) |
-| 2026-09-22 | [$i=3$・偶数 $j$：9月22日の四つの進捗メモの統合](i3_four_handoffs_integration_2026-09-22.md) |
+| 2026-09-22 | [$`i=3`$・偶数 $`j`$：9月22日の四つの進捗メモの統合](i3_four_handoffs_integration_2026-09-22.md) |
 | 本文参照 | [Erdős 699：g=13 の排除と、降下案の検証](i3_gap13_and_descent_continuation.md) |
 | 2026-09-21 | [i=3：増大するGにも通用する平方枝の一様排除](i3_gap_square_obstructions_2026-09-21.md) |
 | 2026-09-19 | [Erdős 699：全六ブロックの桁和下界と、桁和から別の素数への移行](i3_global_digit_constraints_2026-09-19.md) |
