@@ -2,6 +2,8 @@
 
 [全体の入口](../README.md) · [English](../README.en.md) · [証明ノート](../research/README.md)
 
+新しい会話で研究を再開する場合は、[Codex引き継ぎ](NEXT_CODEX.md)を最初に読んでください。
+
 ## 現在の結論を読む
 
 | ページ | 役割 |

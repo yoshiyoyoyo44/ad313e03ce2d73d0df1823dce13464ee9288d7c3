@@ -22,6 +22,11 @@
 
 依存する新しいGの下界、独立監査、条件付きの一般補題は下の索引にあります。[10月4日の再生器](../../scripts/verify_october04.py)は証明依存の順に検算します。
 
+その後、[i=21の位置重み証明](bft_i21_position_moment_closeout_2026-10-04.md)と
+[独立監査](bft_i21_position_moment_independent_audit_2026-10-04.md)で、全域添字をさらに一つ追加しました。
+[有限再生](../../scripts/audit_bft_i21_finite_dependency_2026_10_04.py)と
+[結合検算](../../scripts/audit_bft_i21_moment_closeout_2026_10_04.py)は40件の実行器より後の追加です。
+
 ## 桁降下：任意の添字へ
 
 [隣接行の桁降下](adjacent_row_digit_descent_2026-10-03.md)を読むときは、完全付値と桁条件 → 正の実根 → 条件付きの多項式移行 → 有効上限 → i=5への適用の順に進みます。

@@ -1,0 +1,580 @@
+{
+  "status": "passed",
+  "exact_all_n_indices_added": [
+    21
+  ],
+  "independent_review": "Root independently reviewed the numerical Kummer argument, all collision and rearrangement bounds, exact constants and strict range joins, and replayed this checker and finite input; i3_attack independently replayed the finite input and separately audited the graph and position-moment proof before source completion",
+  "scope": "Every integer 21<j<=n/2 satisfies the original common-prime conclusion p>=21",
+  "dependencies": [
+    {
+      "path": "data/results/verification_bft_i16_closeout_2026-10-04.json",
+      "sha256": "c07a86d96c87732cf2b6670bc78160e2684506b6fb5123e3825aa3f3929d2412"
+    },
+    {
+      "path": "data/results/verification_bft_newvertex_i22_i25_2026_10_04.json",
+      "sha256": "077172a98c6cbeef30693a2cf7740a6adbb7371b331f5fde7090353dbb1e1702"
+    },
+    {
+      "path": "data/results/verification_bft_i21_finite_dependency_2026_10_04.json",
+      "sha256": "9562db2d988184a6e288e892386f84d2536171eece449c90a08d1c910cdfb884"
+    }
+  ],
+  "recertified_nine_anchors": [
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "p": 2,
+      "k0": 3,
+      "a": 1,
+      "q": 7,
+      "l0": 1,
+      "b": 1,
+      "c": 25,
+      "d": 17,
+      "D0": 1,
+      "L1": "777/500",
+      "m0": 582,
+      "target": "273/1000",
+      "epsilon": "1/2500",
+      "Omega3": {
+        "lower_numerator": 1002977744452,
+        "upper_numerator": 1002977744453,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 3161569506413,
+        "upper_numerator": 3161569506414,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 273473320921,
+        "upper_numerator": 273473320922,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 160465625924706760,
+        "upper_numerator": 161381514535143673,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "p": 3,
+      "k0": 5,
+      "a": 1,
+      "q": 11,
+      "l0": 2,
+      "b": 2,
+      "c": 19,
+      "d": 14,
+      "D0": 1,
+      "L1": "361/250",
+      "m0": 6000,
+      "target": "43/125",
+      "epsilon": "3/20000",
+      "Omega3": {
+        "lower_numerator": 1001496227521,
+        "upper_numerator": 1001496227522,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 50016762544380,
+        "upper_numerator": 50016762544381,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 344178760242,
+        "upper_numerator": 344178760243,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 955006234534113500,
+        "upper_numerator": 955006234534113501,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "p": 5,
+      "k0": 2,
+      "a": 2,
+      "q": 7,
+      "l0": 2,
+      "b": 1,
+      "c": 3,
+      "d": 2,
+      "D0": 1,
+      "L1": "1611/1000",
+      "m0": 50000,
+      "target": "33/125",
+      "epsilon": "1/1250",
+      "Omega3": {
+        "lower_numerator": 1001834364130,
+        "upper_numerator": 1001834364131,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8192098327936,
+        "upper_numerator": 8192098327937,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 264852842104,
+        "upper_numerator": 264852842105,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 794105933632331902,
+        "upper_numerator": 794105933632331903,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "p": 7,
+      "k0": 3,
+      "a": 1,
+      "q": 13,
+      "l0": 2,
+      "b": 2,
+      "c": 4,
+      "d": 3,
+      "D0": 5,
+      "L1": "361/250",
+      "m0": 30000,
+      "target": "49/400",
+      "epsilon": "1/10000",
+      "Omega3": {
+        "lower_numerator": 1000399724406,
+        "upper_numerator": 1000399724407,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 2968316291644,
+        "upper_numerator": 2968316291645,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 122637465094,
+        "upper_numerator": 122637465095,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 798473808386715939,
+        "upper_numerator": 798473808386715940,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "p": 2,
+      "k0": 9,
+      "a": 1,
+      "q": 13,
+      "l0": 2,
+      "b": 3,
+      "c": 10,
+      "d": 7,
+      "D0": 5,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "73/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1121320125365,
+        "upper_numerator": 1121320125366,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 2024137142140,
+        "upper_numerator": 2024137142141,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 73322333375,
+        "upper_numerator": 73322333376,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 807898328852283929,
+        "upper_numerator": 807898328852283930,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "p": 13,
+      "k0": 1,
+      "a": 1,
+      "q": 11,
+      "l0": 1,
+      "b": 1,
+      "c": 10,
+      "d": 7,
+      "D0": 2,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "61/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1080863334168,
+        "upper_numerator": 1080863334169,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 1272591797870,
+        "upper_numerator": 1272591797871,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 61725737253,
+        "upper_numerator": 61725737254,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 328069930734392748,
+        "upper_numerator": 328069930734392749,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "p": 17,
+      "k0": 1,
+      "a": 1,
+      "q": 2,
+      "l0": 4,
+      "b": 1,
+      "c": 7,
+      "d": 5,
+      "D0": 1,
+      "L1": "2827/2000",
+      "m0": 74,
+      "target": "337/1000",
+      "epsilon": "9/10000",
+      "Omega3": {
+        "lower_numerator": 1084539434912,
+        "upper_numerator": 1084539434913,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 7575848301464,
+        "upper_numerator": 7575848301465,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 337975047076,
+        "upper_numerator": 337975047077,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 28205127868062501,
+        "upper_numerator": 28632807239653189,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "p": 11,
+      "k0": 2,
+      "a": 3,
+      "q": 19,
+      "l0": 2,
+      "b": 1,
+      "c": 25,
+      "d": 17,
+      "D0": 2,
+      "L1": "777/500",
+      "m0": 582,
+      "target": "49/250",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1235493467454,
+        "upper_numerator": 1235493467455,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8428942837912,
+        "upper_numerator": 8428942837913,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 197527208063,
+        "upper_numerator": 197527208064,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 115883287199771164,
+        "upper_numerator": 116112958605793329,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "p": 17,
+      "k0": 2,
+      "a": 5,
+      "q": 19,
+      "l0": 2,
+      "b": 4,
+      "c": 2,
+      "d": 1,
+      "D0": 1,
+      "L1": "19377/10000",
+      "m0": 150,
+      "target": "191/1000",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1749379833649,
+        "upper_numerator": 1749379833650,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 16598196156803,
+        "upper_numerator": 16598196156804,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 192588222813,
+        "upper_numerator": 192588222814,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 8941864998750605,
+        "upper_numerator": 9170589166431003,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "graph_edges_scale2000": [
+    [
+      2,
+      3,
+      570
+    ],
+    [
+      2,
+      5,
+      516
+    ],
+    [
+      2,
+      7,
+      546
+    ],
+    [
+      2,
+      11,
+      118
+    ],
+    [
+      2,
+      13,
+      146
+    ],
+    [
+      3,
+      5,
+      432
+    ],
+    [
+      3,
+      7,
+      76
+    ],
+    [
+      3,
+      11,
+      688
+    ],
+    [
+      3,
+      13,
+      462
+    ],
+    [
+      5,
+      7,
+      528
+    ],
+    [
+      5,
+      11,
+      398
+    ],
+    [
+      5,
+      13,
+      326
+    ],
+    [
+      7,
+      13,
+      245
+    ],
+    [
+      11,
+      13,
+      122
+    ],
+    [
+      2,
+      17,
+      674
+    ],
+    [
+      11,
+      19,
+      392
+    ],
+    [
+      17,
+      19,
+      382
+    ]
+  ],
+  "graph": {
+    "orientations": 131072,
+    "distinct_lower_vectors": 2631,
+    "product_minimum": "2527/2000",
+    "collision_minimum": "633/400",
+    "collision_pair_minima": {
+      "2,3": "633/400",
+      "2,5": "133/80",
+      "2,7": "9/5",
+      "2,11": "431/250",
+      "2,13": "451/250",
+      "2,17": "1877/1000",
+      "2,19": "3461/2000",
+      "3,5": "3311/2000",
+      "3,7": "1793/1000",
+      "3,11": "3829/2000",
+      "3,13": "1797/1000",
+      "3,17": "9/5",
+      "3,19": "3447/2000",
+      "5,7": "969/500",
+      "5,11": "1797/1000",
+      "5,13": "1877/1000",
+      "5,17": "943/500",
+      "5,19": "3607/2000",
+      "7,11": "961/500",
+      "7,13": "2071/1000",
+      "7,17": "1871/1000",
+      "7,19": "1941/1000",
+      "11,13": "183/100",
+      "11,17": "909/500",
+      "11,19": "187/100",
+      "13,17": "1931/1000",
+      "13,19": "389/200",
+      "17,19": "4007/2000"
+    },
+    "moment_minimum": "112953/2000",
+    "unique_minimum_vector_scale2000": [
+      674,
+      688,
+      528,
+      0,
+      0,
+      245,
+      0,
+      392
+    ]
+  },
+  "i": 21,
+  "h": 20,
+  "m": 8,
+  "c_i": 21,
+  "A": "20!",
+  "uniform_capacity": {
+    "b": 14,
+    "d": 22,
+    "S": 105,
+    "D": 29,
+    "beta": "29/22"
+  },
+  "moment_capacity": {
+    "b": 14,
+    "d": 28,
+    "S": 105,
+    "H": 56,
+    "lower_exponent": "112953/2000",
+    "integer_gap": 953,
+    "bernoulli_exponent": 1288953,
+    "cutoff_power": 1000,
+    "decimal_margin": 14999
+  },
+  "collision_capacity": {
+    "lower_exponent_used": "3/2",
+    "cutoff_power": 100,
+    "integer_gap": 8,
+    "bernoulli_exponent": 990,
+    "decimal_margin": 89
+  },
+  "intermediate_capacity": {
+    "product_exponent": "5/3",
+    "integer_gap": 23,
+    "bernoulli_exponent": 1496,
+    "decimal_margin": 935
+  },
+  "finite_interval": "n<=10^87",
+  "intermediate_interval": "10^87<=n<exp(1000000)",
+  "infinite_interval": "n>=exp(1000000)",
+  "rearrangement": "All orientation lower levels are <1; among distinct rows the minimum is rows 0..7 assigned ascending levels. Actual log(a_p)/log(Z) need not be <=1.",
+  "numerical_Kummer_used": true,
+  "complete_polynomial_allocation_assumed": false,
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "problem699_fully_solved": false
+}

@@ -17,15 +17,15 @@ These are the ranges covered by the saved paper proofs and finite certificates i
 
 | Range | Status |
 |---|---|
-| $`i=1,2,16,17,19`$ and $`i\ge22`$ | Covered for all admissible $`n,j`$ |
+| $`i=1,2,16,17,19`$ and $`i\ge21`$ | Covered for all admissible $`n,j`$ |
 | $`i\ge5`$ and $`n\le10^{87}`$ | Covered for all admissible $`j`$ |
 | $`i=3,4`$ | General cases remain open |
-| $`i=5,\ldots,15,18,20,21`$ | The tail $`n\gt 10^{87}`$ remains open |
+| $`i=5,\ldots,15,18,20`$ | The tail $`n\gt 10^{87}`$ remains open |
 
-**16 indices remain unresolved.** Excluding a special family does not resolve an entire index.
+**15 indices remain unresolved.** Excluding a special family does not resolve an entire index.
 Independent peer review and a Lean formalization of the full argument have not been completed.
 
-The October 4 update covers **12 additional indices, 16,17,19,22,23,24,25,26,27,30,32,33, for all admissible n,j**.
+The October 4 update covers **13 additional indices, 16,17,19,21,22,23,24,25,26,27,30,32,33, for all admissible n,j**.
 The proofs combine pairwise cofactor bounds with weighted capacity bounds and connect the infinite tail to independently replayed finite certificates.
 They rely on explicit results from [Bennett, Filaseta and Trifonov](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf).
 See the proofs for [six indices](research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md),
@@ -33,7 +33,8 @@ See the proofs for [six indices](research/general/bft_pair_graph_closeout_six_in
 [i=22,25](research/general/bft_newvertex_i22_i25_closeout_2026-10-04.md),
 [i=19](research/general/bft_strengthened_gcd_i19_closeout_2026-10-04.md),
 [i=24](research/general/bft_i24_closeout_2026-10-04.md), and
-[i=16](research/general/bft_i16_closeout_2026-10-04.md).
+[i=16](research/general/bft_i16_closeout_2026-10-04.md), followed by
+[i=21 using row positions](research/general/bft_i21_position_moment_closeout_2026-10-04.md).
 
 ## Research map
 

@@ -63,6 +63,18 @@ i=3・i=5の追加補題は、それぞれの仮定が必要な部分成果で�
 
 ## 主な証明と個別検算
 
+40件の通過後、i=21を全域へ拡張しました。この後続分は別に再生します。
+
+```console
+python -X utf8 scripts/audit_bft_i21_finite_dependency_2026_10_04.py
+python -X utf8 scripts/audit_bft_i21_moment_closeout_2026_10_04.py
+```
+
+[証明](../research/general/bft_i21_position_moment_closeout_2026-10-04.md) ·
+[結合結果](../data/results/verification_bft_i21_moment_closeout_2026-10-04.json) ·
+[独立監査](../research/general/bft_i21_position_moment_independent_audit_2026-10-04.md)。
+現在の新しい全域添字は13個、残りは15個です。40件のログに記した12個は、その実行時点の記録です。
+
 | 対象 | コマンドのスクリプト | 保存結果 |
 |---|---|---|
 | [i=3残余次数6・七次境界](../research/i3/i3_independent_attack_2026-10-03.md) | [audit_i3_rho6_degree7_independent.py](../scripts/audit_i3_rho6_degree7_independent.py) | [結果](../data/results/verification_i3_rho6_degree7_independent.json) |

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "reviewer": "root",
+  "independent_method": "Successive exact sets of vertex lower bounds, with no import of the producer; direct large-integer comparisons",
+  "lower_vectors": 2631,
+  "moment_minimum": "112953/2000",
+  "collision_minimum": "633/400",
+  "three_integer_comparisons_passed": true,
+  "numerical_Kummer_argument_reviewed": true,
+  "rearrangement_does_not_require_actual_levels_below_one": true,
+  "strict_range_endpoints_reviewed": true,
+  "finite_input_freshly_replayed_by": [
+    "root",
+    "i3_attack"
+  ],
+  "finite_binomial_checks": 14755,
+  "finite_prefix_tiles": 12031,
+  "archived_hashes_preserved": 40,
+  "source_hashes": {
+    "scripts/audit_bft_i21_moment_closeout_2026_10_04.py": "ec74b1daf77b21a1bffbe0061b1df43e80b6c5bf61644f72c8969132cc9d7df6",
+    "research/general/bft_i21_position_moment_closeout_2026-10-04.md": "ddf090515b1667d0417b50107c975129a29617298079d3033b035b4c553f2b8e",
+    "data/results/verification_bft_i21_moment_closeout_2026-10-04.json": "db410a1695b9cf8a2502ee33921c2b591040fed65eaa068bcfa05d81246db6b7"
+  },
+  "external_bft_theorems_reproved": false,
+  "problem699_fully_solved": false
+}

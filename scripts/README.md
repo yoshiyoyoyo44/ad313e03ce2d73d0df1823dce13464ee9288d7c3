@@ -2,6 +2,9 @@
 
 [入口](../README.md) · [検算手順](../docs/VERIFICATION.md) · [データ](../data/README.md) · [証明ノート](../research/README.md)
 
+10月4日の後続追加：i=21の全域証明に対応する[有限入力再生](audit_bft_i21_finite_dependency_2026_10_04.py)と
+[位置重みの結合検算](audit_bft_i21_moment_closeout_2026_10_04.py)。40件の実行器より後の追加です。
+
 ## 最初に使うコマンド
 
 リポジトリのルートから、assertを有効にして実行します。

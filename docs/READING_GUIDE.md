@@ -8,7 +8,7 @@
 ## 初めて読む
 
 1. [研究の概要](PROGRESS_SUMMARY.md)：問題、考え方、主な進展。
-2. [現在地](STATUS.md)：証明済みの範囲、残る16添字、外部依存。
+2. [現在地](STATUS.md)：証明済みの範囲、残る15添字、外部依存。
 3. [用語・記号](GLOSSARY.md)：分からない記号を確認。
 4. 興味のある[分野の案内](../research/README.md)から証明へ。
 
@@ -41,6 +41,7 @@
 5. 各ノート末尾の専用検算器、有限入力の再生記録、独立監査を照合する。BFTの定理自体は[一次論文](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf)を外部入力としている。
 
 これらは16,17,19,22,23,24,25,26,27,30,32,33の全域証明です。
+その後の[i=21の位置重み証明](../research/general/bft_i21_position_moment_closeout_2026-10-04.md)で、同日の全域拡張は13添字になりました。
 i=3の[線形商の分配](../research/i3/i3_linear_J2_quotient_degree1_bge2_all_degrees_2026-10-04.md)と
 i=5の[Pell還元](../research/i5/i5_pell_primitive_unit_reduction_2026-10-04.md)は条件付き進展として読む必要があります。
 一般i=3・i=5と問題全体は未解決です。
