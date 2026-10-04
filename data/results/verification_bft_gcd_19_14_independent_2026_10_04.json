@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "reviewer": "i5_attack",
+  "finite_full_replay_performed": true,
+  "finite_replay_blocks": 12693,
+  "finite_replay_seconds_approximate": 14.6,
+  "finite_result_sha256": "8f964cef983eafdbe24e587363d7620f9af3e2bc373aa3f009be5e705d0aa5c7",
+  "analytic_arithmetic": "Direct exact Fraction series and decimal-scale integer square roots, separate from the shared interval arithmetic",
+  "first_margin_lower": {
+    "numerator": 471959722,
+    "denominator": 1000000000000
+  },
+  "second_margin_lower": {
+    "numerator": 2475382439,
+    "denominator": 1000000000000
+  },
+  "new_3_11_anchor": {
+    "pair": [
+      3,
+      11
+    ],
+    "p": 3,
+    "k0": 5,
+    "a": 1,
+    "q": 11,
+    "l0": 2,
+    "b": 2,
+    "c": 19,
+    "d": 14,
+    "D0": 1,
+    "L1": "361/250",
+    "m0": 6000,
+    "target": "43/125",
+    "epsilon": "3/20000",
+    "Omega3": {
+      "lower_numerator": 1001496227521,
+      "upper_numerator": 1001496227522,
+      "denominator": 1000000000000
+    },
+    "Omega4": {
+      "lower_numerator": 50016762544380,
+      "upper_numerator": 50016762544381,
+      "denominator": 1000000000000
+    },
+    "lambda3": {
+      "lower_numerator": 344178760242,
+      "upper_numerator": 344178760243,
+      "denominator": 1000000000000
+    },
+    "log_x0": {
+      "lower_numerator": 955006234534113500,
+      "upper_numerator": 955006234534113501,
+      "denominator": 1000000000000
+    },
+    "upper_log_threshold": 999999,
+    "positive_D_final": 100,
+    "corrected_delta0_prefactor": true
+  },
+  "mathematical_source_audit_passed": true,
+  "external_inputs": [
+    "BFT Lemma 5.2 and floor identities (5.8)",
+    "BFT Lemma 5.4",
+    "BFT Theorem 2.4 and Section 7"
+  ],
+  "all_n_original_problem_claim": false
+}

@@ -1,0 +1,3696 @@
+{
+  "status": "passed",
+  "independent_review": "Paper proof, row-index strengthening, s=0 branch, and early nonmaximum-row existence independently audited by root",
+  "scope": "Any i>=3, a nonmaximum row s<=i-2, largest candidate complete prime-power base in row s, standard full digit conditions. No complete polynomial allocation. Adjacent row r=s+1 need not be nonmaximum.",
+  "degree_bound": "i deg gcd(F-(s+1),J-u) <= (i-1)(deg F+1), all u=0,...,i-1",
+  "strengthened_degree_bound": "(s+1) deg gcd(F-(s+1),J-u) <= s(deg F+1), all u=0,...,i-1",
+  "universal_base_threshold": "max(2^14, 2*lcm(1,...,i), (2i)^i*i!+1)",
+  "row_strengthened_base_threshold": "max(2^14, 2*lcm(1,...,i), (2i)^(s+1)*lcm(1,...,i)+1)",
+  "early_nonmaximum_row": "There is a nonmaximum s<=pi(i-1); adjacent r=s+1 need not be nonmaximum",
+  "numerical_cofactor_bound": "G_u(q)^i < i!*i^i*n^(i-1)",
+  "strengthened_numerical_cofactor_bound": "G_u(q)^(s+1) < delta_s*i^(s+1)*n^s <= lcm(1,...,i)*i^(s+1)*n^s",
+  "limitation": "Weak in small digit degree; does not prove the numerical-to-polynomial bridge or solve any new index.",
+  "exact_symbolic_identities": 5,
+  "illustrative_index_thresholds": [
+    {
+      "i": 3,
+      "L_i": 6,
+      "exponent_budget": 1296,
+      "minimum_base": 16384,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 36,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 216,
+          "minimum_base": 16384
+        }
+      ],
+      "early_nonmaximum_row_bound": 1,
+      "uniform_early_row_minimum_base": 16384
+    },
+    {
+      "i": 4,
+      "L_i": 12,
+      "exponent_budget": 98304,
+      "minimum_base": 98305,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 96,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 768,
+          "minimum_base": 16384
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 6144,
+          "minimum_base": 16384
+        }
+      ],
+      "early_nonmaximum_row_bound": 2,
+      "uniform_early_row_minimum_base": 16384
+    },
+    {
+      "i": 5,
+      "L_i": 60,
+      "exponent_budget": 12000000,
+      "minimum_base": 12000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 600,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 6000,
+          "minimum_base": 16384
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 60000,
+          "minimum_base": 60001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 600000,
+          "minimum_base": 600001
+        }
+      ],
+      "early_nonmaximum_row_bound": 2,
+      "uniform_early_row_minimum_base": 60001
+    },
+    {
+      "i": 6,
+      "L_i": 60,
+      "exponent_budget": 2149908480,
+      "minimum_base": 2149908481,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 720,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 8640,
+          "minimum_base": 16384
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 103680,
+          "minimum_base": 103681
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 1244160,
+          "minimum_base": 1244161
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 14929920,
+          "minimum_base": 14929921
+        }
+      ],
+      "early_nonmaximum_row_bound": 3,
+      "uniform_early_row_minimum_base": 1244161
+    },
+    {
+      "i": 7,
+      "L_i": 420,
+      "exponent_budget": 531284060160,
+      "minimum_base": 531284060161,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 5880,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 82320,
+          "minimum_base": 82321
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 1152480,
+          "minimum_base": 1152481
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 16134720,
+          "minimum_base": 16134721
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 225886080,
+          "minimum_base": 225886081
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 3162405120,
+          "minimum_base": 3162405121
+        }
+      ],
+      "early_nonmaximum_row_bound": 3,
+      "uniform_early_row_minimum_base": 16134721
+    },
+    {
+      "i": 8,
+      "L_i": 840,
+      "exponent_budget": 173173081374720,
+      "minimum_base": 173173081374721,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 13440,
+          "minimum_base": 16384
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 215040,
+          "minimum_base": 215041
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 3440640,
+          "minimum_base": 3440641
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 55050240,
+          "minimum_base": 55050241
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 880803840,
+          "minimum_base": 880803841
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 14092861440,
+          "minimum_base": 14092861441
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 225485783040,
+          "minimum_base": 225485783041
+        }
+      ],
+      "early_nonmaximum_row_bound": 4,
+      "uniform_early_row_minimum_base": 880803841
+    },
+    {
+      "i": 9,
+      "L_i": 2520,
+      "exponent_budget": 71980619288739840,
+      "minimum_base": 71980619288739841,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 45360,
+          "minimum_base": 45361
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 816480,
+          "minimum_base": 816481
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 14696640,
+          "minimum_base": 14696641
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 264539520,
+          "minimum_base": 264539521
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 4761711360,
+          "minimum_base": 4761711361
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 85710804480,
+          "minimum_base": 85710804481
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 1542794480640,
+          "minimum_base": 1542794480641
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 27770300651520,
+          "minimum_base": 27770300651521
+        }
+      ],
+      "early_nonmaximum_row_bound": 4,
+      "uniform_early_row_minimum_base": 4761711361
+    },
+    {
+      "i": 10,
+      "L_i": 2520,
+      "exponent_budget": 37158912000000000000,
+      "minimum_base": 37158912000000000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 50400,
+          "minimum_base": 50401
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 1008000,
+          "minimum_base": 1008001
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 20160000,
+          "minimum_base": 20160001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 403200000,
+          "minimum_base": 403200001
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 8064000000,
+          "minimum_base": 8064000001
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 161280000000,
+          "minimum_base": 161280000001
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 3225600000000,
+          "minimum_base": 3225600000001
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 64512000000000,
+          "minimum_base": 64512000000001
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 1290240000000000,
+          "minimum_base": 1290240000000001
+        }
+      ],
+      "early_nonmaximum_row_bound": 4,
+      "uniform_early_row_minimum_base": 8064000001
+    },
+    {
+      "i": 11,
+      "L_i": 27720,
+      "exponent_budget": 23324116773775697510400,
+      "minimum_base": 23324116773775697510401,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 609840,
+          "minimum_base": 609841
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 13416480,
+          "minimum_base": 13416481
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 295162560,
+          "minimum_base": 295162561
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 6493576320,
+          "minimum_base": 6493576321
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 142858679040,
+          "minimum_base": 142858679041
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 3142890938880,
+          "minimum_base": 3142890938881
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 69143600655360,
+          "minimum_base": 69143600655361
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 1521159214417920,
+          "minimum_base": 1521159214417921
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 33465502717194240,
+          "minimum_base": 33465502717194241
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 736241059778273280,
+          "minimum_base": 736241059778273281
+        }
+      ],
+      "early_nonmaximum_row_bound": 4,
+      "uniform_early_row_minimum_base": 142858679041
+    },
+    {
+      "i": 12,
+      "L_i": 27720,
+      "exponent_budget": 17493304854426997594521600,
+      "minimum_base": 17493304854426997594521601,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 665280,
+          "minimum_base": 665281
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 15966720,
+          "minimum_base": 15966721
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 383201280,
+          "minimum_base": 383201281
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 9196830720,
+          "minimum_base": 9196830721
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 220723937280,
+          "minimum_base": 220723937281
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 5297374494720,
+          "minimum_base": 5297374494721
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 127136987873280,
+          "minimum_base": 127136987873281
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 3051287708958720,
+          "minimum_base": 3051287708958721
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 73230905015009280,
+          "minimum_base": 73230905015009281
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 1757541720360222720,
+          "minimum_base": 1757541720360222721
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 42181001288645345280,
+          "minimum_base": 42181001288645345281
+        }
+      ],
+      "early_nonmaximum_row_bound": 5,
+      "uniform_early_row_minimum_base": 5297374494721
+    },
+    {
+      "i": 13,
+      "L_i": 360360,
+      "exponent_budget": 15450190549419430296472780800,
+      "minimum_base": 15450190549419430296472780801,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9369360,
+          "minimum_base": 9369361
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 243603360,
+          "minimum_base": 243603361
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 6333687360,
+          "minimum_base": 6333687361
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 164675871360,
+          "minimum_base": 164675871361
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 4281572655360,
+          "minimum_base": 4281572655361
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 111320889039360,
+          "minimum_base": 111320889039361
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 2894343115023360,
+          "minimum_base": 2894343115023361
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 75252920990607360,
+          "minimum_base": 75252920990607361
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 1956575945755791360,
+          "minimum_base": 1956575945755791361
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 50870974589650575360,
+          "minimum_base": 50870974589650575361
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 1322645339330914959360,
+          "minimum_base": 1322645339330914959361
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 34388778822603788943360,
+          "minimum_base": 34388778822603788943361
+        }
+      ],
+      "early_nonmaximum_row_bound": 5,
+      "uniform_early_row_minimum_base": 111320889039361
+    },
+    {
+      "i": 14,
+      "L_i": 360360,
+      "exponent_budget": 15871602964150424720871574732800,
+      "minimum_base": 15871602964150424720871574732801,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 10090080,
+          "minimum_base": 10090081
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 282522240,
+          "minimum_base": 282522241
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 7910622720,
+          "minimum_base": 7910622721
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 221497436160,
+          "minimum_base": 221497436161
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 6201928212480,
+          "minimum_base": 6201928212481
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 173653989949440,
+          "minimum_base": 173653989949441
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 4862311718584320,
+          "minimum_base": 4862311718584321
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 136144728120360960,
+          "minimum_base": 136144728120360961
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 3812052387370106880,
+          "minimum_base": 3812052387370106881
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 106737466846362992640,
+          "minimum_base": 106737466846362992641
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 2988649071698163793920,
+          "minimum_base": 2988649071698163793921
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 83682174007548586229760,
+          "minimum_base": 83682174007548586229761
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 2343100872211360414433280,
+          "minimum_base": 2343100872211360414433281
+        }
+      ],
+      "early_nonmaximum_row_bound": 6,
+      "uniform_early_row_minimum_base": 4862311718584321
+    },
+    {
+      "i": 15,
+      "L_i": 360360,
+      "exponent_budget": 18763697892715776000000000000000000,
+      "minimum_base": 18763697892715776000000000000000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 10810800,
+          "minimum_base": 10810801
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 324324000,
+          "minimum_base": 324324001
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 9729720000,
+          "minimum_base": 9729720001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 291891600000,
+          "minimum_base": 291891600001
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 8756748000000,
+          "minimum_base": 8756748000001
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 262702440000000,
+          "minimum_base": 262702440000001
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 7881073200000000,
+          "minimum_base": 7881073200000001
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 236432196000000000,
+          "minimum_base": 236432196000000001
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 7092965880000000000,
+          "minimum_base": 7092965880000000001
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 212788976400000000000,
+          "minimum_base": 212788976400000000001
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 6383669292000000000000,
+          "minimum_base": 6383669292000000000001
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 191510078760000000000000,
+          "minimum_base": 191510078760000000000001
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 5745302362800000000000000,
+          "minimum_base": 5745302362800000000000001
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 172359070884000000000000000,
+          "minimum_base": 172359070884000000000000001
+        }
+      ],
+      "early_nonmaximum_row_bound": 6,
+      "uniform_early_row_minimum_base": 7881073200000001
+    },
+    {
+      "i": 16,
+      "L_i": 720720,
+      "exponent_budget": 25294100913975075353412164583948288000,
+      "minimum_base": 25294100913975075353412164583948288001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 23063040,
+          "minimum_base": 23063041
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 738017280,
+          "minimum_base": 738017281
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 23616552960,
+          "minimum_base": 23616552961
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 755729694720,
+          "minimum_base": 755729694721
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 24183350231040,
+          "minimum_base": 24183350231041
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 773867207393280,
+          "minimum_base": 773867207393281
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 24763750636584960,
+          "minimum_base": 24763750636584961
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 792440020370718720,
+          "minimum_base": 792440020370718721
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 25358080651862999040,
+          "minimum_base": 25358080651862999041
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 811458580859615969280,
+          "minimum_base": 811458580859615969281
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 25966674587507711016960,
+          "minimum_base": 25966674587507711016961
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 830933586800246752542720,
+          "minimum_base": 830933586800246752542721
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 26589874777607896081367040,
+          "minimum_base": 26589874777607896081367041
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 850875992883452674603745280,
+          "minimum_base": 850875992883452674603745281
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 27228031772270485587319848960,
+          "minimum_base": 27228031772270485587319848961
+        }
+      ],
+      "early_nonmaximum_row_bound": 6,
+      "uniform_early_row_minimum_base": 24763750636584961
+    },
+    {
+      "i": 17,
+      "L_i": 12252240,
+      "exponent_budget": 38566489118187535352862866947046375424000,
+      "minimum_base": 38566489118187535352862866947046375424001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 416576160,
+          "minimum_base": 416576161
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 14163589440,
+          "minimum_base": 14163589441
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 481562040960,
+          "minimum_base": 481562040961
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 16373109392640,
+          "minimum_base": 16373109392641
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 556685719349760,
+          "minimum_base": 556685719349761
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 18927314457891840,
+          "minimum_base": 18927314457891841
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 643528691568322560,
+          "minimum_base": 643528691568322561
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 21879975513322967040,
+          "minimum_base": 21879975513322967041
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 743919167452980879360,
+          "minimum_base": 743919167452980879361
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 25293251693401349898240,
+          "minimum_base": 25293251693401349898241
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 859970557575645896540160,
+          "minimum_base": 859970557575645896540161
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 29238998957571960482365440,
+          "minimum_base": 29238998957571960482365441
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 994125964557446656400424960,
+          "minimum_base": 994125964557446656400424961
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 33800282794953186317614448640,
+          "minimum_base": 33800282794953186317614448641
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 1149209615028408334798891253760,
+          "minimum_base": 1149209615028408334798891253761
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 39073126910965883383162302627840,
+          "minimum_base": 39073126910965883383162302627841
+        }
+      ],
+      "early_nonmaximum_row_bound": 6,
+      "uniform_early_row_minimum_base": 643528691568322561
+    },
+    {
+      "i": 18,
+      "L_i": 12252240,
+      "exponent_budget": 66036802119564629725480209922347151392768000,
+      "minimum_base": 66036802119564629725480209922347151392768001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 441080640,
+          "minimum_base": 441080641
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 15878903040,
+          "minimum_base": 15878903041
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 571640509440,
+          "minimum_base": 571640509441
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 20579058339840,
+          "minimum_base": 20579058339841
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 740846100234240,
+          "minimum_base": 740846100234241
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 26670459608432640,
+          "minimum_base": 26670459608432641
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 960136545903575040,
+          "minimum_base": 960136545903575041
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 34564915652528701440,
+          "minimum_base": 34564915652528701441
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 1244336963491033251840,
+          "minimum_base": 1244336963491033251841
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 44796130685677197066240,
+          "minimum_base": 44796130685677197066241
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 1612660704684379094384640,
+          "minimum_base": 1612660704684379094384641
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 58055785368637647397847040,
+          "minimum_base": 58055785368637647397847041
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 2090008273270955306322493440,
+          "minimum_base": 2090008273270955306322493441
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 75240297837754391027609763840,
+          "minimum_base": 75240297837754391027609763841
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 2708650722159158076993951498240,
+          "minimum_base": 2708650722159158076993951498241
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 97511425997729690771782253936640,
+          "minimum_base": 97511425997729690771782253936641
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 3510411335918268867784161141719040,
+          "minimum_base": 3510411335918268867784161141719041
+        }
+      ],
+      "early_nonmaximum_row_bound": 7,
+      "uniform_early_row_minimum_base": 34564915652528701441
+    },
+    {
+      "i": 19,
+      "L_i": 232792560,
+      "exponent_budget": 126177801752336493310515695122715552004440064000,
+      "minimum_base": 126177801752336493310515695122715552004440064001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 8846117280,
+          "minimum_base": 8846117281
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 336152456640,
+          "minimum_base": 336152456641
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 12773793352320,
+          "minimum_base": 12773793352321
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 485404147388160,
+          "minimum_base": 485404147388161
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 18445357600750080,
+          "minimum_base": 18445357600750081
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 700923588828503040,
+          "minimum_base": 700923588828503041
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 26635096375483115520,
+          "minimum_base": 26635096375483115521
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 1012133662268358389760,
+          "minimum_base": 1012133662268358389761
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 38461079166197618810880,
+          "minimum_base": 38461079166197618810881
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 1461521008315509514813440,
+          "minimum_base": 1461521008315509514813441
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 55537798315989361562910720,
+          "minimum_base": 55537798315989361562910721
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 2110436336007595739390607360,
+          "minimum_base": 2110436336007595739390607361
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 80196580768288638096843079680,
+          "minimum_base": 80196580768288638096843079681
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 3047470069194968247680037027840,
+          "minimum_base": 3047470069194968247680037027841
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 115803862629408793411841407057920,
+          "minimum_base": 115803862629408793411841407057921
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 4400546779917534149649973468200960,
+          "minimum_base": 4400546779917534149649973468200961
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 167220777636866297686698991791636480,
+          "minimum_base": 167220777636866297686698991791636481
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 6354389550200919312094561688082186240,
+          "minimum_base": 6354389550200919312094561688082186241
+        }
+      ],
+      "early_nonmaximum_row_bound": 7,
+      "uniform_early_row_minimum_base": 1012133662268358389761
+    },
+    {
+      "i": 20,
+      "L_i": 232792560,
+      "exponent_budget": 267500404722979670813835264000000000000000000000000,
+      "minimum_base": 267500404722979670813835264000000000000000000000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9311702400,
+          "minimum_base": 9311702401
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 372468096000,
+          "minimum_base": 372468096001
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 14898723840000,
+          "minimum_base": 14898723840001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 595948953600000,
+          "minimum_base": 595948953600001
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 23837958144000000,
+          "minimum_base": 23837958144000001
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 953518325760000000,
+          "minimum_base": 953518325760000001
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 38140733030400000000,
+          "minimum_base": 38140733030400000001
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 1525629321216000000000,
+          "minimum_base": 1525629321216000000001
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 61025172848640000000000,
+          "minimum_base": 61025172848640000000001
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 2441006913945600000000000,
+          "minimum_base": 2441006913945600000000001
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 97640276557824000000000000,
+          "minimum_base": 97640276557824000000000001
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 3905611062312960000000000000,
+          "minimum_base": 3905611062312960000000000001
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 156224442492518400000000000000,
+          "minimum_base": 156224442492518400000000000001
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 6248977699700736000000000000000,
+          "minimum_base": 6248977699700736000000000000001
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 249959107988029440000000000000000,
+          "minimum_base": 249959107988029440000000000000001
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 9998364319521177600000000000000000,
+          "minimum_base": 9998364319521177600000000000000001
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 399934572780847104000000000000000000,
+          "minimum_base": 399934572780847104000000000000000001
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 15997382911233884160000000000000000000,
+          "minimum_base": 15997382911233884160000000000000000001
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 639895316449355366400000000000000000000,
+          "minimum_base": 639895316449355366400000000000000000001
+        }
+      ],
+      "early_nonmaximum_row_bound": 8,
+      "uniform_early_row_minimum_base": 61025172848640000000001
+    },
+    {
+      "i": 21,
+      "L_i": 232792560,
+      "exponent_budget": 626006741199436668870272850925685011435192036884480000,
+      "minimum_base": 626006741199436668870272850925685011435192036884480001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9777287520,
+          "minimum_base": 9777287521
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 410646075840,
+          "minimum_base": 410646075841
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 17247135185280,
+          "minimum_base": 17247135185281
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 724379677781760,
+          "minimum_base": 724379677781761
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 30423946466833920,
+          "minimum_base": 30423946466833921
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 1277805751607024640,
+          "minimum_base": 1277805751607024641
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 53667841567495034880,
+          "minimum_base": 53667841567495034881
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 2254049345834791464960,
+          "minimum_base": 2254049345834791464961
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 94670072525061241528320,
+          "minimum_base": 94670072525061241528321
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 3976143046052572144189440,
+          "minimum_base": 3976143046052572144189441
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 166998007934208030055956480,
+          "minimum_base": 166998007934208030055956481
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 7013916333236737262350172160,
+          "minimum_base": 7013916333236737262350172161
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 294584485995942965018707230720,
+          "minimum_base": 294584485995942965018707230721
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 12372548411829604530785703690240,
+          "minimum_base": 12372548411829604530785703690241
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 519647033296843390292999554990080,
+          "minimum_base": 519647033296843390292999554990081
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 21825175398467422392305981309583360,
+          "minimum_base": 21825175398467422392305981309583361
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 916657366735631740476851215002501120,
+          "minimum_base": 916657366735631740476851215002501121
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 38499609402896533100027751030105047040,
+          "minimum_base": 38499609402896533100027751030105047041
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 1616983594921654390201165543264411975680,
+          "minimum_base": 1616983594921654390201165543264411975681
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 67913310986709484388448952817105302978560,
+          "minimum_base": 67913310986709484388448952817105302978561
+        }
+      ],
+      "early_nonmaximum_row_bound": 8,
+      "uniform_early_row_minimum_base": 94670072525061241528321
+    },
+    {
+      "i": 22,
+      "L_i": 232792560,
+      "exponent_budget": 1609627840611652745165650231383733699917929094032916480000,
+      "minimum_base": 1609627840611652745165650231383733699917929094032916480001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 10242872640,
+          "minimum_base": 10242872641
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 450686396160,
+          "minimum_base": 450686396161
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 19830201431040,
+          "minimum_base": 19830201431041
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 872528862965760,
+          "minimum_base": 872528862965761
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 38391269970493440,
+          "minimum_base": 38391269970493441
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 1689215878701711360,
+          "minimum_base": 1689215878701711361
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 74325498662875299840,
+          "minimum_base": 74325498662875299841
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 3270321941166513192960,
+          "minimum_base": 3270321941166513192961
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 143894165411326580490240,
+          "minimum_base": 143894165411326580490241
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 6331343278098369541570560,
+          "minimum_base": 6331343278098369541570561
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 278579104236328259829104640,
+          "minimum_base": 278579104236328259829104641
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 12257480586398443432480604160,
+          "minimum_base": 12257480586398443432480604161
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 539329145801531511029146583040,
+          "minimum_base": 539329145801531511029146583041
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 23730482415267386485282449653760,
+          "minimum_base": 23730482415267386485282449653761
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 1044141226271765005352427784765440,
+          "minimum_base": 1044141226271765005352427784765441
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 45942213955957660235506822529679360,
+          "minimum_base": 45942213955957660235506822529679361
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 2021457414062137050362300191305891840,
+          "minimum_base": 2021457414062137050362300191305891841
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 88944126218734030215941208417459240960,
+          "minimum_base": 88944126218734030215941208417459240961
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 3913541553624297329501413170368206602240,
+          "minimum_base": 3913541553624297329501413170368206602241
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 172195828359469082498062179496201090498560,
+          "minimum_base": 172195828359469082498062179496201090498561
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 7576616447816639629914735897832847981936640,
+          "minimum_base": 7576616447816639629914735897832847981936641
+        }
+      ],
+      "early_nonmaximum_row_bound": 8,
+      "uniform_early_row_minimum_base": 143894165411326580490241
+    },
+    {
+      "i": 23,
+      "L_i": 5354228880,
+      "exponent_budget": 4528189122525331600943661124507228366492749826085659607040000,
+      "minimum_base": 4528189122525331600943661124507228366492749826085659607040001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 246294528480,
+          "minimum_base": 246294528481
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 11329548310080,
+          "minimum_base": 11329548310081
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 521159222263680,
+          "minimum_base": 521159222263681
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 23973324224129280,
+          "minimum_base": 23973324224129281
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 1102772914309946880,
+          "minimum_base": 1102772914309946881
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 50727554058257556480,
+          "minimum_base": 50727554058257556481
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 2333467486679847598080,
+          "minimum_base": 2333467486679847598081
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 107339504387272989511680,
+          "minimum_base": 107339504387272989511681
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 4937617201814557517537280,
+          "minimum_base": 4937617201814557517537281
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 227130391283469645806714880,
+          "minimum_base": 227130391283469645806714881
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 10447997999039603707108884480,
+          "minimum_base": 10447997999039603707108884481
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 480607907955821770527008686080,
+          "minimum_base": 480607907955821770527008686081
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 22107963765967801444242399559680,
+          "minimum_base": 22107963765967801444242399559681
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 1016966333234518866435150379745280,
+          "minimum_base": 1016966333234518866435150379745281
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 46780451328787867856016917468282880,
+          "minimum_base": 46780451328787867856016917468282881
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 2151900761124241921376778203541012480,
+          "minimum_base": 2151900761124241921376778203541012481
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 98987435011715128383331797362886574080,
+          "minimum_base": 98987435011715128383331797362886574081
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 4553422010538895905633262678692782407680,
+          "minimum_base": 4553422010538895905633262678692782407681
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 209457412484789211659130083219867990753280,
+          "minimum_base": 209457412484789211659130083219867990753281
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 9635040974300303736319983828113927574650880,
+          "minimum_base": 9635040974300303736319983828113927574650881
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 443211884817813971870719256093240668433940480,
+          "minimum_base": 443211884817813971870719256093240668433940481
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 20387746701619442706053085780289070747961262080,
+          "minimum_base": 20387746701619442706053085780289070747961262081
+        }
+      ],
+      "early_nonmaximum_row_bound": 8,
+      "uniform_early_row_minimum_base": 4937617201814557517537281
+    },
+    {
+      "i": 24,
+      "L_i": 5354228880,
+      "exponent_budget": 13883384997923193770386500155865436636078407748877574482165760000,
+      "minimum_base": 13883384997923193770386500155865436636078407748877574482165760001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 257002986240,
+          "minimum_base": 257002986241
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 12336143339520,
+          "minimum_base": 12336143339521
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 592134880296960,
+          "minimum_base": 592134880296961
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 28422474254254080,
+          "minimum_base": 28422474254254081
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 1364278764204195840,
+          "minimum_base": 1364278764204195841
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 65485380681801400320,
+          "minimum_base": 65485380681801400321
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 3143298272726467215360,
+          "minimum_base": 3143298272726467215361
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 150878317090870426337280,
+          "minimum_base": 150878317090870426337281
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 7242159220361780464189440,
+          "minimum_base": 7242159220361780464189441
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 347623642577365462281093120,
+          "minimum_base": 347623642577365462281093121
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 16685934843713542189492469760,
+          "minimum_base": 16685934843713542189492469761
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 800924872498250025095638548480,
+          "minimum_base": 800924872498250025095638548481
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 38444393879916001204590650327040,
+          "minimum_base": 38444393879916001204590650327041
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 1845330906235968057820351215697920,
+          "minimum_base": 1845330906235968057820351215697921
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 88575883499326466775376858353500160,
+          "minimum_base": 88575883499326466775376858353500161
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 4251642407967670405218089200968007680,
+          "minimum_base": 4251642407967670405218089200968007681
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 204078835582448179450468281646464368640,
+          "minimum_base": 204078835582448179450468281646464368641
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 9795784107957512613622477519030289694720,
+          "minimum_base": 9795784107957512613622477519030289694721
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 470197637181960605453878920913453905346560,
+          "minimum_base": 470197637181960605453878920913453905346561
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 22569486584734109061786188203845787456634880,
+          "minimum_base": 22569486584734109061786188203845787456634881
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 1083335356067237234965737033784597797918474240,
+          "minimum_base": 1083335356067237234965737033784597797918474241
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 52000097091227387278355377621660694300086763520,
+          "minimum_base": 52000097091227387278355377621660694300086763521
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 2496004660378914589361058125839713326404164648960,
+          "minimum_base": 2496004660378914589361058125839713326404164648961
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 347623642577365462281093121
+    },
+    {
+      "i": 25,
+      "L_i": 26771144400,
+      "exponent_budget": 46227008233460742187500000000000000000000000000000000000000000000000,
+      "minimum_base": 46227008233460742187500000000000000000000000000000000000000000000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 1338557220000,
+          "minimum_base": 1338557220001
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 66927861000000,
+          "minimum_base": 66927861000001
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 3346393050000000,
+          "minimum_base": 3346393050000001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 167319652500000000,
+          "minimum_base": 167319652500000001
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 8365982625000000000,
+          "minimum_base": 8365982625000000001
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 418299131250000000000,
+          "minimum_base": 418299131250000000001
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 20914956562500000000000,
+          "minimum_base": 20914956562500000000001
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 1045747828125000000000000,
+          "minimum_base": 1045747828125000000000001
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 52287391406250000000000000,
+          "minimum_base": 52287391406250000000000001
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 2614369570312500000000000000,
+          "minimum_base": 2614369570312500000000000001
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 130718478515625000000000000000,
+          "minimum_base": 130718478515625000000000000001
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 6535923925781250000000000000000,
+          "minimum_base": 6535923925781250000000000000001
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 326796196289062500000000000000000,
+          "minimum_base": 326796196289062500000000000000001
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 16339809814453125000000000000000000,
+          "minimum_base": 16339809814453125000000000000000001
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 816990490722656250000000000000000000,
+          "minimum_base": 816990490722656250000000000000000001
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 40849524536132812500000000000000000000,
+          "minimum_base": 40849524536132812500000000000000000001
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 2042476226806640625000000000000000000000,
+          "minimum_base": 2042476226806640625000000000000000000001
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 102123811340332031250000000000000000000000,
+          "minimum_base": 102123811340332031250000000000000000000001
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 5106190567016601562500000000000000000000000,
+          "minimum_base": 5106190567016601562500000000000000000000001
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 255309528350830078125000000000000000000000000,
+          "minimum_base": 255309528350830078125000000000000000000000001
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 12765476417541503906250000000000000000000000000,
+          "minimum_base": 12765476417541503906250000000000000000000000001
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 638273820877075195312500000000000000000000000000,
+          "minimum_base": 638273820877075195312500000000000000000000000001
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 31913691043853759765625000000000000000000000000000,
+          "minimum_base": 31913691043853759765625000000000000000000000000001
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 1595684552192687988281250000000000000000000000000000,
+          "minimum_base": 1595684552192687988281250000000000000000000000000001
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 2614369570312500000000000001
+    },
+    {
+      "i": 26,
+      "L_i": 26771144400,
+      "exponent_budget": 166611878636471910451925903985845392911225699991707391593572990976000000,
+      "minimum_base": 166611878636471910451925903985845392911225699991707391593572990976000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 1392099508800,
+          "minimum_base": 1392099508801
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 72389174457600,
+          "minimum_base": 72389174457601
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 3764237071795200,
+          "minimum_base": 3764237071795201
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 195740327733350400,
+          "minimum_base": 195740327733350401
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 10178497042134220800,
+          "minimum_base": 10178497042134220801
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 529281846190979481600,
+          "minimum_base": 529281846190979481601
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 27522656001930933043200,
+          "minimum_base": 27522656001930933043201
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 1431178112100408518246400,
+          "minimum_base": 1431178112100408518246401
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 74421261829221242948812800,
+          "minimum_base": 74421261829221242948812801
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 3869905615119504633338265600,
+          "minimum_base": 3869905615119504633338265601
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 201235091986214240933589811200,
+          "minimum_base": 201235091986214240933589811201
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 10464224783283140528546670182400,
+          "minimum_base": 10464224783283140528546670182401
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 544139688730723307484426849484800,
+          "minimum_base": 544139688730723307484426849484801
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 28295263813997611989190196173209600,
+          "minimum_base": 28295263813997611989190196173209601
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 1471353718327875823437890201006899200,
+          "minimum_base": 1471353718327875823437890201006899201
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 76510393353049542818770290452358758400,
+          "minimum_base": 76510393353049542818770290452358758401
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 3978540454358576226576055103522655436800,
+          "minimum_base": 3978540454358576226576055103522655436801
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 206884103626645963781954865383178082713600,
+          "minimum_base": 206884103626645963781954865383178082713601
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 10757973388585590116661652999925260301107200,
+          "minimum_base": 10757973388585590116661652999925260301107201
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 559414616206450686066405955996113535657574400,
+          "minimum_base": 559414616206450686066405955996113535657574401
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 29089560042735435675453109711797903854193868800,
+          "minimum_base": 29089560042735435675453109711797903854193868801
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 1512657122222242655123561705013491000418081177600,
+          "minimum_base": 1512657122222242655123561705013491000418081177601
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 78658170355556618066425208660701532021740221235200,
+          "minimum_base": 78658170355556618066425208660701532021740221235201
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 4090224858488944139454110850356479665130491504230400,
+          "minimum_base": 4090224858488944139454110850356479665130491504230401
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 212691692641425095251613764218536942586785558219980800,
+          "minimum_base": 212691692641425095251613764218536942586785558219980801
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 3869905615119504633338265601
+    },
+    {
+      "i": 27,
+      "L_i": 80313433200,
+      "exponent_budget": 648058641675448265703827338743019962836146842290855932996402399936512000000,
+      "minimum_base": 648058641675448265703827338743019962836146842290855932996402399936512000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 4336925392800,
+          "minimum_base": 4336925392801
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 234193971211200,
+          "minimum_base": 234193971211201
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 12646474445404800,
+          "minimum_base": 12646474445404801
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 682909620051859200,
+          "minimum_base": 682909620051859201
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 36877119482800396800,
+          "minimum_base": 36877119482800396801
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 1991364452071221427200,
+          "minimum_base": 1991364452071221427201
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 107533680411845957068800,
+          "minimum_base": 107533680411845957068801
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 5806818742239681681715200,
+          "minimum_base": 5806818742239681681715201
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 313568212080942810812620800,
+          "minimum_base": 313568212080942810812620801
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 16932683452370911783881523200,
+          "minimum_base": 16932683452370911783881523201
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 914364906428029236329602252800,
+          "minimum_base": 914364906428029236329602252801
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 49375704947113578761798521651200,
+          "minimum_base": 49375704947113578761798521651201
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 2666288067144133253137120169164800,
+          "minimum_base": 2666288067144133253137120169164801
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 143979555625783195669404489134899200,
+          "minimum_base": 143979555625783195669404489134899201
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 7774896003792292566147842413284556800,
+          "minimum_base": 7774896003792292566147842413284556801
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 419844384204783798571983490317366067200,
+          "minimum_base": 419844384204783798571983490317366067201
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 22671596747058325122887108477137767628800,
+          "minimum_base": 22671596747058325122887108477137767628801
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 1224266224341149556635903857765439451955200,
+          "minimum_base": 1224266224341149556635903857765439451955201
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 66110376114422076058338808319333730405580800,
+          "minimum_base": 66110376114422076058338808319333730405580801
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 3569960310178792107150295649244021441901363200,
+          "minimum_base": 3569960310178792107150295649244021441901363201
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 192777856749654773786115965059177157862673612800,
+          "minimum_base": 192777856749654773786115965059177157862673612801
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 10410004264481357784450262113195566524584375091200,
+          "minimum_base": 10410004264481357784450262113195566524584375091201
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 562140230281993320360314154112560592327556254924800,
+          "minimum_base": 562140230281993320360314154112560592327556254924801
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 30355572435227639299456964322078271985688037765939200,
+          "minimum_base": 30355572435227639299456964322078271985688037765939201
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 1639200911502292522170676073392226687227154039360716800,
+          "minimum_base": 1639200911502292522170676073392226687227154039360716801
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 88516849221123796197216507963180241110266318125478707200,
+          "minimum_base": 88516849221123796197216507963180241110266318125478707201
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 16932683452370911783881523201
+    },
+    {
+      "i": 28,
+      "L_i": 80313433200,
+      "exponent_budget": 2712723805031120434574168972983962841829990626042696415402431207874494464000000,
+      "minimum_base": 2712723805031120434574168972983962841829990626042696415402431207874494464000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 4497552259200,
+          "minimum_base": 4497552259201
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 251862926515200,
+          "minimum_base": 251862926515201
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 14104323884851200,
+          "minimum_base": 14104323884851201
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 789842137551667200,
+          "minimum_base": 789842137551667201
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 44231159702893363200,
+          "minimum_base": 44231159702893363201
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 2476944943362028339200,
+          "minimum_base": 2476944943362028339201
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 138708916828273586995200,
+          "minimum_base": 138708916828273586995201
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 7767699342383320871731200,
+          "minimum_base": 7767699342383320871731201
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 434991163173465968816947200,
+          "minimum_base": 434991163173465968816947201
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 24359505137714094253749043200,
+          "minimum_base": 24359505137714094253749043201
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 1364132287711989278209946419200,
+          "minimum_base": 1364132287711989278209946419201
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 76391408111871399579756999475200,
+          "minimum_base": 76391408111871399579756999475201
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 4277918854264798376466391970611200,
+          "minimum_base": 4277918854264798376466391970611201
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 239563455838828709082117950354227200,
+          "minimum_base": 239563455838828709082117950354227201
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 13415553526974407708598605219836723200,
+          "minimum_base": 13415553526974407708598605219836723201
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 751270997510566831681521892310856499200,
+          "minimum_base": 751270997510566831681521892310856499201
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 42071175860591742574165225969407963955200,
+          "minimum_base": 42071175860591742574165225969407963955201
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 2355985848193137584153252654286845981491200,
+          "minimum_base": 2355985848193137584153252654286845981491201
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 131935207498815704712582148640063374963507200,
+          "minimum_base": 131935207498815704712582148640063374963507201
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 7388371619933679463904600323843548997956403200,
+          "minimum_base": 7388371619933679463904600323843548997956403201
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 413748810716286049978657618135238743885558579200,
+          "minimum_base": 413748810716286049978657618135238743885558579201
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 23169933400112018798804826615573369657591280435200,
+          "minimum_base": 23169933400112018798804826615573369657591280435201
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 1297516270406273052733070290472108700825111704371200,
+          "minimum_base": 1297516270406273052733070290472108700825111704371201
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 72660911142751290953051936266438087246206255444787200,
+          "minimum_base": 72660911142751290953051936266438087246206255444787201
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 4069011023994072293370908430920532885787550304908083200,
+          "minimum_base": 4069011023994072293370908430920532885787550304908083201
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 227864617343668048428770872131549841604102817074852659200,
+          "minimum_base": 227864617343668048428770872131549841604102817074852659201
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 12760418571245410712011168839366791129829757756191748915200,
+          "minimum_base": 12760418571245410712011168839366791129829757756191748915201
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 24359505137714094253749043201
+    },
+    {
+      "i": 29,
+      "L_i": 2329089562800,
+      "exponent_budget": 12188510436486511737504619789026826092548885641767044838927930337535037800448000000,
+      "minimum_base": 12188510436486511737504619789026826092548885641767044838927930337535037800448000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 135087194642400,
+          "minimum_base": 135087194642401
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 7835057289259200,
+          "minimum_base": 7835057289259201
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 454433322777033600,
+          "minimum_base": 454433322777033601
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 26357132721067948800,
+          "minimum_base": 26357132721067948801
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 1528713697821941030400,
+          "minimum_base": 1528713697821941030401
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 88665394473672579763200,
+          "minimum_base": 88665394473672579763201
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 5142592879473009626265600,
+          "minimum_base": 5142592879473009626265601
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 298270387009434558323404800,
+          "minimum_base": 298270387009434558323404801
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 17299682446547204382757478400,
+          "minimum_base": 17299682446547204382757478401
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 1003381581899737854199933747200,
+          "minimum_base": 1003381581899737854199933747201
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 58196131750184795543596157337600,
+          "minimum_base": 58196131750184795543596157337601
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 3375375641510718141528577125580800,
+          "minimum_base": 3375375641510718141528577125580801
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 195771787207621652208657473283686400,
+          "minimum_base": 195771787207621652208657473283686401
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 11354763658042055828102133450453811200,
+          "minimum_base": 11354763658042055828102133450453811201
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 658576292166439238029923740126321049600,
+          "minimum_base": 658576292166439238029923740126321049601
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 38197424945653475805735576927326620876800,
+          "minimum_base": 38197424945653475805735576927326620876801
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 2215450646847901596732663461784944010854400,
+          "minimum_base": 2215450646847901596732663461784944010854401
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 128496137517178292610494480783526752629555200,
+          "minimum_base": 128496137517178292610494480783526752629555201
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 7452775975996340971408679885444551652514201600,
+          "minimum_base": 7452775975996340971408679885444551652514201601
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 432261006607787776341703433355783995845823692800,
+          "minimum_base": 432261006607787776341703433355783995845823692801
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 25071138383251691027818799134635471759057774182400,
+          "minimum_base": 25071138383251691027818799134635471759057774182401
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 1454126026228598079613490349808857362025350902579200,
+          "minimum_base": 1454126026228598079613490349808857362025350902579201
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 84339309521258688617582440288913726997470352349593600,
+          "minimum_base": 84339309521258688617582440288913726997470352349593601
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 4891679952233003939819781536756996165853280436276428800,
+          "minimum_base": 4891679952233003939819781536756996165853280436276428801
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 283717437229514228509547329131905777619490265304032870400,
+          "minimum_base": 283717437229514228509547329131905777619490265304032870401
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 16455611359311825253553745089650535101930435387633906483200,
+          "minimum_base": 16455611359311825253553745089650535101930435387633906483201
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 954425458840085864706117215199731035911965252482766576025600,
+          "minimum_base": 954425458840085864706117215199731035911965252482766576025601
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 55356676612724980152954798481584400082893984644000461409484800,
+          "minimum_base": 55356676612724980152954798481584400082893984644000461409484801
+        }
+      ],
+      "early_nonmaximum_row_bound": 9,
+      "uniform_early_row_minimum_base": 1003381581899737854199933747201
+    },
+    {
+      "i": 30,
+      "L_i": 2329089562800,
+      "exponent_budget": 58640489435815265654446519773237594853510458900480000000000000000000000000000000000000,
+      "minimum_base": 58640489435815265654446519773237594853510458900480000000000000000000000000000000000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 139745373768000,
+          "minimum_base": 139745373768001
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 8384722426080000,
+          "minimum_base": 8384722426080001
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 503083345564800000,
+          "minimum_base": 503083345564800001
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 30185000733888000000,
+          "minimum_base": 30185000733888000001
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 1811100044033280000000,
+          "minimum_base": 1811100044033280000001
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 108666002641996800000000,
+          "minimum_base": 108666002641996800000001
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 6519960158519808000000000,
+          "minimum_base": 6519960158519808000000001
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 391197609511188480000000000,
+          "minimum_base": 391197609511188480000000001
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 23471856570671308800000000000,
+          "minimum_base": 23471856570671308800000000001
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 1408311394240278528000000000000,
+          "minimum_base": 1408311394240278528000000000001
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 84498683654416711680000000000000,
+          "minimum_base": 84498683654416711680000000000001
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 5069921019265002700800000000000000,
+          "minimum_base": 5069921019265002700800000000000001
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 304195261155900162048000000000000000,
+          "minimum_base": 304195261155900162048000000000000001
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 18251715669354009722880000000000000000,
+          "minimum_base": 18251715669354009722880000000000000001
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 1095102940161240583372800000000000000000,
+          "minimum_base": 1095102940161240583372800000000000000001
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 65706176409674435002368000000000000000000,
+          "minimum_base": 65706176409674435002368000000000000000001
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 3942370584580466100142080000000000000000000,
+          "minimum_base": 3942370584580466100142080000000000000000001
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 236542235074827966008524800000000000000000000,
+          "minimum_base": 236542235074827966008524800000000000000000001
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 14192534104489677960511488000000000000000000000,
+          "minimum_base": 14192534104489677960511488000000000000000000001
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 851552046269380677630689280000000000000000000000,
+          "minimum_base": 851552046269380677630689280000000000000000000001
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 51093122776162840657841356800000000000000000000000,
+          "minimum_base": 51093122776162840657841356800000000000000000000001
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 3065587366569770439470481408000000000000000000000000,
+          "minimum_base": 3065587366569770439470481408000000000000000000000001
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 183935241994186226368228884480000000000000000000000000,
+          "minimum_base": 183935241994186226368228884480000000000000000000000001
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 11036114519651173582093733068800000000000000000000000000,
+          "minimum_base": 11036114519651173582093733068800000000000000000000000001
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 662166871179070414925623984128000000000000000000000000000,
+          "minimum_base": 662166871179070414925623984128000000000000000000000000001
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 39730012270744224895537439047680000000000000000000000000000,
+          "minimum_base": 39730012270744224895537439047680000000000000000000000000001
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 2383800736244653493732246342860800000000000000000000000000000,
+          "minimum_base": 2383800736244653493732246342860800000000000000000000000000001
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 143028044174679209623934780571648000000000000000000000000000000,
+          "minimum_base": 143028044174679209623934780571648000000000000000000000000000001
+        },
+        {
+          "s": 28,
+          "k": 29,
+          "exponent_budget": 8581682650480752577436086834298880000000000000000000000000000000,
+          "minimum_base": 8581682650480752577436086834298880000000000000000000000000000001
+        }
+      ],
+      "early_nonmaximum_row_bound": 10,
+      "uniform_early_row_minimum_base": 84498683654416711680000000000001
+    },
+    {
+      "i": 31,
+      "L_i": 72201776446800,
+      "exponent_budget": 301414501618743741847571976089488473596828736551662850957850637760005077028244029440000000,
+      "minimum_base": 301414501618743741847571976089488473596828736551662850957850637760005077028244029440000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 4476510139701600,
+          "minimum_base": 4476510139701601
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 277543628661499200,
+          "minimum_base": 277543628661499201
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 17207704977012950400,
+          "minimum_base": 17207704977012950401
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 1066877708574802924800,
+          "minimum_base": 1066877708574802924801
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 66146417931637781337600,
+          "minimum_base": 66146417931637781337601
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 4101077911761542442931200,
+          "minimum_base": 4101077911761542442931201
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 254266830529215631461734400,
+          "minimum_base": 254266830529215631461734401
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 15764543492811369150627532800,
+          "minimum_base": 15764543492811369150627532801
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 977401696554304887338907033600,
+          "minimum_base": 977401696554304887338907033601
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 60598905186366903015012236083200,
+          "minimum_base": 60598905186366903015012236083201
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 3757132121554747986930758637158400,
+          "minimum_base": 3757132121554747986930758637158401
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 232942191536394375189707035503820800,
+          "minimum_base": 232942191536394375189707035503820801
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 14442415875256451261761836201236889600,
+          "minimum_base": 14442415875256451261761836201236889601
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 895429784265899978229233844476687155200,
+          "minimum_base": 895429784265899978229233844476687155201
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 55516646624485798650212498357554603622400,
+          "minimum_base": 55516646624485798650212498357554603622401
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 3442032090718119516313174898168385424588800,
+          "minimum_base": 3442032090718119516313174898168385424588801
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 213405989624523410011416843686439896324505600,
+          "minimum_base": 213405989624523410011416843686439896324505601
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 13231171356720451420707844308559273572119347200,
+          "minimum_base": 13231171356720451420707844308559273572119347201
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 820332624116667988083886347130674961471399526400,
+          "minimum_base": 820332624116667988083886347130674961471399526401
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 50860622695233415261200953522101847611226770636800,
+          "minimum_base": 50860622695233415261200953522101847611226770636801
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 3153358607104471746194459118370314551896059779481600,
+          "minimum_base": 3153358607104471746194459118370314551896059779481601
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 195508233640477248264056465338959502217555706327859200,
+          "minimum_base": 195508233640477248264056465338959502217555706327859201
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 12121510485709589392371500851015489137488453792327270400,
+          "minimum_base": 12121510485709589392371500851015489137488453792327270401
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 751533650113994542327033052762960326524284135124290764800,
+          "minimum_base": 751533650113994542327033052762960326524284135124290764801
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 46595086307067661624276049271303540244505616377706027417600,
+          "minimum_base": 46595086307067661624276049271303540244505616377706027417601
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 2888895351038195020705115054820819495159348215417773699891200,
+          "minimum_base": 2888895351038195020705115054820819495159348215417773699891201
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 179111511764368091283717133398890808699879589355901969393254400,
+          "minimum_base": 179111511764368091283717133398890808699879589355901969393254401
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 11104913729390821659590462270731230139392534540065922102381772800,
+          "minimum_base": 11104913729390821659590462270731230139392534540065922102381772801
+        },
+        {
+          "s": 28,
+          "k": 29,
+          "exponent_budget": 688504651222230942894608660785336268642337141484087170347669913600,
+          "minimum_base": 688504651222230942894608660785336268642337141484087170347669913601
+        },
+        {
+          "s": 29,
+          "k": 30,
+          "exponent_budget": 42687288375778318459465736968690848655824902772013404561555534643200,
+          "minimum_base": 42687288375778318459465736968690848655824902772013404561555534643201
+        }
+      ],
+      "early_nonmaximum_row_bound": 10,
+      "uniform_early_row_minimum_base": 3757132121554747986930758637158401
+    },
+    {
+      "i": 32,
+      "L_i": 144403552893600,
+      "exponent_budget": 1651699033150237371185190189334972718838697752797169018540547895960725890740103004815360000000,
+      "minimum_base": 1651699033150237371185190189334972718838697752797169018540547895960725890740103004815360000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9241827385190400,
+          "minimum_base": 9241827385190401
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 591476952652185600,
+          "minimum_base": 591476952652185601
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 37854524969739878400,
+          "minimum_base": 37854524969739878401
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 2422689598063352217600,
+          "minimum_base": 2422689598063352217601
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 155052134276054541926400,
+          "minimum_base": 155052134276054541926401
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 9923336593667490683289600,
+          "minimum_base": 9923336593667490683289601
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 635093541994719403730534400,
+          "minimum_base": 635093541994719403730534401
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 40645986687662041838754201600,
+          "minimum_base": 40645986687662041838754201601
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 2601343148010370677680268902400,
+          "minimum_base": 2601343148010370677680268902401
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 166485961472663723371537209753600,
+          "minimum_base": 166485961472663723371537209753601
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 10655101534250478295778381424230400,
+          "minimum_base": 10655101534250478295778381424230401
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 681926498192030610929816411150745600,
+          "minimum_base": 681926498192030610929816411150745601
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 43643295884289959099508250313647718400,
+          "minimum_base": 43643295884289959099508250313647718401
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 2793170936594557382368528020073453977600,
+          "minimum_base": 2793170936594557382368528020073453977601
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 178762939942051672471585793284701054566400,
+          "minimum_base": 178762939942051672471585793284701054566401
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 11440828156291307038181490770220867492249600,
+          "minimum_base": 11440828156291307038181490770220867492249601
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 732213002002643650443615409294135519503974400,
+          "minimum_base": 732213002002643650443615409294135519503974401
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 46861632128169193628391386194824673248254361600,
+          "minimum_base": 46861632128169193628391386194824673248254361601
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 2999144456202828392217048716468779087888279142400,
+          "minimum_base": 2999144456202828392217048716468779087888279142401
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 191945245196981017101891117854001861624849865113600,
+          "minimum_base": 191945245196981017101891117854001861624849865113601
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 12284495692606785094521031542656119143990391367270400,
+          "minimum_base": 12284495692606785094521031542656119143990391367270401
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 786207724326834246049346018729991625215385047505305600,
+          "minimum_base": 786207724326834246049346018729991625215385047505305601
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 50317294356917391747158145198719464013784643040339558400,
+          "minimum_base": 50317294356917391747158145198719464013784643040339558401
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 3220306838842713071818121292718045696882217154581731737600,
+          "minimum_base": 3220306838842713071818121292718045696882217154581731737601
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 206099637685933636596359762733954924600461897893230831206400,
+          "minimum_base": 206099637685933636596359762733954924600461897893230831206401
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 13190376811899752742167024814973115174429561465166773197209600,
+          "minimum_base": 13190376811899752742167024814973115174429561465166773197209601
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 844184115961584175498689588158279371163491933770673484621414400,
+          "minimum_base": 844184115961584175498689588158279371163491933770673484621414401
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 54027783421541387231916133642129879754463483761323103015770521600,
+          "minimum_base": 54027783421541387231916133642129879754463483761323103015770521601
+        },
+        {
+          "s": 28,
+          "k": 29,
+          "exponent_budget": 3457778138978648782842632553096312304285662960724678593009313382400,
+          "minimum_base": 3457778138978648782842632553096312304285662960724678593009313382401
+        },
+        {
+          "s": 29,
+          "k": 30,
+          "exponent_budget": 221297800894633522101928483398163987474282429486379429952596056473600,
+          "minimum_base": 221297800894633522101928483398163987474282429486379429952596056473601
+        },
+        {
+          "s": 30,
+          "k": 31,
+          "exponent_budget": 14163059257256545414523422937482495198354075487128283516966147614310400,
+          "minimum_base": 14163059257256545414523422937482495198354075487128283516966147614310401
+        }
+      ],
+      "early_nonmaximum_row_bound": 11,
+      "uniform_early_row_minimum_base": 681926498192030610929816411150745601
+    },
+    {
+      "i": 33,
+      "L_i": 144403552893600,
+      "exponent_budget": 9630205614396854210537176343828953848918191584767276513119080485905063552453202825581690880000000,
+      "minimum_base": 9630205614396854210537176343828953848918191584767276513119080485905063552453202825581690880000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9530634490977600,
+          "minimum_base": 9530634490977601
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 629021876404521600,
+          "minimum_base": 629021876404521601
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 41515443842698425600,
+          "minimum_base": 41515443842698425601
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 2740019293618096089600,
+          "minimum_base": 2740019293618096089601
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 180841273378794341913600,
+          "minimum_base": 180841273378794341913601
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 11935524043000426566297600,
+          "minimum_base": 11935524043000426566297601
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 787744586838028153375641600,
+          "minimum_base": 787744586838028153375641601
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 51991142731309858122792345600,
+          "minimum_base": 51991142731309858122792345601
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 3431415420266450636104294809600,
+          "minimum_base": 3431415420266450636104294809601
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 226473417737585741982883457433600,
+          "minimum_base": 226473417737585741982883457433601
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 14947245570680658970870308190617600,
+          "minimum_base": 14947245570680658970870308190617601
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 986518207664923492077440340580761600,
+          "minimum_base": 986518207664923492077440340580761601
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 65110201705884950477111062478330265600,
+          "minimum_base": 65110201705884950477111062478330265601
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 4297273312588406731489330123569797529600,
+          "minimum_base": 4297273312588406731489330123569797529601
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 283620038630834844278295788155606636953600,
+          "minimum_base": 283620038630834844278295788155606636953601
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 18718922549635099722367522018270038038937600,
+          "minimum_base": 18718922549635099722367522018270038038937601
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 1235448888275916581676256453205822510569881600,
+          "minimum_base": 1235448888275916581676256453205822510569881601
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 81539626626210494390632925911584285697612185600,
+          "minimum_base": 81539626626210494390632925911584285697612185601
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 5381615357329892629781773110164562856042404249600,
+          "minimum_base": 5381615357329892629781773110164562856042404249601
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 355186613583772913565597025270861148498798680473600,
+          "minimum_base": 355186613583772913565597025270861148498798680473601
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 23442316496529012295329403667876835800920712911257600,
+          "minimum_base": 23442316496529012295329403667876835800920712911257601
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 1547192888770914811491740642079871162860767052143001600,
+          "minimum_base": 1547192888770914811491740642079871162860767052143001601
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 102114730658880377558454882377271496748810625441438105600,
+          "minimum_base": 102114730658880377558454882377271496748810625441438105601
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 6739572223486104918858022236899918785421501279134914969600,
+          "minimum_base": 6739572223486104918858022236899918785421501279134914969601
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 444811766750082924644629467635394639837819084422904387993600,
+          "minimum_base": 444811766750082924644629467635394639837819084422904387993601
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 29357576605505473026545544863936046229296059571911689607577600,
+          "minimum_base": 29357576605505473026545544863936046229296059571911689607577601
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 1937600055963361219752005961019779051133539931746171514100121600,
+          "minimum_base": 1937600055963361219752005961019779051133539931746171514100121601
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 127881603693581840503632393427305417374813635495247319930608025600,
+          "minimum_base": 127881603693581840503632393427305417374813635495247319930608025601
+        },
+        {
+          "s": 28,
+          "k": 29,
+          "exponent_budget": 8440185843776401473239737966202157546737699942686323115420129689600,
+          "minimum_base": 8440185843776401473239737966202157546737699942686323115420129689601
+        },
+        {
+          "s": 29,
+          "k": 30,
+          "exponent_budget": 557052265689242497233822705769342398084688196217297325617728559513600,
+          "minimum_base": 557052265689242497233822705769342398084688196217297325617728559513601
+        },
+        {
+          "s": 30,
+          "k": 31,
+          "exponent_budget": 36765449535490004817432298580776598273589420950341623490770084927897600,
+          "minimum_base": 36765449535490004817432298580776598273589420950341623490770084927897601
+        },
+        {
+          "s": 31,
+          "k": 32,
+          "exponent_budget": 2426519669342340317950531706331255486056901782722547150390825605241241600,
+          "minimum_base": 2426519669342340317950531706331255486056901782722547150390825605241241601
+        }
+      ],
+      "early_nonmaximum_row_bound": 11,
+      "uniform_early_row_minimum_base": 986518207664923492077440340580761601
+    },
+    {
+      "i": 34,
+      "L_i": 144403552893600,
+      "exponent_budget": 59630388111452482281999682176681021476490443142066888823249502204922484060565607904759492116480000000,
+      "minimum_base": 59630388111452482281999682176681021476490443142066888823249502204922484060565607904759492116480000001,
+      "row_strengthenings": [
+        {
+          "s": 0,
+          "k": 1,
+          "exponent_budget": 9819441596764800,
+          "minimum_base": 9819441596764801
+        },
+        {
+          "s": 1,
+          "k": 2,
+          "exponent_budget": 667722028580006400,
+          "minimum_base": 667722028580006401
+        },
+        {
+          "s": 2,
+          "k": 3,
+          "exponent_budget": 45405097943440435200,
+          "minimum_base": 45405097943440435201
+        },
+        {
+          "s": 3,
+          "k": 4,
+          "exponent_budget": 3087546660153949593600,
+          "minimum_base": 3087546660153949593601
+        },
+        {
+          "s": 4,
+          "k": 5,
+          "exponent_budget": 209953172890468572364800,
+          "minimum_base": 209953172890468572364801
+        },
+        {
+          "s": 5,
+          "k": 6,
+          "exponent_budget": 14276815756551862920806400,
+          "minimum_base": 14276815756551862920806401
+        },
+        {
+          "s": 6,
+          "k": 7,
+          "exponent_budget": 970823471445526678614835200,
+          "minimum_base": 970823471445526678614835201
+        },
+        {
+          "s": 7,
+          "k": 8,
+          "exponent_budget": 66015996058295814145808793600,
+          "minimum_base": 66015996058295814145808793601
+        },
+        {
+          "s": 8,
+          "k": 9,
+          "exponent_budget": 4489087731964115361914997964800,
+          "minimum_base": 4489087731964115361914997964801
+        },
+        {
+          "s": 9,
+          "k": 10,
+          "exponent_budget": 305257965773559844610219861606400,
+          "minimum_base": 305257965773559844610219861606401
+        },
+        {
+          "s": 10,
+          "k": 11,
+          "exponent_budget": 20757541672602069433494950589235200,
+          "minimum_base": 20757541672602069433494950589235201
+        },
+        {
+          "s": 11,
+          "k": 12,
+          "exponent_budget": 1411512833736940721477656640067993600,
+          "minimum_base": 1411512833736940721477656640067993601
+        },
+        {
+          "s": 12,
+          "k": 13,
+          "exponent_budget": 95982872694111969060480651524623564800,
+          "minimum_base": 95982872694111969060480651524623564801
+        },
+        {
+          "s": 13,
+          "k": 14,
+          "exponent_budget": 6526835343199613896112684303674402406400,
+          "minimum_base": 6526835343199613896112684303674402406401
+        },
+        {
+          "s": 14,
+          "k": 15,
+          "exponent_budget": 443824803337573744935662532649859363635200,
+          "minimum_base": 443824803337573744935662532649859363635201
+        },
+        {
+          "s": 15,
+          "k": 16,
+          "exponent_budget": 30180086626955014655625052220190436727193600,
+          "minimum_base": 30180086626955014655625052220190436727193601
+        },
+        {
+          "s": 16,
+          "k": 17,
+          "exponent_budget": 2052245890632940996582503550972949697449164800,
+          "minimum_base": 2052245890632940996582503550972949697449164801
+        },
+        {
+          "s": 17,
+          "k": 18,
+          "exponent_budget": 139552720563039987767610241466160579426543206400,
+          "minimum_base": 139552720563039987767610241466160579426543206401
+        },
+        {
+          "s": 18,
+          "k": 19,
+          "exponent_budget": 9489584998286719168197496419698919401004938035200,
+          "minimum_base": 9489584998286719168197496419698919401004938035201
+        },
+        {
+          "s": 19,
+          "k": 20,
+          "exponent_budget": 645291779883496903437429756539526519268335786393600,
+          "minimum_base": 645291779883496903437429756539526519268335786393601
+        },
+        {
+          "s": 20,
+          "k": 21,
+          "exponent_budget": 43879841032077789433745223444687803310246833474764800,
+          "minimum_base": 43879841032077789433745223444687803310246833474764801
+        },
+        {
+          "s": 21,
+          "k": 22,
+          "exponent_budget": 2983829190181289681494675194238770625096784676284006400,
+          "minimum_base": 2983829190181289681494675194238770625096784676284006401
+        },
+        {
+          "s": 22,
+          "k": 23,
+          "exponent_budget": 202900384932327698341637913208236402506581357987312435200,
+          "minimum_base": 202900384932327698341637913208236402506581357987312435201
+        },
+        {
+          "s": 23,
+          "k": 24,
+          "exponent_budget": 13797226175398283487231378098160075370447532343137245593600,
+          "minimum_base": 13797226175398283487231378098160075370447532343137245593601
+        },
+        {
+          "s": 24,
+          "k": 25,
+          "exponent_budget": 938211379927083277131733710674885125190432199333332700364800,
+          "minimum_base": 938211379927083277131733710674885125190432199333332700364801
+        },
+        {
+          "s": 25,
+          "k": 26,
+          "exponent_budget": 63798373835041662844957892325892188512949389554666623624806400,
+          "minimum_base": 63798373835041662844957892325892188512949389554666623624806401
+        },
+        {
+          "s": 26,
+          "k": 27,
+          "exponent_budget": 4338289420782833073457136678160668818880558489717330406486835200,
+          "minimum_base": 4338289420782833073457136678160668818880558489717330406486835201
+        },
+        {
+          "s": 27,
+          "k": 28,
+          "exponent_budget": 295003680613232648995085294114925479683877977300778467641104793600,
+          "minimum_base": 295003680613232648995085294114925479683877977300778467641104793601
+        },
+        {
+          "s": 28,
+          "k": 29,
+          "exponent_budget": 20060250281699820131665799999814932618503702456452935799595125964800,
+          "minimum_base": 20060250281699820131665799999814932618503702456452935799595125964801
+        },
+        {
+          "s": 29,
+          "k": 30,
+          "exponent_budget": 1364097019155587768953274399987415418058251767038799634372468565606400,
+          "minimum_base": 1364097019155587768953274399987415418058251767038799634372468565606401
+        },
+        {
+          "s": 30,
+          "k": 31,
+          "exponent_budget": 92758597302579968288822659199144248427961120158638375137327862461235200,
+          "minimum_base": 92758597302579968288822659199144248427961120158638375137327862461235201
+        },
+        {
+          "s": 31,
+          "k": 32,
+          "exponent_budget": 6307584616575437843639940825541808893101356170787409509338294647363993600,
+          "minimum_base": 6307584616575437843639940825541808893101356170787409509338294647363993601
+        },
+        {
+          "s": 32,
+          "k": 33,
+          "exponent_budget": 428915753927129773367515976136843004730892219613543846635004036020751564800,
+          "minimum_base": 428915753927129773367515976136843004730892219613543846635004036020751564801
+        }
+      ],
+      "early_nonmaximum_row_bound": 11,
+      "uniform_early_row_minimum_base": 1411512833736940721477656640067993601
+    }
+  ]
+}

@@ -18,18 +18,21 @@ python -X utf8 scripts/check_repository.py
 [check_repository.py](../scripts/check_repository.py)は内部リンク、案内の索引、Python構文、JSON、保存原本のSHA-256を確認します。
 数学的な問題全体を証明する検算器ではありません。
 
-## 研究更新に対応する全35件
+## 研究更新に対応する全39件
+
+以下の39件は10月3日までの更新に対応します。10月4日の全域証明は次節の実行器を使います。
 
 ```console
 python -X utf8 scripts/verify_latest.py
 ```
 
-[実行器](../scripts/verify_latest.py)に登録した35件を順に実行し、失敗した時点で停止します。
+[実行器](../scripts/verify_latest.py)に登録した39件を順に実行し、失敗した時点で停止します。
 全添字の桁降下、i=5、i=3の近年の分配、i=4、容量と有限 $`j`$、リポジトリ確認を含みます。
 過去の全検算器を網羅するものではありません。
 
 | 保存記録 | 何を記録したものか |
 |---|---|
+| [今回の独立研究の実行記録](../data/results/verification_independent_research_2026-10-03.json) | 既存数学34件の隔離再生、追加4件、案内検査。39件の一回の通し実行という意味ではない |
 | [全35件の実行ログ](../data/results/verification_github_publish_2026-10-03.log) | 直前のGitHub研究更新前の通し実行。全件通過 |
 | [対応する実行記録](../data/results/verification_adjacent_digit_continuation_2026-10-03.json) | 環境、検算、原本照合、当時のファイル数 |
 | [ZIP統合記録](IMPORT_2026-10-03.md) | 受領時の隔離コピーで当時の全32件を再生した記録 |
@@ -38,10 +41,34 @@ python -X utf8 scripts/verify_latest.py
 検算器の多くは `data/results/verification_*.json` を再出力します。
 保存済みログを保ちたい場合は、別の作業コピーで再生してください。
 
+## 10月4日の全域証明と追加補題
+
+```console
+python -X utf8 scripts/verify_october04.py
+```
+
+[10月4日の実行器](../scripts/verify_october04.py)は40件を依存順に実行します。
+まず六添字・i=32・i=22,25の有限入力とグラフを再生し、新しいG下界の有限素数区間と解析尾部を検証します。
+続いてi=19,24,16の全域接続、一般の部分補題、i=3の条件付き分配と数値制限、i=5のPell還元を確認します。
+最後に索引・内部リンク・保存原本を照合します。全てassertを有効にしてください。
+
+[実行記録](../data/results/verification_october04_publication_2026-10-04.json)と
+[全出力ログ](../data/results/verification_october04_publication_2026-10-04.log)を保存します。
+各検算器は対応する結果JSONを上書きします。独立監査の記録は、その記録に書いた担当者と範囲に限ります。
+この実行器が通過しても、引用する外部定理自体の再証明や、問題全体の解決を意味しません。
+
+新しい全域添字は **16,17,19,22,23,24,25,26,27,30,32,33の12個** です。
+各証明と外部入力は[現在地](STATUS.md)と[一般のノート索引](../research/general/README.md)からたどれます。
+i=3・i=5の追加補題は、それぞれの仮定が必要な部分成果です。
+
 ## 主な証明と個別検算
 
 | 対象 | コマンドのスクリプト | 保存結果 |
 |---|---|---|
+| [i=3残余次数6・七次境界](../research/i3/i3_independent_attack_2026-10-03.md) | [audit_i3_rho6_degree7_independent.py](../scripts/audit_i3_rho6_degree7_independent.py) | [結果](../data/results/verification_i3_rho6_degree7_independent.json) |
+| [i=5二位置族と全桁合同](../research/i5/i5_independent_attack_2026-10-03.md) | [audit_i5_weight4_two_positions.py](../scripts/audit_i5_weight4_two_positions.py) | [結果](../data/results/verification_i5_weight4_two_positions.json) |
+| [全添字の二位置有限化](../research/general/two_position_digit_finite_bound_2026-10-03.md) | [audit_two_position_digit_bound.py](../scripts/audit_two_position_digit_bound.py) | [結果](../data/results/verification_two_position_digit_bound.json) |
+| [正実根の除算予算](../research/general/global_independent_audit_2026-10-03.md) | [audit_global_independent_2026_10_03.py](../scripts/audit_global_independent_2026_10_03.py) | [結果](../data/results/verification_global_independent_2026-10-03.json) |
 | [全添字の桁降下](../research/general/adjacent_row_digit_descent_2026-10-03.md) | [audit_adjacent_digit_descent.py](../scripts/audit_adjacent_digit_descent.py) | [結果](../data/results/verification_adjacent_digit_descent.json) |
 | [i=5の880分配・5の高桁](../research/i5/i5_odd_sparse_allocation_and_prime5_lift_2026-10-03.md) | [audit_i5_sparse_allocation.py](../scripts/audit_i5_sparse_allocation.py) | [結果](../data/results/verification_i5_sparse_allocation.json) |
 | [i=5の積・完全冪・直線近傍](../research/i5/i5_global_product_and_affine_exclusions_2026-10-03.md) | [audit_i5_global_product_and_affine.py](../scripts/audit_i5_global_product_and_affine.py) | [結果](../data/results/verification_i5_global_product_and_affine.json) |

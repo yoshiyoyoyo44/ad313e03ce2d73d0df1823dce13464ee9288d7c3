@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "independent_audit": "endpoint proof, quotient-degree extension, and general F-2 factor evaluation independently audited",
+  "scope": "Conditional largest-complete-prime-power standard-digit complete allocation. Endpoint degrees differ from the other two by at most 2 when those groups are nonconstant. Not the numerical-to-polynomial bridge or general i=3.",
+  "lower_base_threshold": 16384,
+  "uniform_factor_lower": "(1/2) leading_coefficient q^degree",
+  "general_standard_F_minus_two_factors_included": true,
+  "endpoint_degree_offset": 2,
+  "quotient_degree_reduction": "deg E <= 2t+1, deg Q <= 2t+3, deg F <= 4t+5",
+  "quadratic_quotient_degree_bounds": {
+    "E": 5,
+    "Q": 7,
+    "F": 13
+  },
+  "exact_symbolic_identities": 7
+}

@@ -1,0 +1,135 @@
+{
+  "status": "PASS",
+  "c": 19,
+  "d": 14,
+  "L1": "361/250",
+  "m0": 6000,
+  "theorem": "G(19,14,14m-delta)>(361/250)^(14m), delta=0,1, every integer m>6000",
+  "finite_part_file": "data\\results\\verification_bft_gcd_19_14_finite_blocks_2026_10_04.json",
+  "finite_part_sha256": "8f964cef983eafdbe24e587363d7620f9af3e2bc373aa3f009be5e705d0aa5c7",
+  "finite_part": {
+    "status": "PASS",
+    "c": 19,
+    "d": 14,
+    "L1": "361/250",
+    "m0": 6000,
+    "last_m": 4000000,
+    "scope": "Finite part only, m0<m<=4000000, delta=0,1",
+    "analytic_tail_required": true,
+    "valid_t_max": 512,
+    "number_of_disjoint_prime_intervals": 249,
+    "finite_blocks": 12693,
+    "primes_sieved": 3896123,
+    "sieve_cap": 65999999,
+    "exact_log_scale_bits": 32,
+    "grid_scale": 1024,
+    "grid_logs_64bit_atanh_terms": 32,
+    "small_log_taylor": "t-t^2/2 <= log(1+t) <= t-t^2/2+t^3/3, 0<=t<1/1024",
+    "minimum_normalized_margin_lower": "951921554421/649278796070912",
+    "worst_block": [
+      10793,
+      10798
+    ],
+    "delta_safe_endpoints": "U=((c+d)m-2)/t, V=m*max(d/(floor(dt/(c+d))+1),(c-d)/(floor((c-d)t/(c+d))+1))",
+    "finite_block_rule": "upper=min(4000000,lower+max(1,lower//2000)); next lower=upper+1",
+    "external_input": "BFT Lemma5.2 and floor identities5.8",
+    "script_sha256": "1c745ffc528877e8e25bab08838aa936834bc551867c24f8a08cda90885c36b0"
+  },
+  "analytic_valid_t_max": 128,
+  "number_of_analytic_prime_intervals": 62,
+  "first_domain": [
+    4000000,
+    2000000000
+  ],
+  "second_domain_start": 2000000000,
+  "H": {
+    "lower_numerator": 372241118160,
+    "upper_numerator": 372241118161,
+    "denominator": 1000000000000
+  },
+  "sqrt_error_B": {
+    "lower_numerator": 8704063221960,
+    "upper_numerator": 8704063221961,
+    "denominator": 1000000000000
+  },
+  "relative_error_R": {
+    "lower_numerator": 11026737450775,
+    "upper_numerator": 11026737450776,
+    "denominator": 1000000000000
+  },
+  "log_target": {
+    "lower_numerator": 367417040470,
+    "upper_numerator": 367417040471,
+    "denominator": 1000000000000
+  },
+  "first_lower": {
+    "lower_numerator": 367889000193,
+    "upper_numerator": 367889000194,
+    "denominator": 1000000000000
+  },
+  "second_lower": {
+    "lower_numerator": 369892422910,
+    "upper_numerator": 369892422911,
+    "denominator": 1000000000000
+  },
+  "first_margin": {
+    "lower_numerator": 471959722,
+    "upper_numerator": 471959723,
+    "denominator": 1000000000000
+  },
+  "second_margin": {
+    "lower_numerator": 2475382439,
+    "upper_numerator": 2475382440,
+    "denominator": 1000000000000
+  },
+  "new_3_11_anchor": {
+    "pair": [
+      3,
+      11
+    ],
+    "p": 3,
+    "k0": 5,
+    "a": 1,
+    "q": 11,
+    "l0": 2,
+    "b": 2,
+    "c": 19,
+    "d": 14,
+    "D0": 1,
+    "L1": "361/250",
+    "m0": 6000,
+    "target": "43/125",
+    "epsilon": "3/20000",
+    "Omega3": {
+      "lower_numerator": 1001496227521,
+      "upper_numerator": 1001496227522,
+      "denominator": 1000000000000
+    },
+    "Omega4": {
+      "lower_numerator": 50016762544380,
+      "upper_numerator": 50016762544381,
+      "denominator": 1000000000000
+    },
+    "lambda3": {
+      "lower_numerator": 344178760242,
+      "upper_numerator": 344178760243,
+      "denominator": 1000000000000
+    },
+    "log_x0": {
+      "lower_numerator": 955006234534113500,
+      "upper_numerator": 955006234534113501,
+      "denominator": 1000000000000
+    },
+    "upper_log_threshold": 999999,
+    "positive_D_final": 100,
+    "corrected_delta0_prefactor": true
+  },
+  "external_dependencies": [
+    "BFT Lemma5.2 and floor identities5.8",
+    "BFT Lemma5.4",
+    "BFT Theorem2.4 and Section7"
+  ],
+  "independent_parent_review_pending": true,
+  "all_original_problem_indices_added_here": [],
+  "script_sha256": "8cadb39a831dd7bdf92c1fb83bf753208f6695f1b1a3722548e19d0059909ea6"
+}

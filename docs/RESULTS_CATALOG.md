@@ -6,9 +6,57 @@
 **全体の現在の結論は[現在地](STATUS.md)を参照してください。** 下の各節は日付・研究段階ごとの結果で、後続稿によって強化されている場合があります。
 「族の排除」「条件付き上限」「有限診断」を、添字全体の解決として数えません。
 
+<a name="october04-all-n"></a>
+
+## 10月4日：12添字を全n・全jへ拡張
+
+**16,17,19,22,23,24,25,26,27,30,32,33の12添字** について、元の共通素数の結論を全ての許されるn,jで証明しました。
+未解決の添字は **3,4,5,6,7,8,9,10,11,12,13,14,15,18,20,21の16個** です。
+一般のi=3・i=5および問題全体は未解決であり、全i>=5のn<=10^87という既存有限結果は引き続き成立します。
+
+| 全域化した添字 | 方法と接続 | 主証明 |
+|---|---|---|
+| 17,23,26,27,30,33 | BFT素数対14辺の最大値拘束から余因子積の指数.913。容量上界と矛盾させ、既存有限範囲へ接続 | [六添字](../research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md) |
+| 32 | 同じ指数.913。有限証明書を10^116まで拡張し、解析尾部との間を埋める | [i=32](../research/general/bft_pair_graph_i32_finite_extension_2026-10-04.md) |
+| 22,25 | 新しい素数対アンカー、Proposition 6.1による中間域、再生済み有限域を結合 | [i=22,25](../research/general/bft_newvertex_i22_i25_closeout_2026-10-04.md) |
+| 19 | G(3,2)の新しい一様下界により(5,7)の指数を.264へ強め、積指数1.028を得る | [i=19](../research/general/bft_strengthened_gcd_i19_closeout_2026-10-04.md) |
+| 24 | 素数23を含む拡張グラフ、容量比較、有限・中間・無限の三域を接続 | [i=24](../research/general/bft_i24_closeout_2026-10-04.md) |
+| 16 | 新G下界から六辺を強め、全14辺の最小積指数2007/2000を証明。六分岐と三域の接続 | [i=16](../research/general/bft_i16_closeout_2026-10-04.md)、[独立監査](../research/general/bft_i16_independent_audit_2026-10-04.md) |
+
+外部入力は [Bennett–Filaseta–Trifonovの一次論文](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf)の
+Theorem 2.1、Theorem 2.4と第7節、Proposition 6.1、および各G下界に用いる補題です。
+新G下界は厳密な有限素数区間と解析的theta評価を接続し、全mへ証明しています。
+各主証明は依存する証明書、専用検算器、保存結果、独立監査をリンクします。
+有限計算の再生と紙上証明の監査を行いましたが、第三者査読と全証明のLean形式化は未実施です。
+
+<a name="october04-conditional"></a>
+
+## 10月4日：i=3・i=5の条件付き進展
+
+以下を全域添字の追加へ数えていません。数値反例から必要な多項式分配への移行や平方類の同期が、一般には残ります。
+
+| 対象・仮定 | 到達点と限界 | 証明 |
+|---|---|---|
+| i=3、標準桁と線形J−2商、指定の完全因子分配 | E次数2以上を全Q次数で排除。E一次・b>=2も数値条件から有限化し全排除。一般i=3への移行は未証明 | [E次数2以上](../research/i3/i3_linear_J2_quotient_degree_ge2_all_degrees_2026-10-04.md)、[E一次](../research/i3/i3_linear_J2_quotient_degree1_bge2_all_degrees_2026-10-04.md) |
+| i=5、支持01・法72で9または64・n>10^87 | Pell単位が基本単位でなければならないという必要条件。全非基本指数を排除したが、j側との平方類同期は未証明 | [Pell還元](../research/i5/i5_pell_primitive_unit_reduction_2026-10-04.md) |
+
+## 10月3日の独立研究による追加
+
+[今回の総括](INDEPENDENT_RESEARCH_2026-10-03.md)。完全解決添字の追加は0です。
+
+| 対象 | 新しい結論 | 証明と検算 |
+|---|---|---|
+| i=3、標準桁・完全分配、残余次数6・次数7 | 全有限境界を排除。低次数4と一般数値領域は残る | [証明](../research/i3/i3_independent_attack_2026-10-03.md)、[結果](../data/results/verification_i3_rho6_degree7_independent.json) |
+| i=5、奇数9類の行3 | 全候補素数冪で桁和9以上。重み4は全位置数で不可能 | [証明](../research/i5/i5_independent_attack_2026-10-03.md)、[結果](../data/results/verification_i5_weight4_two_positions.json) |
+| i=5、奇数行3・偶数行2 | 重み4・6・8の二位置以下を全底・全次数で排除 | 同上。既存支持還元・有限域に依存 |
+| 全添字、隣接非最大行と二位置桁 | 一底の重みが有界なら、素数個数によらない明示的なn上限 | [証明](../research/general/two_position_digit_finite_bound_2026-10-03.md)、[結果](../data/results/verification_two_position_digit_bound.json) |
+| 全次数の桁移行 | 正実根に合わせた重み付き除算で係数予算を補強 | [証明](../research/general/global_independent_audit_2026-10-03.md)、[結果](../data/results/verification_global_independent_2026-10-03.json) |
+
 <details>
 <summary>このページの目次</summary>
 
+- [10月4日：12添字の全域化](#october04-all-n)
+- [10月4日：i=3・i=5の条件付き進展](#october04-conditional)
 - [10月3日：全添字の隣接行の桁降下](#section-1)
 - [10月3日：i=5の880分配と5の高桁](#section-2)
 - [10月3日：i=5の積・付値・直線近傍](#section-3)

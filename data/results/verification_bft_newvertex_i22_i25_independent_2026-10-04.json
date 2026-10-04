@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "script_sha256": "07fd90d8a76f770fa0fbcc5a76337784560b971b4eaed2f97c73f7722ca33894",
+  "root_result_sha256": "077172a98c6cbeef30693a2cf7740a6adbb7371b331f5fde7090353dbb1e1702",
+  "anchors": [
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "D0": 1,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "D0": 2,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "D0": 1,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    }
+  ],
+  "interval_kernel_independently_paper_audited": true,
+  "delta_prefactor": "(s^2-1)^((-1)^delta/2), both deltas checked against PDF image",
+  "graph_lower_bound": "561/500",
+  "prop6_max_version_all_15_pairs": true,
+  "prop6_exception_both_components_ceiling": 3000000000,
+  "finite_dependency_independently_replayed_by_root": false,
+  "scope": "Tail and intermediate proof audited; full conclusion depends on root finite-input replay",
+  "external_bft_reproved": false,
+  "numeric_replay_is_not_the_exact_proof": true
+}

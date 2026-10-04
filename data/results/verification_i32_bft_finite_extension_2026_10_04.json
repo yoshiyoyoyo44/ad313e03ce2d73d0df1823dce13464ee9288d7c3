@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "i": 32,
+  "finite_extension_lower": 2000000,
+  "finite_extension_upper": 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "final_cap": 1955628,
+  "bootstrap_steps": 3,
+  "exact_binomial_checks": 32197,
+  "independent_method": "Opposite CRT coordinate and actual binomial large-prime part",
+  "archived_hashes_preserved": 40,
+  "tail_from": 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "tail_product_exponent": "913/1000",
+  "exact_tail_decimal_margin": 3354,
+  "tail_proof_dependency": "research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md",
+  "prefix_dependency": "Existing i32 prefix certificate to 1999999; must replay separately",
+  "certificate": "data\\certificates\\i32_bft_finite_extension_2026-10-04.json",
+  "unbounded_search_claimed": false
+}

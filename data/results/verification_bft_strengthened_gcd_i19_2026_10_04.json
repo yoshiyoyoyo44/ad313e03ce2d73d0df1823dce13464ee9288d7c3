@@ -1,0 +1,196 @@
+{
+  "status": "passed",
+  "exact_all_n_indices_added": [
+    19
+  ],
+  "new_G_lower_bound": "G(3,2,2m-delta)>(1611/1000)^(2m), delta=0,1, every m>50000",
+  "G_bound_dependencies": [
+    {
+      "path": "data\\results\\verification_bft_gcd_3_2_finite_blocks_2026_10_04.json",
+      "sha256": "1635d9861aa275da94f192dfed71b7d920654861bda567df019091a3903588cb"
+    },
+    {
+      "path": "data\\results\\verification_bft_G_3_2_analytic_tail_2026-10-04.json",
+      "sha256": "5e3056447e2a6af0f3069736ef880f2724172349b9057a57135d8ee74e9fafba"
+    }
+  ],
+  "finite_original_problem_dependency": {
+    "path": "data\\results\\verification_bft_i19_finite_dependency_2026_10_04.json",
+    "sha256": "48a0371a44bee40332a6918487ca850347099e9cf4e12c0ecd5ba5996af421e0"
+  },
+  "anchors": [
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "p": 17,
+      "k0": 1,
+      "a": 1,
+      "q": 2,
+      "l0": 4,
+      "b": 1,
+      "c": 7,
+      "d": 5,
+      "D0": 1,
+      "L1": "2827/2000",
+      "m0": 74,
+      "target": "337/1000",
+      "epsilon": "9/10000",
+      "Omega3": {
+        "lower_numerator": 1084539434912,
+        "upper_numerator": 1084539434913,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 7575848301464,
+        "upper_numerator": 7575848301465,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 337975047076,
+        "upper_numerator": 337975047077,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 28205127868062501,
+        "upper_numerator": 28632807239653189,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "p": 5,
+      "k0": 2,
+      "a": 2,
+      "q": 7,
+      "l0": 2,
+      "b": 1,
+      "c": 3,
+      "d": 2,
+      "D0": 1,
+      "L1": "1611/1000",
+      "m0": 50000,
+      "target": "33/125",
+      "epsilon": "1/1250",
+      "Omega3": {
+        "lower_numerator": 1001834364130,
+        "upper_numerator": 1001834364131,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8192098327936,
+        "upper_numerator": 8192098327937,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 264852842104,
+        "upper_numerator": 264852842105,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 794105933632331902,
+        "upper_numerator": 794105933632331903,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "graph_edges": [
+    [
+      2,
+      7,
+      259
+    ],
+    [
+      3,
+      11,
+      329
+    ],
+    [
+      5,
+      13,
+      163
+    ],
+    [
+      3,
+      13,
+      231
+    ],
+    [
+      7,
+      13,
+      98
+    ],
+    [
+      5,
+      11,
+      199
+    ],
+    [
+      5,
+      7,
+      264
+    ],
+    [
+      2,
+      17,
+      337
+    ]
+  ],
+  "graph_exponent": "257/250",
+  "minimum_vectors": [
+    [
+      337,
+      329,
+      264,
+      0,
+      0,
+      98,
+      0
+    ],
+    [
+      337,
+      329,
+      264,
+      98,
+      0,
+      0,
+      0
+    ]
+  ],
+  "orientations_checked": 256,
+  "analytic_branches": [
+    1088,
+    1161,
+    1028,
+    1129
+  ],
+  "i": 19,
+  "h": 18,
+  "m": 7,
+  "d": 18,
+  "S": 78,
+  "D": 18,
+  "c_i": 1,
+  "tail_integer_gap": 126,
+  "tail_decimal_margin": 56624,
+  "intermediate_interval": "10^87 <= n < exp(1000000)",
+  "infinite_interval": "n >= exp(1000000)",
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "external_dependencies": [
+    "BFT Theorem2.1",
+    "BFT Theorem2.4 and Section7 proof",
+    "BFT Lemmas5.2,5.4",
+    "BFT Proposition6.1"
+  ],
+  "external_theorems_reproved": false
+}

@@ -11,19 +11,29 @@ For example, $`\binom{10}{2}=45`$ and $`\binom{10}{3}=120`$ share the prime 3.
 
 [Original problem](https://www.erdosproblems.com/699) · [Upstream Lean statement](https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/699.lean)
 
-## Status as of October 3, 2026
+## Status as of October 4, 2026
 
 These are the ranges covered by the saved paper proofs and finite certificates in this repository.
 
 | Range | Status |
 |---|---|
-| $`i=1,2,28,29,31,34`$ and $`i\ge35`$ | Covered for all admissible $`n,j`$ |
+| $`i=1,2,16,17,19`$ and $`i\ge22`$ | Covered for all admissible $`n,j`$ |
 | $`i\ge5`$ and $`n\le10^{87}`$ | Covered for all admissible $`j`$ |
 | $`i=3,4`$ | General cases remain open |
-| $`5\le i\le33`$, excluding 28,29,31 | The tail $`n\gt 10^{87}`$ remains open |
+| $`i=5,\ldots,15,18,20,21`$ | The tail $`n\gt 10^{87}`$ remains open |
 
-**28 indices remain unresolved.** Excluding a special family does not resolve an entire index.
+**16 indices remain unresolved.** Excluding a special family does not resolve an entire index.
 Independent peer review and a Lean formalization of the full argument have not been completed.
+
+The October 4 update covers **12 additional indices, 16,17,19,22,23,24,25,26,27,30,32,33, for all admissible n,j**.
+The proofs combine pairwise cofactor bounds with weighted capacity bounds and connect the infinite tail to independently replayed finite certificates.
+They rely on explicit results from [Bennett, Filaseta and Trifonov](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf).
+See the proofs for [six indices](research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md),
+[i=32](research/general/bft_pair_graph_i32_finite_extension_2026-10-04.md),
+[i=22,25](research/general/bft_newvertex_i22_i25_closeout_2026-10-04.md),
+[i=19](research/general/bft_strengthened_gcd_i19_closeout_2026-10-04.md),
+[i=24](research/general/bft_i24_closeout_2026-10-04.md), and
+[i=16](research/general/bft_i16_closeout_2026-10-04.md).
 
 ## Research map
 
@@ -39,6 +49,8 @@ Most proof notes are in Japanese. Each topic has a curated guide and a complete 
 
 See the [status page](docs/STATUS.md) for precise hypotheses and dependencies, and the [results catalog](docs/RESULTS_CATALOG.md) for individual lemmas.
 
+The [October 3 independent research](docs/INDEPENDENT_RESEARCH_2026-10-03.md) closes a conditional degree-seven boundary at i=3, strengthens digit restrictions at i=5, and adds two general digit bounds. It does not resolve the full conjecture.
+
 ## Reproduce checks
 
 Python 3.12 or newer; SymPy 1.14.0 is pinned. Run from the repository root, with assertions enabled:
@@ -49,8 +61,17 @@ python -X utf8 scripts/check_repository.py
 python -X utf8 scripts/verify_latest.py
 ```
 
-The first script checks navigation, syntax and preserved source hashes. The second replays 35 checks associated with the recent research updates; it is not a verifier for the full conjecture.
+The first script checks navigation, syntax and preserved source hashes. The second replays 39 checks associated with the recent research updates; it is not a verifier for the full conjecture.
 Auditors may overwrite their corresponding output JSON files. The saved [35-check log](data/results/verification_github_publish_2026-10-03.log) and [run record](data/results/verification_adjacent_digit_continuation_2026-10-03.json) document the preceding mathematical update.
+The [independent research run record](data/results/verification_independent_research_2026-10-03.json) records this session's separate baseline and new checks.
+
+The 39-check runner covers the October 3 update. Replay the October 4 proof dependencies and additional lemmas in order with:
+
+```console
+python -X utf8 scripts/verify_october04.py
+```
+
+See the [October 4 runner](scripts/verify_october04.py) and its [run record](data/results/verification_october04_publication_2026-10-04.json). Imported external theorems remain explicit dependencies of the paper proofs.
 
 ## Repository map
 

@@ -1,0 +1,282 @@
+{
+  "status": "passed",
+  "python": "3.14.3 (tags/v3.14.3:323c59a, Feb  3 2026, 16:04:56) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "exact_all_n_indices_added": [
+    16,
+    17,
+    19,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    30,
+    32,
+    33
+  ],
+  "unresolved_indices": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18,
+    20,
+    21
+  ],
+  "external_theorems_reproved": false,
+  "problem699_fully_solved": false,
+  "checks": [
+    {
+      "script": "audit_bft_six_finite_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 29.8,
+      "script_sha256": "852a732bf27477156749c918a29420e172aa30dcc1ad5104b88a32d0f63c62f4"
+    },
+    {
+      "script": "audit_bft_pair_graph_closeout_independent_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.202,
+      "script_sha256": "2e847cde62d22272179e2d7def7d12af36fd6804394ad4339255d0cac1a0e3c9"
+    },
+    {
+      "script": "audit_i32_bft_finite_extension_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 47.856,
+      "script_sha256": "dd00d7cbec0b168fcdb6dde9d8e5d4a07273117c00676cd9a19aada7f7afc284"
+    },
+    {
+      "script": "audit_i32_bft_prefix_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.493,
+      "script_sha256": "02d9ac049cc4027466b8fa8bab64f113b268c71e74514a8a8e13f3bc8628a7bc"
+    },
+    {
+      "script": "audit_bft_i22_i25_finite_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 12.792,
+      "script_sha256": "db8b9d1244b1b637f3dfd1827a6718e24ce1b07e5a0cf4cc53abcf0bca8beb29"
+    },
+    {
+      "script": "audit_bft_newvertex_i22_i25_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.474,
+      "script_sha256": "07fd90d8a76f770fa0fbcc5a76337784560b971b4eaed2f97c73f7722ca33894"
+    },
+    {
+      "script": "audit_bft_newvertex_i22_i25_independent_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.321,
+      "script_sha256": "5b47e57416b4e312818f9d3ec3c4c091a428c477c1bd1be7e8eb06936899ece6"
+    },
+    {
+      "script": "audit_bft_proposition61_intermediate_bridge_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.15,
+      "script_sha256": "419151f773be156428e3b40e72a3135fe6145ab6ebf0b7f4d04b32d8d416da63"
+    },
+    {
+      "script": "audit_bft_gcd_3_2_finite_blocks_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 13.451,
+      "script_sha256": "b20dc32fa1554a6e20bafe2f10a9030485be727bea39ab72d0487350150b6269"
+    },
+    {
+      "script": "audit_bft_G_3_2_analytic_tail_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.152,
+      "script_sha256": "418ff2d980dbf3016e59a60c20a4b8fb0b92d0b2b11ed1d77969f01c24c66943"
+    },
+    {
+      "script": "audit_bft_i19_finite_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 4.504,
+      "script_sha256": "0c5bd511bc2e891892b18353cfddbeb87064e21977fd97a8dce7c74c0ac75d10"
+    },
+    {
+      "script": "audit_bft_strengthened_gcd_i19_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.404,
+      "script_sha256": "5eb25f45663c9cabe5b4726e5e1ca749b5fed372ae4a72f9b099a10217d60b25"
+    },
+    {
+      "script": "audit_bft_i24_finite_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 9.393,
+      "script_sha256": "b56f73bf64f086277f3b5de7dbd3182ad2e9ca70711407ae6aeaed709a03d439"
+    },
+    {
+      "script": "audit_bft_i24_closeout_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.838,
+      "script_sha256": "a4703b85e47d86b8f2639a5f70ab66ed4cd16e3b05b03a3cc62d1663c644f769"
+    },
+    {
+      "script": "audit_bft_gcd_4_3_finite_blocks_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 9.776,
+      "script_sha256": "ab3b69897efa66886448ee7096792c1e444b47c6ef0bbc6e52c850c76a3a428c"
+    },
+    {
+      "script": "audit_bft_gcd_4_3_universal_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.157,
+      "script_sha256": "6b634ac688d0218bfc337eb7802cff91b1b980c35746127e1a10f746141b87db"
+    },
+    {
+      "script": "audit_bft_gcd_4_3_anchor_7_13_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.263,
+      "script_sha256": "bece314381b86e2c44846a054fab7e0d2149433a1a669bc699905d4d03f39908"
+    },
+    {
+      "script": "audit_bft_gcd_19_14_finite_blocks_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 15.028,
+      "script_sha256": "1c745ffc528877e8e25bab08838aa936834bc551867c24f8a08cda90885c36b0"
+    },
+    {
+      "script": "audit_bft_gcd_19_14_universal_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.28,
+      "script_sha256": "8cadb39a831dd7bdf92c1fb83bf753208f6695f1b1a3722548e19d0059909ea6"
+    },
+    {
+      "script": "audit_bft_gcd_19_14_independent_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.269,
+      "script_sha256": "dfcd5f1759fdd7b13edb2deb4c00ff6693bdf438e9a2542a9cd1755da0e51e14"
+    },
+    {
+      "script": "audit_bft_gcd_10_7_and_two_anchors_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 13.837,
+      "script_sha256": "e57cbc33be59eb997f59d3b01c723cea1f1e20532dea32c307557d3031625a9d"
+    },
+    {
+      "script": "audit_bft_i16_finite_dependency_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 3.307,
+      "script_sha256": "6049ad15857af3817b027219adba93757e21f6cfedbcff9a2d016149ee6bdc3e"
+    },
+    {
+      "script": "audit_bft_i16_closeout_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.897,
+      "script_sha256": "21918d1acb164fcfc6a509a4e98ecaab90602f989969aaeca2d6ac8c326a5358"
+    },
+    {
+      "script": "audit_largest_base_adjacent_shared_degree_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.39,
+      "script_sha256": "3205989919f991e7e092e9db078b6caa970d89c5dfe7edba96d8f9db42eceba1"
+    },
+    {
+      "script": "audit_nonmaximum_row_zero_rational_closeout_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.392,
+      "script_sha256": "bf422d42065eaf89716cf800ecab4b96179a22805732765055809a7e1b9cc12a"
+    },
+    {
+      "script": "audit_i3_largest_base_general_shared_degree_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.425,
+      "script_sha256": "bf585f8f38f5974d8e194bbfffb67e5569ab4882d9a257faa489c09c2890d0fb"
+    },
+    {
+      "script": "audit_i3_largest_base_endpoint_balance_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.42,
+      "script_sha256": "86b97f7f4d3bf48bde9844f3ade3668b3fb9a3fd8f4fd553d0f87f435bcf02cc"
+    },
+    {
+      "script": "audit_i3_linear_J2_quotient_degree1_bge2_all_degrees.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.429,
+      "script_sha256": "f833ac60f4d69e229fa891f62a55cd8749bdb473334c9e69d64484132eb7a1e3"
+    },
+    {
+      "script": "audit_i3_linear_J2_quotient_degree1_independent.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.146,
+      "script_sha256": "a790940f933e8307ba3f8afa9eba99a7fe38501d0a62ddef0275dea832ea9ad9"
+    },
+    {
+      "script": "audit_i3_linear_J2_quotient_degree_ge2_all_degrees.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.403,
+      "script_sha256": "54e5fd1a680b76167a6f0babb434795a9428816d3f0ce063d945ec3515026181"
+    },
+    {
+      "script": "audit_i3_quadratic_J2_Elinear_high_degree_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.12,
+      "script_sha256": "018409f435ad14c1f2f5ac3528b68893d8a0f8f629ceb8e281095c621569e9f5"
+    },
+    {
+      "script": "audit_i3_quadratic_J2_Elinear_high_degree_independent.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.398,
+      "script_sha256": "fb19f2be3cdacf380988c5f38d4c03fdff2120a43fe0315a18a9a2ea3fac435f"
+    },
+    {
+      "script": "audit_i3_quadratic_group_linear_residual_all_degrees.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.496,
+      "script_sha256": "39ff4f7ab4d1fe0ce88f19638bb18b75fe0e0078d4ff1c5bc3719f2a3c8025b9"
+    },
+    {
+      "script": "audit_i3_nrow_dyadic_strip_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.546,
+      "script_sha256": "7f61b9e0c0c3f194933d31ee76cb8a7470f1f26e4a133a3caff5822e2a8f026b"
+    },
+    {
+      "script": "audit_i3_three_linear_above_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.354,
+      "script_sha256": "f0d0b240c535a6bab0cde558ac5d04966ff2d11d9d5993b21cd9bf8e3bdde9a8"
+    },
+    {
+      "script": "audit_i3_three_linear_b_c_t_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 11.297,
+      "script_sha256": "7306be528c04c0ca286bae8b50a76e57334d9d93bd94145b5e14dc8f1a8fbb6d"
+    },
+    {
+      "script": "audit_i3_three_linear_congruence_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.763,
+      "script_sha256": "bf58ce381242f7e6c42ea91a3ed37023d8569df37880fc26dda232ee72f01671"
+    },
+    {
+      "script": "audit_i3_three_linear_order_2026_10_04.py",
+      "exit_code": 0,
+      "elapsed_seconds": 6.205,
+      "script_sha256": "fe6055e6d20f7a62f1f856a1f98f5c4a64a58a2d9d43a97b2cd9193c3ce4cbaf"
+    },
+    {
+      "script": "audit_i5_pell_primitive_unit_reduction.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.556,
+      "script_sha256": "6a900b19b9438ac3518667835a978398a14b5a02ef93b784bfa2894687f5534d"
+    },
+    {
+      "script": "check_repository.py",
+      "exit_code": 0,
+      "elapsed_seconds": 6.336,
+      "script_sha256": "26257bcb30e68a2b513dc1dba3203d3405313a33ad3d9d03de733a6c32c89611"
+    }
+  ],
+  "checks_passed": 40
+}

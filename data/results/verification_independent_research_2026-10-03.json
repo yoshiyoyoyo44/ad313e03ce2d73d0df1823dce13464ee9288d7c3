@@ -1,0 +1,101 @@
+{
+  "status": "passed",
+  "started_from_commit": "510e396",
+  "recorded_at_utc": "2026-10-03T15:04:58.669190+00:00",
+  "python": "3.14.3",
+  "sympy": "1.14.0",
+  "problem699_completely_solved": false,
+  "new_completely_solved_indices": 0,
+  "baseline": {
+    "isolated_copy": "C:\\Users\\ysm11\\AppData\\Local\\Temp\\erdos699-independent-num0sn69",
+    "mathematical_checks": [
+      "audit_adjacent_digit_descent.py",
+      "audit_i5_sparse_allocation.py",
+      "audit_i5_global_product_and_affine.py",
+      "audit_i5_multiplicity_frontier.py",
+      "audit_i3_quintic_split_allocation.py",
+      "audit_i3_split_mahler_frontier.py",
+      "audit_october03_integration.py",
+      "audit_i3_quadratic_cofactor.py",
+      "audit_i3_quintic_quadratic_endpoint.py",
+      "audit_i3_quintic_quadratic_complete.py",
+      "audit_i3_cubic_cofactor.py",
+      "audit_i3_sextic_partial_sharing.py",
+      "audit_i3_even_multiplier.py",
+      "audit_i3_split_geometric.py",
+      "audit_i3_arbitrary_cofactor.py",
+      "audit_i3_adjacent_resultants.py",
+      "audit_i3_central_square_descent.py",
+      "audit_i3_half_ratio_central_bounds.py",
+      "audit_i3_balanced_boundary.py",
+      "audit_i3_five_power_composition.py",
+      "audit_i3_five_power_low_degree_closeout.py",
+      "audit_i3_half_degree_composition.py",
+      "audit_i3_prime_power_resultants.py",
+      "audit_i3_septic_and_saturation.py",
+      "audit_i3_sextic_closeout.py",
+      "audit_i3_quintic_digit_classification.py",
+      "audit_i3_quintic_closeout.py",
+      "audit_i3_extremal_split_closeout.py",
+      "audit_i3_sextic_working_models.py",
+      "audit_i4_six_cell_capacity.py",
+      "audit_polynomial_capacity_supports.py",
+      "audit_iterated_polynomial_capacity.py",
+      "audit_known_bridge_and_i4_fixed_j.py",
+      "replay_i4_fixed_j.py"
+    ],
+    "count": 34,
+    "all_exit_codes_zero": true,
+    "navigation_check": "passed separately after filling missing isolated-copy files",
+    "original_result_files_overwritten": false,
+    "source": "actual command outputs in this research session"
+  },
+  "new_checks": [
+    {
+      "script": "audit_i3_rho6_degree7_independent.py",
+      "exit_code": 0,
+      "result_file": "data/results/verification_i3_rho6_degree7_independent.json"
+    },
+    {
+      "script": "audit_i5_weight4_two_positions.py",
+      "exit_code": 0,
+      "result_file": "data/results/verification_i5_weight4_two_positions.json"
+    },
+    {
+      "script": "audit_two_position_digit_bound.py",
+      "exit_code": 0,
+      "result_file": "data/results/verification_two_position_digit_bound.json"
+    },
+    {
+      "script": "audit_global_independent_2026_10_03.py",
+      "exit_code": 0,
+      "result_file": "data/results/verification_global_independent_2026-10-03.json"
+    }
+  ],
+  "single_39_check_sequence_claimed": false,
+  "navigation": {
+    "status": "passed",
+    "command": "python -X utf8 scripts/check_repository.py",
+    "exit_code": 0,
+    "python_files_parsed": 138,
+    "documents_checked": 134,
+    "local_links_checked": 2170,
+    "research_notes_indexed": 98,
+    "scripts_indexed": 138,
+    "source_bytes_preserved": true
+  },
+  "artifact_sha256": {
+    "scripts/audit_i3_rho6_degree7_independent.py": "159c4be8fd2f880bb3cb144d1b7402c56becca94c9b44879899484200a74d3e8",
+    "scripts/audit_i5_weight4_two_positions.py": "7e8aab3624502afedbdacdcf5fce50d83bae93504f43e5ea15da9af1f74057d0",
+    "scripts/audit_two_position_digit_bound.py": "b54fbd4b94733f302dd4a9496889d40702f92c2acc7f2dfd782358888596d5a0",
+    "scripts/audit_global_independent_2026_10_03.py": "366aba790df70d4f36f94e28a4e1c1278d5ff122ccfb40d0045bb639b3119892",
+    "data/results/verification_i3_rho6_degree7_independent.json": "c06a6862af3a9e8c08ee659cb9c6e02346c642cf3fb551abbc47fbff5dadf5cd",
+    "data/results/verification_i5_weight4_two_positions.json": "05c40129fe1c7d753ee1096ff5fa0649d2f0c3244c60451a219adea65221e69c",
+    "data/results/verification_two_position_digit_bound.json": "572b03cc53dae9ed4114ae2679b8b3746bdee4844c30d9434323b84b9760d7d1",
+    "data/results/verification_global_independent_2026-10-03.json": "e51fb43891ac8dbfb69558fe2610d49787d1be39a1fb82a6dab11e0fd23afed4",
+    "research/i3/i3_independent_attack_2026-10-03.md": "2b316123b4e9f1b34ad21f9e821c00e2f05477b8e79e4104fd74c698bc9339c8",
+    "research/i5/i5_independent_attack_2026-10-03.md": "6bc81bb48a8d29e369f56a1ff2d2a3a3009afaf463ef159278947e90e8e3155a",
+    "research/general/global_independent_audit_2026-10-03.md": "30f3f9d9b77104433e0f9d606631cbbd416fa6fc5c9ed56fad48002800594ccd",
+    "research/general/two_position_digit_finite_bound_2026-10-03.md": "739e781aba8a8ff9f8448c1a7e240b0f9965fba62584479d09dc2b36c31f8b94"
+  }
+}

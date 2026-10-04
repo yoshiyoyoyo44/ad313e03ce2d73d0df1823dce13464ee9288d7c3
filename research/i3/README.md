@@ -33,8 +33,9 @@
 
 1. [次数5の割当ての修復](i3_quintic_split_allocation_repair_2026-10-03.md)：両定数桁の全14型を直接排除。
 2. [残余次数とMahler測度](i3_split_mahler_frontier_2026-10-03.md)：残余次数5を排除。残余次数6の一枝を $`aD_6\le13,q\le13,762`$ に有限化。
+3. [残余次数6・七次境界の全排除](i3_independent_attack_2026-10-03.md)：導かれた全有限域を二列挙と底の矛盾で閉じる。
 
-この有限境界の全排除は未実施です。経路Bの低次数結果を別設定へ無条件に移さないでください。
+残余次数6の低次数枝と一般数値領域は残ります。経路Bの低次数結果を別設定へ無条件に移さないでください。
 
 ## 代表的な証明と検算
 
@@ -46,17 +47,33 @@
 | 二次商 | [audit_i3_quadratic_cofactor.py](../../scripts/audit_i3_quadratic_cofactor.py) | [結果](../../data/results/verification_i3_quadratic_cofactor.json) |
 | 中央群の平方降下 | [audit_i3_central_square_descent.py](../../scripts/audit_i3_central_square_descent.py) | [結果](../../data/results/verification_i3_central_square_descent.json) |
 | 標準桁の完全分配 | [audit_i3_split_mahler_frontier.py](../../scripts/audit_i3_split_mahler_frontier.py) | [結果](../../data/results/verification_i3_split_mahler_frontier.json) |
+| 残余次数6・七次境界 | [audit_i3_rho6_degree7_independent.py](../../scripts/audit_i3_rho6_degree7_independent.py) | [結果](../../data/results/verification_i3_rho6_degree7_independent.json) |
 
 他の係数・曲線・低次数の証明は下の索引から探せます。
 [検算手順](../../docs/VERIFICATION.md) · [全コード](../../scripts/README.md)
 
 ## 全ノート索引
 
+10月4日の稿は、標準桁・完全分配の特定の枝の排除と、一般数値領域から直接得られる共有因子の次数上限を追加しています。完全分配への一般移行は未証明で、一般の $`i=3`$ は未解決です。
+
 <details>
-<summary>全68件を表示（原題・ファイル名を保持）</summary>
+<summary>全81件を表示（原題・ファイル名を保持）</summary>
 
 | ファイル名の日付 | ノート |
 |---|---|
+| 2026-10-04 | [標準桁の次数4・完全分配における三一次型（作業稿）](i3_degree4_complete_split_working_2026-10-04.md) |
+| 2026-10-04 | [三一次群：b>t>cの全排除](i3_three_linear_order_working_2026-10-04.md) |
+| 2026-10-04 | [三一次群：b>c>tの全排除](i3_three_linear_b_c_t_working_2026-10-04.md) |
+| 2026-10-04 | [三一次群：J0=0の残る二順序](i3_three_linear_above_working_2026-10-04.md) |
+| 2026-10-04 | [三一次分配の短い合同証明](i3_three_linear_congruence_working_2026-10-04.md) |
+| 2026-10-04 | [完全分配のn-row圧縮と二次一割当て](i3_nrow_dyadic_strip_working_2026-10-04.md) |
+| 2026-10-04 | [二次残余とJ−2の一次商：全次数の排除](i3_quadratic_group_linear_residual_all_degrees_2026-10-04.md) |
+| 2026-10-04 | [J−2の一次商：残余次数2以上の全排除](i3_linear_J2_quotient_degree_ge2_all_degrees_2026-10-04.md) |
+| 2026-10-04 | [一次E・b≥2の線形J−2商：全次数の排除](i3_linear_J2_quotient_degree1_bge2_all_degrees_2026-10-04.md) |
+| 2026-10-04 | [二次J−2商・一次E：共有因子次数4以上の全排除](i3_quadratic_J2_Elinear_high_degree_2026-10-04.md) |
+| 2026-10-04 | [最大完全素数冪の底：因子評価と端点次数の釣合い](i3_largest_base_endpoint_balance_working_2026-10-04.md) |
+| 2026-10-04 | [最大底での三つの共有因子の直接次数上限](i3_largest_base_general_shared_degree_2026-10-04.md) |
+| 2026-10-03 | [i=3：標準桁・完全分配の残余次数6、次数7の枝の全排除](i3_independent_attack_2026-10-03.md) |
 | 本文参照 | [i=3：判別式の2進指数と M=3 の平方の枝](i3_2adic_and_square_continuation.md) |
 | 2026-10-01 | [i=3：二つの隣接法の終結式と、幾何級数を共有する族の全数値排除](i3_adjacent_resultants_and_geometric_closeout_2026-10-01.md) |
 | 本文参照 | [i=3：全ての奇数 M に対する平方の枝の排除](i3_all_square_branches.md) |

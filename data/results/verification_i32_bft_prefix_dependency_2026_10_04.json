@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "i": 32,
+  "start": 66,
+  "end": 1999999,
+  "matches_archived_independent_result": true,
+  "finite_extension_endpoint": 1955628,
+  "finite_extension_upper": 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "no_gap_to_extension": true,
+  "prefix": {
+    "i": 32,
+    "upper": 1999999,
+    "intervals": 13539,
+    "singletons": 7144,
+    "minimum_log_margin_lower": "4997639567137003135365552749370086783/340282366920938463463374607431768211456"
+  },
+  "archived_hashes_preserved": 40
+}

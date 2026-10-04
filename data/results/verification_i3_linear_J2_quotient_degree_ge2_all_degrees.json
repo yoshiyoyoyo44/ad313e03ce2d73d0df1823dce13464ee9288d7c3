@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "Conditional standard-digit complete allocation with (J-2)/B2 linear, B2 of any nonconstant degree, and deg(B0B1)>=2. No degree cap. Not general i=3 or Erdos 699.",
+  "q5_parameter_rows": 19,
+  "d3_boundary_exceptions": [
+    {
+      "h": 2,
+      "a": 2,
+      "L": 1,
+      "s": 1,
+      "v": 3,
+      "upper": "15/13",
+      "final_upper": "75/101"
+    }
+  ],
+  "degree2_certificate": "verification_i3_quadratic_group_linear_residual_all_degrees.json"
+}

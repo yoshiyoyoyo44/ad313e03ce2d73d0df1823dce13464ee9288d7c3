@@ -1,0 +1,506 @@
+{
+  "status": "passed",
+  "scope": "standard-digit complete split rho=6,d=4,m=7,F1>=1",
+  "hypotheses": "integer polynomials; a is a positive integer; F0=1; F1>=1; deg(F)=7; deg(J)=4; 0<=Jk<=Fk<q; F-2=(aX-1)D; D=B0*B1*B2; Bs(0)=1; Bs divides J-s with all multiplicities; n=F(q); j=J(q); n-1 divides 3*j*(j-1)",
+  "general_i3_solved": false,
+  "r2_at_least_2_positive_shift_at_7": [
+    26692,
+    89448,
+    55668,
+    15053,
+    2076,
+    144,
+    4
+  ],
+  "small_base_rows": [
+    {
+      "q": 3,
+      "F_polynomials": 1,
+      "J_polynomials": 16,
+      "first_condition_survivors": 0,
+      "complete_split_survivors": 0,
+      "forward_reverse_F_enumeration_agrees": true
+    },
+    {
+      "q": 4,
+      "F_polynomials": 17,
+      "J_polynomials": 372,
+      "first_condition_survivors": 0,
+      "complete_split_survivors": 0,
+      "forward_reverse_F_enumeration_agrees": true
+    },
+    {
+      "q": 5,
+      "F_polynomials": 52,
+      "J_polynomials": 1352,
+      "first_condition_survivors": 0,
+      "complete_split_survivors": 0,
+      "forward_reverse_F_enumeration_agrees": true
+    },
+    {
+      "q": 6,
+      "F_polynomials": 116,
+      "J_polynomials": 9092,
+      "first_condition_survivors": 0,
+      "complete_split_survivors": 0,
+      "forward_reverse_F_enumeration_agrees": true
+    }
+  ],
+  "small_base_complete_survivors": [],
+  "r2_equals_1_raw_candidates": {
+    "pure": 13,
+    "mixed": 0
+  },
+  "r2_equals_1_unique_candidates": 13,
+  "r2_equals_1_secondary_enumeration_agrees": true,
+  "r2_equals_1": {
+    "nonempty_intervals": 0,
+    "base_evaluations": 0,
+    "intervals": [],
+    "excluded_candidates": [
+      {
+        "a": 3,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "F": [
+          1,
+          1,
+          3,
+          4,
+          11,
+          9,
+          7,
+          6
+        ],
+        "q_min": 12,
+        "q_max": 2,
+        "square_upper_bound": "142805/27648",
+        "strict_positive_gap": "3838507/27648",
+        "kind": "pure"
+      },
+      {
+        "a": 3,
+        "D": [
+          1,
+          2,
+          3,
+          6,
+          5,
+          4,
+          3
+        ],
+        "J": [
+          0,
+          1,
+          1,
+          1,
+          3
+        ],
+        "F": [
+          1,
+          1,
+          3,
+          3,
+          13,
+          11,
+          9,
+          9
+        ],
+        "q_min": 14,
+        "q_max": 2,
+        "square_upper_bound": "421875/76832",
+        "strict_positive_gap": "14637197/76832",
+        "kind": "pure"
+      },
+      {
+        "a": 4,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "F": [
+          1,
+          2,
+          5,
+          7,
+          16,
+          13,
+          10,
+          8
+        ],
+        "q_min": 17,
+        "q_max": 1,
+        "square_upper_bound": "295245/83521",
+        "strict_positive_gap": "23842324/83521",
+        "kind": "pure"
+      },
+      {
+        "a": 4,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          0,
+          2,
+          2,
+          2,
+          4
+        ],
+        "F": [
+          1,
+          2,
+          5,
+          7,
+          16,
+          13,
+          10,
+          8
+        ],
+        "q_min": 17,
+        "q_max": 3,
+        "square_upper_bound": "1121931/83521",
+        "strict_positive_gap": "23015638/83521",
+        "kind": "pure"
+      },
+      {
+        "a": 4,
+        "D": [
+          1,
+          2,
+          3,
+          6,
+          5,
+          4,
+          3
+        ],
+        "J": [
+          0,
+          1,
+          1,
+          1,
+          3
+        ],
+        "F": [
+          1,
+          2,
+          5,
+          6,
+          19,
+          16,
+          13,
+          12
+        ],
+        "q_min": 20,
+        "q_max": 1,
+        "square_upper_bound": "194481/51200",
+        "strict_positive_gap": "20285519/51200",
+        "kind": "pure"
+      },
+      {
+        "a": 5,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "F": [
+          1,
+          3,
+          7,
+          10,
+          21,
+          17,
+          13,
+          10
+        ],
+        "q_min": 22,
+        "q_max": 1,
+        "square_upper_bound": "2518569/937024",
+        "strict_positive_gap": "451001047/937024",
+        "kind": "pure"
+      },
+      {
+        "a": 5,
+        "D": [
+          1,
+          1,
+          5,
+          6,
+          8,
+          7,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          0,
+          3,
+          2
+        ],
+        "F": [
+          1,
+          4,
+          0,
+          19,
+          22,
+          33,
+          33,
+          10
+        ],
+        "q_min": 34,
+        "q_max": 2,
+        "square_upper_bound": "26110875/5345344",
+        "strict_positive_gap": "6153106789/5345344",
+        "kind": "pure"
+      },
+      {
+        "a": 5,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          0,
+          2,
+          2,
+          2,
+          4
+        ],
+        "F": [
+          1,
+          3,
+          7,
+          10,
+          21,
+          17,
+          13,
+          10
+        ],
+        "q_min": 22,
+        "q_max": 3,
+        "square_upper_bound": "47852811/4685120",
+        "strict_positive_gap": "2219745269/4685120",
+        "kind": "pure"
+      },
+      {
+        "a": 5,
+        "D": [
+          1,
+          1,
+          5,
+          6,
+          8,
+          7,
+          2
+        ],
+        "J": [
+          0,
+          2,
+          0,
+          6,
+          4
+        ],
+        "F": [
+          1,
+          4,
+          0,
+          19,
+          22,
+          33,
+          33,
+          10
+        ],
+        "q_min": 34,
+        "q_max": 4,
+        "square_upper_bound": "101742375/5345344",
+        "strict_positive_gap": "6077475289/5345344",
+        "kind": "pure"
+      },
+      {
+        "a": 6,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "F": [
+          1,
+          4,
+          9,
+          13,
+          26,
+          21,
+          16,
+          12
+        ],
+        "q_min": 27,
+        "q_max": 1,
+        "square_upper_bound": "384160/177147",
+        "strict_positive_gap": "128756003/177147",
+        "kind": "pure"
+      },
+      {
+        "a": 6,
+        "D": [
+          1,
+          1,
+          5,
+          6,
+          8,
+          7,
+          2
+        ],
+        "J": [
+          1,
+          1,
+          0,
+          3,
+          2
+        ],
+        "F": [
+          1,
+          5,
+          1,
+          24,
+          28,
+          41,
+          40,
+          12
+        ],
+        "q_min": 42,
+        "q_max": 1,
+        "square_upper_bound": "99145229/24893568",
+        "strict_positive_gap": "43813108723/24893568",
+        "kind": "pure"
+      },
+      {
+        "a": 6,
+        "D": [
+          1,
+          2,
+          3,
+          5,
+          4,
+          3,
+          2
+        ],
+        "J": [
+          0,
+          2,
+          2,
+          2,
+          4
+        ],
+        "F": [
+          1,
+          4,
+          9,
+          13,
+          26,
+          21,
+          16,
+          12
+        ],
+        "q_min": 27,
+        "q_max": 2,
+        "square_upper_bound": "1459808/177147",
+        "strict_positive_gap": "127680355/177147",
+        "kind": "pure"
+      },
+      {
+        "a": 6,
+        "D": [
+          1,
+          1,
+          5,
+          6,
+          8,
+          7,
+          2
+        ],
+        "J": [
+          0,
+          2,
+          0,
+          6,
+          4
+        ],
+        "F": [
+          1,
+          5,
+          1,
+          24,
+          28,
+          41,
+          40,
+          12
+        ],
+        "q_min": 42,
+        "q_max": 3,
+        "square_upper_bound": "386324513/24893568",
+        "strict_positive_gap": "43525929439/24893568",
+        "kind": "pure"
+      }
+    ],
+    "first_condition_survivors": []
+  }
+}

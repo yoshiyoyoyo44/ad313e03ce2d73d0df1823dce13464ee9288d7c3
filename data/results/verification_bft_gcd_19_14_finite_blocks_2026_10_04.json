@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "c": 19,
+  "d": 14,
+  "L1": "361/250",
+  "m0": 6000,
+  "last_m": 4000000,
+  "scope": "Finite part only, m0<m<=4000000, delta=0,1",
+  "analytic_tail_required": true,
+  "valid_t_max": 512,
+  "number_of_disjoint_prime_intervals": 249,
+  "finite_blocks": 12693,
+  "primes_sieved": 3896123,
+  "sieve_cap": 65999999,
+  "exact_log_scale_bits": 32,
+  "grid_scale": 1024,
+  "grid_logs_64bit_atanh_terms": 32,
+  "small_log_taylor": "t-t^2/2 <= log(1+t) <= t-t^2/2+t^3/3, 0<=t<1/1024",
+  "minimum_normalized_margin_lower": "951921554421/649278796070912",
+  "worst_block": [
+    10793,
+    10798
+  ],
+  "delta_safe_endpoints": "U=((c+d)m-2)/t, V=m*max(d/(floor(dt/(c+d))+1),(c-d)/(floor((c-d)t/(c+d))+1))",
+  "finite_block_rule": "upper=min(4000000,lower+max(1,lower//2000)); next lower=upper+1",
+  "external_input": "BFT Lemma5.2 and floor identities5.8",
+  "script_sha256": "1c745ffc528877e8e25bab08838aa936834bc551867c24f8a08cda90885c36b0"
+}

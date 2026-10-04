@@ -1,0 +1,426 @@
+{
+  "status": "passed",
+  "exact_all_n_indices_added": [
+    16
+  ],
+  "scope": "Every integer 16<j<=n/2 satisfies the original common-prime conclusion p>=16",
+  "dependencies": [
+    {
+      "path": "data\\results\\verification_bft_gcd_3_2_finite_blocks_2026_10_04.json",
+      "sha256": "1635d9861aa275da94f192dfed71b7d920654861bda567df019091a3903588cb"
+    },
+    {
+      "path": "data\\results\\verification_bft_G_3_2_analytic_tail_2026-10-04.json",
+      "sha256": "5e3056447e2a6af0f3069736ef880f2724172349b9057a57135d8ee74e9fafba"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_4_3_finite_blocks_2026_10_04.json",
+      "sha256": "5e44258b6a637823bccb70fc0533492bd806b875d35debbcc1c1e9dac711d8dc"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_4_3_universal_2026_10_04.json",
+      "sha256": "4c860c88491d70597a01a643ae9d7582719aea1d58b63b5de1ce263603bf671d"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_19_14_finite_blocks_2026_10_04.json",
+      "sha256": "8f964cef983eafdbe24e587363d7620f9af3e2bc373aa3f009be5e705d0aa5c7"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_19_14_universal_2026_10_04.json",
+      "sha256": "dd6c467edce698cd99180bea69a76f25907b3d085bffc2962ad5a8ac9d6950d0"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_19_14_independent_2026_10_04.json",
+      "sha256": "4e19e5e76a3828325d097c7946b48c05afcd2a633eddf87a7703874b59dbc823"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_10_7_and_two_anchors_2026_10_04.json",
+      "sha256": "b80d391da75458ad8f0a9bffad69c7f9a3ee8e886de7756b7028d4e2c9d15e68"
+    },
+    {
+      "path": "data\\results\\verification_bft_gcd_10_7_independent_2026-10-04.json",
+      "sha256": "312fac8d24ab2c7e624c8dbf07429b5237d06c16875fe906ed3fa9d167b6a6bf"
+    },
+    {
+      "path": "data\\results\\verification_bft_i16_finite_dependency_2026_10_04.json",
+      "sha256": "4183a431e2dc959d003ab90a6122dbf0d1e38bfa913615a3662a9c2dcbdf4830"
+    }
+  ],
+  "six_exact_anchors": [
+    {
+      "pair": [
+        2,
+        7
+      ],
+      "p": 2,
+      "k0": 3,
+      "a": 1,
+      "q": 7,
+      "l0": 1,
+      "b": 1,
+      "c": 25,
+      "d": 17,
+      "D0": 1,
+      "L1": "777/500",
+      "m0": 582,
+      "target": "273/1000",
+      "epsilon": "1/2500",
+      "Omega3": {
+        "lower_numerator": 1002977744452,
+        "upper_numerator": 1002977744453,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 3161569506413,
+        "upper_numerator": 3161569506414,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 273473320921,
+        "upper_numerator": 273473320922,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 160465625924706760,
+        "upper_numerator": 161381514535143673,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        3,
+        11
+      ],
+      "p": 3,
+      "k0": 5,
+      "a": 1,
+      "q": 11,
+      "l0": 2,
+      "b": 2,
+      "c": 19,
+      "d": 14,
+      "D0": 1,
+      "L1": "361/250",
+      "m0": 6000,
+      "target": "43/125",
+      "epsilon": "3/20000",
+      "Omega3": {
+        "lower_numerator": 1001496227521,
+        "upper_numerator": 1001496227522,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 50016762544380,
+        "upper_numerator": 50016762544381,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 344178760242,
+        "upper_numerator": 344178760243,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 955006234534113500,
+        "upper_numerator": 955006234534113501,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        5,
+        7
+      ],
+      "p": 5,
+      "k0": 2,
+      "a": 2,
+      "q": 7,
+      "l0": 2,
+      "b": 1,
+      "c": 3,
+      "d": 2,
+      "D0": 1,
+      "L1": "1611/1000",
+      "m0": 50000,
+      "target": "33/125",
+      "epsilon": "1/1250",
+      "Omega3": {
+        "lower_numerator": 1001834364130,
+        "upper_numerator": 1001834364131,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8192098327936,
+        "upper_numerator": 8192098327937,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 264852842104,
+        "upper_numerator": 264852842105,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 794105933632331902,
+        "upper_numerator": 794105933632331903,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        7,
+        13
+      ],
+      "p": 7,
+      "k0": 3,
+      "a": 1,
+      "q": 13,
+      "l0": 2,
+      "b": 2,
+      "c": 4,
+      "d": 3,
+      "D0": 5,
+      "L1": "361/250",
+      "m0": 30000,
+      "target": "49/400",
+      "epsilon": "1/10000",
+      "Omega3": {
+        "lower_numerator": 1000399724406,
+        "upper_numerator": 1000399724407,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 2968316291644,
+        "upper_numerator": 2968316291645,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 122637465094,
+        "upper_numerator": 122637465095,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 798473808386715939,
+        "upper_numerator": 798473808386715940,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "p": 2,
+      "k0": 9,
+      "a": 1,
+      "q": 13,
+      "l0": 2,
+      "b": 3,
+      "c": 10,
+      "d": 7,
+      "D0": 5,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "73/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1121320125365,
+        "upper_numerator": 1121320125366,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 2024137142140,
+        "upper_numerator": 2024137142141,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 73322333375,
+        "upper_numerator": 73322333376,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 807898328852283929,
+        "upper_numerator": 807898328852283930,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "p": 13,
+      "k0": 1,
+      "a": 1,
+      "q": 11,
+      "l0": 1,
+      "b": 1,
+      "c": 10,
+      "d": 7,
+      "D0": 2,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "61/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1080863334168,
+        "upper_numerator": 1080863334169,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 1272591797870,
+        "upper_numerator": 1272591797871,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 61725737253,
+        "upper_numerator": 61725737254,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 328069930734392748,
+        "upper_numerator": 328069930734392749,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "graph_edges_scale2000": [
+    [
+      2,
+      3,
+      570
+    ],
+    [
+      2,
+      5,
+      516
+    ],
+    [
+      2,
+      7,
+      546
+    ],
+    [
+      2,
+      11,
+      118
+    ],
+    [
+      2,
+      13,
+      146
+    ],
+    [
+      3,
+      5,
+      432
+    ],
+    [
+      3,
+      7,
+      76
+    ],
+    [
+      3,
+      11,
+      688
+    ],
+    [
+      3,
+      13,
+      462
+    ],
+    [
+      5,
+      7,
+      528
+    ],
+    [
+      5,
+      11,
+      398
+    ],
+    [
+      5,
+      13,
+      326
+    ],
+    [
+      7,
+      13,
+      245
+    ],
+    [
+      11,
+      13,
+      122
+    ]
+  ],
+  "graph_exponent": "2007/2000",
+  "orientations_checked": 16384,
+  "minimum_vectors": [
+    [
+      546,
+      688,
+      528,
+      0,
+      0,
+      245
+    ]
+  ],
+  "analytic_branches_scale2000": [
+    2218,
+    2031,
+    2007,
+    2160,
+    2148,
+    2014
+  ],
+  "i": 16,
+  "h": 15,
+  "m": 6,
+  "b": 10,
+  "d": 15,
+  "S": 55,
+  "D": 15,
+  "c_i": 16,
+  "A": "15!",
+  "tail_integer_gap": 105,
+  "tail_cutoff_power": 3100,
+  "tail_decimal_margin": 897,
+  "intermediate_integer_gap": 30,
+  "intermediate_decimal_margin": 2122,
+  "finite_interval": "n<=10^87",
+  "intermediate_interval": "10^87<=n<exp(1000000)",
+  "infinite_interval": "n>=exp(1000000)",
+  "finite_replay_independently_repeated_by": "i3_attack, 2026-10-04: 4675 binomial checks, 6977 prefix tiles, 40 unchanged archive hashes",
+  "same_row_argument": "max(a_p,a_q)>=sqrt(n-r)>(n-h)^lambda; every lambda<1/2",
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "source_typo": "Theorem2.4 final display repeats x1; Section7 proves the two-component minimum formulation",
+  "external_dependencies": [
+    "BFT Theorem2.1",
+    "BFT Proposition5.1",
+    "BFT Theorem2.4 and Section7",
+    "BFT Lemmas5.2,5.4",
+    "BFT Proposition5.3",
+    "BFT Proposition6.1"
+  ],
+  "external_theorems_reproved": false,
+  "problem699_fully_solved": false
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "source_script_sha256": "e57cbc33be59eb997f59d3b01c723cea1f1e20532dea32c307557d3031625a9d",
+  "result_sha256": "b80d391da75458ad8f0a9bffad69c7f9a3ee8e886de7756b7028d4e2c9d15e68",
+  "finite_blocks_independently_rerun": 19840,
+  "prime_count": 1091314,
+  "sieve_cap": 16999999,
+  "delta_safe_generic_intervals_audited": true,
+  "integer_mantissa_log_enclosure_audited": true,
+  "analytic_two_domain_tail_audited": true,
+  "new_anchor_pairs": [
+    [
+      2,
+      13
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "exact_all_original_problem_indices_added_here": [],
+  "external_BFT_reproved": false
+}

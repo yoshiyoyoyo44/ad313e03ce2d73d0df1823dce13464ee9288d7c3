@@ -1,0 +1,1361 @@
+audit_bft_six_finite_dependency_2026_10_04.py
+i=17: PASS full finite input, 3749 binomial checks, 9434 prefix tiles, 2.3s
+i=23: PASS full finite input, 10311 binomial checks, 15350 prefix tiles, 4.5s
+i=26: PASS full finite input, 13598 binomial checks, 13078 prefix tiles, 5.3s
+i=27: PASS full finite input, 8735 binomial checks, 12288 prefix tiles, 3.5s
+i=30: PASS full finite input, 14428 binomial checks, 15472 prefix tiles, 5.6s
+i=33: PASS full finite input, 23280 binomial checks, 19899 prefix tiles, 8.2s
+PASS all six finite dependencies; originals preserved
+
+audit_bft_pair_graph_closeout_independent_2026_10_04.py
+{
+  "status": "passed",
+  "independent_review": "Paper and exact checker audited independently by root, i5_attack, and i3_attack; finite input freshly replayed by root and i5_attack",
+  "new_all_n_indices": [
+    17,
+    23,
+    26,
+    27,
+    30,
+    33
+  ],
+  "scope": "Every n,j with 1<=i<j<=n/2, for the six listed indices, combining this tail proof with the previously certified n<=10^87 theorem",
+  "tail_scope": "For each listed i, no numerical counterexample exists at n>=10^87; no polynomial full-sharing hypothesis",
+  "proof": "research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md",
+  "external_dependency": {
+    "authors": "Bennett, Filaseta, Trifonov",
+    "theorem": "Theorem 2.1",
+    "url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+    "pdf_page_zero_based": 3,
+    "exception_maximum": 1771561,
+    "theorem_proof_reproduced_here": false
+  },
+  "finite_dependency": "scripts/audit_bft_six_finite_dependency_2026_10_04.py: fresh exhaustive replay of all six n<=10^87 inputs, including bootstrap and complete prefix",
+  "graph_audit": {
+    "orientations": 16384,
+    "minimum_sum": 913,
+    "minimizing_vector": [
+      259,
+      329,
+      227,
+      0,
+      0,
+      98
+    ],
+    "analytic_branch_bounds": [
+      913,
+      1014,
+      1045,
+      942,
+      928
+    ]
+  },
+  "new_index_comparisons": [
+    {
+      "i": 17,
+      "h": 16,
+      "small_primes": 6,
+      "c_i": 1,
+      "b": 11,
+      "d": 17,
+      "S": 66,
+      "D": 11,
+      "beta": "11/17",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 4521,
+      "factorial_bound_exponent": 15,
+      "exact_coarse_decimal_margin": 177625,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 153
+    },
+    {
+      "i": 23,
+      "h": 22,
+      "small_primes": 8,
+      "c_i": 1,
+      "b": 15,
+      "d": 23,
+      "S": 120,
+      "D": 15,
+      "beta": "15/23",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 5999,
+      "factorial_bound_exponent": 23,
+      "exact_coarse_decimal_margin": 64611,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 276
+    },
+    {
+      "i": 26,
+      "h": 25,
+      "small_primes": 9,
+      "c_i": 26,
+      "b": 17,
+      "d": 26,
+      "S": 153,
+      "D": 17,
+      "beta": "17/26",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 6738,
+      "factorial_bound_exponent": 26,
+      "exact_coarse_decimal_margin": 1704,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 351
+    },
+    {
+      "i": 27,
+      "h": 26,
+      "small_primes": 9,
+      "c_i": 27,
+      "b": 18,
+      "d": 28,
+      "S": 171,
+      "D": 9,
+      "beta": "9/28",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 16564,
+      "factorial_bound_exponent": 27,
+      "exact_coarse_decimal_margin": 787366,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 378
+    },
+    {
+      "i": 30,
+      "h": 29,
+      "small_primes": 10,
+      "c_i": 30,
+      "b": 20,
+      "d": 31,
+      "S": 210,
+      "D": 10,
+      "beta": "10/31",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 18303,
+      "factorial_bound_exponent": 31,
+      "exact_coarse_decimal_margin": 757059,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 465
+    },
+    {
+      "i": 33,
+      "h": 32,
+      "small_primes": 11,
+      "c_i": 33,
+      "b": 22,
+      "d": 34,
+      "S": 253,
+      "D": 11,
+      "beta": "11/34",
+      "product_lower_exponent": "913/1000",
+      "cutoff_gap_integer": 20042,
+      "factorial_bound_exponent": 36,
+      "exact_coarse_decimal_margin": 671152,
+      "closes_at_existing_cutoff": true,
+      "weight_cells_checked": 561
+    }
+  ],
+  "limitation": "i3 and i5 remain unresolved; this is not a full solution of Problem 699 or a Lean verification"
+}
+
+audit_i32_bft_finite_extension_2026_10_04.py
+Generated i=32 stage 1: cap=16485879167611651877, candidate n=10946, time=23.3s
+Generated i=32 stage 2: cap=46682539, candidate n=11137, time=28.5s
+Generated i=32 stage 3: cap=1955628, candidate n=10114, time=32.1s
+Independently verified i=32 stage 1, total binomial checks=10946
+Independently verified i=32 stage 2, total binomial checks=22083
+Independently verified i=32 stage 3, total binomial checks=32197
+PASS i32 finite extension through 10^116
+
+audit_i32_bft_prefix_dependency_2026_10_04.py
+{"i": 32, "intervals": 13539, "singletons": 7144, "seconds": 0.96}
+PASS i32 prefix through 1999999; overlaps finite extension
+
+audit_bft_i22_i25_finite_dependency_2026_10_04.py
+i=22: PASS full finite input, 11182 binomial checks, 11410 prefix tiles, 5.2s
+i=25: PASS full finite input, 19158 binomial checks, 14428 prefix tiles, 7.2s
+PASS i22/i25 finite dependencies; originals preserved
+
+audit_bft_newvertex_i22_i25_2026_10_04.py
+{
+  "status": "passed",
+  "scope": "Exact BFT tail and intermediate interval for i22/i25; combine with separately replayed n<=10^87 input",
+  "indices": [
+    22,
+    25
+  ],
+  "pair_graph_exponent": "561/500",
+  "analytic_branch_bounds": [
+    1250,
+    1122,
+    1187,
+    1283
+  ],
+  "exact_rational_interval_bits": 128,
+  "anchors": [
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "p": 17,
+      "k0": 1,
+      "a": 1,
+      "q": 2,
+      "l0": 4,
+      "b": 1,
+      "c": 7,
+      "d": 5,
+      "D0": 1,
+      "L1": "2827/2000",
+      "m0": 74,
+      "target": "337/1000",
+      "epsilon": "9/10000",
+      "Omega3": {
+        "lower_numerator": 1084539434912,
+        "upper_numerator": 1084539434913,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 7575848301464,
+        "upper_numerator": 7575848301465,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 337975047076,
+        "upper_numerator": 337975047077,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 28205127868062501,
+        "upper_numerator": 28632807239653189,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "p": 11,
+      "k0": 2,
+      "a": 3,
+      "q": 19,
+      "l0": 2,
+      "b": 1,
+      "c": 25,
+      "d": 17,
+      "D0": 2,
+      "L1": "777/500",
+      "m0": 582,
+      "target": "49/250",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1235493467454,
+        "upper_numerator": 1235493467455,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8428942837912,
+        "upper_numerator": 8428942837913,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 197527208063,
+        "upper_numerator": 197527208064,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 115883287199771164,
+        "upper_numerator": 116112958605793329,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "p": 17,
+      "k0": 2,
+      "a": 5,
+      "q": 19,
+      "l0": 2,
+      "b": 4,
+      "c": 2,
+      "d": 1,
+      "D0": 1,
+      "L1": "19377/10000",
+      "m0": 150,
+      "target": "191/1000",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1749379833649,
+        "upper_numerator": 1749379833650,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 16598196156803,
+        "upper_numerator": 16598196156804,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 192588222813,
+        "upper_numerator": 192588222814,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 8941864998750605,
+        "upper_numerator": 9170589166431003,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "comparisons": [
+    {
+      "i": 22,
+      "h": 21,
+      "m": 8,
+      "d": 21,
+      "S": 105,
+      "D": 21,
+      "tail_product_exponent": "561/500",
+      "tail_numeric_cutoff_power": 1000,
+      "tail_decimal_margin": 1102349,
+      "intermediate_product_exponent": "5/3",
+      "intermediate_cutoff": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "intermediate_integer_comparison": true
+    },
+    {
+      "i": 25,
+      "h": 24,
+      "m": 9,
+      "d": 24,
+      "S": 136,
+      "D": 24,
+      "tail_product_exponent": "561/500",
+      "tail_numeric_cutoff_power": 1000,
+      "tail_decimal_margin": 1216649,
+      "intermediate_product_exponent": "5/3",
+      "intermediate_cutoff": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "intermediate_integer_comparison": true
+    }
+  ],
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "external_dependencies": [
+    "BFT Proposition 5.1",
+    "BFT Theorem 2.4 and Section 7 proof",
+    "BFT Proposition 6.1"
+  ],
+  "source_typo": "Last display of Theorem 2.4 repeats x1; Section 7 explicitly defines x=min(p^k*x1,q^l*x2) and proves the bound for it",
+  "external_theorems_reproved": false,
+  "finite_dependency_replay_pending": false,
+  "finite_dependency_replay_result": "data\\results\\verification_bft_i22_i25_finite_dependency_2026_10_04.json",
+  "exact_all_n_indices_added": [
+    22,
+    25
+  ]
+}
+
+audit_bft_newvertex_i22_i25_independent_2026_10_04.py
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "script_sha256": "07fd90d8a76f770fa0fbcc5a76337784560b971b4eaed2f97c73f7722ca33894",
+  "root_result_sha256": "077172a98c6cbeef30693a2cf7740a6adbb7371b331f5fde7090353dbb1e1702",
+  "anchors": [
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "D0": 1,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "D0": 2,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "D0": 1,
+      "exact_integrals_independently_matched": 4,
+      "source_parameters_matched": true,
+      "independent_numeric_inside_saved_intervals": true
+    }
+  ],
+  "interval_kernel_independently_paper_audited": true,
+  "delta_prefactor": "(s^2-1)^((-1)^delta/2), both deltas checked against PDF image",
+  "graph_lower_bound": "561/500",
+  "prop6_max_version_all_15_pairs": true,
+  "prop6_exception_both_components_ceiling": 3000000000,
+  "finite_dependency_independently_replayed_by_root": false,
+  "scope": "Tail and intermediate proof audited; full conclusion depends on root finite-input replay",
+  "external_bft_reproved": false,
+  "numeric_replay_is_not_the_exact_proof": true
+}
+
+audit_bft_proposition61_intermediate_bridge_2026_10_04.py
+PASS exact intermediate bridge for i16,19,22,25; no infinite-tail claim
+[(16, 2122), (19, 2298), (22, 2581), (25, 2690)]
+
+audit_bft_gcd_3_2_finite_blocks_2026_10_04.py
+Exact prime logarithms: 100000/664579, 2.3s
+Exact prime logarithms: 200000/664579, 4.2s
+Exact prime logarithms: 300000/664579, 6.1s
+Exact prime logarithms: 400000/664579, 7.8s
+Exact prime logarithms: 500000/664579, 9.7s
+Exact prime logarithms: 600000/664579, 11.6s
+PASS 8727 exact finite blocks, minimum=6263514236119249558085/1323959715658281938583552, 13.3s
+
+audit_bft_G_3_2_analytic_tail_2026_10_04.py
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "theorem": "G(3,2,2m-delta)>=(1611/1000)^(2m), delta=0,1, every m>=4000000",
+  "K": 32,
+  "number_of_disjoint_prime_intervals": 66,
+  "first_m": 4000000,
+  "switch_m": 20000000000,
+  "H": {
+    "lower_numerator": 488322577438,
+    "upper_numerator": 488322577439,
+    "denominator": 1000000000000
+  },
+  "constant_remainder_A": {
+    "lower_numerator": 2105099844672,
+    "upper_numerator": 2105099844673,
+    "denominator": 1000000000000
+  },
+  "sqrt_remainder_B": {
+    "lower_numerator": 22273256901230,
+    "upper_numerator": 22273256901231,
+    "denominator": 1000000000000
+  },
+  "relative_error_coefficient_C": {
+    "lower_numerator": 10037176645922,
+    "upper_numerator": 10037176645923,
+    "denominator": 1000000000000
+  },
+  "log_target": {
+    "lower_numerator": 476855104194,
+    "upper_numerator": 476855104195,
+    "denominator": 1000000000000
+  },
+  "first_range_lower": {
+    "lower_numerator": 477185422713,
+    "upper_numerator": 477185422714,
+    "denominator": 1000000000000
+  },
+  "second_range_lower": {
+    "lower_numerator": 486184658707,
+    "upper_numerator": 486184658708,
+    "denominator": 1000000000000
+  },
+  "external_dependencies": [
+    "BFT Lemma5.2 and floor identities5.8",
+    "BFT Lemma5.4"
+  ],
+  "finite_range_50001_to_3999999_closed_here": false,
+  "claim_all_m_above_50000": false
+}
+
+audit_bft_i19_finite_dependency_2026_10_04.py
+i=19: PASS full finite input, 8749 binomial checks, 13699 prefix tiles, 4.1s
+PASS i19 finite dependency; originals preserved
+
+audit_bft_strengthened_gcd_i19_2026_10_04.py
+PASS i19 all n/all j; new G lower bound, exact anchors, graph, all three ranges connected
+{'graph': '257/250', 'log_x0': {'lower_numerator': 794105933632331902, 'upper_numerator': 794105933632331903, 'denominator': 1000000000000}, 'margin': 56624}
+
+audit_bft_i24_finite_dependency_2026_10_04.py
+i=24: PASS full finite input, 21225 binomial checks, 14717 prefix tiles, 9.0s
+PASS i24 finite dependency; originals preserved
+
+audit_bft_i24_closeout_2026_10_04.py
+PASS i24 all n/all j; six exact anchors, 1024 graph branches, all three ranges connected
+{'graph': '333/250', 'new_pair_thresholds': [{'lower_numerator': 14123812147041382, 'upper_numerator': 14471307724830372, 'denominator': 1000000000000}, {'lower_numerator': 23281082756679053, 'upper_numerator': 23602680133932691, 'denominator': 1000000000000}], 'capacity_cutoff_power': 1646, 'margin': 24}
+
+audit_bft_gcd_4_3_finite_blocks_2026_10_04.py
+Exact prime logarithms: 200000/910077, 2.4s
+Exact prime logarithms: 400000/910077, 4.0s
+Exact prime logarithms: 600000/910077, 5.6s
+Exact prime logarithms: 800000/910077, 7.2s
+PASS 9723 exact blocks, worst=[49686, 49710], minimum=9917169792729158649521/1375481471856152716247040, 9.6s
+
+audit_bft_gcd_4_3_universal_2026_10_04.py
+PASS universal G(4,3,n) bound with L1=1.444,m0=30000
+first margin {'lower_numerator': 1665969246, 'upper_numerator': 1665969247, 'denominator': 1000000000000} second margin {'lower_numerator': 8199883739, 'upper_numerator': 8199883740, 'denominator': 1000000000000}
+
+audit_bft_gcd_4_3_anchor_7_13_2026_10_04.py
+{
+  "status": "PASS",
+  "scope": "For nonnegative exponents k,l and positive integer cofactors x1,x2, |7^k*x1-13^l*x2|<=100 and min(values)>=exp(999999) imply max(x1,x2)>min(values)^(49/400)",
+  "all_n_problem_claim": false,
+  "universal_G_dependency": "data\\results\\verification_bft_gcd_4_3_universal_2026_10_04.json",
+  "anchor": {
+    "pair": [
+      7,
+      13
+    ],
+    "p": 7,
+    "k0": 3,
+    "a": 1,
+    "q": 13,
+    "l0": 2,
+    "b": 2,
+    "c": 4,
+    "d": 3,
+    "D0": 5,
+    "L1": "361/250",
+    "m0": 30000,
+    "target": "49/400",
+    "epsilon": "1/10000",
+    "Omega3": {
+      "lower_numerator": 1000399724406,
+      "upper_numerator": 1000399724407,
+      "denominator": 1000000000000
+    },
+    "Omega4": {
+      "lower_numerator": 2968316291644,
+      "upper_numerator": 2968316291645,
+      "denominator": 1000000000000
+    },
+    "lambda3": {
+      "lower_numerator": 122637465094,
+      "upper_numerator": 122637465095,
+      "denominator": 1000000000000
+    },
+    "log_x0": {
+      "lower_numerator": 798473808386715939,
+      "upper_numerator": 798473808386715940,
+      "denominator": 1000000000000
+    },
+    "upper_log_threshold": 999999,
+    "positive_D_final": 100,
+    "corrected_delta0_prefactor": true
+  },
+  "exact_rational_interval_bits": 128,
+  "external_inputs": [
+    "BFT Theorem 2.4 and its Section 7 proof",
+    "BFT Proposition 5.3",
+    "BFT Lemma 5.4"
+  ],
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf"
+}
+
+audit_bft_gcd_19_14_finite_blocks_2026_10_04.py
+Sieve: 3896123 primes <= 65999999, 3.8s
+Exact grid logarithms: 500000/3896123, 4.8s
+Exact grid logarithms: 1000000/3896123, 5.8s
+Exact grid logarithms: 1500000/3896123, 6.8s
+Exact grid logarithms: 2000000/3896123, 7.8s
+Exact grid logarithms: 2500000/3896123, 8.8s
+Exact grid logarithms: 3000000/3896123, 9.8s
+Exact grid logarithms: 3500000/3896123, 10.8s
+PASS 12693 blocks; min=951921554421/649278796070912, worst=[10793, 10798], 14.9s
+
+audit_bft_gcd_19_14_universal_2026_10_04.py
+{
+  "status": "PASS",
+  "c": 19,
+  "d": 14,
+  "L1": "361/250",
+  "m0": 6000,
+  "theorem": "G(19,14,14m-delta)>(361/250)^(14m), delta=0,1, every integer m>6000",
+  "finite_part_file": "data\\results\\verification_bft_gcd_19_14_finite_blocks_2026_10_04.json",
+  "finite_part_sha256": "8f964cef983eafdbe24e587363d7620f9af3e2bc373aa3f009be5e705d0aa5c7",
+  "finite_part": {
+    "status": "PASS",
+    "c": 19,
+    "d": 14,
+    "L1": "361/250",
+    "m0": 6000,
+    "last_m": 4000000,
+    "scope": "Finite part only, m0<m<=4000000, delta=0,1",
+    "analytic_tail_required": true,
+    "valid_t_max": 512,
+    "number_of_disjoint_prime_intervals": 249,
+    "finite_blocks": 12693,
+    "primes_sieved": 3896123,
+    "sieve_cap": 65999999,
+    "exact_log_scale_bits": 32,
+    "grid_scale": 1024,
+    "grid_logs_64bit_atanh_terms": 32,
+    "small_log_taylor": "t-t^2/2 <= log(1+t) <= t-t^2/2+t^3/3, 0<=t<1/1024",
+    "minimum_normalized_margin_lower": "951921554421/649278796070912",
+    "worst_block": [
+      10793,
+      10798
+    ],
+    "delta_safe_endpoints": "U=((c+d)m-2)/t, V=m*max(d/(floor(dt/(c+d))+1),(c-d)/(floor((c-d)t/(c+d))+1))",
+    "finite_block_rule": "upper=min(4000000,lower+max(1,lower//2000)); next lower=upper+1",
+    "external_input": "BFT Lemma5.2 and floor identities5.8",
+    "script_sha256": "1c745ffc528877e8e25bab08838aa936834bc551867c24f8a08cda90885c36b0"
+  },
+  "analytic_valid_t_max": 128,
+  "number_of_analytic_prime_intervals": 62,
+  "first_domain": [
+    4000000,
+    2000000000
+  ],
+  "second_domain_start": 2000000000,
+  "H": {
+    "lower_numerator": 372241118160,
+    "upper_numerator": 372241118161,
+    "denominator": 1000000000000
+  },
+  "sqrt_error_B": {
+    "lower_numerator": 8704063221960,
+    "upper_numerator": 8704063221961,
+    "denominator": 1000000000000
+  },
+  "relative_error_R": {
+    "lower_numerator": 11026737450775,
+    "upper_numerator": 11026737450776,
+    "denominator": 1000000000000
+  },
+  "log_target": {
+    "lower_numerator": 367417040470,
+    "upper_numerator": 367417040471,
+    "denominator": 1000000000000
+  },
+  "first_lower": {
+    "lower_numerator": 367889000193,
+    "upper_numerator": 367889000194,
+    "denominator": 1000000000000
+  },
+  "second_lower": {
+    "lower_numerator": 369892422910,
+    "upper_numerator": 369892422911,
+    "denominator": 1000000000000
+  },
+  "first_margin": {
+    "lower_numerator": 471959722,
+    "upper_numerator": 471959723,
+    "denominator": 1000000000000
+  },
+  "second_margin": {
+    "lower_numerator": 2475382439,
+    "upper_numerator": 2475382440,
+    "denominator": 1000000000000
+  },
+  "new_3_11_anchor": {
+    "pair": [
+      3,
+      11
+    ],
+    "p": 3,
+    "k0": 5,
+    "a": 1,
+    "q": 11,
+    "l0": 2,
+    "b": 2,
+    "c": 19,
+    "d": 14,
+    "D0": 1,
+    "L1": "361/250",
+    "m0": 6000,
+    "target": "43/125",
+    "epsilon": "3/20000",
+    "Omega3": {
+      "lower_numerator": 1001496227521,
+      "upper_numerator": 1001496227522,
+      "denominator": 1000000000000
+    },
+    "Omega4": {
+      "lower_numerator": 50016762544380,
+      "upper_numerator": 50016762544381,
+      "denominator": 1000000000000
+    },
+    "lambda3": {
+      "lower_numerator": 344178760242,
+      "upper_numerator": 344178760243,
+      "denominator": 1000000000000
+    },
+    "log_x0": {
+      "lower_numerator": 955006234534113500,
+      "upper_numerator": 955006234534113501,
+      "denominator": 1000000000000
+    },
+    "upper_log_threshold": 999999,
+    "positive_D_final": 100,
+    "corrected_delta0_prefactor": true
+  },
+  "external_dependencies": [
+    "BFT Lemma5.2 and floor identities5.8",
+    "BFT Lemma5.4",
+    "BFT Theorem2.4 and Section7"
+  ],
+  "independent_parent_review_pending": true,
+  "all_original_problem_indices_added_here": [],
+  "script_sha256": "8cadb39a831dd7bdf92c1fb83bf753208f6695f1b1a3722548e19d0059909ea6"
+}
+
+audit_bft_gcd_19_14_independent_2026_10_04.py
+PASS independently: all finite blocks replayed, both analytic domains, 3/11 anchor
+{'numerator': 471959722, 'denominator': 1000000000000} {'numerator': 2475382439, 'denominator': 1000000000000}
+
+audit_bft_gcd_10_7_and_two_anchors_2026_10_04.py
+Exact prime logs 200000/1091314, 2.5s
+Exact prime logs 400000/1091314, 4.1s
+Exact prime logs 600000/1091314, 5.7s
+Exact prime logs 800000/1091314, 7.3s
+Exact prime logs 1000000/1091314, 8.9s
+PASS universal G10/7 and two exact anchors, 19840 blocks, 13.6s
+{'first': {'lower_numerator': 399810197217, 'upper_numerator': 399810197218, 'denominator': 1000000000000}, 'second': {'lower_numerator': 405958002015, 'upper_numerator': 405958002016, 'denominator': 1000000000000}, 'minimum': '3869717923009438886279/584688000160297948020736'}
+
+audit_bft_i16_finite_dependency_2026_10_04.py
+i=16: PASS full finite input, 4675 binomial checks, 6977 prefix tiles, 2.9s
+PASS i16 finite dependency; originals preserved
+
+audit_bft_i16_closeout_2026_10_04.py
+PASS i16 all n/all j: six exact anchors, 16384 orientations, six analytic branches, all three ranges
+{'graph': '2007/2000', 'tail_cutoff_power': 3100, 'tail_margin': 897, 'intermediate_margin': 2122}
+
+audit_largest_base_adjacent_shared_degree_2026_10_04.py
+{
+  "status": "passed",
+  "independent_review": "Paper proof, row-index strengthening, s=0 branch, and early nonmaximum-row existence independently audited by root",
+  "scope": "Any i>=3, a nonmaximum row s<=i-2, largest candidate complete prime-power base in row s, standard full digit conditions. No complete polynomial allocation. Adjacent row r=s+1 need not be nonmaximum.",
+  "degree_bound": "i deg gcd(F-(s+1),J-u) <= (i-1)(deg F+1), all u=0,...,i-1",
+  "strengthened_degree_bound": "(s+1) deg gcd(F-(s+1),J-u) <= s(deg F+1), all u=0,...,i-1",
+  "universal_base_threshold": "max(2^14, 2*lcm(1,...,i), (2i)^i*i!+1)",
+  "row_strengthened_base_threshold": "max(2^14, 2*lcm(1,...,i), (2i)^(s+1)*lcm(1,...,i)+1)",
+  "early_nonmaximum_row": "There is a nonmaximum s<=pi(i-1); adjacent r=s+1 need not be nonmaximum",
+  "numerical_cofactor_bound": "G_u(q)^i < i!*i^i*n^(i-1)",
+  "strengthened_numerical_cofactor_bound": "G_u(q)^(s+1) < delta_s*i^(s+1)*n^s <= lcm(1,...,i)*i^(s+1)*n^s",
+  "limitation": "Weak in small digit degree; does not prove the numerical-to-polynomial bridge or solve any new index.",
+  "exact_symbolic_identities": 5
+}
+Explicit threshold records: 32
+
+audit_nonmaximum_row_zero_rational_closeout_2026_10_04.py
+{
+  "status": "passed",
+  "independent_review": "Parent independently audited the prefix and factorial-product proof; finite certificate uses independent Legendre replay",
+  "scope": "Counterexample branches with row 0 not selected as a maximum row for any small prime. These branches are excluded for i=4,...,18. No newly solved full index.",
+  "general_bound": "n <= R + lcm(1,...,i)^(R+2)*R!/4, R=2*pi(i-1)-1, all i>=4",
+  "i4_bound": 23331,
+  "i4_candidate_pairs": 23318,
+  "i4_pairs_by_ratio_denominator": {
+    "2": 11661,
+    "3": 7773,
+    "6": 3884
+  },
+  "i4_certificate_sha256": "96fffaf801762038368f2f542d61860e410a6bf73d4c5248ed07f2d0bcec8eb4",
+  "i4_generator": "Smallest-prime-factor sieve and first Kummer carry",
+  "i4_independent_replay": "Primality by trial division, binom(n,4) exact integer, binom(n,j) Legendre factorial valuation, exact coverage set",
+  "i17_i18_refined_bounds": [
+    {
+      "i": 17,
+      "L_i": 12252240,
+      "delta_max": 12252240,
+      "maximum_n": 19136597210497812625239007186474405566536262527924104593408000000000000011,
+      "worst_delta": 85680,
+      "worst_prefix": 11,
+      "decimal_digits": 74
+    },
+    {
+      "i": 18,
+      "L_i": 12252240,
+      "delta_max": 12252240,
+      "maximum_n": 49426621161826053068521324945727745218661219088390670969524243660800000000000000013,
+      "worst_delta": 55440,
+      "worst_prefix": 13,
+      "decimal_digits": 83
+    }
+  ],
+  "divisor_refinement_certificate_sha256": "e463843b171fe8be303bbfb3a3b1188fc351930d83c5d55d95187eaaadddd58b",
+  "no_new_full_index_solved": true
+}
+Bounds linked to existing finite theorem: 12
+
+audit_i3_largest_base_general_shared_degree_2026_10_04.py
+{
+  "status": "passed",
+  "independent_review": "Base theorem independently audited by root; central and endpoint border strengthening proposed by root and independently audited by global_audit",
+  "scope": "General numerical i=3 necessary conditions, standard digits at the largest complete prime power of (n-1)/delta. No complete-allocation assumption. Not the numerical-to-polynomial full-sharing bridge.",
+  "lower_base_threshold": 16384,
+  "degree_bounds": "2 deg gcd(F-2,J-s) <= deg F + 1 for s=0,1,2; full multiplicity gcds",
+  "factor_lower": "H(q) > (1/2) leading(H) q^deg(H), any integer factor H of F-2 with positive leading coefficient",
+  "numerical_endpoint_bound": "d^2 < 6n < 9n",
+  "numerical_middle_bound": "d^2 < 3n/4",
+  "exponent_endpoint_constant": 36,
+  "exponent_middle_constant": 3,
+  "central_strengthening_threshold": 16777216,
+  "central_strengthened_degree_bound": "deg gcd(F-2,J-1) <= floor(deg F/2)",
+  "endpoint_border_classification": "At q>=2^24 and 2 deg G_s=deg F+1, endpoint G_0,G_2 have leading coefficient <=2; in the original half range G_0 has leading coefficient 1",
+  "precise_border_factor_lower": "(139/160) leading coefficient q^degree",
+  "exact_symbolic_identities": 11
+}
+
+audit_i3_largest_base_endpoint_balance_2026_10_04.py
+{
+  "status": "passed",
+  "independent_audit": "endpoint proof, quotient-degree extension, and general F-2 factor evaluation independently audited",
+  "scope": "Conditional largest-complete-prime-power standard-digit complete allocation. Endpoint degrees differ from the other two by at most 2 when those groups are nonconstant. Not the numerical-to-polynomial bridge or general i=3.",
+  "lower_base_threshold": 16384,
+  "uniform_factor_lower": "(1/2) leading_coefficient q^degree",
+  "general_standard_F_minus_two_factors_included": true,
+  "endpoint_degree_offset": 2,
+  "quotient_degree_reduction": "deg E <= 2t+1, deg Q <= 2t+3, deg F <= 4t+5",
+  "quadratic_quotient_degree_bounds": {
+    "E": 5,
+    "Q": 7,
+    "F": 13
+  },
+  "exact_symbolic_identities": 7
+}
+
+audit_i3_linear_J2_quotient_degree1_bge2_all_degrees.py
+{
+  "status": "passed",
+  "scope": "Conditional standard-digit linear J-2 quotient, degree E=1, b>=2, all N>=1. Not general i=3.",
+  "derived_degree_bound": 3,
+  "derived_b_bound": 6,
+  "root_parameter_rows": 297,
+  "base_rows": 5465,
+  "integer_parameter_rows": 596,
+  "final_integer_Q_candidates": [],
+  "b_equals_one_included": false,
+  "b_equals_one_primitive_corollary": {
+    "coefficient_identity": "symbolically passed for arbitrary N",
+    "additional_input": "gcd(q,(n-1)/q)=1",
+    "n_minus_one_coprime_to_q": false
+  }
+}
+
+audit_i3_linear_J2_quotient_degree1_independent.py
+{
+  "status": "passed",
+  "method": "lambda-first independent replay",
+  "root_parameter_rows": 297,
+  "integer_parameter_rows": 596,
+  "admissible_integer_Q_values": 0,
+  "scope": "Conditional degree-one E linear J-2 quotient finite certificate; not general i=3."
+}
+
+audit_i3_linear_J2_quotient_degree_ge2_all_degrees.py
+{
+  "status": "passed",
+  "scope": "Conditional standard-digit complete allocation with (J-2)/B2 linear, B2 of any nonconstant degree, and deg(B0B1)>=2. No degree cap. Not general i=3 or Erdos 699.",
+  "q5_parameter_rows": 19,
+  "d3_boundary_exceptions": [
+    {
+      "h": 2,
+      "a": 2,
+      "L": 1,
+      "s": 1,
+      "v": 3,
+      "upper": "15/13",
+      "final_upper": "75/101"
+    }
+  ],
+  "degree2_certificate": "verification_i3_quadratic_group_linear_residual_all_degrees.json"
+}
+
+audit_i3_quadratic_J2_Elinear_high_degree_2026_10_04.py
+{
+  "scope": "complete allocation; E=1+bX; deg Q=4; deg (J-2)/Q=2; q=5,7",
+  "counts": {
+    "D_parameter_rows": 1469,
+    "standard_F": 167,
+    "integer_Q": 40,
+    "quotient_rows": 254,
+    "standard_J": 103,
+    "polynomial_allocation": 6,
+    "numerical_range": 4,
+    "four_divides_n": 0,
+    "first_divisibility": 0,
+    "second_divisibility": 0
+  },
+  "allocation_rows": [
+    {
+      "q": 5,
+      "a": 2,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 1,
+      "v": 1,
+      "D": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "Q": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "F": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        3,
+        2
+      ],
+      "J": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "n": 41906,
+      "j": 22506
+    },
+    {
+      "q": 7,
+      "a": 2,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 1,
+      "v": 1,
+      "D": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "Q": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "F": [
+        1,
+        1,
+        1,
+        0,
+        2,
+        3,
+        2
+      ],
+      "J": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "n": 290578,
+      "j": 153672
+    },
+    {
+      "q": 7,
+      "a": 3,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 1,
+      "v": 1,
+      "D": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        1
+      ],
+      "Q": [
+        1,
+        0,
+        1,
+        1,
+        1
+      ],
+      "F": [
+        1,
+        2,
+        2,
+        1,
+        4,
+        5,
+        3
+      ],
+      "J": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        2,
+        1
+      ],
+      "n": 447042,
+      "j": 153672
+    },
+    {
+      "q": 7,
+      "a": 3,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 1,
+      "v": 1,
+      "D": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "Q": [
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      "F": [
+        1,
+        1,
+        4,
+        5,
+        2,
+        2,
+        3
+      ],
+      "J": [
+        1,
+        0,
+        1,
+        2,
+        0,
+        1,
+        1
+      ],
+      "n": 393282,
+      "j": 135192
+    },
+    {
+      "q": 7,
+      "a": 3,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 1,
+      "v": 1,
+      "D": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "Q": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "F": [
+        1,
+        1,
+        4,
+        4,
+        4,
+        5,
+        3
+      ],
+      "J": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "n": 448162,
+      "j": 154057
+    },
+    {
+      "q": 7,
+      "a": 3,
+      "b": 1,
+      "s": 1,
+      "h": 1,
+      "u": 2,
+      "v": 1,
+      "D": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "Q": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "F": [
+        1,
+        1,
+        4,
+        4,
+        4,
+        5,
+        3
+      ],
+      "J": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        3,
+        1
+      ],
+      "n": 448162,
+      "j": 173664
+    }
+  ],
+  "pre_first": [],
+  "survivors": []
+}
+
+audit_i3_quadratic_J2_Elinear_high_degree_independent.py
+{
+  "status": "passed",
+  "scope": "Conditional complete allocation: E linear, J-2 quotient quadratic, deg Q>=4 excluded. Not general i=3.",
+  "independent_method": "middle F digits and backward carry; leading-end E division",
+  "counts": {
+    "standard_F": 167,
+    "integer_Q": 40,
+    "polynomial_allocation": 6,
+    "numerical_range": 4,
+    "four_divides_n": 0
+  },
+  "derived_finite_bases": [
+    5,
+    7
+  ],
+  "derived_finite_degree": 4,
+  "allocations": [
+    [
+      5,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ]
+  ],
+  "uniform_bound_identities": true
+}
+
+audit_i3_quadratic_group_linear_residual_all_degrees.py
+{
+  "status": "passed",
+  "scope": "Conditional standard-digit complete allocation: B2 arbitrary nonconstant degree, (J-2)/B2 linear, and B0B1 of degree two (one quadratic group or two linear groups). All odd q >= 5 excluded. Not general i=3 or Erdős 699.",
+  "derived_bounds": {
+    "q": 70,
+    "ell": 20,
+    "lambda_": 18
+  },
+  "full_finite_parameter_rows": 12258,
+  "admissible_integer_Q_values": 0,
+  "identities_checked": 2
+}
+
+audit_i3_nrow_dyadic_strip_2026_10_04.py
+{
+  "status": "passed",
+  "scope": "Conditional n-row dyadic strip and E0 N1 resultant-zero exclusion; not general i=3 or Erdos 699.",
+  "strip_tuples": 216,
+  "positive_terms": 28
+}
+
+audit_i3_three_linear_above_2026_10_04.py
+{"status": "passed", "positive_coefficients": 40, "all_parameter_paper_bounds": 3}
+
+audit_i3_three_linear_b_c_t_2026_10_04.py
+{"status": "passed", "all_parameter_coefficient_polynomials": 4, "finite_search_cases": 0}
+
+audit_i3_three_linear_congruence_2026_10_04.py
+{
+  "status": "passed",
+  "scope": "Conditional standard-digit complete allocation; all three-linear orders for both constant digits. Not a proof of general i=3 or Erdős 699.",
+  "epsilon_zero_small_shapes": 11,
+  "epsilon_one_small_shapes": 12,
+  "epsilon_one_medium_shapes": 2,
+  "bezout_certificates": 3
+}
+
+audit_i3_three_linear_order_2026_10_04.py
+{"status": "passed", "positive_cones": 7, "coefficient_polynomials": 28, "finite_cases": 147}
+
+audit_i5_pell_primitive_unit_reduction.py
+{
+  "ok": true,
+  "symbolic_certificate": "shared order-3 recurrence and three initial values",
+  "integer_index_bound_odd": 44472484532444184000000000000000000,
+  "integer_index_square_bound_even": 1401260449218750000,
+  "half_integer_trace_bound_strict": 729000,
+  "half_integer_n_bound_strict": 96855122250000000,
+  "pell_witness_checks": 95,
+  "ring_examples": [
+    {
+      "D": 5,
+      "trace_eta": 3,
+      "integer_cube": [
+        9,
+        4
+      ]
+    },
+    {
+      "D": 13,
+      "trace_eta": 11,
+      "integer_cube": [
+        649,
+        180
+      ]
+    },
+    {
+      "D": 29,
+      "trace_eta": 27,
+      "integer_cube": [
+        9801,
+        1820
+      ]
+    }
+  ],
+  "imported_input": "existing tail exclusion for square n",
+  "unresolved": "Kummer-to-common-square-class descent for j or n-j"
+}
+
+check_repository.py
+{
+  "status": "passed",
+  "legacy_paths": 279,
+  "byte_preserved_files": 187,
+  "new_original_attachments": 5,
+  "additional_handoff_originals": 2,
+  "september27_preserved": {
+    "originals": 2,
+    "package_hashes": 40,
+    "zip_entries": 41,
+    "baseline_git_blobs": 7
+  },
+  "october03_preserved": {
+    "original_files": 2,
+    "zip_entries": 19,
+    "extracted_files": 12,
+    "source_bytes_preserved": true,
+    "source_replay_scripts_provided": false
+  },
+  "all_progress_import_preserved": {
+    "zip_entries": 666,
+    "source_manifest_hashes": 665,
+    "backups_verified": 13,
+    "integrated_files_verified": 2,
+    "working_tree_snapshot_checked": false
+  },
+  "new_package_hash_entries": 114,
+  "extension_certificate_hashes": 2,
+  "python_files_parsed": 182,
+  "documents_checked": 168,
+  "local_links_checked": 2464,
+  "explicit_anchors_checked": 45,
+  "navigation_snapshots_preserved": 15,
+  "research_notes_indexed": 132,
+  "scripts_indexed": 182,
+  "script_commands_checked": 172
+}

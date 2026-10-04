@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "reviewer": "i3_attack, final mathematical second review after root producer replay",
+  "producer_sha256": "21918d1acb164fcfc6a509a4e98ecaab90602f989969aaeca2d6ac8c326a5358",
+  "producer_result_sha256": "c07a86d96c87732cf2b6670bc78160e2684506b6fb5123e3825aa3f3929d2412",
+  "graph_orientations_independently_rechecked": 16384,
+  "graph_exact_minimum": "2007/2000",
+  "six_analytic_branches_audited": true,
+  "capacity_constants_audited": true,
+  "tail_large_integer_comparison": true,
+  "intermediate_large_integer_comparison": true,
+  "three_ranges_and_strict_endpoints_audited": true,
+  "finite_input_independently_replayed": true,
+  "finite_exact_binomial_checks": 4675,
+  "finite_prefix_tiles": 6977,
+  "producer_and_result_unmodified": true,
+  "problem699_fully_solved": false,
+  "whitespace_only_dependency_refresh": {
+    "date": "2026-10-04",
+    "reason": "Root normalized EOF whitespace in new dependency sources and reran the full publication suite; G4/3 finite source AST was unchanged.",
+    "previous_producer_result_sha256": "85ce04f36905ac7639c77e389b29f003cbcd758cc7b843f0ebc05c0196dd09b6",
+    "refreshed_producer_result_sha256": "c07a86d96c87732cf2b6670bc78160e2684506b6fb5123e3825aa3f3929d2412",
+    "producer_source_sha256_unchanged": true,
+    "producer_ast_sha256_unchanged": "87788f4797d51cd432246514fe7b4c682a667d608984cb04a1458ed871388457",
+    "proof_text_after_trailing_whitespace_normalization_unchanged": true,
+    "all_mathematical_result_fields_unchanged": true,
+    "dependency_paths_unchanged": true,
+    "result_changes_restricted_to_dependency_hashes": true,
+    "producer_and_producer_result_not_modified_by_this_refresh": true
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "independent_review": "Base theorem independently audited by root; central and endpoint border strengthening proposed by root and independently audited by global_audit",
+  "scope": "General numerical i=3 necessary conditions, standard digits at the largest complete prime power of (n-1)/delta. No complete-allocation assumption. Not the numerical-to-polynomial full-sharing bridge.",
+  "lower_base_threshold": 16384,
+  "degree_bounds": "2 deg gcd(F-2,J-s) <= deg F + 1 for s=0,1,2; full multiplicity gcds",
+  "factor_lower": "H(q) > (1/2) leading(H) q^deg(H), any integer factor H of F-2 with positive leading coefficient",
+  "numerical_endpoint_bound": "d^2 < 6n < 9n",
+  "numerical_middle_bound": "d^2 < 3n/4",
+  "exponent_endpoint_constant": 36,
+  "exponent_middle_constant": 3,
+  "central_strengthening_threshold": 16777216,
+  "central_strengthened_degree_bound": "deg gcd(F-2,J-1) <= floor(deg F/2)",
+  "endpoint_border_classification": "At q>=2^24 and 2 deg G_s=deg F+1, endpoint G_0,G_2 have leading coefficient <=2; in the original half range G_0 has leading coefficient 1",
+  "precise_border_factor_lower": "(139/160) leading coefficient q^degree",
+  "exact_symbolic_identities": 11
+}

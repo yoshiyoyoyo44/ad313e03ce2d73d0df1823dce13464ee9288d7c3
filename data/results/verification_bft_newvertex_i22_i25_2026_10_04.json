@@ -1,0 +1,188 @@
+{
+  "status": "passed",
+  "scope": "Exact BFT tail and intermediate interval for i22/i25; combine with separately replayed n<=10^87 input",
+  "indices": [
+    22,
+    25
+  ],
+  "pair_graph_exponent": "561/500",
+  "analytic_branch_bounds": [
+    1250,
+    1122,
+    1187,
+    1283
+  ],
+  "exact_rational_interval_bits": 128,
+  "anchors": [
+    {
+      "pair": [
+        2,
+        17
+      ],
+      "p": 17,
+      "k0": 1,
+      "a": 1,
+      "q": 2,
+      "l0": 4,
+      "b": 1,
+      "c": 7,
+      "d": 5,
+      "D0": 1,
+      "L1": "2827/2000",
+      "m0": 74,
+      "target": "337/1000",
+      "epsilon": "9/10000",
+      "Omega3": {
+        "lower_numerator": 1084539434912,
+        "upper_numerator": 1084539434913,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 7575848301464,
+        "upper_numerator": 7575848301465,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 337975047076,
+        "upper_numerator": 337975047077,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 28205127868062501,
+        "upper_numerator": 28632807239653189,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        19
+      ],
+      "p": 11,
+      "k0": 2,
+      "a": 3,
+      "q": 19,
+      "l0": 2,
+      "b": 1,
+      "c": 25,
+      "d": 17,
+      "D0": 2,
+      "L1": "777/500",
+      "m0": 582,
+      "target": "49/250",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1235493467454,
+        "upper_numerator": 1235493467455,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 8428942837912,
+        "upper_numerator": 8428942837913,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 197527208063,
+        "upper_numerator": 197527208064,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 115883287199771164,
+        "upper_numerator": 116112958605793329,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        17,
+        19
+      ],
+      "p": 17,
+      "k0": 2,
+      "a": 5,
+      "q": 19,
+      "l0": 2,
+      "b": 4,
+      "c": 2,
+      "d": 1,
+      "D0": 1,
+      "L1": "19377/10000",
+      "m0": 150,
+      "target": "191/1000",
+      "epsilon": "3/2000",
+      "Omega3": {
+        "lower_numerator": 1749379833649,
+        "upper_numerator": 1749379833650,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 16598196156803,
+        "upper_numerator": 16598196156804,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 192588222813,
+        "upper_numerator": 192588222814,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 8941864998750605,
+        "upper_numerator": 9170589166431003,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 500000,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "comparisons": [
+    {
+      "i": 22,
+      "h": 21,
+      "m": 8,
+      "d": 21,
+      "S": 105,
+      "D": 21,
+      "tail_product_exponent": "561/500",
+      "tail_numeric_cutoff_power": 1000,
+      "tail_decimal_margin": 1102349,
+      "intermediate_product_exponent": "5/3",
+      "intermediate_cutoff": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "intermediate_integer_comparison": true
+    },
+    {
+      "i": 25,
+      "h": 24,
+      "m": 9,
+      "d": 24,
+      "S": 136,
+      "D": 24,
+      "tail_product_exponent": "561/500",
+      "tail_numeric_cutoff_power": 1000,
+      "tail_decimal_margin": 1216649,
+      "intermediate_product_exponent": "5/3",
+      "intermediate_cutoff": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "intermediate_integer_comparison": true
+    }
+  ],
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "external_dependencies": [
+    "BFT Proposition 5.1",
+    "BFT Theorem 2.4 and Section 7 proof",
+    "BFT Proposition 6.1"
+  ],
+  "source_typo": "Last display of Theorem 2.4 repeats x1; Section 7 explicitly defines x=min(p^k*x1,q^l*x2) and proves the bound for it",
+  "external_theorems_reproved": false,
+  "finite_dependency_replay_pending": false,
+  "finite_dependency_replay_result": "data\\results\\verification_bft_i22_i25_finite_dependency_2026_10_04.json",
+  "exact_all_n_indices_added": [
+    22,
+    25
+  ]
+}

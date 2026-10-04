@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "indices": [
+    17,
+    23,
+    26,
+    27,
+    30,
+    33
+  ],
+  "finite_bound": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "archived_hashes_preserved": 40,
+  "exhaustive_targeted_replay": true,
+  "rows": [
+    {
+      "i": 17,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 1027317,
+      "bootstrap_steps": 3,
+      "exact_binomial_checks": 3749,
+      "prefix": {
+        "i": 17,
+        "upper": 1999999,
+        "intervals": 7667,
+        "singletons": 1767,
+        "minimum_log_margin_lower": "6438414310480347752670163896554936961/340282366920938463463374607431768211456"
+      }
+    },
+    {
+      "i": 23,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 1283928,
+      "bootstrap_steps": 3,
+      "exact_binomial_checks": 10311,
+      "prefix": {
+        "i": 23,
+        "upper": 1999999,
+        "intervals": 11438,
+        "singletons": 3912,
+        "minimum_log_margin_lower": "1732536446045518972682580254497722087/170141183460469231731687303715884105728"
+      }
+    },
+    {
+      "i": 26,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 755251,
+      "bootstrap_steps": 3,
+      "exact_binomial_checks": 13598,
+      "prefix": {
+        "i": 26,
+        "upper": 1999999,
+        "intervals": 9362,
+        "singletons": 3716,
+        "minimum_log_margin_lower": "1779606962728270233682967563110440069/42535295865117307932921825928971026432"
+      }
+    },
+    {
+      "i": 27,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 800145,
+      "bootstrap_steps": 2,
+      "exact_binomial_checks": 8735,
+      "prefix": {
+        "i": 27,
+        "upper": 1999999,
+        "intervals": 8635,
+        "singletons": 3653,
+        "minimum_log_margin_lower": "379513985008656543694334809722265767/340282366920938463463374607431768211456"
+      }
+    },
+    {
+      "i": 30,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 1209155,
+      "bootstrap_steps": 2,
+      "exact_binomial_checks": 14428,
+      "prefix": {
+        "i": 30,
+        "upper": 1999999,
+        "intervals": 10394,
+        "singletons": 5078,
+        "minimum_log_margin_lower": "716660694541323413626248936941002363/85070591730234615865843651857942052864"
+      }
+    },
+    {
+      "i": 33,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 1809204,
+      "bootstrap_steps": 2,
+      "exact_binomial_checks": 23280,
+      "prefix": {
+        "i": 33,
+        "upper": 1999999,
+        "intervals": 12870,
+        "singletons": 7029,
+        "minimum_log_margin_lower": "2491466039210102121523550974570580157/340282366920938463463374607431768211456"
+      }
+    }
+  ],
+  "external_matveev_not_used": true,
+  "scope": "Finite input only; combine with BFT pair-graph tail proof"
+}

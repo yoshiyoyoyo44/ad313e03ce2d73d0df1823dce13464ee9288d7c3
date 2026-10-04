@@ -1,4 +1,4 @@
-"""Replay the i=5 priority update, October 3 integration, and prior checks."""
+"""Replay the October 3 independent research and prior checks."""
 import subprocess
 import sys
 import time
@@ -6,6 +6,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 CHECKS = (
+    "audit_i3_rho6_degree7_independent.py",
+    "audit_i5_weight4_two_positions.py",
+    "audit_two_position_digit_bound.py",
+    "audit_global_independent_2026_10_03.py",
     "audit_adjacent_digit_descent.py",
     "audit_i5_sparse_allocation.py",
     "audit_i5_global_product_and_affine.py",

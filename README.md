@@ -18,17 +18,27 @@
 
 ## どこまで分かっている？
 
-2026年10月3日時点。このリポジトリに保存した紙上証明・有限証明書の成立範囲です。
+2026年10月4日時点。このリポジトリに保存した紙上証明・有限証明書の成立範囲です。
 
 | 範囲 | 現在の結論 |
 |---|---|
-| $`i=1,2,28,29,31,34`$ および $`i\ge35`$ | 全ての許される $`n,j`$ で成立 |
+| $`i=1,2,16,17,19`$ および $`i\ge22`$ | 全ての許される $`n,j`$ で成立 |
 | $`i\ge5`$、$`n\le10^{87}`$ | 全ての許される $`j`$ で成立 |
 | $`i=3,4`$ | 一般の場合は未解決 |
-| $`5\le i\le33`$、$`i\notin\{28,29,31\}`$ | $`n\gt 10^{87}`$ が未解決 |
+| $`i=5,\ldots,15,18,20,21`$ | $`n\gt 10^{87}`$ が未解決 |
 
-**未解決の添字は28個。** 特定の族の排除を、添字全体の解決に数えていません。
+**未解決の添字は16個。** 特定の族の排除を、添字全体の解決に数えていません。
 第三者査読と問題全体のLean形式検証は未実施です。[成立範囲・前提・残る課題](docs/STATUS.md)
+
+10月4日に **16,17,19,22,23,24,25,26,27,30,32,33の12添字** を全域へ拡張しました。
+素数対の余因子下界と重み付き容量上界を組み合わせ、有限証明書を独立に再生して無限尾部へ接続しています。
+外部入力は [Bennett–Filaseta–Trifonovの一次論文](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf)の明示定理です。
+[六添字](research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md) ·
+[i=32](research/general/bft_pair_graph_i32_finite_extension_2026-10-04.md) ·
+[i=22,25](research/general/bft_newvertex_i22_i25_closeout_2026-10-04.md) ·
+[i=19](research/general/bft_strengthened_gcd_i19_closeout_2026-10-04.md) ·
+[i=24](research/general/bft_i24_closeout_2026-10-04.md) ·
+[i=16](research/general/bft_i16_closeout_2026-10-04.md)
 
 ## 目的から読む
 
@@ -48,6 +58,8 @@
 
 補題ごとの詳細は[成果一覧](docs/RESULTS_CATALOG.md)、次の課題は[現在地](docs/STATUS.md)にまとめています。
 
+[10月3日の独立研究](docs/INDEPENDENT_RESEARCH_2026-10-03.md)では、i=3の七次の条件付き境界、i=5の二位置族、全添字の桁上限を強化しました。全体は引き続き未解決です。
+
 ## 検算を始める
 
 Python 3.12以上。リポジトリのルートで実行します。
@@ -57,13 +69,21 @@ python -m pip install -r requirements-verification.txt
 python -X utf8 scripts/check_repository.py
 ```
 
-上は案内・構文・原本保存の確認です。研究更新に対応する35件を再生する場合：
+上は案内・構文・原本保存の確認です。研究更新に対応する39件を再生する場合：
 
 ```console
 python -X utf8 scripts/verify_latest.py
 ```
 
-[保存した全35件の通過ログ](data/results/verification_github_publish_2026-10-03.log) · [対象・外部依存・出力の注意](docs/VERIFICATION.md)
+[今回の独立研究の検算記録](data/results/verification_independent_research_2026-10-03.json) · [先行35件の通過ログ](data/results/verification_github_publish_2026-10-03.log) · [対象・外部依存・出力の注意](docs/VERIFICATION.md)
+
+39件は10月3日までの検算です。10月4日の全域証明・追加補題は、次の実行器で入力から順に再生できます。
+
+```console
+python -X utf8 scripts/verify_october04.py
+```
+
+[10月4日の実行器](scripts/verify_october04.py) · [実行記録](data/results/verification_october04_publication_2026-10-04.json)。外部定理そのものの証明は各ノートの引用先に依存します。
 
 ## フォルダ案内
 

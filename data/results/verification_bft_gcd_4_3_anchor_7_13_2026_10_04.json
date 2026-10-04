@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "scope": "For nonnegative exponents k,l and positive integer cofactors x1,x2, |7^k*x1-13^l*x2|<=100 and min(values)>=exp(999999) imply max(x1,x2)>min(values)^(49/400)",
+  "all_n_problem_claim": false,
+  "universal_G_dependency": "data\\results\\verification_bft_gcd_4_3_universal_2026_10_04.json",
+  "anchor": {
+    "pair": [
+      7,
+      13
+    ],
+    "p": 7,
+    "k0": 3,
+    "a": 1,
+    "q": 13,
+    "l0": 2,
+    "b": 2,
+    "c": 4,
+    "d": 3,
+    "D0": 5,
+    "L1": "361/250",
+    "m0": 30000,
+    "target": "49/400",
+    "epsilon": "1/10000",
+    "Omega3": {
+      "lower_numerator": 1000399724406,
+      "upper_numerator": 1000399724407,
+      "denominator": 1000000000000
+    },
+    "Omega4": {
+      "lower_numerator": 2968316291644,
+      "upper_numerator": 2968316291645,
+      "denominator": 1000000000000
+    },
+    "lambda3": {
+      "lower_numerator": 122637465094,
+      "upper_numerator": 122637465095,
+      "denominator": 1000000000000
+    },
+    "log_x0": {
+      "lower_numerator": 798473808386715939,
+      "upper_numerator": 798473808386715940,
+      "denominator": 1000000000000
+    },
+    "upper_log_threshold": 999999,
+    "positive_D_final": 100,
+    "corrected_delta0_prefactor": true
+  },
+  "exact_rational_interval_bits": 128,
+  "external_inputs": [
+    "BFT Theorem 2.4 and its Section 7 proof",
+    "BFT Proposition 5.3",
+    "BFT Lemma 5.4"
+  ],
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf"
+}

@@ -8,7 +8,7 @@
 ## 初めて読む
 
 1. [研究の概要](PROGRESS_SUMMARY.md)：問題、考え方、主な進展。
-2. [現在地](STATUS.md)：証明済みの範囲、残る28添字、外部依存。
+2. [現在地](STATUS.md)：証明済みの範囲、残る16添字、外部依存。
 3. [用語・記号](GLOSSARY.md)：分からない記号を確認。
 4. 興味のある[分野の案内](../research/README.md)から証明へ。
 
@@ -21,7 +21,8 @@
 
 | 分野 | 推奨する入口 | 特に確認する前提 |
 |---|---|---|
-| 全体の成立範囲 | [一般の方法](../research/general/README.md)の「全体の成立範囲」 | 重み付き被覆と有限域、外部Matveev定理 |
+| 10月4日の12添字の全域化 | [六添字のBFTグラフ](../research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md)、下の読む順序 | BFTの明示指数・例外・閾値、有限証明書の完全再生、無限尾部との接続 |
+| 9月までの全体の成立範囲 | [一般の方法](../research/general/README.md)の「全体の成立範囲」 | 重み付き被覆と有限域、適用する外部定理 |
 | 全添字の桁降下 | [一般の方法](../research/general/README.md)の「桁降下」 | 非最大行、完全付値、桁和・素数個数の有界性 |
 | $`i=5`$ | [i=5の4段階](../research/i5/README.md) | 有限域の接続、支持、外部BFT、全桁条件 |
 | $`i=3`$ | [i=3の3つの経路](../research/i3/README.md) | 標準桁と変換後の桁設定、多項式への移行、重複度 |
@@ -31,12 +32,25 @@
 補題ごとの結論を引く場合は[成果の詳細一覧](RESULTS_CATALOG.md)を使ってください。
 過去のノートの未解決記述は、後続の証明で更新されていることがあります。
 
+### 10月4日の全域証明を読む順序
+
+1. [六添字の証明](../research/general/bft_pair_graph_closeout_six_indices_2026-10-04.md)で、小素数ごとの最大付値行、余因子積P、三方向の容量上界、BFT素数対のグラフを確認する。
+2. [i=32の有限拡張](../research/general/bft_pair_graph_i32_finite_extension_2026-10-04.md)で、10^116までの再生と尾部開始点に隙間がないことを確認する。
+3. [i=22,25](../research/general/bft_newvertex_i22_i25_closeout_2026-10-04.md)で、Theorem 2.4の全定数とProposition 6.1の中間域を読む。
+4. [i=19](../research/general/bft_strengthened_gcd_i19_closeout_2026-10-04.md)、[i=24](../research/general/bft_i24_closeout_2026-10-04.md)、[i=16](../research/general/bft_i16_closeout_2026-10-04.md)で、新しいG下界・追加辺と、有限・中間・無限の三域の接続を確認する。
+5. 各ノート末尾の専用検算器、有限入力の再生記録、独立監査を照合する。BFTの定理自体は[一次論文](https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf)を外部入力としている。
+
+これらは16,17,19,22,23,24,25,26,27,30,32,33の全域証明です。
+i=3の[線形商の分配](../research/i3/i3_linear_J2_quotient_degree1_bge2_all_degrees_2026-10-04.md)と
+i=5の[Pell還元](../research/i5/i5_pell_primitive_unit_reduction_2026-10-04.md)は条件付き進展として読む必要があります。
+一般i=3・i=5と問題全体は未解決です。
+
 ## 計算を再現する
 
 1. [検算手順](VERIFICATION.md)で環境・対象・出力を確認。
 2. [コード案内](../scripts/README.md)から該当する再生器を選択。
 3. [証明書](../data/certificates/README.md)と[保存結果](../data/results/README.md)の役割を区別。
-4. 必要な個別検算、または研究更新に対応する全35件を実行。
+4. 必要な個別検算を実行。10月3日までの39件と、上の10月4日ノートに対応する専用検算器を区別する。
 
 保存した成功ログだけでは、普遍的な紙上証明の前提を確認したことにはなりません。
 生成器は証明書を作るもの、再生器はその証明書を検査するものです。

@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "theorem": "G(3,2,2m-delta)>=(1611/1000)^(2m), delta=0,1, every m>=4000000",
+  "K": 32,
+  "number_of_disjoint_prime_intervals": 66,
+  "first_m": 4000000,
+  "switch_m": 20000000000,
+  "H": {
+    "lower_numerator": 488322577438,
+    "upper_numerator": 488322577439,
+    "denominator": 1000000000000
+  },
+  "constant_remainder_A": {
+    "lower_numerator": 2105099844672,
+    "upper_numerator": 2105099844673,
+    "denominator": 1000000000000
+  },
+  "sqrt_remainder_B": {
+    "lower_numerator": 22273256901230,
+    "upper_numerator": 22273256901231,
+    "denominator": 1000000000000
+  },
+  "relative_error_coefficient_C": {
+    "lower_numerator": 10037176645922,
+    "upper_numerator": 10037176645923,
+    "denominator": 1000000000000
+  },
+  "log_target": {
+    "lower_numerator": 476855104194,
+    "upper_numerator": 476855104195,
+    "denominator": 1000000000000
+  },
+  "first_range_lower": {
+    "lower_numerator": 477185422713,
+    "upper_numerator": 477185422714,
+    "denominator": 1000000000000
+  },
+  "second_range_lower": {
+    "lower_numerator": 486184658707,
+    "upper_numerator": 486184658708,
+    "denominator": 1000000000000
+  },
+  "external_dependencies": [
+    "BFT Lemma5.2 and floor identities5.8",
+    "BFT Lemma5.4"
+  ],
+  "finite_range_50001_to_3999999_closed_here": false,
+  "claim_all_m_above_50000": false
+}

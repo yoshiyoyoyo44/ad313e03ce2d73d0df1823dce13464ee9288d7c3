@@ -1,0 +1,134 @@
+{
+  "status": "pass",
+  "scope": "i=5 support 01; weights 4,6,8; at most two positive digit positions",
+  "resultant_identities_checked": 23432,
+  "constant_transform_cases_checked": 1160,
+  "all_digit_mod24": {
+    "odd_row3_weight4_allowed": [],
+    "even_row2_weight4_allowed_q_and_odd_position_weight": [
+      [
+        11,
+        1
+      ]
+    ],
+    "odd_row3_all_candidate_bases_digit_sum_at_least": 9,
+    "odd_row3_q11_or23_mod24_digit_sum_at_least": 11,
+    "even_row2_all_minimal_denominator_and_prime_count_parity": [
+      [
+        10,
+        1
+      ]
+    ]
+  },
+  "cases": [
+    {
+      "weight": 4,
+      "s": 2,
+      "t": 3,
+      "neighbor_multiplier": 5,
+      "K": 12,
+      "H": 4,
+      "linear_factor_bound": 7,
+      "C": 64768,
+      "q_bound_high_degree": 24010,
+      "n_bound_low_degree": 87985670973166714883,
+      "n_bound_high_degree": 3989613314880600050003,
+      "n_bound_one_position": 253128,
+      "n_bound_resonance": 19906563,
+      "n_bound_all_two_positions": 3989613314880600050003,
+      "below_existing_finite_certificate": true
+    },
+    {
+      "weight": 4,
+      "s": 3,
+      "t": 4,
+      "neighbor_multiplier": 5,
+      "K": 15,
+      "H": 4,
+      "linear_factor_bound": 7,
+      "C": 2290669,
+      "q_bound_high_degree": 168070,
+      "n_bound_low_degree": 315341912171723987627474066221749,
+      "n_bound_high_degree": 11269670145346129043931624500004,
+      "n_bound_one_position": 12380499,
+      "n_bound_resonance": 19906563,
+      "n_bound_all_two_positions": 315341912171723987627474066221749,
+      "below_existing_finite_certificate": true
+    },
+    {
+      "weight": 6,
+      "s": 2,
+      "t": 3,
+      "neighbor_multiplier": 5,
+      "K": 20,
+      "H": 9,
+      "linear_factor_bound": 13,
+      "C": 879461,
+      "q_bound_high_degree": 285610,
+      "n_bound_low_degree": 2991137278468295597857208,
+      "n_bound_high_degree": 950248188744039971940050003,
+      "n_bound_one_position": 1399208,
+      "n_bound_resonance": 153600003,
+      "n_bound_all_two_positions": 950248188744039971940050003,
+      "below_existing_finite_certificate": true
+    },
+    {
+      "weight": 6,
+      "s": 3,
+      "t": 4,
+      "neighbor_multiplier": 5,
+      "K": 25,
+      "H": 9,
+      "linear_factor_bound": 13,
+      "C": 49707299,
+      "q_bound_high_degree": 3712930,
+      "n_bound_low_degree": 1517297805031904793652369649665928182499,
+      "n_bound_high_degree": 1309997821824972480190275716416524500004,
+      "n_bound_one_position": 102555749,
+      "n_bound_resonance": 153600003,
+      "n_bound_all_two_positions": 1517297805031904793652369649665928182499,
+      "below_existing_finite_certificate": true
+    },
+    {
+      "weight": 8,
+      "s": 2,
+      "t": 3,
+      "neighbor_multiplier": 5,
+      "K": 28,
+      "H": 16,
+      "linear_factor_bound": 21,
+      "C": 5170944,
+      "q_bound_high_degree": 1944810,
+      "n_bound_low_degree": 3574780187946978311122452483,
+      "n_bound_high_degree": 13910921472347577431859820050003,
+      "n_bound_one_position": 4617608,
+      "n_bound_resonance": 590069763,
+      "n_bound_all_two_positions": 13910921472347577431859820050003,
+      "below_existing_finite_certificate": true
+    },
+    {
+      "weight": 8,
+      "s": 3,
+      "t": 4,
+      "neighbor_multiplier": 5,
+      "K": 35,
+      "H": 16,
+      "linear_factor_bound": 21,
+      "C": 384758021,
+      "q_bound_high_degree": 40841010,
+      "n_bound_low_degree": 42160758519951138262875843078541363235370509,
+      "n_bound_high_degree": 2320325144558582050260025666783018327300500004,
+      "n_bound_one_position": 451120999,
+      "n_bound_resonance": 590069763,
+      "n_bound_all_two_positions": 2320325144558582050260025666783018327300500004,
+      "below_existing_finite_certificate": true
+    }
+  ],
+  "general_i5_solved": false,
+  "proof_dependencies": [
+    "existing i=5 support-01 reduction",
+    "existing n<=10^87 finite certificate",
+    "existing affine zero-line lemma",
+    "full Kummer digit dominance and prime-5 restoration"
+  ]
+}

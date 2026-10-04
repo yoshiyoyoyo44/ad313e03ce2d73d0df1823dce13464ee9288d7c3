@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "c": 3,
+  "d": 2,
+  "L1": "1611/1000",
+  "m0": 50000,
+  "scope": "Finite part only: 50000 < m <= 4000000, both delta=0 and delta=1",
+  "analytic_tail_required": true,
+  "finite_blocks": 8727,
+  "last_m": 4000000,
+  "primes_sieved": 664579,
+  "sieve_cap": 9999999,
+  "K": 32,
+  "exact_log_scale_bits": 64,
+  "atanh_terms": 32,
+  "logarithm_error_tail": "9/(260*3^65)",
+  "minimum_normalized_margin_lower": "6263514236119249558085/1323959715658281938583552",
+  "worst_block": [
+    71737,
+    71772
+  ],
+  "target_log_interval": [
+    8796424067324266192,
+    8796424067324266257,
+    18446744073709551616
+  ],
+  "external_input": "BFT Lemma 5.2 and disjointness of its prime intervals",
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "delta_safe_endpoints": "U=(5m-2)/t, V=2m/(2k+1) for t=5k+2; V=m/(k+1) for t=5k+4",
+  "finite_block_rule": "upper=min(4000000, lower+max(1,lower//2000)); next lower=upper+1",
+  "script_sha256": "b20dc32fa1554a6e20bafe2f10a9030485be727bea39ab72d0487350150b6269"
+}

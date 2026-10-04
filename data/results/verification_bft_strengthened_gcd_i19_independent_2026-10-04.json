@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "reviewer": "global_audit",
+  "indices": [
+    19
+  ],
+  "new_G_finite_blocks_independently_rerun": 8727,
+  "primes_sieved": 664579,
+  "analytic_G_all_m_from": 4000000,
+  "new_G_all_m_above": 50000,
+  "anchor_and_threshold_independently_audited": true,
+  "graph_four_branches": [
+    1088,
+    1161,
+    1028,
+    1129
+  ],
+  "tail_integer_gap": 126,
+  "tail_decimal_margin": 56624,
+  "finite_original_problem_replay_by_root_and_i3": true,
+  "external_BFT_reproved": false,
+  "dependencies": [
+    {
+      "file": "verification_bft_gcd_3_2_finite_blocks_2026_10_04.json",
+      "sha256": "1635d9861aa275da94f192dfed71b7d920654861bda567df019091a3903588cb",
+      "status": "PASS"
+    },
+    {
+      "file": "verification_bft_G_3_2_analytic_tail_2026-10-04.json",
+      "sha256": "5e3056447e2a6af0f3069736ef880f2724172349b9057a57135d8ee74e9fafba",
+      "status": "passed"
+    },
+    {
+      "file": "verification_bft_strengthened_gcd_i19_2026_10_04.json",
+      "sha256": "b6a920991a566b90d2370767ee8ab113a6b8dc8e5693830756503b4e51fba8ab",
+      "status": "passed"
+    },
+    {
+      "file": "verification_bft_i19_finite_dependency_2026_10_04.json",
+      "sha256": "48a0371a44bee40332a6918487ca850347099e9cf4e12c0ecd5ba5996af421e0",
+      "status": "PASS"
+    }
+  ]
+}

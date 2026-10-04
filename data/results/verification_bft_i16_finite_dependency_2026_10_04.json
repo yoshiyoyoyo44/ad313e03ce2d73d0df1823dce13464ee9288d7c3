@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "indices": [
+    16
+  ],
+  "finite_bound": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "archived_hashes_preserved": 40,
+  "exhaustive_targeted_replay": true,
+  "rows": [
+    {
+      "i": 16,
+      "initial_cap": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "final_cap": 927728,
+      "bootstrap_steps": 4,
+      "exact_binomial_checks": 4675,
+      "prefix": {
+        "i": 16,
+        "upper": 1999999,
+        "intervals": 5861,
+        "singletons": 1116,
+        "minimum_log_margin_lower": "27324648786510341674904059854475935/21267647932558653966460912964485513216"
+      }
+    }
+  ],
+  "external_matveev_not_used": true,
+  "scope": "Finite input only; combine with BFT pair-graph tail proof"
+}

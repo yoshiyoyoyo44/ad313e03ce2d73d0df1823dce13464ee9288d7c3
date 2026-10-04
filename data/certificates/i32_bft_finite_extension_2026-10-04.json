@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "i": 32,
+  "initial_cap": 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "final_cap": 1955628,
+  "steps": [
+    {
+      "i": 32,
+      "input_cap": 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+      "first": 4060280675,
+      "A": 37103225155,
+      "pair_product": 16485879167611651815,
+      "trivial_n_cap": 16485879167611651877,
+      "output_cap": 16485879167611651877,
+      "stopped": false,
+      "exponent_pairs": 173683,
+      "coefficient_pairs": 692,
+      "candidate_n_count": 10946,
+      "surviving_n": []
+    },
+    {
+      "i": 32,
+      "input_cap": 16485879167611651877,
+      "first": 6832,
+      "A": 16520,
+      "pair_product": 46682477,
+      "trivial_n_cap": 46682539,
+      "output_cap": 46682539,
+      "stopped": false,
+      "exponent_pairs": 9270,
+      "coefficient_pairs": 710,
+      "candidate_n_count": 11137,
+      "surviving_n": []
+    },
+    {
+      "i": 32,
+      "input_cap": 46682539,
+      "first": 1398,
+      "A": 2885,
+      "pair_product": 1955566,
+      "trivial_n_cap": 1955628,
+      "output_cap": 1955628,
+      "stopped": false,
+      "exponent_pairs": 1744,
+      "coefficient_pairs": 667,
+      "candidate_n_count": 10114,
+      "surviving_n": []
+    }
+  ]
+}

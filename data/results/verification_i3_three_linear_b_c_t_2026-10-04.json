@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "problem699_completely_solved": false,
+  "scope": "conditional standard-digit complete split, degF4 degJ3 J0zero, B0=1+bX B1=1+cX B2=1+tX, b>c>t",
+  "parameter_limits_assumed": false,
+  "interval": "0<L<(d+e)c^2, s=L/((d+e)c^2-L)>0",
+  "exact_polynomial_identities": 6,
+  "positive_coefficient_polynomials": [
+    {
+      "terms": 10261,
+      "minimum_coefficient": 1,
+      "constant_coefficient": 2688,
+      "sha256": "07e78a338cd1d24642a2ea3bfdab33e445392e9a6665173f8db97d818f9fe5ec"
+    },
+    {
+      "terms": 30628,
+      "minimum_coefficient": 3,
+      "constant_coefficient": 343232,
+      "sha256": "8beac3170f2fe967e3f0fbe68fa2216cf96668f6b1bc210d6a26ced2faf7c187"
+    },
+    {
+      "terms": 66935,
+      "minimum_coefficient": 3,
+      "constant_coefficient": 14595968,
+      "sha256": "23ad75edff59a00de44163769069ccadb2ed4e6fb0ea63f74ab186adc073a160"
+    },
+    {
+      "terms": 124370,
+      "minimum_coefficient": 1,
+      "constant_coefficient": 206699008,
+      "sha256": "ee0f2d8fdba2e512be4dc485999c32be7f366c48cffc0a53aba6db479d780c56"
+    }
+  ],
+  "finite_search_cases": 0
+}

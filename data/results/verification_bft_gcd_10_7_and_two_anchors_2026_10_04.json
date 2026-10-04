@@ -1,0 +1,139 @@
+{
+  "status": "PASS",
+  "c": 10,
+  "d": 7,
+  "L1": "149/100",
+  "m0": 12000,
+  "universal_G_statement": "G(10,7,7m-delta)>(149/100)^(7m), every integer m>12000, delta=0,1",
+  "finite_range": [
+    12001,
+    2000000
+  ],
+  "finite_T": 512,
+  "finite_blocks": 19840,
+  "prime_count": 1091314,
+  "sieve_cap": 16999999,
+  "exact_log_scale_bits": 64,
+  "minimum_normalized_margin_lower": "3869717923009438886279/584688000160297948020736",
+  "worst_block": [
+    13581,
+    13584
+  ],
+  "analytic_T": 128,
+  "first_domain": [
+    2000000,
+    10000000000
+  ],
+  "second_domain_lower": 10000000000,
+  "first_lower": {
+    "lower_numerator": 399810197217,
+    "upper_numerator": 399810197218,
+    "denominator": 1000000000000
+  },
+  "second_lower": {
+    "lower_numerator": 405958002015,
+    "upper_numerator": 405958002016,
+    "denominator": 1000000000000
+  },
+  "log_target": {
+    "lower_numerator": 398776119957,
+    "upper_numerator": 398776119958,
+    "denominator": 1000000000000
+  },
+  "anchors": [
+    {
+      "pair": [
+        2,
+        13
+      ],
+      "p": 2,
+      "k0": 9,
+      "a": 1,
+      "q": 13,
+      "l0": 2,
+      "b": 3,
+      "c": 10,
+      "d": 7,
+      "D0": 5,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "73/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1121320125365,
+        "upper_numerator": 1121320125366,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 2024137142140,
+        "upper_numerator": 2024137142141,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 73322333375,
+        "upper_numerator": 73322333376,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 807898328852283929,
+        "upper_numerator": 807898328852283930,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    },
+    {
+      "pair": [
+        11,
+        13
+      ],
+      "p": 13,
+      "k0": 1,
+      "a": 1,
+      "q": 11,
+      "l0": 1,
+      "b": 1,
+      "c": 10,
+      "d": 7,
+      "D0": 2,
+      "L1": "149/100",
+      "m0": 12000,
+      "target": "61/1000",
+      "epsilon": "3/10000",
+      "Omega3": {
+        "lower_numerator": 1080863334168,
+        "upper_numerator": 1080863334169,
+        "denominator": 1000000000000
+      },
+      "Omega4": {
+        "lower_numerator": 1272591797870,
+        "upper_numerator": 1272591797871,
+        "denominator": 1000000000000
+      },
+      "lambda3": {
+        "lower_numerator": 61725737253,
+        "upper_numerator": 61725737254,
+        "denominator": 1000000000000
+      },
+      "log_x0": {
+        "lower_numerator": 328069930734392748,
+        "upper_numerator": 328069930734392749,
+        "denominator": 1000000000000
+      },
+      "upper_log_threshold": 999999,
+      "positive_D_final": 100,
+      "corrected_delta0_prefactor": true
+    }
+  ],
+  "original_problem_all_n_indices_added": [],
+  "delta_safe_endpoints": "U=((c+d)m-2)/t; V=m*max(d/(floor(dt/(c+d))+1),(c-d)/(floor((c-d)t/(c+d))+1))",
+  "external_dependencies": [
+    "BFT Lemma5.2 and floor identities5.8",
+    "BFT prime interval disjointness",
+    "BFT Lemma5.4",
+    "BFT Theorem2.4 and Section7 proof"
+  ],
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "script_sha256": "e57cbc33be59eb997f59d3b01c723cea1f1e20532dea32c307557d3031625a9d"
+}

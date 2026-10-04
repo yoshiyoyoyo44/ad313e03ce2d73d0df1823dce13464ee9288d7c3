@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "method": "lambda-first independent replay",
+  "root_parameter_rows": 297,
+  "integer_parameter_rows": 596,
+  "admissible_integer_Q_values": 0,
+  "scope": "Conditional degree-one E linear J-2 quotient finite certificate; not general i=3."
+}

@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "indices": [
+    16,
+    19,
+    22,
+    25
+  ],
+  "rows": [
+    {
+      "i": 16,
+      "h": 15,
+      "m": 6,
+      "c_i": 16,
+      "b": 10,
+      "d": 15,
+      "S": 55,
+      "D": 15,
+      "beta": "1",
+      "intermediate_product_exponent": "5/3",
+      "comparison_kappa": 30,
+      "exact_coarse_decimal_margin": 2122,
+      "factorial_decimal_upper": 13,
+      "high_patterns": 7
+    },
+    {
+      "i": 19,
+      "h": 18,
+      "m": 7,
+      "c_i": 1,
+      "b": 12,
+      "d": 18,
+      "S": 78,
+      "D": 18,
+      "beta": "1",
+      "intermediate_product_exponent": "5/3",
+      "comparison_kappa": 36,
+      "exact_coarse_decimal_margin": 2298,
+      "factorial_decimal_upper": 18,
+      "high_patterns": 7
+    },
+    {
+      "i": 22,
+      "h": 21,
+      "m": 8,
+      "c_i": 22,
+      "b": 14,
+      "d": 21,
+      "S": 105,
+      "D": 21,
+      "beta": "1",
+      "intermediate_product_exponent": "5/3",
+      "comparison_kappa": 42,
+      "exact_coarse_decimal_margin": 2581,
+      "factorial_decimal_upper": 20,
+      "high_patterns": 7
+    },
+    {
+      "i": 25,
+      "h": 24,
+      "m": 9,
+      "c_i": 25,
+      "b": 16,
+      "d": 24,
+      "S": 136,
+      "D": 24,
+      "beta": "1",
+      "intermediate_product_exponent": "5/3",
+      "comparison_kappa": 48,
+      "exact_coarse_decimal_margin": 2690,
+      "factorial_decimal_upper": 24,
+      "high_patterns": 7
+    }
+  ],
+  "interval_lower": 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000,
+  "interval_upper": "exp(1000000), exclusive",
+  "exact_all_n_indices_added": [],
+  "external_dependency": {
+    "url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+    "result": "Proposition 6.1, second maximum-cofactor formulation",
+    "page_zero_based": 20,
+    "safe_exception_ceiling": 3000000000,
+    "table_bound_on_first_component": 2693359375,
+    "theorem_imported_not_reproved": true
+  },
+  "missing_for_all_n": "Explicit infinite-tail cutoff below exp(1000000)-h",
+  "proof": "research/general/bft_proposition61_intermediate_bridge_2026-10-04.md"
+}

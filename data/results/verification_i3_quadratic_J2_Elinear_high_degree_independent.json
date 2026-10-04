@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "scope": "Conditional complete allocation: E linear, J-2 quotient quadratic, deg Q>=4 excluded. Not general i=3.",
+  "independent_method": "middle F digits and backward carry; leading-end E division",
+  "counts": {
+    "standard_F": 167,
+    "integer_Q": 40,
+    "polynomial_allocation": 6,
+    "numerical_range": 4,
+    "four_divides_n": 0
+  },
+  "derived_finite_bases": [
+    5,
+    7
+  ],
+  "derived_finite_degree": 4,
+  "allocations": [
+    [
+      5,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    [
+      7,
+      3,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ]
+  ],
+  "uniform_bound_identities": true
+}

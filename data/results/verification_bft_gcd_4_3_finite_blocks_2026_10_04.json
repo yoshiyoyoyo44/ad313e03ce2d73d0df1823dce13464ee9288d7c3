@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "c": 4,
+  "d": 3,
+  "L1": "361/250",
+  "m0": 30000,
+  "last_m": 4000000,
+  "scope": "Finite part only: 30000 < m <= 4000000, both delta=0 and delta=1",
+  "analytic_tail_required": true,
+  "finite_blocks": 9723,
+  "K": 64,
+  "primes_sieved": 910077,
+  "sieve_cap": 13999999,
+  "exact_log_scale_bits": 64,
+  "core_atanh_terms": 32,
+  "correction_atanh_terms": 3,
+  "core_table_denominator": 4096,
+  "correction_error_tail_units": 1,
+  "minimum_normalized_margin_lower": "9917169792729158649521/1375481471856152716247040",
+  "worst_block": [
+    49686,
+    49710
+  ],
+  "target_log_interval": [
+    6777648113881579192,
+    6777648113881579257,
+    18446744073709551616
+  ],
+  "external_input": "BFT Proposition 5.3 and disjointness of its prime intervals",
+  "source_url": "https://people.math.sc.edu/filaseta/papers/BFTpaper0207.pdf",
+  "delta_safe_endpoints": "U=(7m-2)/(7w+r), V=3m/(3w+a), (r,a)=(2,1),(4,2),(6,3)",
+  "finite_block_rule": "upper=min(4000000,lower+max(1,lower//2000)); next lower=upper+1",
+  "script_sha256": "ab3b69897efa66886448ee7096792c1e444b47c6ef0bbc6e52c850c76a3a428c"
+}

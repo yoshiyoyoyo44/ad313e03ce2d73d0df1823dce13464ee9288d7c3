@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "independent_review": "Parent independently audited the prefix and factorial-product proof; finite certificate uses independent Legendre replay",
+  "scope": "Counterexample branches with row 0 not selected as a maximum row for any small prime. These branches are excluded for i=4,...,18. No newly solved full index.",
+  "general_bound": "n <= R + lcm(1,...,i)^(R+2)*R!/4, R=2*pi(i-1)-1, all i>=4",
+  "i4_bound": 23331,
+  "i4_candidate_pairs": 23318,
+  "i4_pairs_by_ratio_denominator": {
+    "2": 11661,
+    "3": 7773,
+    "6": 3884
+  },
+  "i4_certificate_sha256": "96fffaf801762038368f2f542d61860e410a6bf73d4c5248ed07f2d0bcec8eb4",
+  "i4_generator": "Smallest-prime-factor sieve and first Kummer carry",
+  "i4_independent_replay": "Primality by trial division, binom(n,4) exact integer, binom(n,j) Legendre factorial valuation, exact coverage set",
+  "i5_through_i16_bounds": [
+    {
+      "i": 5,
+      "prime_count": 2,
+      "prefix_last_row": 3,
+      "L_i": 60,
+      "maximum_n": 1166400003,
+      "decimal_digits": 10,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 6,
+      "prime_count": 3,
+      "prefix_last_row": 5,
+      "L_i": 60,
+      "maximum_n": 83980800000005,
+      "decimal_digits": 14,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 7,
+      "prime_count": 3,
+      "prefix_last_row": 5,
+      "L_i": 420,
+      "maximum_n": 69161799974400000005,
+      "decimal_digits": 20,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 8,
+      "prime_count": 4,
+      "prefix_last_row": 7,
+      "L_i": 840,
+      "maximum_n": 262351843148971376640000000007,
+      "decimal_digits": 30,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 9,
+      "prime_count": 4,
+      "prefix_last_row": 7,
+      "L_i": 2520,
+      "maximum_n": 5163871328701203606405120000000007,
+      "decimal_digits": 34,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 10,
+      "prime_count": 4,
+      "prefix_last_row": 7,
+      "L_i": 2520,
+      "maximum_n": 5163871328701203606405120000000007,
+      "decimal_digits": 34,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 11,
+      "prime_count": 4,
+      "prefix_last_row": 7,
+      "L_i": 27720,
+      "maximum_n": 12176138476132105072643825514577920000000007,
+      "decimal_digits": 44,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 12,
+      "prime_count": 5,
+      "prefix_last_row": 9,
+      "L_i": 27720,
+      "maximum_n": 673641023273161036304500749260221229039616000000000009,
+      "decimal_digits": 54,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 13,
+      "prime_count": 5,
+      "prefix_last_row": 9,
+      "L_i": 360360,
+      "maximum_n": 1207272761708716170310029325110759814085430637643169792000000000009,
+      "decimal_digits": 67,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 14,
+      "prime_count": 6,
+      "prefix_last_row": 11,
+      "L_i": 360360,
+      "maximum_n": 17245319462781787558845381554674608672413012570480680852890058752000000000000011,
+      "decimal_digits": 80,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 15,
+      "prime_count": 6,
+      "prefix_last_row": 11,
+      "L_i": 360360,
+      "maximum_n": 17245319462781787558845381554674608672413012570480680852890058752000000000000011,
+      "decimal_digits": 80,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    },
+    {
+      "i": 16,
+      "prime_count": 6,
+      "prefix_last_row": 11,
+      "L_i": 720720,
+      "maximum_n": 141273657039108403682061365695894394244407398977377737546875361296384000000000000011,
+      "decimal_digits": 84,
+      "connection": "Existing theorem for i>=5,n<=10^87"
+    }
+  ],
+  "i17_i18_refined_bounds": [
+    {
+      "i": 17,
+      "L_i": 12252240,
+      "delta_max": 12252240,
+      "maximum_n": 19136597210497812625239007186474405566536262527924104593408000000000000011,
+      "worst_delta": 85680,
+      "worst_prefix": 11,
+      "decimal_digits": 74
+    },
+    {
+      "i": 18,
+      "L_i": 12252240,
+      "delta_max": 12252240,
+      "maximum_n": 49426621161826053068521324945727745218661219088390670969524243660800000000000000013,
+      "worst_delta": 55440,
+      "worst_prefix": 13,
+      "decimal_digits": 83
+    }
+  ],
+  "divisor_refinement_certificate_sha256": "e463843b171fe8be303bbfb3a3b1188fc351930d83c5d55d95187eaaadddd58b",
+  "no_new_full_index_solved": true
+}
